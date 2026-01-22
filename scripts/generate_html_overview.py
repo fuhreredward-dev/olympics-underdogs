@@ -65,7 +65,7 @@ class OlympicsHTMLGenerator:
         
         # Calculate stats
         nation_data = self._calculate_nation_data()
-        sport_stats = self._calculate_sport_stats()
+        sport_stats = self._calculate_sport_stats(nation_data)
         underdog_stats = self._calculate_underdog_stats()
         
         html = f"""<!DOCTYPE html>
@@ -866,15 +866,17 @@ class OlympicsHTMLGenerator:
         
         return days
     
-    def _calculate_sport_stats(self) -> Dict:
-        """Calculate statistics for each sport."""
+    def _calculate_sport_stats(self, nation_data) -> Dict:
+        """Calculate statistics for each sport (underdog nations only)."""
         sport_nations = {}
         
         for nation, sports_data in self.nation_sports.items():
-            for sport in sports_data.keys():
-                if sport not in sport_nations:
-                    sport_nations[sport] = []
-                sport_nations[sport].append(nation)
+            # Only include underdog nations
+            if nation_data.get(nation, {}).get('is_underdog', False):
+                for sport in sports_data.keys():
+                    if sport not in sport_nations:
+                        sport_nations[sport] = []
+                    sport_nations[sport].append(nation)
         
         # Sort by number of nations
         sorted_sports = sorted(sport_nations.items(), key=lambda x: len(x[1]), reverse=True)
@@ -1090,10 +1092,10 @@ class OlympicsHTMLGenerator:
         return html
     
     def _generate_sports_rankings_section(self, sport_stats) -> str:
-        """Generate sports popularity rankings."""
+        """Generate sports popularity rankings (underdog nations only)."""
         html = """
             <section class="section">
-                <h2>🏅 Sports by Number of Participating Nations</h2>
+                <h2>🏅 Sports by Number of Underdog Nations</h2>
                 <div class="sport-rankings">
         """
         
@@ -1101,7 +1103,7 @@ class OlympicsHTMLGenerator:
             html += f"""
                     <div class="sport-row">
                         <span class="sport-name">{sport}</span>
-                        <span class="sport-count">{len(nations)} nations</span>
+                        <span class="sport-count">{len(nations)} underdog nations</span>
                     </div>
             """
         
