@@ -1,0 +1,228 @@
+{
+  "2026-02-04": {
+    "sports": [
+      {"sport": "Curling", "type": "regular_event"},
+      {"sport": "Ice Hockey", "type": "regular_event"},
+      {"sport": "Snowboard", "type": "regular_event"}
+    ]
+  },
+  "2026-02-05": {
+    "sports": [
+      {"sport": "Curling", "type": "regular_event"},
+      {"sport": "Ice Hockey", "type": "regular_event"},
+      {"sport": "Snowboard", "type": "medal_event"}
+    ]
+  },
+  "2026-02-06": {
+    "sports": [
+      {"sport": "Curling", "type": "regular_event"},
+      {"sport": "Figure Skating", "type": "regular_event"},
+      {"sport": "Ice Hockey", "type": "regular_event"}
+    ]
+  },
+  "2026-02-07": {
+    "sports": [
+      {"sport": "Alpine Skiing", "type": "medal_event"},
+      {"sport": "Cross-Country Skiing", "type": "medal_event"},
+      {"sport": "Curling", "type": "regular_event"},
+      {"sport": "Figure Skating", "type": "regular_event"},
+      {"sport": "Freestyle Skiing", "type": "regular_event"},
+      {"sport": "Ice Hockey", "type": "regular_event"},
+      {"sport": "Luge", "type": "regular_event"},
+      {"sport": "Ski Jumping", "type": "medal_event"},
+      {"sport": "Speed Skating", "type": "medal_event"}
+    ]
+  },
+  "2026-02-08": {
+    "sports": [
+      {"sport": "Alpine Skiing", "type": "medal_event"},
+      {"sport": "Biathlon", "type": "medal_event"},
+      {"sport": "Cross-Country Skiing", "type": "medal_event"},
+      {"sport": "Curling", "type": "regular_event"},
+      {"sport": "Figure Skating", "type": "medal_event"},
+      {"sport": "Ice Hockey", "type": "regular_event"},
+      {"sport": "Luge", "type": "medal_event"},
+      {"sport": "Short Track Speed Skating", "type": "medal_event"},
+      {"sport": "Snowboard", "type": "medal_event"},
+      {"sport": "Speed Skating", "type": "medal_event"}
+    ]
+  },
+  "2026-02-09": {
+    "sports": [
+      {"sport": "Alpine Skiing", "type": "medal_event"},
+      {"sport": "Curling", "type": "medal_event"},
+      {"sport": "Figure Skating", "type": "regular_event"},
+      {"sport": "Freestyle Skiing", "type": "medal_event"},
+      {"sport": "Ice Hockey", "type": "regular_event"},
+      {"sport": "Luge", "type": "regular_event"},
+      {"sport": "Ski Jumping", "type": "medal_event"},
+      {"sport": "Snowboard", "type": "medal_event"},
+      {"sport": "Speed Skating", "type": "medal_event"}
+    ]
+  },
+  "2026-02-10": {
+    "sports": [
+      {"sport": "Alpine Skiing", "type": "medal_event"},
+      {"sport": "Biathlon", "type": "medal_event"},
+      {"sport": "Cross-Country Skiing", "type": "medal_event"},
+      {"sport": "Figure Skating", "type": "regular_event"},
+      {"sport": "Freestyle Skiing", "type": "medal_event"},
+      {"sport": "Ice Hockey", "type": "regular_event"},
+      {"sport": "Luge", "type": "medal_event"},
+      {"sport": "Short Track Speed Skating", "type": "medal_event"},
+      {"sport": "Snowboard", "type": "regular_event"}
+    ]
+  },
+  "2026-02-11": {
+    "sports": [
+      {"sport": "Alpine Skiing", "type": "medal_event"},
+      {"sport": "Biathlon", "type": "medal_event"},
+      {"sport": "Cross-Country Skiing", "type": "medal_event"},
+      {"sport": "Curling", "type": "regular_event"},
+      {"sport": "Figure Skating", "type": "medal_event"},
+      {"sport": "Freestyle Skiing", "type": "medal_event"},
+      {"sport": "Ice Hockey", "type": "regular_event"},
+      {"sport": "Nordic Combined", "type": "medal_event"},
+      {"sport": "Short Track Speed Skating", "type": "medal_event"},
+      {"sport": "Speed Skating", "type": "medal_event"}
+    ]
+  },
+  "2026-02-12": {
+    "sports": [
+      {"sport": "Cross-Country Skiing", "type": "medal_event"},
+      {"sport": "Curling", "type": "regular_event"},
+      {"sport": "Ice Hockey", "type": "regular_event"},
+      {"sport": "Skeleton", "type": "regular_event"},
+      {"sport": "Snowboard", "type": "medal_event"},
+      {"sport": "Speed Skating", "type": "medal_event"}
+    ]
+  },
+  "2026-02-13": {
+    "sports": [
+      {"sport": "Biathlon", "type": "medal_event"},
+      {"sport": "Cross-Country Skiing", "type": "medal_event"},
+      {"sport": "Curling", "type": "regular_event"},
+      {"sport": "Figure Skating", "type": "medal_event"},
+      {"sport": "Freestyle Skiing", "type": "medal_event"},
+      {"sport": "Ice Hockey", "type": "regular_event"},
+      {"sport": "Short Track Speed Skating", "type": "medal_event"},
+      {"sport": "Skeleton", "type": "medal_event"},
+      {"sport": "Speed Skating", "type": "medal_event"}
+    ]
+  },
+  "2026-02-14": {
+    "sports": [
+      {"sport": "Alpine Skiing", "type": "medal_event"},
+      {"sport": "Biathlon", "type": "medal_event"},
+      {"sport": "Bobsleigh", "type": "regular_event"},
+      {"sport": "Cross-Country Skiing", "type": "medal_event"},
+      {"sport": "Curling", "type": "regular_event"},
+      {"sport": "Freestyle Skiing", "type": "medal_event"},
+      {"sport": "Ice Hockey", "type": "regular_event"},
+      {"sport": "Short Track Speed Skating", "type": "medal_event"},
+      {"sport": "Skeleton", "type": "medal_event"},
+      {"sport": "Ski Jumping", "type": "medal_event"},
+      {"sport": "Snowboard", "type": "medal_event"},
+      {"sport": "Speed Skating", "type": "medal_event"}
+    ]
+  },
+  "2026-02-15": {
+    "sports": [
+      {"sport": "Alpine Skiing", "type": "medal_event"},
+      {"sport": "Biathlon", "type": "medal_event"},
+      {"sport": "Curling", "type": "regular_event"},
+      {"sport": "Figure Skating", "type": "regular_event"},
+      {"sport": "Freestyle Skiing", "type": "medal_event"},
+      {"sport": "Ice Hockey", "type": "regular_event"},
+      {"sport": "Nordic Combined", "type": "training"},
+      {"sport": "Skeleton", "type": "medal_event"},
+      {"sport": "Snowboard", "type": "medal_event"},
+      {"sport": "Speed Skating", "type": "medal_event"}
+    ]
+  },
+  "2026-02-16": {
+    "sports": [
+      {"sport": "Alpine Skiing", "type": "medal_event"},
+      {"sport": "Bobsleigh", "type": "medal_event"},
+      {"sport": "Curling", "type": "regular_event"},
+      {"sport": "Ice Hockey", "type": "regular_event"},
+      {"sport": "Ski Jumping", "type": "medal_event"},
+      {"sport": "Snowboard", "type": "regular_event"}
+    ]
+  },
+  "2026-02-17": {
+    "sports": [
+      {"sport": "Alpine Skiing", "type": "medal_event"},
+      {"sport": "Biathlon", "type": "medal_event"},
+      {"sport": "Bobsleigh", "type": "medal_event"},
+      {"sport": "Cross-Country Skiing", "type": "medal_event"},
+      {"sport": "Curling", "type": "regular_event"},
+      {"sport": "Figure Skating", "type": "medal_event"},
+      {"sport": "Freestyle Skiing", "type": "medal_event"},
+      {"sport": "Ice Hockey", "type": "regular_event"},
+      {"sport": "Nordic Combined", "type": "medal_event"},
+      {"sport": "Snowboard", "type": "medal_event"},
+      {"sport": "Speed Skating", "type": "medal_event"}
+    ]
+  },
+  "2026-02-18": {
+    "sports": [
+      {"sport": "Bobsleigh", "type": "training"},
+      {"sport": "Curling", "type": "regular_event"},
+      {"sport": "Ice Hockey", "type": "regular_event"}
+    ]
+  },
+  "2026-02-19": {
+    "sports": [
+      {"sport": "Biathlon", "type": "medal_event"},
+      {"sport": "Cross-Country Skiing", "type": "medal_event"},
+      {"sport": "Curling", "type": "regular_event"},
+      {"sport": "Figure Skating", "type": "medal_event"},
+      {"sport": "Freestyle Skiing", "type": "medal_event"},
+      {"sport": "Ice Hockey", "type": "regular_event"},
+      {"sport": "Nordic Combined", "type": "medal_event"},
+      {"sport": "Short Track Speed Skating", "type": "medal_event"},
+      {"sport": "Ski Mountaineering", "type": "medal_event"},
+      {"sport": "Speed Skating", "type": "medal_event"}
+    ]
+  },
+  "2026-02-20": {
+    "sports": [
+      {"sport": "Alpine Skiing", "type": "medal_event"},
+      {"sport": "Bobsleigh", "type": "regular_event"},
+      {"sport": "Cross-Country Skiing", "type": "medal_event"},
+      {"sport": "Curling", "type": "medal_event"},
+      {"sport": "Ice Hockey", "type": "medal_event"},
+      {"sport": "Short Track Speed Skating", "type": "medal_event"},
+      {"sport": "Speed Skating", "type": "medal_event"}
+    ]
+  },
+  "2026-02-21": {
+    "sports": [
+      {"sport": "Alpine Skiing", "type": "medal_event"},
+      {"sport": "Biathlon", "type": "medal_event"},
+      {"sport": "Bobsleigh", "type": "medal_event"},
+      {"sport": "Cross-Country Skiing", "type": "medal_event"},
+      {"sport": "Curling", "type": "medal_event"},
+      {"sport": "Freestyle Skiing", "type": "medal_event"},
+      {"sport": "Ice Hockey", "type": "medal_event"},
+      {"sport": "Ski Jumping", "type": "medal_event"},
+      {"sport": "Ski Mountaineering", "type": "medal_event"},
+      {"sport": "Snowboard", "type": "medal_event"},
+      {"sport": "Speed Skating", "type": "medal_event"}
+    ]
+  },
+  "2026-02-22": {
+    "sports": [
+      {"sport": "Alpine Skiing", "type": "medal_event"},
+      {"sport": "Biathlon", "type": "medal_event"},
+      {"sport": "Bobsleigh", "type": "medal_event"},
+      {"sport": "Cross-Country Skiing", "type": "medal_event"},
+      {"sport": "Curling", "type": "medal_event"},
+      {"sport": "Freestyle Skiing", "type": "medal_event"},
+      {"sport": "Ice Hockey", "type": "medal_event"},
+      {"sport": "Snowboard", "type": "medal_event"},
+      {"sport": "Speed Skating", "type": "medal_event"}
+    ]
+  }
+}

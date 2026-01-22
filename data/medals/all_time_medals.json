@@ -1,0 +1,740 @@
+{
+  "AFG": {
+    "gold": 0,
+    "silver": 0,
+    "bronze": 2,
+    "total": 2
+  },
+  "ALB": {
+    "gold": 0,
+    "silver": 0,
+    "bronze": 2,
+    "total": 2
+  },
+  "ALG": {
+    "gold": 7,
+    "silver": 4,
+    "bronze": 9,
+    "total": 20
+  },
+  "ARG": {
+    "gold": 22,
+    "silver": 27,
+    "bronze": 31,
+    "total": 80
+  },
+  "ARM": {
+    "gold": 2,
+    "silver": 11,
+    "bronze": 9,
+    "total": 22
+  },
+  "AUS": {
+    "gold": 188,
+    "silver": 199,
+    "bronze": 232,
+    "total": 619
+  },
+  "AUT": {
+    "gold": 93,
+    "silver": 123,
+    "bronze": 135,
+    "total": 351
+  },
+  "AZE": {
+    "gold": 9,
+    "silver": 16,
+    "bronze": 31,
+    "total": 56
+  },
+  "BAH": {
+    "gold": 8,
+    "silver": 2,
+    "bronze": 6,
+    "total": 16
+  },
+  "BRN": {
+    "gold": 4,
+    "silver": 3,
+    "bronze": 1,
+    "total": 8
+  },
+  "BLR": {
+    "gold": 21,
+    "silver": 37,
+    "bronze": 47,
+    "total": 105
+  },
+  "BEL": {
+    "gold": 49,
+    "silver": 59,
+    "bronze": 67,
+    "total": 175
+  },
+  "BRA": {
+    "gold": 40,
+    "silver": 49,
+    "bronze": 81,
+    "total": 170
+  },
+  "BUL": {
+    "gold": 58,
+    "silver": 91,
+    "bronze": 88,
+    "total": 237
+  },
+  "BDI": {
+    "gold": 1,
+    "silver": 1,
+    "bronze": 0,
+    "total": 2
+  },
+  "CMR": {
+    "gold": 3,
+    "silver": 1,
+    "bronze": 2,
+    "total": 6
+  },
+  "CAN": {
+    "gold": 157,
+    "silver": 189,
+    "bronze": 232,
+    "total": 578
+  },
+  "CHI": {
+    "gold": 3,
+    "silver": 8,
+    "bronze": 4,
+    "total": 15
+  },
+  "CHN": {
+    "gold": 325,
+    "silver": 258,
+    "bronze": 221,
+    "total": 804
+  },
+  "COL": {
+    "gold": 5,
+    "silver": 16,
+    "bronze": 17,
+    "total": 38
+  },
+  "CRC": {
+    "gold": 1,
+    "silver": 1,
+    "bronze": 2,
+    "total": 4
+  },
+  "CRO": {
+    "gold": 20,
+    "silver": 21,
+    "bronze": 18,
+    "total": 59
+  },
+  "CUB": {
+    "gold": 86,
+    "silver": 70,
+    "bronze": 88,
+    "total": 244
+  },
+  "CYP": {
+    "gold": 0,
+    "silver": 2,
+    "bronze": 0,
+    "total": 2
+  },
+  "CZE": {
+    "gold": 32,
+    "silver": 33,
+    "bronze": 41,
+    "total": 106
+  },
+  "DEN": {
+    "gold": 50,
+    "silver": 81,
+    "bronze": 84,
+    "total": 215
+  },
+  "DOM": {
+    "gold": 4,
+    "silver": 5,
+    "bronze": 6,
+    "total": 15
+  },
+  "ECU": {
+    "gold": 4,
+    "silver": 4,
+    "bronze": 2,
+    "total": 10
+  },
+  "EGY": {
+    "gold": 9,
+    "silver": 12,
+    "bronze": 20,
+    "total": 41
+  },
+  "EST": {
+    "gold": 14,
+    "silver": 11,
+    "bronze": 19,
+    "total": 44
+  },
+  "ETH": {
+    "gold": 24,
+    "silver": 16,
+    "bronze": 22,
+    "total": 62
+  },
+  "FIJ": {
+    "gold": 2,
+    "silver": 1,
+    "bronze": 1,
+    "total": 4
+  },
+  "FIN": {
+    "gold": 146,
+    "silver": 150,
+    "bronze": 184,
+    "total": 480
+  },
+  "FRA": {
+    "gold": 281,
+    "silver": 319,
+    "bronze": 354,
+    "total": 954
+  },
+  "GEO": {
+    "gold": 13,
+    "silver": 15,
+    "bronze": 19,
+    "total": 47
+  },
+  "GER": {
+    "gold": 318,
+    "silver": 317,
+    "bronze": 320,
+    "total": 955
+  },
+  "GHA": {
+    "gold": 0,
+    "silver": 1,
+    "bronze": 4,
+    "total": 5
+  },
+  "GBR": {
+    "gold": 310,
+    "silver": 344,
+    "bronze": 360,
+    "total": 1014
+  },
+  "GRE": {
+    "gold": 36,
+    "silver": 46,
+    "bronze": 47,
+    "total": 129
+  },
+  "GRN": {
+    "gold": 1,
+    "silver": 1,
+    "bronze": 3,
+    "total": 5
+  },
+  "GUA": {
+    "gold": 1,
+    "silver": 1,
+    "bronze": 1,
+    "total": 3
+  },
+  "HKG": {
+    "gold": 4,
+    "silver": 3,
+    "bronze": 6,
+    "total": 13
+  },
+  "HUN": {
+    "gold": 189,
+    "silver": 163,
+    "bronze": 188,
+    "total": 540
+  },
+  "ISL": {
+    "gold": 0,
+    "silver": 2,
+    "bronze": 2,
+    "total": 4
+  },
+  "IND": {
+    "gold": 10,
+    "silver": 10,
+    "bronze": 21,
+    "total": 41
+  },
+  "INA": {
+    "gold": 10,
+    "silver": 14,
+    "bronze": 16,
+    "total": 40
+  },
+  "IRI": {
+    "gold": 27,
+    "silver": 29,
+    "bronze": 32,
+    "total": 88
+  },
+  "IRL": {
+    "gold": 15,
+    "silver": 10,
+    "bronze": 17,
+    "total": 42
+  },
+  "ISR": {
+    "gold": 4,
+    "silver": 6,
+    "bronze": 10,
+    "total": 20
+  },
+  "ITA": {
+    "gold": 271,
+    "silver": 244,
+    "bronze": 284,
+    "total": 799
+  },
+  "JAM": {
+    "gold": 27,
+    "silver": 39,
+    "bronze": 28,
+    "total": 94
+  },
+  "JPN": {
+    "gold": 206,
+    "silver": 191,
+    "bronze": 221,
+    "total": 618
+  },
+  "JOR": {
+    "gold": 1,
+    "silver": 2,
+    "bronze": 1,
+    "total": 4
+  },
+  "KAZ": {
+    "gold": 16,
+    "silver": 28,
+    "bronze": 42,
+    "total": 86
+  },
+  "KEN": {
+    "gold": 39,
+    "silver": 44,
+    "bronze": 41,
+    "total": 124
+  },
+  "KOS": {
+    "gold": 3,
+    "silver": 1,
+    "bronze": 1,
+    "total": 5
+  },
+  "PRK": {
+    "gold": 16,
+    "silver": 19,
+    "bronze": 28,
+    "total": 63
+  },
+  "KOR": {
+    "gold": 142,
+    "silver": 130,
+    "bronze": 127,
+    "total": 399
+  },
+  "KUW": {
+    "gold": 0,
+    "silver": 0,
+    "bronze": 3,
+    "total": 3
+  },
+  "KGZ": {
+    "gold": 0,
+    "silver": 5,
+    "bronze": 8,
+    "total": 13
+  },
+  "LAT": {
+    "gold": 5,
+    "silver": 14,
+    "bronze": 12,
+    "total": 31
+  },
+  "LIB": {
+    "gold": 0,
+    "silver": 2,
+    "bronze": 2,
+    "total": 4
+  },
+  "LIE": {
+    "gold": 2,
+    "silver": 2,
+    "bronze": 6,
+    "total": 10
+  },
+  "LTU": {
+    "gold": 6,
+    "silver": 9,
+    "bronze": 15,
+    "total": 30
+  },
+  "LUX": {
+    "gold": 2,
+    "silver": 3,
+    "bronze": 0,
+    "total": 5
+  },
+  "MAS": {
+    "gold": 0,
+    "silver": 8,
+    "bronze": 7,
+    "total": 15
+  },
+  "MEX": {
+    "gold": 13,
+    "silver": 27,
+    "bronze": 37,
+    "total": 77
+  },
+  "MDA": {
+    "gold": 0,
+    "silver": 3,
+    "bronze": 7,
+    "total": 10
+  },
+  "MGL": {
+    "gold": 2,
+    "silver": 12,
+    "bronze": 17,
+    "total": 31
+  },
+  "MNE": {
+    "gold": 0,
+    "silver": 1,
+    "bronze": 0,
+    "total": 1
+  },
+  "MAR": {
+    "gold": 8,
+    "silver": 5,
+    "bronze": 13,
+    "total": 26
+  },
+  "MOZ": {
+    "gold": 1,
+    "silver": 0,
+    "bronze": 1,
+    "total": 2
+  },
+  "NED": {
+    "gold": 163,
+    "silver": 161,
+    "bronze": 179,
+    "total": 503
+  },
+  "NZL": {
+    "gold": 65,
+    "silver": 42,
+    "bronze": 56,
+    "total": 163
+  },
+  "NIG": {
+    "gold": 0,
+    "silver": 1,
+    "bronze": 1,
+    "total": 2
+  },
+  "NGR": {
+    "gold": 3,
+    "silver": 11,
+    "bronze": 13,
+    "total": 27
+  },
+  "MKD": {
+    "gold": 0,
+    "silver": 1,
+    "bronze": 1,
+    "total": 2
+  },
+  "NOR": {
+    "gold": 213,
+    "silver": 187,
+    "bronze": 176,
+    "total": 576
+  },
+  "PAK": {
+    "gold": 4,
+    "silver": 3,
+    "bronze": 4,
+    "total": 11
+  },
+  "PAN": {
+    "gold": 1,
+    "silver": 1,
+    "bronze": 2,
+    "total": 4
+  },
+  "PAR": {
+    "gold": 0,
+    "silver": 1,
+    "bronze": 0,
+    "total": 1
+  },
+  "PER": {
+    "gold": 1,
+    "silver": 3,
+    "bronze": 1,
+    "total": 5
+  },
+  "PHI": {
+    "gold": 3,
+    "silver": 5,
+    "bronze": 10,
+    "total": 18
+  },
+  "POL": {
+    "gold": 80,
+    "silver": 100,
+    "bronze": 151,
+    "total": 331
+  },
+  "POR": {
+    "gold": 6,
+    "silver": 11,
+    "bronze": 15,
+    "total": 32
+  },
+  "PUR": {
+    "gold": 2,
+    "silver": 2,
+    "bronze": 8,
+    "total": 12
+  },
+  "QAT": {
+    "gold": 2,
+    "silver": 2,
+    "bronze": 5,
+    "total": 9
+  },
+  "ROM": {
+    "gold": 93,
+    "silver": 101,
+    "bronze": 124,
+    "total": 318
+  },
+  "RUS": {
+    "gold": 193,
+    "silver": 164,
+    "bronze": 185,
+    "total": 542
+  },
+  "ROC": {
+    "gold": 25,
+    "silver": 40,
+    "bronze": 38,
+    "total": 103
+  },
+  "SMR": {
+    "gold": 0,
+    "silver": 1,
+    "bronze": 2,
+    "total": 3
+  },
+  "KSA": {
+    "gold": 0,
+    "silver": 2,
+    "bronze": 2,
+    "total": 4
+  },
+  "SRB": {
+    "gold": 9,
+    "silver": 8,
+    "bronze": 12,
+    "total": 29
+  },
+  "SGP": {
+    "gold": 1,
+    "silver": 2,
+    "bronze": 3,
+    "total": 6
+  },
+  "SVK": {
+    "gold": 14,
+    "silver": 18,
+    "bronze": 11,
+    "total": 43
+  },
+  "SLO": {
+    "gold": 14,
+    "silver": 18,
+    "bronze": 23,
+    "total": 55
+  },
+  "RSA": {
+    "gold": 28,
+    "silver": 36,
+    "bronze": 31,
+    "total": 95
+  },
+  "ESP": {
+    "gold": 54,
+    "silver": 77,
+    "bronze": 61,
+    "total": 192
+  },
+  "SRI": {
+    "gold": 0,
+    "silver": 2,
+    "bronze": 0,
+    "total": 2
+  },
+  "SUD": {
+    "gold": 0,
+    "silver": 1,
+    "bronze": 0,
+    "total": 1
+  },
+  "SUR": {
+    "gold": 1,
+    "silver": 0,
+    "bronze": 1,
+    "total": 2
+  },
+  "SWE": {
+    "gold": 216,
+    "silver": 232,
+    "bronze": 242,
+    "total": 690
+  },
+  "SUI": {
+    "gold": 117,
+    "silver": 128,
+    "bronze": 137,
+    "total": 382
+  },
+  "SYR": {
+    "gold": 1,
+    "silver": 1,
+    "bronze": 2,
+    "total": 4
+  },
+  "TPE": {
+    "gold": 9,
+    "silver": 11,
+    "bronze": 23,
+    "total": 43
+  },
+  "TJK": {
+    "gold": 1,
+    "silver": 1,
+    "bronze": 5,
+    "total": 7
+  },
+  "THA": {
+    "gold": 11,
+    "silver": 11,
+    "bronze": 19,
+    "total": 41
+  },
+  "TOG": {
+    "gold": 0,
+    "silver": 0,
+    "bronze": 1,
+    "total": 1
+  },
+  "TGA": {
+    "gold": 0,
+    "silver": 1,
+    "bronze": 0,
+    "total": 1
+  },
+  "TTO": {
+    "gold": 3,
+    "silver": 5,
+    "bronze": 11,
+    "total": 19
+  },
+  "TUN": {
+    "gold": 6,
+    "silver": 4,
+    "bronze": 8,
+    "total": 18
+  },
+  "TUR": {
+    "gold": 41,
+    "silver": 29,
+    "bronze": 41,
+    "total": 111
+  },
+  "UGA": {
+    "gold": 5,
+    "silver": 5,
+    "bronze": 3,
+    "total": 13
+  },
+  "UKR": {
+    "gold": 41,
+    "silver": 43,
+    "bronze": 76,
+    "total": 160
+  },
+  "UAE": {
+    "gold": 1,
+    "silver": 0,
+    "bronze": 1,
+    "total": 2
+  },
+  "USA": {
+    "gold": 1219,
+    "silver": 1000,
+    "bronze": 876,
+    "total": 3095
+  },
+  "URU": {
+    "gold": 2,
+    "silver": 2,
+    "bronze": 6,
+    "total": 10
+  },
+  "UZB": {
+    "gold": 19,
+    "silver": 8,
+    "bronze": 23,
+    "total": 50
+  },
+  "VEN": {
+    "gold": 3,
+    "silver": 7,
+    "bronze": 9,
+    "total": 19
+  },
+  "VIE": {
+    "gold": 1,
+    "silver": 3,
+    "bronze": 1,
+    "total": 5
+  },
+  "ISV": {
+    "gold": 0,
+    "silver": 1,
+    "bronze": 0,
+    "total": 1
+  },
+  "ZAM": {
+    "gold": 0,
+    "silver": 1,
+    "bronze": 2,
+    "total": 3
+  },
+  "ZIM": {
+    "gold": 3,
+    "silver": 4,
+    "bronze": 1,
+    "total": 8
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "USA": {
+    "gold": 1105,
+    "silver": 879,
+    "bronze": 781,
+    "total": 2765
+  },
+  "RUS": {
+    "gold": 608,
+    "silver": 515,
+    "bronze": 501,
+    "total": 1624
+  },
+  "GER": {
+    "gold": 450,
+    "silver": 470,
+    "bronze": 499,
+    "total": 1419
+  },
+  "CHN": {
+    "gold": 303,
+    "silver": 226,
+    "bronze": 198,
+    "total": 727
+  },
+  "GBR": {
+    "gold": 298,
+    "silver": 339,
+    "bronze": 343,
+    "total": 980
+  },
+  "FRA": {
+    "gold": 239,
+    "silver": 278,
+    "bronze": 299,
+    "total": 816
+  },
+  "ITA": {
+    "gold": 229,
+    "silver": 201,
+    "bronze": 221,
+    "total": 651
+  },
+  "JPN": {
+    "gold": 189,
+    "silver": 162,
+    "bronze": 191,
+    "total": 542
+  },
+  "HUN": {
+    "gold": 187,
+    "silver": 161,
+    "bronze": 182,
+    "total": 530
+  },
+  "AUS": {
+    "gold": 182,
+    "silver": 192,
+    "bronze": 226,
+    "total": 600
+  }
+}
