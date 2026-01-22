@@ -522,6 +522,206 @@ class OlympicsHTMLGenerator:
             margin-top: 40px;
             border-top: 2px solid #00d4ff;
         }}
+        
+        /* Mobile Responsive Styles */
+        @media (max-width: 768px) {{
+            body {{
+                padding: 10px;
+            }}
+            
+            .container {{
+                border-radius: 10px;
+            }}
+            
+            header {{
+                padding: 20px 15px;
+            }}
+            
+            h1 {{
+                font-size: 1.8em;
+                margin-bottom: 8px;
+            }}
+            
+            .subtitle {{
+                font-size: 0.9em;
+            }}
+            
+            .content {{
+                padding: 20px 15px;
+            }}
+            
+            h2 {{
+                font-size: 1.5em;
+                margin-bottom: 15px;
+            }}
+            
+            h3 {{
+                font-size: 1.2em;
+            }}
+            
+            .stats-grid {{
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }}
+            
+            .stat-card {{
+                padding: 20px 15px;
+            }}
+            
+            .stat-number {{
+                font-size: 2.2em;
+            }}
+            
+            .stat-label {{
+                font-size: 1em;
+            }}
+            
+            .day-tabs {{
+                overflow-x: auto;
+                flex-wrap: nowrap;
+                -webkit-overflow-scrolling: touch;
+                scrollbar-width: thin;
+                scrollbar-color: #00d4ff #16213e;
+            }}
+            
+            .day-tabs::-webkit-scrollbar {{
+                height: 6px;
+            }}
+            
+            .day-tabs::-webkit-scrollbar-track {{
+                background: #16213e;
+                border-radius: 3px;
+            }}
+            
+            .day-tabs::-webkit-scrollbar-thumb {{
+                background: #00d4ff;
+                border-radius: 3px;
+            }}
+            
+            .day-tab {{
+                padding: 10px 15px;
+                font-size: 0.9em;
+                white-space: nowrap;
+                flex-shrink: 0;
+            }}
+            
+            .day-content {{
+                padding: 20px 15px;
+            }}
+            
+            .sport-section {{
+                padding: 15px;
+                margin-bottom: 20px;
+            }}
+            
+            .sport-title {{
+                font-size: 1.1em;
+            }}
+            
+            .nations-grid {{
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }}
+            
+            .nation-card {{
+                padding: 15px;
+            }}
+            
+            .nation-name {{
+                font-size: 1.1em;
+            }}
+            
+            .nation-stats {{
+                gap: 10px;
+            }}
+            
+            .mini-stat {{
+                font-size: 0.85em;
+                padding: 6px 10px;
+            }}
+            
+            .sport-tag {{
+                font-size: 0.8em;
+                padding: 4px 8px;
+            }}
+            
+            .tier-badge {{
+                font-size: 0.75em;
+                padding: 4px 10px;
+            }}
+            
+            .tier-title {{
+                font-size: 1.4em;
+            }}
+            
+            .tier-description {{
+                font-size: 0.9em;
+            }}
+            
+            .accordion-header {{
+                padding: 12px 15px;
+            }}
+            
+            .accordion-title {{
+                font-size: 1em;
+            }}
+            
+            .accordion-count {{
+                font-size: 0.9em;
+                padding: 4px 12px;
+            }}
+            
+            .nations-list {{
+                gap: 8px;
+            }}
+            
+            .nation-pill {{
+                font-size: 0.85em;
+                padding: 6px 12px;
+            }}
+            
+            .underdog-chip {{
+                font-size: 0.85em;
+                padding: 6px 12px;
+            }}
+            
+            .sport-row {{
+                padding: 10px;
+                font-size: 0.9em;
+            }}
+            
+            .criteria-text {{
+                font-size: 0.85em;
+            }}
+            
+            footer {{
+                padding: 15px;
+                font-size: 0.9em;
+            }}
+        }}
+        
+        @media (max-width: 480px) {{
+            h1 {{
+                font-size: 1.5em;
+            }}
+            
+            .subtitle {{
+                font-size: 0.85em;
+            }}
+            
+            .stat-number {{
+                font-size: 1.8em;
+            }}
+            
+            .tier-title {{
+                font-size: 1.2em;
+            }}
+            
+            .day-tab {{
+                padding: 8px 12px;
+                font-size: 0.85em;
+            }}
+        }}
     </style>
 </head>
 <body>
