@@ -485,9 +485,6 @@ class OlympicsHTMLGenerator:
         }}
         
         .sport-row {{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
             padding: 12px;
             margin: 5px 0;
             background: #1a1a2e;
@@ -501,6 +498,22 @@ class OlympicsHTMLGenerator:
             border-left-color: #00d4ff;
         }}
         
+        .sport-row[open] {{
+            border-left-color: #00d4ff;
+        }}
+
+        .sport-row summary {{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            list-style: none;
+        }}
+
+        .sport-row summary::-webkit-details-marker {{
+            display: none;
+        }}
+
         .sport-name {{
             font-weight: bold;
             color: #e0e0e0;
@@ -512,6 +525,24 @@ class OlympicsHTMLGenerator:
             padding: 5px 15px;
             border-radius: 20px;
             font-weight: bold;
+        }}
+
+        .sport-nations {{
+            margin-top: 12px;
+            padding-top: 10px;
+            border-top: 1px solid #2a2a40;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }}
+
+        .sport-nation {{
+            background: #0f3460;
+            color: #00d4ff;
+            padding: 6px 10px;
+            border-radius: 16px;
+            border: 1px solid #00d4ff;
+            font-size: 0.9em;
         }}
         
         footer {{
@@ -1100,11 +1131,25 @@ class OlympicsHTMLGenerator:
         """
         
         for sport, nations in sport_stats.items():
-            html += f"""
-                    <div class="sport-row">
-                        <span class="sport-name">{sport}</span>
-                        <span class="sport-count">{len(nations)} underdog nations</span>
-                    </div>
+            nation_names = sorted([self.NATION_NAMES.get(n, n) for n in nations])
+            html += """
+                    <details class="sport-row">
+                        <summary>
+                            <span class="sport-name">{sport}</span>
+                            <span class="sport-count">{count} underdog nations</span>
+                        </summary>
+                        <div class="sport-nations">
+            """.format(sport=sport, count=len(nations))
+            
+            if nation_names:
+                for name in nation_names:
+                    html += f"<span class=\"sport-nation\">{name}</span>"
+            else:
+                html += "<span class=\"sport-nation\">No underdog nations</span>"
+            
+            html += """
+                        </div>
+                    </details>
             """
         
         html += """

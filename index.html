@@ -415,9 +415,6 @@
         }
         
         .sport-row {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
             padding: 12px;
             margin: 5px 0;
             background: #1a1a2e;
@@ -431,6 +428,22 @@
             border-left-color: #00d4ff;
         }
         
+        .sport-row[open] {
+            border-left-color: #00d4ff;
+        }
+
+        .sport-row summary {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            list-style: none;
+        }
+
+        .sport-row summary::-webkit-details-marker {
+            display: none;
+        }
+
         .sport-name {
             font-weight: bold;
             color: #e0e0e0;
@@ -442,6 +455,24 @@
             padding: 5px 15px;
             border-radius: 20px;
             font-weight: bold;
+        }
+
+        .sport-nations {
+            margin-top: 12px;
+            padding-top: 10px;
+            border-top: 1px solid #2a2a40;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .sport-nation {
+            background: #0f3460;
+            color: #00d4ff;
+            padding: 6px 10px;
+            border-radius: 16px;
+            border: 1px solid #00d4ff;
+            font-size: 0.9em;
         }
         
         footer {
@@ -2292,70 +2323,135 @@
                 <h2>🏅 Sports by Number of Underdog Nations</h2>
                 <div class="sport-rankings">
         
-                    <div class="sport-row">
-                        <span class="sport-name">Alpine Skiing</span>
-                        <span class="sport-count">50 underdog nations</span>
-                    </div>
+                    <details class="sport-row">
+                        <summary>
+                            <span class="sport-name">Alpine Skiing</span>
+                            <span class="sport-count">50 underdog nations</span>
+                        </summary>
+                        <div class="sport-nations">
+            <span class="sport-nation">Albania</span><span class="sport-nation">Andorra</span><span class="sport-nation">Argentina</span><span class="sport-nation">Armenia</span><span class="sport-nation">Australia</span><span class="sport-nation">Azerbaijan</span><span class="sport-nation">Bosnia and Herzegovina</span><span class="sport-nation">Brazil</span><span class="sport-nation">Chile</span><span class="sport-nation">Chinese Taipei</span><span class="sport-nation">Cyprus</span><span class="sport-nation">Denmark</span><span class="sport-nation">Greece</span><span class="sport-nation">Hong Kong</span><span class="sport-nation">Iceland</span><span class="sport-nation">India</span><span class="sport-nation">Iran</span><span class="sport-nation">Ireland</span><span class="sport-nation">Israel</span><span class="sport-nation">Jamaica</span><span class="sport-nation">Kenya</span><span class="sport-nation">Kosovo</span><span class="sport-nation">Kyrgyzstan</span><span class="sport-nation">Lebanon</span><span class="sport-nation">Liechtenstein</span><span class="sport-nation">Lithuania</span><span class="sport-nation">Luxembourg</span><span class="sport-nation">Malaysia</span><span class="sport-nation">Mexico</span><span class="sport-nation">Monaco</span><span class="sport-nation">Mongolia</span><span class="sport-nation">Montenegro</span><span class="sport-nation">Morocco</span><span class="sport-nation">New Zealand</span><span class="sport-nation">North Macedonia</span><span class="sport-nation">Pakistan</span><span class="sport-nation">Philippines</span><span class="sport-nation">Portugal</span><span class="sport-nation">Romania</span><span class="sport-nation">San Marino</span><span class="sport-nation">Saudi Arabia</span><span class="sport-nation">Serbia</span><span class="sport-nation">Singapore</span><span class="sport-nation">South Africa</span><span class="sport-nation">Thailand</span><span class="sport-nation">Trinidad and Tobago</span><span class="sport-nation">Turkey</span><span class="sport-nation">United Arab Emirates</span><span class="sport-nation">Uruguay</span><span class="sport-nation">Uzbekistan</span>
+                        </div>
+                    </details>
             
-                    <div class="sport-row">
-                        <span class="sport-name">Cross-Country Skiing</span>
-                        <span class="sport-count">37 underdog nations</span>
-                    </div>
+                    <details class="sport-row">
+                        <summary>
+                            <span class="sport-name">Cross-Country Skiing</span>
+                            <span class="sport-count">37 underdog nations</span>
+                        </summary>
+                        <div class="sport-nations">
+            <span class="sport-nation">Andorra</span><span class="sport-nation">Argentina</span><span class="sport-nation">Armenia</span><span class="sport-nation">Australia</span><span class="sport-nation">Bosnia and Herzegovina</span><span class="sport-nation">Brazil</span><span class="sport-nation">Chile</span><span class="sport-nation">Chinese Taipei</span><span class="sport-nation">Colombia</span><span class="sport-nation">Denmark</span><span class="sport-nation">Ecuador</span><span class="sport-nation">Greece</span><span class="sport-nation">Iceland</span><span class="sport-nation">India</span><span class="sport-nation">Iran</span><span class="sport-nation">Ireland</span><span class="sport-nation">Israel</span><span class="sport-nation">Kyrgyzstan</span><span class="sport-nation">Lebanon</span><span class="sport-nation">Liechtenstein</span><span class="sport-nation">Lithuania</span><span class="sport-nation">Malta</span><span class="sport-nation">Mexico</span><span class="sport-nation">Moldova</span><span class="sport-nation">Mongolia</span><span class="sport-nation">Montenegro</span><span class="sport-nation">Morocco</span><span class="sport-nation">Nigeria</span><span class="sport-nation">North Macedonia</span><span class="sport-nation">Portugal</span><span class="sport-nation">Romania</span><span class="sport-nation">Saudi Arabia</span><span class="sport-nation">Serbia</span><span class="sport-nation">South Africa</span><span class="sport-nation">Thailand</span><span class="sport-nation">Turkey</span><span class="sport-nation">Venezuela</span>
+                        </div>
+                    </details>
             
-                    <div class="sport-row">
-                        <span class="sport-name">Figure Skating</span>
-                        <span class="sport-count">10 underdog nations</span>
-                    </div>
+                    <details class="sport-row">
+                        <summary>
+                            <span class="sport-name">Figure Skating</span>
+                            <span class="sport-count">10 underdog nations</span>
+                        </summary>
+                        <div class="sport-nations">
+            <span class="sport-nation">Armenia</span><span class="sport-nation">Australia</span><span class="sport-nation">Azerbaijan</span><span class="sport-nation">Chinese Taipei</span><span class="sport-nation">Georgia</span><span class="sport-nation">Israel</span><span class="sport-nation">Lithuania</span><span class="sport-nation">Mexico</span><span class="sport-nation">Romania</span><span class="sport-nation">Uzbekistan</span>
+                        </div>
+                    </details>
             
-                    <div class="sport-row">
-                        <span class="sport-name">Bobsleigh</span>
-                        <span class="sport-count">7 underdog nations</span>
-                    </div>
+                    <details class="sport-row">
+                        <summary>
+                            <span class="sport-name">Bobsleigh</span>
+                            <span class="sport-count">7 underdog nations</span>
+                        </summary>
+                        <div class="sport-nations">
+            <span class="sport-nation">Australia</span><span class="sport-nation">Brazil</span><span class="sport-nation">Chinese Taipei</span><span class="sport-nation">Denmark</span><span class="sport-nation">Jamaica</span><span class="sport-nation">Liechtenstein</span><span class="sport-nation">Romania</span>
+                        </div>
+                    </details>
             
-                    <div class="sport-row">
-                        <span class="sport-name">Speed Skating</span>
-                        <span class="sport-count">7 underdog nations</span>
-                    </div>
+                    <details class="sport-row">
+                        <summary>
+                            <span class="sport-name">Speed Skating</span>
+                            <span class="sport-count">7 underdog nations</span>
+                        </summary>
+                        <div class="sport-nations">
+            <span class="sport-nation">Australia</span><span class="sport-nation">Chinese Taipei</span><span class="sport-nation">Denmark</span><span class="sport-nation">Hong Kong</span><span class="sport-nation">Portugal</span><span class="sport-nation">Turkey</span><span class="sport-nation">Uzbekistan</span>
+                        </div>
+                    </details>
             
-                    <div class="sport-row">
-                        <span class="sport-name">Biathlon</span>
-                        <span class="sport-count">4 underdog nations</span>
-                    </div>
+                    <details class="sport-row">
+                        <summary>
+                            <span class="sport-name">Biathlon</span>
+                            <span class="sport-count">4 underdog nations</span>
+                        </summary>
+                        <div class="sport-nations">
+            <span class="sport-nation">Denmark</span><span class="sport-nation">Lithuania</span><span class="sport-nation">Moldova</span><span class="sport-nation">Romania</span>
+                        </div>
+                    </details>
             
-                    <div class="sport-row">
-                        <span class="sport-name">Skeleton</span>
-                        <span class="sport-count">3 underdog nations</span>
-                    </div>
+                    <details class="sport-row">
+                        <summary>
+                            <span class="sport-name">Skeleton</span>
+                            <span class="sport-count">3 underdog nations</span>
+                        </summary>
+                        <div class="sport-nations">
+            <span class="sport-nation">Brazil</span><span class="sport-nation">Denmark</span><span class="sport-nation">Israel</span>
+                        </div>
+                    </details>
             
-                    <div class="sport-row">
-                        <span class="sport-name">Luge</span>
-                        <span class="sport-count">3 underdog nations</span>
-                    </div>
+                    <details class="sport-row">
+                        <summary>
+                            <span class="sport-name">Luge</span>
+                            <span class="sport-count">3 underdog nations</span>
+                        </summary>
+                        <div class="sport-nations">
+            <span class="sport-nation">Argentina</span><span class="sport-nation">Bosnia and Herzegovina</span><span class="sport-nation">Romania</span>
+                        </div>
+                    </details>
             
-                    <div class="sport-row">
-                        <span class="sport-name">Snowboard</span>
-                        <span class="sport-count">2 underdog nations</span>
-                    </div>
+                    <details class="sport-row">
+                        <summary>
+                            <span class="sport-name">Snowboard</span>
+                            <span class="sport-count">2 underdog nations</span>
+                        </summary>
+                        <div class="sport-nations">
+            <span class="sport-nation">Brazil</span><span class="sport-nation">Romania</span>
+                        </div>
+                    </details>
             
-                    <div class="sport-row">
-                        <span class="sport-name">Curling</span>
-                        <span class="sport-count">1 underdog nations</span>
-                    </div>
+                    <details class="sport-row">
+                        <summary>
+                            <span class="sport-name">Curling</span>
+                            <span class="sport-count">1 underdog nations</span>
+                        </summary>
+                        <div class="sport-nations">
+            <span class="sport-nation">Denmark</span>
+                        </div>
+                    </details>
             
-                    <div class="sport-row">
-                        <span class="sport-name">Ice Hockey</span>
-                        <span class="sport-count">1 underdog nations</span>
-                    </div>
+                    <details class="sport-row">
+                        <summary>
+                            <span class="sport-name">Ice Hockey</span>
+                            <span class="sport-count">1 underdog nations</span>
+                        </summary>
+                        <div class="sport-nations">
+            <span class="sport-nation">Denmark</span>
+                        </div>
+                    </details>
             
-                    <div class="sport-row">
-                        <span class="sport-name">Ski Mountaineering</span>
-                        <span class="sport-count">1 underdog nations</span>
-                    </div>
+                    <details class="sport-row">
+                        <summary>
+                            <span class="sport-name">Ski Mountaineering</span>
+                            <span class="sport-count">1 underdog nations</span>
+                        </summary>
+                        <div class="sport-nations">
+            <span class="sport-nation">Australia</span>
+                        </div>
+                    </details>
             
-                    <div class="sport-row">
-                        <span class="sport-name">Ski Jumping</span>
-                        <span class="sport-count">1 underdog nations</span>
-                    </div>
+                    <details class="sport-row">
+                        <summary>
+                            <span class="sport-name">Ski Jumping</span>
+                            <span class="sport-count">1 underdog nations</span>
+                        </summary>
+                        <div class="sport-nations">
+            <span class="sport-nation">Turkey</span>
+                        </div>
+                    </details>
             
                 </div>
             </section>
@@ -3808,7 +3904,7 @@
         
         <footer>
             <p>Data compiled from Wikipedia and official Olympic sources</p>
-            <p>Generated January 21, 2026</p>
+            <p>Generated January 24, 2026</p>
         </footer>
     </div>
     
