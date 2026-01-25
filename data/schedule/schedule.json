@@ -1,136 +1,140 @@
 {
+  "2026-02-05": [
+    {"sport": "Snowboard", "discipline": "Big Air", "event": "Men's Big Air Qualification Run 1", "session": "Regular Event", "time": "19:30", "underdog_nations": ["AUS", "NZL"]},
+    {"sport": "Snowboard", "discipline": "Big Air", "event": "Men's Big Air Qualification Run 2", "session": "Regular Event", "time": "20:15", "underdog_nations": ["AUS", "NZL"]},
+    {"sport": "Snowboard", "discipline": "Big Air", "event": "Men's Big Air Qualification Run 3", "session": "Regular Event", "time": "21:00", "underdog_nations": ["AUS", "NZL"]}
+  ],
   "2026-02-06": [
-    {
-      "sport": "Curling",
-      "discipline": "Curling",
-      "event": "Mixed Doubles Round Robin",
-      "session": "Regular Event",
-      "time": "09:05",
-      "nations": ["CAN", "USA", "SWE", "NOR", "GBR", "ITA", "SUI", "CZE"]
-    },
-    {
-      "sport": "Ice Hockey",
-      "discipline": "Ice Hockey",
-      "event": "Women's Preliminary Round",
-      "session": "Regular Event",
-      "time": "12:00",
-      "nations": ["CAN", "USA", "FIN", "SUI", "CZE", "JPN"]
-    }
+    {"sport": "Curling", "discipline": "Curling", "event": "Mixed Doubles Round Robin", "session": "Regular Event", "time": "09:05", "nations": ["CAN", "USA", "SWE", "NOR", "GBR", "ITA", "SUI", "CZE"]},
+    {"sport": "Ice Hockey", "discipline": "Ice Hockey", "event": "Women's Preliminary Round", "session": "Regular Event", "time": "12:00", "nations": ["CAN", "USA", "FIN", "SUI", "CZE", "JPN"]}
   ],
   "2026-02-07": [
-    {
-      "sport": "Figure Skating",
-      "discipline": "Figure Skating",
-      "event": "Team Event - Men's Short Program",
-      "session": "Regular Event",
-      "time": "10:00",
-      "nations": ["USA", "JPN", "CAN", "CHN", "ITA", "FRA", "GER", "GBR"]
-    },
-    {
-      "sport": "Alpine Skiing",
-      "discipline": "Alpine Skiing",
-      "event": "Women's Downhill Training",
-      "session": "Training",
-      "time": "11:00",
-      "nations": ["USA", "ITA", "AUT", "SUI", "FRA", "GER", "NOR", "LIE"]
-    },
-    {
-      "sport": "Freestyle Skiing",
-      "discipline": "Moguls",
-      "event": "Men's Moguls Qualification",
-      "session": "Regular Event",
-      "time": "17:30",
-      "nations": ["CAN", "USA", "FRA", "JPN", "AUS", "SWE", "KAZ", "FIN"]
-    }
+    {"sport": "Figure Skating", "discipline": "Figure Skating", "event": "Team Event - Men's Short Program", "session": "Regular Event", "time": "10:00", "nations": ["USA", "JPN", "CAN", "CHN", "ITA", "FRA", "GER", "GBR"]},
+    {"sport": "Alpine Skiing", "discipline": "Alpine Skiing", "event": "Women's Downhill Training", "session": "Training", "time": "11:00", "nations": ["USA", "ITA", "AUT", "SUI", "FRA", "GER", "NOR", "LIE"]},
+    {"sport": "Freestyle Skiing", "discipline": "Moguls", "event": "Men's Moguls Qualification", "session": "Regular Event", "time": "17:30", "nations": ["CAN", "USA", "FRA", "JPN", "AUS", "SWE", "KAZ", "FIN"]},
+    {"sport": "Snowboard", "discipline": "Big Air", "event": "Men's Big Air Final Run 1", "session": "Medal Event", "time": "19:30", "underdog_nations": ["AUS", "NZL"]},
+    {"sport": "Snowboard", "discipline": "Big Air", "event": "Men's Big Air Final Run 2", "session": "Medal Event", "time": "19:53", "underdog_nations": ["AUS", "NZL"]},
+    {"sport": "Snowboard", "discipline": "Big Air", "event": "Men's Big Air Final Run 3", "session": "Medal Event", "time": "20:17", "underdog_nations": ["AUS", "NZL"]}
   ],
   "2026-02-08": [
-    {
-      "sport": "Snowboard",
-      "discipline": "Slopestyle",
-      "event": "Men's Slopestyle Qualification",
-      "session": "Regular Event",
-      "time": "09:30",
-      "nations": ["USA", "CAN", "NOR", "JPN", "FIN", "NZL", "AUT", "CHE"]
-    },
-    {
-      "sport": "Speed Skating",
-      "discipline": "Speed Skating",
-      "event": "Women's 3000m",
-      "session": "Medal Event",
-      "time": "16:30",
-      "nations": ["NED", "NOR", "CAN", "USA", "JPN", "ITA", "GER", "CZE"]
-    },
-    {
-      "sport": "Biathlon",
-      "discipline": "Biathlon",
-      "event": "Men's 10km Sprint",
-      "session": "Medal Event",
-      "time": "14:30",
-      "nations": ["NOR", "FRA", "GER", "SWE", "ITA", "AUT", "CZE", "BLR", "UKR", "POL", "LIE"]
-    }
+    {"sport": "Snowboard", "discipline": "Parallel Giant Slalom", "event": "Women's PGS Qualification Run", "session": "Regular Event", "time": "09:00", "underdog_nations": []},
+    {"sport": "Snowboard", "discipline": "Parallel Giant Slalom", "event": "Men's PGS Qualification Run", "session": "Regular Event", "time": "09:30", "underdog_nations": []},
+    {"sport": "Snowboard", "discipline": "Parallel Giant Slalom", "event": "Women's PGS Elimination Run", "session": "Regular Event", "time": "10:00", "underdog_nations": []},
+    {"sport": "Snowboard", "discipline": "Parallel Giant Slalom", "event": "Men's PGS Elimination Run", "session": "Regular Event", "time": "10:30", "underdog_nations": []},
+    {"sport": "Snowboard", "discipline": "Parallel Giant Slalom", "event": "Women's Parallel Giant Slalom 1/8 Finals", "session": "Regular Event", "time": "13:00", "underdog_nations": ["AUS", "BUL"]},
+    {"sport": "Snowboard", "discipline": "Parallel Giant Slalom", "event": "Men's Parallel Giant Slalom 1/8 Finals", "session": "Regular Event", "time": "13:24", "underdog_nations": ["AUS", "BUL"]},
+    {"sport": "Snowboard", "discipline": "Parallel Giant Slalom", "event": "Women's Parallel Giant Slalom Semifinals", "session": "Regular Event", "time": "14:12", "underdog_nations": ["AUS", "BUL"]},
+    {"sport": "Snowboard", "discipline": "Parallel Giant Slalom", "event": "Men's Parallel Giant Slalom Semifinals", "session": "Regular Event", "time": "14:19", "underdog_nations": ["AUS", "BUL"]},
+    {"sport": "Snowboard", "discipline": "Parallel Giant Slalom", "event": "Women's PGS Small Final", "session": "Medal Event", "time": "14:26", "underdog_nations": ["AUS", "BUL"]},
+    {"sport": "Snowboard", "discipline": "Parallel Giant Slalom", "event": "Women's PGS Big Final", "session": "Medal Event", "time": "14:29", "underdog_nations": ["AUS", "BUL"]},
+    {"sport": "Snowboard", "discipline": "Parallel Giant Slalom", "event": "Men's PGS Small Final", "session": "Medal Event", "time": "14:36", "underdog_nations": ["AUS", "BUL"]},
+    {"sport": "Snowboard", "discipline": "Parallel Giant Slalom", "event": "Men's PGS Big Final", "session": "Medal Event", "time": "14:39", "underdog_nations": ["AUS", "BUL"]},
+    {"sport": "Snowboard", "discipline": "Big Air", "event": "Women's Big Air Qualification Run 1", "session": "Regular Event", "time": "19:30", "underdog_nations": ["AUS", "NZL"]},
+    {"sport": "Snowboard", "discipline": "Big Air", "event": "Women's Big Air Qualification Run 2", "session": "Regular Event", "time": "20:15", "underdog_nations": ["AUS", "NZL"]},
+    {"sport": "Snowboard", "discipline": "Big Air", "event": "Women's Big Air Qualification Run 3", "session": "Regular Event", "time": "21:00", "underdog_nations": ["AUS", "NZL"]},
+    {"sport": "Speed Skating", "discipline": "Speed Skating", "event": "Women's 3000m", "session": "Medal Event", "time": "16:00", "underdog_nations": []},
+    {"sport": "Biathlon", "discipline": "Biathlon", "event": "Men's 10km Sprint", "session": "Medal Event", "time": "14:30", "nations": ["NOR", "FRA", "GER", "SWE", "ITA", "AUT", "CZE", "BLR", "UKR", "POL", "LIE"]}
   ],
   "2026-02-09": [
-    {
-      "sport": "Luge",
-      "discipline": "Luge",
-      "event": "Men's Singles Run 1",
-      "session": "Regular Event",
-      "time": "10:00",
-      "nations": ["GER", "AUT", "ITA", "LAT", "USA", "RUS", "POL"]
-    },
-    {
-      "sport": "Short Track Speed Skating",
-      "discipline": "Short Track",
-      "event": "Men's 1500m Heats",
-      "session": "Regular Event",
-      "time": "19:30",
-      "nations": ["CHN", "KOR", "CAN", "HUN", "NED", "USA", "JPN"]
-    }
+    {"sport": "Luge", "discipline": "Luge", "event": "Men's Singles Run 1", "session": "Regular Event", "time": "10:00", "nations": ["GER", "AUT", "ITA", "LAT", "USA", "POL"]},
+    {"sport": "Ski Jumping", "discipline": "Ski Jumping", "event": "Men's NH Individual - Trial Round", "session": "Regular Event", "time": "18:00", "underdog_nations": ["TUR"]},
+    {"sport": "Ski Jumping", "discipline": "Ski Jumping", "event": "Men's NH Individual - 1st Round", "session": "Regular Event", "time": "19:00", "underdog_nations": ["TUR"]},
+    {"sport": "Ski Jumping", "discipline": "Ski Jumping", "event": "Men's NH Individual - Final Round", "session": "Medal Event", "time": "20:12", "underdog_nations": ["TUR"]},
+    {"sport": "Snowboard", "discipline": "Big Air", "event": "Women's Big Air Final Run 1", "session": "Medal Event", "time": "19:30", "underdog_nations": ["AUS", "NZL"]},
+    {"sport": "Snowboard", "discipline": "Big Air", "event": "Women's Big Air Final Run 2", "session": "Medal Event", "time": "19:53", "underdog_nations": ["AUS", "NZL"]},
+    {"sport": "Snowboard", "discipline": "Big Air", "event": "Women's Big Air Final Run 3", "session": "Medal Event", "time": "20:17", "underdog_nations": ["AUS", "NZL"]},
+    {"sport": "Short Track Speed Skating", "discipline": "Short Track", "event": "Men's 1500m Heats", "session": "Regular Event", "time": "19:30", "nations": ["CHN", "KOR", "CAN", "HUN", "NED", "USA", "JPN"]},
+    {"sport": "Speed Skating", "discipline": "Speed Skating", "event": "Women's 1000m", "session": "Medal Event", "time": "17:30", "underdog_nations": ["DEN", "EST"]}
   ],
   "2026-02-10": [
-    {
-      "sport": "Bobsleigh",
-      "discipline": "Bobsleigh",
-      "event": "2-Man Training",
-      "session": "Training",
-      "time": "09:00",
-      "nations": ["GER", "CAN", "USA", "LAT", "AUT", "SUI", "JAM", "MON"]
-    },
-    {
-      "sport": "Cross-Country Skiing",
-      "discipline": "Cross-Country",
-      "event": "Women's 10km Classic",
-      "session": "Medal Event",
-      "time": "15:00",
-      "nations": ["NOR", "SWE", "FIN", "RUS", "USA", "GER", "SUI"]
-    }
+    {"sport": "Bobsleigh", "discipline": "Bobsleigh", "event": "2-Man Training", "session": "Training", "time": "09:00", "nations": ["GER", "CAN", "USA", "LAT", "AUT", "SUI", "JAM", "MON"]},
+    {"sport": "Cross-Country Skiing", "discipline": "Cross-Country", "event": "Women's 10km Classic", "session": "Medal Event", "time": "15:00", "nations": ["NOR", "SWE", "FIN", "USA", "GER", "SUI"]}
   ],
   "2026-02-11": [
-    {
-      "sport": "Ski Jumping",
-      "discipline": "Ski Jumping",
-      "event": "Men's Normal Hill Individual Qualification",
-      "session": "Regular Event",
-      "time": "19:00",
-      "nations": ["NOR", "GER", "AUT", "POL", "JPN", "SLO", "SUI"]
-    }
+    {"sport": "Ski Jumping", "discipline": "Ski Jumping", "event": "Men's Normal Hill Individual Qualification", "session": "Regular Event", "time": "19:00", "nations": ["NOR", "GER", "AUT", "POL", "JPN", "SLO", "SUI"]},
+    {"sport": "Snowboard", "discipline": "Halfpipe", "event": "Women's Halfpipe Qualification Run 1", "session": "Regular Event", "time": "10:30", "underdog_nations": ["AUS", "BRA", "BUL"]},
+    {"sport": "Snowboard", "discipline": "Halfpipe", "event": "Women's Halfpipe Qualification Run 2", "session": "Regular Event", "time": "11:27", "underdog_nations": ["AUS", "BRA", "BUL"]},
+    {"sport": "Snowboard", "discipline": "Halfpipe", "event": "Men's Halfpipe Qualification Run 1", "session": "Regular Event", "time": "19:30", "underdog_nations": ["AUS"]},
+    {"sport": "Snowboard", "discipline": "Halfpipe", "event": "Men's Halfpipe Qualification Run 2", "session": "Regular Event", "time": "20:27", "underdog_nations": ["AUS"]},
+    {"sport": "Speed Skating", "discipline": "Speed Skating", "event": "Men's 1000m", "session": "Medal Event", "time": "18:30", "underdog_nations": ["DEN"]}
   ],
   "2026-02-12": [
-    {
-      "sport": "Skeleton",
-      "discipline": "Skeleton",
-      "event": "Men's Run 1",
-      "session": "Regular Event",
-      "time": "09:30",
-      "nations": ["GBR", "GER", "LAT", "KOR", "CAN", "USA"]
-    },
-    {
-      "sport": "Nordic Combined",
-      "discipline": "Nordic Combined",
-      "event": "Individual Normal Hill/10km",
-      "session": "Regular Event",
-      "time": "10:00",
-      "nations": ["NOR", "GER", "AUT", "JPN", "FRA", "FIN"]
-    }
+    {"sport": "Skeleton", "discipline": "Skeleton", "event": "Men's Heat 1", "session": "Regular Event", "time": "09:30", "underdog_nations": ["DEN", "ISR"]},
+    {"sport": "Skeleton", "discipline": "Skeleton", "event": "Men's Heat 2", "session": "Regular Event", "time": "11:08", "underdog_nations": ["DEN", "ISR"]},
+    {"sport": "Snowboard", "discipline": "Snowboard Cross", "event": "Men's Snowboard Cross Seeding Run 1", "session": "Regular Event", "time": "10:00", "underdog_nations": ["AUS", "NZL"]},
+    {"sport": "Snowboard", "discipline": "Snowboard Cross", "event": "Men's Snowboard Cross Seeding Run 2", "session": "Regular Event", "time": "10:55", "underdog_nations": ["AUS", "NZL"]},
+    {"sport": "Snowboard", "discipline": "Snowboard Cross", "event": "Men's Snowboard Cross 1/8 Finals", "session": "Regular Event", "time": "13:45", "underdog_nations": ["AUS", "NZL"]},
+    {"sport": "Snowboard", "discipline": "Snowboard Cross", "event": "Men's Snowboard Cross Quarterfinals", "session": "Regular Event", "time": "14:18", "underdog_nations": ["AUS", "NZL"]},
+    {"sport": "Snowboard", "discipline": "Snowboard Cross", "event": "Men's Snowboard Cross Semifinals", "session": "Regular Event", "time": "14:39", "underdog_nations": ["AUS", "NZL"]},
+    {"sport": "Snowboard", "discipline": "Snowboard Cross", "event": "Men's SBX Small Final", "session": "Medal Event", "time": "14:56", "underdog_nations": ["AUS", "NZL"]},
+    {"sport": "Snowboard", "discipline": "Snowboard Cross", "event": "Men's SBX Big Final", "session": "Medal Event", "time": "15:01", "underdog_nations": ["AUS", "NZL"]},
+    {"sport": "Snowboard", "discipline": "Halfpipe", "event": "Women's Halfpipe Final Run 1", "session": "Medal Event", "time": "19:30", "underdog_nations": ["AUS", "BRA", "BUL"]},
+    {"sport": "Snowboard", "discipline": "Halfpipe", "event": "Women's Halfpipe Final Run 2", "session": "Medal Event", "time": "19:59", "underdog_nations": ["AUS", "BRA", "BUL"]},
+    {"sport": "Snowboard", "discipline": "Halfpipe", "event": "Women's Halfpipe Final Run 3", "session": "Medal Event", "time": "20:28", "underdog_nations": ["AUS", "BRA", "BUL"]},
+    {"sport": "Nordic Combined", "discipline": "Nordic Combined", "event": "Individual Normal Hill/10km", "session": "Regular Event", "time": "10:00", "nations": ["NOR", "GER", "AUT", "JPN", "FRA", "FIN"]}
+  ],
+  "2026-02-13": [
+    {"sport": "Skeleton", "discipline": "Skeleton", "event": "Men's Heat 3", "session": "Medal Event", "time": "19:30", "underdog_nations": ["DEN", "ISR"]},
+    {"sport": "Skeleton", "discipline": "Skeleton", "event": "Men's Heat 4 / Final Classification", "session": "Medal Event", "time": "21:05", "underdog_nations": ["DEN", "ISR"]},
+    {"sport": "Skeleton", "discipline": "Skeleton", "event": "Women's Heat 1", "session": "Regular Event", "time": "16:00", "underdog_nations": ["BRA", "DEN", "EST", "PUR", "RSA"]},
+    {"sport": "Skeleton", "discipline": "Skeleton", "event": "Women's Heat 2", "session": "Regular Event", "time": "17:48", "underdog_nations": ["BRA", "DEN", "EST", "PUR", "RSA"]},
+    {"sport": "Snowboard", "discipline": "Snowboard Cross", "event": "Women's Snowboard Cross Seeding Run 1", "session": "Regular Event", "time": "10:00", "underdog_nations": ["AUS", "NZL"]},
+    {"sport": "Snowboard", "discipline": "Snowboard Cross", "event": "Women's Snowboard Cross Seeding Run 2", "session": "Regular Event", "time": "10:55", "underdog_nations": ["AUS", "NZL"]},
+    {"sport": "Snowboard", "discipline": "Snowboard Cross", "event": "Women's Snowboard Cross 1/8 Finals", "session": "Regular Event", "time": "13:30", "underdog_nations": ["AUS", "NZL"]},
+    {"sport": "Snowboard", "discipline": "Snowboard Cross", "event": "Women's Snowboard Cross Quarterfinals", "session": "Regular Event", "time": "14:03", "underdog_nations": ["AUS", "NZL"]},
+    {"sport": "Snowboard", "discipline": "Snowboard Cross", "event": "Women's Snowboard Cross Semifinals", "session": "Regular Event", "time": "14:24", "underdog_nations": ["AUS", "NZL"]},
+    {"sport": "Snowboard", "discipline": "Snowboard Cross", "event": "Women's SBX Small Final", "session": "Medal Event", "time": "14:41", "underdog_nations": ["AUS", "NZL"]},
+    {"sport": "Snowboard", "discipline": "Snowboard Cross", "event": "Women's SBX Big Final", "session": "Medal Event", "time": "14:46", "underdog_nations": ["AUS", "NZL"]},
+    {"sport": "Snowboard", "discipline": "Halfpipe", "event": "Men's Halfpipe Final Run 1", "session": "Medal Event", "time": "19:30", "underdog_nations": ["AUS"]},
+    {"sport": "Snowboard", "discipline": "Halfpipe", "event": "Men's Halfpipe Final Run 2", "session": "Medal Event", "time": "19:59", "underdog_nations": ["AUS"]},
+    {"sport": "Snowboard", "discipline": "Halfpipe", "event": "Men's Halfpipe Final Run 3", "session": "Medal Event", "time": "20:28", "underdog_nations": ["AUS"]}
+  ],
+  "2026-02-14": [
+    {"sport": "Skeleton", "discipline": "Skeleton", "event": "Women's Heat 3", "session": "Medal Event", "time": "18:00", "underdog_nations": ["BRA", "DEN", "EST", "PUR", "RSA"]},
+    {"sport": "Skeleton", "discipline": "Skeleton", "event": "Women's Heat 4 / Final Classification", "session": "Medal Event", "time": "19:44", "underdog_nations": ["BRA", "DEN", "EST", "PUR", "RSA"]},
+    {"sport": "Ski Jumping", "discipline": "Ski Jumping", "event": "Men's LH Individual - Trial Round", "session": "Regular Event", "time": "17:30", "underdog_nations": ["TUR"]},
+    {"sport": "Ski Jumping", "discipline": "Ski Jumping", "event": "Men's LH Individual - 1st Round", "session": "Regular Event", "time": "18:45", "underdog_nations": ["TUR"]},
+    {"sport": "Ski Jumping", "discipline": "Ski Jumping", "event": "Men's LH Individual - Final Round", "session": "Medal Event", "time": "19:57", "underdog_nations": ["TUR"]},
+    {"sport": "Speed Skating", "discipline": "Speed Skating", "event": "Men's 500m", "session": "Medal Event", "time": "17:00", "underdog_nations": ["DEN", "TPE"]}
+  ],
+  "2026-02-15": [
+    {"sport": "Skeleton", "discipline": "Skeleton", "event": "Mixed Team Final", "session": "Medal Event", "time": "18:00", "underdog_nations": ["DEN"]},
+    {"sport": "Snowboard", "discipline": "Snowboard Cross", "event": "Mixed Team Snowboard Cross Quarterfinals", "session": "Regular Event", "time": "13:45", "underdog_nations": ["AUS", "NZL"]},
+    {"sport": "Snowboard", "discipline": "Snowboard Cross", "event": "Mixed Team Snowboard Cross Semifinals", "session": "Regular Event", "time": "14:15", "underdog_nations": ["AUS", "NZL"]},
+    {"sport": "Snowboard", "discipline": "Snowboard Cross", "event": "Mixed Team Snowboard Cross Small Final", "session": "Medal Event", "time": "14:35", "underdog_nations": ["AUS", "NZL"]},
+    {"sport": "Snowboard", "discipline": "Snowboard Cross", "event": "Mixed Team Snowboard Cross Big Final", "session": "Medal Event", "time": "14:40", "underdog_nations": ["AUS", "NZL"]},
+    {"sport": "Speed Skating", "discipline": "Speed Skating", "event": "Women's 500m", "session": "Medal Event", "time": "17:03", "underdog_nations": ["EST"]}
+  ],
+  "2026-02-16": [
+    {"sport": "Snowboard", "discipline": "Slopestyle", "event": "Women's Slopestyle Qual Run 1", "session": "Regular Event", "time": "10:30", "underdog_nations": ["AUS", "NZL"]},
+    {"sport": "Snowboard", "discipline": "Slopestyle", "event": "Women's Slopestyle Qual Run 2", "session": "Regular Event", "time": "11:35", "underdog_nations": ["AUS", "NZL"]},
+    {"sport": "Snowboard", "discipline": "Slopestyle", "event": "Men's Slopestyle Qual Run 1", "session": "Regular Event", "time": "14:00", "underdog_nations": ["AUS", "NZL"]},
+    {"sport": "Snowboard", "discipline": "Slopestyle", "event": "Men's Slopestyle Qual Run 2", "session": "Regular Event", "time": "15:05", "underdog_nations": ["AUS", "NZL"]}
+  ],
+  "2026-02-17": [
+    {"sport": "Snowboard", "discipline": "Slopestyle", "event": "Women's Slopestyle Final Run 1", "session": "Medal Event", "time": "13:00", "underdog_nations": ["AUS", "NZL"]},
+    {"sport": "Snowboard", "discipline": "Slopestyle", "event": "Women's Slopestyle Final Run 2", "session": "Medal Event", "time": "13:27", "underdog_nations": ["AUS", "NZL"]},
+    {"sport": "Snowboard", "discipline": "Slopestyle", "event": "Women's Slopestyle Final Run 3", "session": "Medal Event", "time": "13:54", "underdog_nations": ["AUS", "NZL"]}
+  ],
+  "2026-02-18": [
+    {"sport": "Snowboard", "discipline": "Slopestyle", "event": "Men's Slopestyle Final Run 1", "session": "Medal Event", "time": "12:30", "underdog_nations": ["AUS", "NZL"]},
+    {"sport": "Snowboard", "discipline": "Slopestyle", "event": "Men's Slopestyle Final Run 2", "session": "Medal Event", "time": "12:59", "underdog_nations": ["AUS", "NZL"]},
+    {"sport": "Snowboard", "discipline": "Slopestyle", "event": "Men's Slopestyle Final Run 3", "session": "Medal Event", "time": "13:28", "underdog_nations": ["AUS", "NZL"]}
+  ],
+  "2026-02-19": [
+    {"sport": "Ski Mountaineering", "discipline": "Ski Mountaineering", "event": "Women's Sprint Heats", "session": "Regular Event", "time": "09:50", "underdog_nations": ["AUS"]},
+    {"sport": "Ski Mountaineering", "discipline": "Ski Mountaineering", "event": "Men's Sprint Heats", "session": "Regular Event", "time": "10:30", "underdog_nations": ["AUS"]},
+    {"sport": "Ski Mountaineering", "discipline": "Ski Mountaineering", "event": "Women's Sprint Semifinals", "session": "Regular Event", "time": "12:55", "underdog_nations": ["AUS"]},
+    {"sport": "Ski Mountaineering", "discipline": "Ski Mountaineering", "event": "Men's Sprint Semifinals", "session": "Regular Event", "time": "13:25", "underdog_nations": ["AUS"]},
+    {"sport": "Ski Mountaineering", "discipline": "Ski Mountaineering", "event": "Women's Sprint Final", "session": "Medal Event", "time": "13:55", "underdog_nations": ["AUS"]},
+    {"sport": "Ski Mountaineering", "discipline": "Ski Mountaineering", "event": "Men's Sprint Final", "session": "Medal Event", "time": "14:15", "underdog_nations": ["AUS"]},
+    {"sport": "Speed Skating", "discipline": "Speed Skating", "event": "Men's 1500m", "session": "Medal Event", "time": "16:30", "underdog_nations": ["DEN"]}
+  ],
+  "2026-02-21": [
+    {"sport": "Ski Mountaineering", "discipline": "Ski Mountaineering", "event": "Mixed Relay", "session": "Medal Event", "time": "13:30", "underdog_nations": ["AUS"]},
+    {"sport": "Speed Skating", "discipline": "Speed Skating", "event": "Men's Mass Start Semifinals", "session": "Regular Event", "time": "15:00", "underdog_nations": ["POR"]},
+    {"sport": "Speed Skating", "discipline": "Speed Skating", "event": "Women's Mass Start Semifinals", "session": "Regular Event", "time": "15:50", "underdog_nations": ["DEN"]},
+    {"sport": "Speed Skating", "discipline": "Speed Skating", "event": "Men's Mass Start Final", "session": "Medal Event", "time": "16:40", "underdog_nations": ["POR"]},
+    {"sport": "Speed Skating", "discipline": "Speed Skating", "event": "Women's Mass Start Final", "session": "Medal Event", "time": "17:15", "underdog_nations": ["DEN"]}
   ]
 }

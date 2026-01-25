@@ -1,0 +1,526 @@
+{
+  "2026-02-05": [
+    {
+      "sport": "Snowboard",
+      "discipline": "Big Air",
+      "event": "Men's Big Air Qualification Run 1",
+      "session": "Regular Event",
+      "time": "19:30",
+      "underdog_nations": ["AUS", "NZL"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Big Air",
+      "event": "Men's Big Air Qualification Run 2",
+      "session": "Regular Event",
+      "time": "20:15",
+      "underdog_nations": ["AUS", "NZL"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Big Air",
+      "event": "Men's Big Air Qualification Run 3",
+      "session": "Regular Event",
+      "time": "21:00",
+      "underdog_nations": ["AUS", "NZL"]
+    }
+  ],
+  "2026-02-07": [
+    {
+      "sport": "Snowboard",
+      "discipline": "Big Air",
+      "event": "Men's Big Air Final Run 1",
+      "session": "Medal Event",
+      "time": "19:30",
+      "underdog_nations": ["AUS", "NZL"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Big Air",
+      "event": "Men's Big Air Final Run 2",
+      "session": "Medal Event",
+      "time": "19:53",
+      "underdog_nations": ["AUS", "NZL"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Big Air",
+      "event": "Men's Big Air Final Run 3",
+      "session": "Medal Event",
+      "time": "20:17",
+      "underdog_nations": ["AUS", "NZL"]
+    }
+  ],
+  "2026-02-08-big-air": [
+    {
+      "sport": "Snowboard",
+      "discipline": "Big Air",
+      "event": "Women's Big Air Qualification Run 1",
+      "session": "Regular Event",
+      "time": "19:30",
+      "underdog_nations": ["AUS", "NZL"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Big Air",
+      "event": "Women's Big Air Qualification Run 2",
+      "session": "Regular Event",
+      "time": "20:15",
+      "underdog_nations": ["AUS", "NZL"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Big Air",
+      "event": "Women's Big Air Qualification Run 3",
+      "session": "Regular Event",
+      "time": "21:00",
+      "underdog_nations": ["AUS", "NZL"]
+    }
+  ],
+  "2026-02-09-big-air": [
+    {
+      "sport": "Snowboard",
+      "discipline": "Big Air",
+      "event": "Women's Big Air Final Run 1",
+      "session": "Medal Event",
+      "time": "19:30",
+      "underdog_nations": ["AUS", "NZL"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Big Air",
+      "event": "Women's Big Air Final Run 2",
+      "session": "Medal Event",
+      "time": "19:53",
+      "underdog_nations": ["AUS", "NZL"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Big Air",
+      "event": "Women's Big Air Final Run 3",
+      "session": "Medal Event",
+      "time": "20:17",
+      "underdog_nations": ["AUS", "NZL"]
+    }
+  ],
+  "2026-02-11-halfpipe": [
+    {
+      "sport": "Snowboard",
+      "discipline": "Halfpipe",
+      "event": "Women's Halfpipe Qualification Run 1",
+      "session": "Regular Event",
+      "time": "10:30",
+      "underdog_nations": ["AUS", "BRA", "BUL"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Halfpipe",
+      "event": "Women's Halfpipe Qualification Run 2",
+      "session": "Regular Event",
+      "time": "11:27",
+      "underdog_nations": ["AUS", "BRA", "BUL"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Halfpipe",
+      "event": "Men's Halfpipe Qualification Run 1",
+      "session": "Regular Event",
+      "time": "19:30",
+      "underdog_nations": ["AUS"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Halfpipe",
+      "event": "Men's Halfpipe Qualification Run 2",
+      "session": "Regular Event",
+      "time": "20:27",
+      "underdog_nations": ["AUS"]
+    }
+  ],
+  "2026-02-12-snowboard": [
+    {
+      "sport": "Snowboard",
+      "discipline": "Halfpipe",
+      "event": "Women's Halfpipe Final Run 1",
+      "session": "Medal Event",
+      "time": "19:30",
+      "underdog_nations": ["AUS", "BRA", "BUL"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Halfpipe",
+      "event": "Women's Halfpipe Final Run 2",
+      "session": "Medal Event",
+      "time": "19:59",
+      "underdog_nations": ["AUS", "BRA", "BUL"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Halfpipe",
+      "event": "Women's Halfpipe Final Run 3",
+      "session": "Medal Event",
+      "time": "20:28",
+      "underdog_nations": ["AUS", "BRA", "BUL"]
+    }
+  ],
+  "2026-02-12-sbx-men": [
+    {
+      "sport": "Snowboard",
+      "discipline": "Snowboard Cross",
+      "event": "Men's Snowboard Cross Seeding Run 1",
+      "session": "Regular Event",
+      "time": "10:00",
+      "underdog_nations": ["AUS", "NZL"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Snowboard Cross",
+      "event": "Men's Snowboard Cross Seeding Run 2",
+      "session": "Regular Event",
+      "time": "10:55",
+      "underdog_nations": ["AUS", "NZL"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Snowboard Cross",
+      "event": "Men's Snowboard Cross 1/8 Finals",
+      "session": "Regular Event",
+      "time": "13:45",
+      "underdog_nations": ["AUS", "NZL"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Snowboard Cross",
+      "event": "Men's Snowboard Cross Quarterfinals",
+      "session": "Regular Event",
+      "time": "14:18",
+      "underdog_nations": ["AUS", "NZL"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Snowboard Cross",
+      "event": "Men's Snowboard Cross Semifinals",
+      "session": "Regular Event",
+      "time": "14:39",
+      "underdog_nations": ["AUS", "NZL"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Snowboard Cross",
+      "event": "Men's SBX Small Final",
+      "session": "Medal Event",
+      "time": "14:56",
+      "underdog_nations": ["AUS", "NZL"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Snowboard Cross",
+      "event": "Men's SBX Big Final",
+      "session": "Medal Event",
+      "time": "15:01",
+      "underdog_nations": ["AUS", "NZL"]
+    }
+  ],
+  "2026-02-13-sbx-women": [
+    {
+      "sport": "Snowboard",
+      "discipline": "Snowboard Cross",
+      "event": "Women's Snowboard Cross Seeding Run 1",
+      "session": "Regular Event",
+      "time": "10:00",
+      "underdog_nations": ["AUS", "NZL"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Snowboard Cross",
+      "event": "Women's Snowboard Cross Seeding Run 2",
+      "session": "Regular Event",
+      "time": "10:55",
+      "underdog_nations": ["AUS", "NZL"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Snowboard Cross",
+      "event": "Women's Snowboard Cross 1/8 Finals",
+      "session": "Regular Event",
+      "time": "13:30",
+      "underdog_nations": ["AUS", "NZL"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Snowboard Cross",
+      "event": "Women's Snowboard Cross Quarterfinals",
+      "session": "Regular Event",
+      "time": "14:03",
+      "underdog_nations": ["AUS", "NZL"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Snowboard Cross",
+      "event": "Women's Snowboard Cross Semifinals",
+      "session": "Regular Event",
+      "time": "14:24",
+      "underdog_nations": ["AUS", "NZL"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Snowboard Cross",
+      "event": "Women's SBX Small Final",
+      "session": "Medal Event",
+      "time": "14:41",
+      "underdog_nations": ["AUS", "NZL"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Snowboard Cross",
+      "event": "Women's SBX Big Final",
+      "session": "Medal Event",
+      "time": "14:46",
+      "underdog_nations": ["AUS", "NZL"]
+    }
+  ],
+  "2026-02-15-sbx-mixed": [
+    {
+      "sport": "Snowboard",
+      "discipline": "Snowboard Cross",
+      "event": "Mixed Team Snowboard Cross Quarterfinals",
+      "session": "Regular Event",
+      "time": "13:45",
+      "underdog_nations": ["AUS", "NZL"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Snowboard Cross",
+      "event": "Mixed Team Snowboard Cross Semifinals",
+      "session": "Regular Event",
+      "time": "14:15",
+      "underdog_nations": ["AUS", "NZL"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Snowboard Cross",
+      "event": "Mixed Team Snowboard Cross Small Final",
+      "session": "Medal Event",
+      "time": "14:35",
+      "underdog_nations": ["AUS", "NZL"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Snowboard Cross",
+      "event": "Mixed Team Snowboard Cross Big Final",
+      "session": "Medal Event",
+      "time": "14:40",
+      "underdog_nations": ["AUS", "NZL"]
+    }
+  ],
+  "2026-02-13-snowboard": [
+    {
+      "sport": "Snowboard",
+      "discipline": "Halfpipe",
+      "event": "Men's Halfpipe Final Run 1",
+      "session": "Medal Event",
+      "time": "19:30",
+      "underdog_nations": ["AUS"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Halfpipe",
+      "event": "Men's Halfpipe Final Run 2",
+      "session": "Medal Event",
+      "time": "19:59",
+      "underdog_nations": ["AUS"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Halfpipe",
+      "event": "Men's Halfpipe Final Run 3",
+      "session": "Medal Event",
+      "time": "20:28",
+      "underdog_nations": ["AUS"]
+    }
+  ],
+  "2026-02-08-parallel": [
+    {
+      "sport": "Snowboard",
+      "discipline": "Parallel",
+      "event": "Women's PGS Qualification Run",
+      "session": "Regular Event",
+      "time": "09:00",
+      "underdog_nations": []
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Parallel",
+      "event": "Men's PGS Qualification Run",
+      "session": "Regular Event",
+      "time": "09:30",
+      "underdog_nations": []
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Parallel",
+      "event": "Women's PGS Elimination Run",
+      "session": "Regular Event",
+      "time": "10:00",
+      "underdog_nations": []
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Parallel",
+      "event": "Men's PGS Elimination Run",
+      "session": "Regular Event",
+      "time": "10:30",
+      "underdog_nations": []
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Parallel",
+      "event": "Women's Parallel Giant Slalom 1/8 Finals",
+      "session": "Regular Event",
+      "time": "13:00",
+      "underdog_nations": ["AUS", "BUL"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Parallel",
+      "event": "Men's Parallel Giant Slalom 1/8 Finals",
+      "session": "Regular Event",
+      "time": "13:24",
+      "underdog_nations": ["AUS", "BUL"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Parallel",
+      "event": "Women's Parallel Giant Slalom Semifinals",
+      "session": "Regular Event",
+      "time": "14:12",
+      "underdog_nations": ["AUS", "BUL"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Parallel",
+      "event": "Men's Parallel Giant Slalom Semifinals",
+      "session": "Regular Event",
+      "time": "14:19",
+      "underdog_nations": ["AUS", "BUL"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Parallel",
+      "event": "Women's PGS Small Final",
+      "session": "Medal Event",
+      "time": "14:26",
+      "underdog_nations": ["AUS", "BUL"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Parallel",
+      "event": "Women's PGS Big Final",
+      "session": "Medal Event",
+      "time": "14:29",
+      "underdog_nations": ["AUS", "BUL"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Parallel",
+      "event": "Men's PGS Small Final",
+      "session": "Medal Event",
+      "time": "14:36",
+      "underdog_nations": ["AUS", "BUL"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Parallel",
+      "event": "Men's PGS Big Final",
+      "session": "Medal Event",
+      "time": "14:39",
+      "underdog_nations": ["AUS", "BUL"]
+    }
+  ],
+  "2026-02-16-slopestyle": [
+    {
+      "sport": "Snowboard",
+      "discipline": "Slopestyle",
+      "event": "Women's Slopestyle Qual Run 1",
+      "session": "Regular Event",
+      "time": "10:30",
+      "underdog_nations": ["AUS", "NZL"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Slopestyle",
+      "event": "Women's Slopestyle Qual Run 2",
+      "session": "Regular Event",
+      "time": "11:35",
+      "underdog_nations": ["AUS", "NZL"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Slopestyle",
+      "event": "Men's Slopestyle Qual Run 1",
+      "session": "Regular Event",
+      "time": "14:00",
+      "underdog_nations": ["AUS", "NZL"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Slopestyle",
+      "event": "Men's Slopestyle Qual Run 2",
+      "session": "Regular Event",
+      "time": "15:05",
+      "underdog_nations": ["AUS", "NZL"]
+    }
+  ],
+  "2026-02-17-slopestyle": [
+    {
+      "sport": "Snowboard",
+      "discipline": "Slopestyle",
+      "event": "Women's Slopestyle Final Run 1",
+      "session": "Medal Event",
+      "time": "13:00",
+      "underdog_nations": ["AUS", "NZL"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Slopestyle",
+      "event": "Women's Slopestyle Final Run 2",
+      "session": "Medal Event",
+      "time": "13:27",
+      "underdog_nations": ["AUS", "NZL"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Slopestyle",
+      "event": "Women's Slopestyle Final Run 3",
+      "session": "Medal Event",
+      "time": "13:54",
+      "underdog_nations": ["AUS", "NZL"]
+    }
+  ],
+  "2026-02-18-slopestyle": [
+    {
+      "sport": "Snowboard",
+      "discipline": "Slopestyle",
+      "event": "Men's Slopestyle Final Run 1",
+      "session": "Medal Event",
+      "time": "12:30",
+      "underdog_nations": ["AUS", "NZL"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Slopestyle",
+      "event": "Men's Slopestyle Final Run 2",
+      "session": "Medal Event",
+      "time": "12:59",
+      "underdog_nations": ["AUS", "NZL"]
+    },
+    {
+      "sport": "Snowboard",
+      "discipline": "Slopestyle",
+      "event": "Men's Slopestyle Final Run 3",
+      "session": "Medal Event",
+      "time": "13:28",
+      "underdog_nations": ["AUS", "NZL"]
+    }
+  ]
+}

@@ -1,0 +1,3919 @@
+{
+  "Alpine Skiing": {
+    "medal_events": 4,
+    "events": [
+      {
+        "event_name": "LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-09",
+            "time": "04:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-10",
+            "time": "04:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-14",
+            "time": "04:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-16",
+            "time": "04:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-18",
+            "time": "04:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 5
+      },
+      {
+        "event_name": "LIVE\ud83c\udfc5",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-07",
+            "time": "05:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-08",
+            "time": "05:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-09",
+            "time": "08:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-11",
+            "time": "05:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-14",
+            "time": "07:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-16",
+            "time": "07:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-17",
+            "time": "07:30",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 7
+      },
+      {
+        "event_name": "REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-19",
+            "time": "01:30",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": "REPLAY\ud83c\udfc5",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-07",
+            "time": "09:20",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-09",
+            "time": "12:45",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-10",
+            "time": "01:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-15",
+            "time": "03:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-16",
+            "time": "14:45",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-19",
+            "time": "02:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 6
+      }
+    ]
+  },
+  "Biathlon": {
+    "medal_events": 3,
+    "events": [
+      {
+        "event_name": "Biathlon Event",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-08",
+            "time": "08:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": "LIVE\ud83c\udfc5",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-08",
+            "time": "08:45",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-10",
+            "time": "07:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-13",
+            "time": "08:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-14",
+            "time": "08:45",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-15",
+            "time": "08:45",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-17",
+            "time": "08:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-18",
+            "time": "08:45",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-19",
+            "time": "08:15",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-21",
+            "time": "08:15",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 9
+      },
+      {
+        "event_name": "REPLAY\ud83c\udfc5",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-09",
+            "time": "00:15",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-10",
+            "time": "16:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-11",
+            "time": "23:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-13",
+            "time": "18:15",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-15",
+            "time": "01:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-17",
+            "time": "23:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-18",
+            "time": "12:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-19",
+            "time": "12:15",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-20",
+            "time": "17:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-21",
+            "time": "22:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 10
+      }
+    ]
+  },
+  "Cross-Country Skiing": {
+    "medal_events": 3,
+    "events": [
+      {
+        "event_name": "LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-10",
+            "time": "03:15",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-18",
+            "time": "03:45",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 2
+      },
+      {
+        "event_name": "LIVE\ud83c\udfc5",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-07",
+            "time": "07:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-08",
+            "time": "06:45",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-10",
+            "time": "05:45",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-11",
+            "time": "07:15",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-13",
+            "time": "05:45",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-14",
+            "time": "06:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-18",
+            "time": "08:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-21",
+            "time": "05:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-22",
+            "time": "04:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 9
+      },
+      {
+        "event_name": "REPLAY\ud83c\udfc5",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-07",
+            "time": "17:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-08",
+            "time": "01:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-10",
+            "time": "13:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-11",
+            "time": "01:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-13",
+            "time": "01:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-14",
+            "time": "12:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-15",
+            "time": "18:15",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-18",
+            "time": "12:45",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-20",
+            "time": "11:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-21",
+            "time": "17:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-22",
+            "time": "08:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 11
+      }
+    ]
+  },
+  "Curling": {
+    "medal_events": 131,
+    "events": [
+      {
+        "event_name": ": Canada vs Czechia LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-04",
+            "time": "13:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Canada vs Denmark LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-11",
+            "time": "03:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Canada vs Estonia LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-07",
+            "time": "13:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Canada vs Germany LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-11",
+            "time": "13:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Canada vs Great Britain LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-17",
+            "time": "13:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Canada vs Italy LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-06",
+            "time": "13:05",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-18",
+            "time": "13:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 2
+      },
+      {
+        "event_name": ": Canada vs Italy REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-18",
+            "time": "20:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Canada vs South Korea LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-08",
+            "time": "13:05",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-18",
+            "time": "08:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 2
+      },
+      {
+        "event_name": ": Canada vs Sweden LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-08",
+            "time": "08:35",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-14",
+            "time": "13:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 2
+      },
+      {
+        "event_name": ": Canada vs Sweden REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-13",
+            "time": "21:30",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Canada vs Switzerland LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-14",
+            "time": "13:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Canada vs United States LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-13",
+            "time": "03:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": China vs Canada LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-15",
+            "time": "13:05",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-16",
+            "time": "03:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 2
+      },
+      {
+        "event_name": ": China vs Canada REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-16",
+            "time": "10:15",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": China vs Czechia LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-17",
+            "time": "08:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": China vs Denmark LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-18",
+            "time": "03:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": China vs Great Britain LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-11",
+            "time": "13:05",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-13",
+            "time": "13:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 2
+      },
+      {
+        "event_name": ": China vs Great Britain REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-11",
+            "time": "21:30",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": China vs Norway LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-13",
+            "time": "03:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": China vs Sweden LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-18",
+            "time": "13:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": China vs Switzerland LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-13",
+            "time": "08:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Czechia vs Canada LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-16",
+            "time": "08:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Czechia vs Estonia LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-09",
+            "time": "04:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Czechia vs Germany LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-17",
+            "time": "03:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Czechia vs Great Britain LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-06",
+            "time": "13:05",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-14",
+            "time": "08:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 2
+      },
+      {
+        "event_name": ": Czechia vs Norway LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-14",
+            "time": "13:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Czechia vs South Korea LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-07",
+            "time": "08:35",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Czechia vs Switzerland LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-07",
+            "time": "13:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Czechia vs United States LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-06",
+            "time": "08:35",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-11",
+            "time": "13:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 2
+      },
+      {
+        "event_name": ": Czechia vs United States REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-11",
+            "time": "17:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Denmark vs Great Britain LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-16",
+            "time": "03:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Denmark vs Italy LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-15",
+            "time": "08:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Denmark vs Italy REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-15",
+            "time": "15:30",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Denmark vs Japan LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-13",
+            "time": "13:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Denmark vs Sweden LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-13",
+            "time": "08:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Denmark vs United States LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-17",
+            "time": "08:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Denmark vs United States REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-17",
+            "time": "17:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Estonia vs Italy LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-06",
+            "time": "08:35",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Estonia vs Norway LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-07",
+            "time": "08:35",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Estonia vs Sweden LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-06",
+            "time": "13:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Estonia vs Switzerland LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-04",
+            "time": "13:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Germany vs Great Britain LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-15",
+            "time": "03:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Germany vs Italy LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-14",
+            "time": "13:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Germany vs Switzerland LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-17",
+            "time": "13:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Germany vs United States LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-14",
+            "time": "08:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Germany vs United States REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-14",
+            "time": "13:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Great Britain vs Canada LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-07",
+            "time": "04:05",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-14",
+            "time": "03:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 2
+      },
+      {
+        "event_name": ": Great Britain vs Canada REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-14",
+            "time": "07:30",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Great Britain vs Estonia LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-05",
+            "time": "04:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Great Britain vs Italy LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-13",
+            "time": "03:05",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-18",
+            "time": "08:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 2
+      },
+      {
+        "event_name": ": Great Britain vs Japan LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-18",
+            "time": "13:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Great Britain vs Norway LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-04",
+            "time": "13:05",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-16",
+            "time": "08:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 2
+      },
+      {
+        "event_name": ": Great Britain vs Norway REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-16",
+            "time": "11:30",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Great Britain vs South Korea LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-13",
+            "time": "08:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Great Britain vs Sweden LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-12",
+            "time": "08:05",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-15",
+            "time": "08:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 2
+      },
+      {
+        "event_name": ": Great Britain vs Switzerland LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-08",
+            "time": "08:35",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-15",
+            "time": "13:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 2
+      },
+      {
+        "event_name": ": Great Britain vs United States LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-06",
+            "time": "09:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-07",
+            "time": "08:35",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 2
+      },
+      {
+        "event_name": ": Great Britain vs United States REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-07",
+            "time": "17:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Italy vs Canada LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-17",
+            "time": "08:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Italy vs China LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-14",
+            "time": "03:05",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-16",
+            "time": "08:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 2
+      },
+      {
+        "event_name": ": Italy vs China REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-14",
+            "time": "08:30",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Italy vs Czechia LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-08",
+            "time": "08:35",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-15",
+            "time": "13:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 2
+      },
+      {
+        "event_name": ": Italy vs Great Britain LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-08",
+            "time": "13:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Italy vs Great Britain REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-08",
+            "time": "21:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Italy vs Japan LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-17",
+            "time": "08:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Italy vs South Korea LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-13",
+            "time": "13:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Italy vs Sweden LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-14",
+            "time": "13:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Italy vs Sweden REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-14",
+            "time": "20:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Italy vs Switzerland LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-06",
+            "time": "04:05",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-11",
+            "time": "03:05",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-18",
+            "time": "03:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 3
+      },
+      {
+        "event_name": ": Italy vs United States LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-09",
+            "time": "04:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Italy vs United States REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-09",
+            "time": "09:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Japan vs Canada LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-16",
+            "time": "13:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Japan vs South Korea LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-14",
+            "time": "08:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Japan vs Sweden LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-11",
+            "time": "03:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Japan vs United States LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-14",
+            "time": "13:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Japan vs United States REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-14",
+            "time": "17:30",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Norway vs Canada LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-06",
+            "time": "08:35",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-19",
+            "time": "03:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 2
+      },
+      {
+        "event_name": ": Norway vs Czechia LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-08",
+            "time": "04:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Norway vs Italy LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-07",
+            "time": "13:05",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-15",
+            "time": "03:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 2
+      },
+      {
+        "event_name": ": Norway vs South Korea LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-09",
+            "time": "04:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Norway vs United States LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-06",
+            "time": "04:05",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-16",
+            "time": "13:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 2
+      },
+      {
+        "event_name": ": Norway vs United States REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-04",
+            "time": "17:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-15",
+            "time": "20:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 2
+      },
+      {
+        "event_name": ": South Korea vs China LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-16",
+            "time": "13:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": South Korea vs Denmark LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-14",
+            "time": "13:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": South Korea vs Estonia LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-08",
+            "time": "04:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": South Korea vs Great Britain LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-06",
+            "time": "08:35",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": South Korea vs Italy LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-06",
+            "time": "04:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": South Korea vs Switzerland LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-16",
+            "time": "08:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": South Korea vs United States LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-07",
+            "time": "13:05",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-11",
+            "time": "03:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 2
+      },
+      {
+        "event_name": ": South Korea vs United States REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-12",
+            "time": "09:15",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Sweden vs Canada LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-17",
+            "time": "08:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Sweden vs China LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-14",
+            "time": "08:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Sweden vs Czechia LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-05",
+            "time": "04:05",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-19",
+            "time": "03:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 2
+      },
+      {
+        "event_name": ": Sweden vs Germany LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-16",
+            "time": "08:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Sweden vs Great Britain LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-06",
+            "time": "04:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Sweden vs Italy LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-07",
+            "time": "08:35",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-11",
+            "time": "13:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 2
+      },
+      {
+        "event_name": ": Sweden vs Norway LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-06",
+            "time": "08:35",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-17",
+            "time": "13:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 2
+      },
+      {
+        "event_name": ": Sweden vs South Korea LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-04",
+            "time": "13:05",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-18",
+            "time": "03:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 2
+      },
+      {
+        "event_name": ": Sweden vs Switzerland LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-16",
+            "time": "03:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Sweden vs United States LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-13",
+            "time": "13:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Sweden vs United States REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-12",
+            "time": "21:30",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Switzerland vs Canada LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-09",
+            "time": "04:05",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-14",
+            "time": "08:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 2
+      },
+      {
+        "event_name": ": Switzerland vs China LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-14",
+            "time": "13:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Switzerland vs Czechia LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-13",
+            "time": "03:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Switzerland vs Denmark LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-18",
+            "time": "13:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Switzerland vs Great Britain LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-16",
+            "time": "13:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Switzerland vs Japan LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-14",
+            "time": "03:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Switzerland vs Norway LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-08",
+            "time": "13:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Switzerland vs South Korea LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-06",
+            "time": "13:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Switzerland vs Sweden LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-07",
+            "time": "04:05",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-17",
+            "time": "03:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 2
+      },
+      {
+        "event_name": ": Switzerland vs United States LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-18",
+            "time": "08:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Switzerland vs United States REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-20",
+            "time": "05:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": United States vs Canada LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-06",
+            "time": "04:05",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-13",
+            "time": "08:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 2
+      },
+      {
+        "event_name": ": United States vs Canada REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-13",
+            "time": "17:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": United States vs China LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-15",
+            "time": "08:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-17",
+            "time": "03:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 2
+      },
+      {
+        "event_name": ": United States vs China REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-17",
+            "time": "06:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": United States vs Estonia LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-08",
+            "time": "08:35",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": United States vs Estonia REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-08",
+            "time": "17:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": United States vs Germany LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-19",
+            "time": "03:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": United States vs Great Britain LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-17",
+            "time": "08:05",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-18",
+            "time": "03:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 2
+      },
+      {
+        "event_name": ": United States vs Great Britain REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-18",
+            "time": "09:15",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": United States vs Italy LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-16",
+            "time": "13:05",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-17",
+            "time": "13:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 2
+      },
+      {
+        "event_name": ": United States vs Italy REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-16",
+            "time": "17:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-17",
+            "time": "21:30",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 2
+      },
+      {
+        "event_name": ": United States vs Sweden LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-08",
+            "time": "13:05",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-15",
+            "time": "03:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 2
+      },
+      {
+        "event_name": ": United States vs Sweden REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-08",
+            "time": "19:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-15",
+            "time": "11:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 2
+      },
+      {
+        "event_name": ": United States vs Switzerland LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-06",
+            "time": "08:35",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-11",
+            "time": "08:05",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-13",
+            "time": "17:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 3
+      },
+      {
+        "event_name": ": __________ vs __________ LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-08",
+            "time": "12:05",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-19",
+            "time": "08:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 2
+      },
+      {
+        "event_name": ": __________ vs __________ LIVE\ud83c\udfc5",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-09",
+            "time": "08:05",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-10",
+            "time": "12:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-19",
+            "time": "13:05",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-21",
+            "time": "13:05",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-22",
+            "time": "05:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 5
+      },
+      {
+        "event_name": ": __________ vs __________ REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-09",
+            "time": "17:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-19",
+            "time": "17:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-20",
+            "time": "20:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 3
+      },
+      {
+        "event_name": ": __________ vs __________ REPLAY\ud83c\udfc5",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-10",
+            "time": "17:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-20",
+            "time": "17:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-21",
+            "time": "01:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-22",
+            "time": "07:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 4
+      },
+      {
+        "event_name": "Curling Event",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-18",
+            "time": "08:05",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      }
+    ]
+  },
+  "Figure Skating": {
+    "medal_events": 5,
+    "events": [
+      {
+        "event_name": "LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-06",
+            "time": "03:55",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-07",
+            "time": "13:45",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-08",
+            "time": "13:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-09",
+            "time": "13:20",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-10",
+            "time": "12:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-16",
+            "time": "13:45",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-17",
+            "time": "12:45",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-21",
+            "time": "14:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 8
+      },
+      {
+        "event_name": "LIVE\ud83c\udfc5",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-08",
+            "time": "15:55",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-11",
+            "time": "13:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-13",
+            "time": "15:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-19",
+            "time": "13:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 4
+      },
+      {
+        "event_name": "PREVIEW LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-10",
+            "time": "12:15",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-11",
+            "time": "13:15",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-13",
+            "time": "12:45",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-16",
+            "time": "13:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-17",
+            "time": "12:30",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 5
+      },
+      {
+        "event_name": "REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-06",
+            "time": "12:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-08",
+            "time": "02:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-10",
+            "time": "02:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-11",
+            "time": "02:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-16",
+            "time": "02:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-17",
+            "time": "02:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-18",
+            "time": "01:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-22",
+            "time": "01:30",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 8
+      },
+      {
+        "event_name": "REPLAY\ud83c\udfc5",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-09",
+            "time": "01:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-11",
+            "time": "01:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-14",
+            "time": "02:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-20",
+            "time": "01:30",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 4
+      }
+    ]
+  },
+  "Freestyle Skiing": {
+    "medal_events": 4,
+    "events": [
+      {
+        "event_name": "LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-07",
+            "time": "04:30",
+            "round": "Free Skate"
+          },
+          {
+            "date": "2026-02-09",
+            "time": "08:15",
+            "round": "Free Skate"
+          },
+          {
+            "date": "2026-02-10",
+            "time": "05:15",
+            "round": "Free Skate"
+          },
+          {
+            "date": "2026-02-11",
+            "time": "05:00",
+            "round": "Free Skate"
+          },
+          {
+            "date": "2026-02-14",
+            "time": "13:30",
+            "round": "Free Skate"
+          },
+          {
+            "date": "2026-02-16",
+            "time": "13:30",
+            "round": "Free Skate"
+          },
+          {
+            "date": "2026-02-17",
+            "time": "04:45",
+            "round": "Free Skate"
+          },
+          {
+            "date": "2026-02-18",
+            "time": "04:30",
+            "round": "Free Skate"
+          },
+          {
+            "date": "2026-02-19",
+            "time": "13:30",
+            "round": "Free Skate"
+          },
+          {
+            "date": "2026-02-20",
+            "time": "04:00",
+            "round": "Free Skate"
+          },
+          {
+            "date": "2026-02-21",
+            "time": "04:00",
+            "round": "Free Skate"
+          }
+        ],
+        "total_preliminary_days": 11
+      },
+      {
+        "event_name": "LIVE\ud83c\udfc5",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-09",
+            "time": "06:30",
+            "round": "Free Skate"
+          },
+          {
+            "date": "2026-02-10",
+            "time": "06:30",
+            "round": "Free Skate"
+          },
+          {
+            "date": "2026-02-11",
+            "time": "06:15",
+            "round": "Free Skate"
+          },
+          {
+            "date": "2026-02-14",
+            "time": "04:30",
+            "round": "Free Skate"
+          },
+          {
+            "date": "2026-02-16",
+            "time": "13:30",
+            "round": "Free Skate"
+          },
+          {
+            "date": "2026-02-17",
+            "time": "13:30",
+            "round": "Free Skate"
+          },
+          {
+            "date": "2026-02-18",
+            "time": "05:30",
+            "round": "Free Skate"
+          },
+          {
+            "date": "2026-02-20",
+            "time": "13:30",
+            "round": "Free Skate"
+          },
+          {
+            "date": "2026-02-21",
+            "time": "13:30",
+            "round": "Free Skate"
+          }
+        ],
+        "total_preliminary_days": 9
+      },
+      {
+        "event_name": "REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-06",
+            "time": "11:30",
+            "round": "Free Skate"
+          },
+          {
+            "date": "2026-02-10",
+            "time": "10:30",
+            "round": "Free Skate"
+          },
+          {
+            "date": "2026-02-17",
+            "time": "11:00",
+            "round": "Free Skate"
+          },
+          {
+            "date": "2026-02-19",
+            "time": "08:45",
+            "round": "Free Skate"
+          }
+        ],
+        "total_preliminary_days": 4
+      },
+      {
+        "event_name": "REPLAY\ud83c\udfc5",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-10",
+            "time": "12:00",
+            "round": "Free Skate"
+          },
+          {
+            "date": "2026-02-11",
+            "time": "12:00",
+            "round": "Free Skate"
+          },
+          {
+            "date": "2026-02-12",
+            "time": "12:00",
+            "round": "Free Skate"
+          },
+          {
+            "date": "2026-02-14",
+            "time": "10:00",
+            "round": "Free Skate"
+          },
+          {
+            "date": "2026-02-15",
+            "time": "02:45",
+            "round": "Free Skate"
+          },
+          {
+            "date": "2026-02-18",
+            "time": "13:30",
+            "round": "Free Skate"
+          },
+          {
+            "date": "2026-02-19",
+            "time": "12:00",
+            "round": "Free Skate"
+          },
+          {
+            "date": "2026-02-20",
+            "time": "11:45",
+            "round": "Free Skate"
+          },
+          {
+            "date": "2026-02-21",
+            "time": "03:00",
+            "round": "Free Skate"
+          }
+        ],
+        "total_preliminary_days": 9
+      }
+    ]
+  },
+  "Ice Hockey": {
+    "medal_events": 61,
+    "events": [
+      {
+        "event_name": ": Canada vs Czechia LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-09",
+            "time": "15:10",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Canada vs Czechia REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-09",
+            "time": "17:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Canada vs France LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-15",
+            "time": "10:40",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Canada vs France REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-15",
+            "time": "18:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Canada vs Switzerland LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-13",
+            "time": "15:10",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Canada vs Switzerland REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-14",
+            "time": "00:30",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Canada vs United States LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-10",
+            "time": "14:10",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Canada vs United States REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-10",
+            "time": "23:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Czechia vs Canada LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-12",
+            "time": "10:40",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Czechia vs Canada REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-13",
+            "time": "18:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Czechia vs Finland LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-08",
+            "time": "15:10",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Czechia vs Finland REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-08",
+            "time": "17:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Czechia vs Switzerland LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-06",
+            "time": "08:40",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Denmark vs Latvia LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-16",
+            "time": "13:10",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Denmark vs Latvia REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-15",
+            "time": "20:45",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Finland vs Canada LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-04",
+            "time": "15:10",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Finland vs Italy LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-14",
+            "time": "10:40",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Finland vs Sweden LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-13",
+            "time": "06:10",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Finland vs Sweden REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-13",
+            "time": "07:30",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Finland vs Switzerland LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-10",
+            "time": "15:10",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": France vs Czechia LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-13",
+            "time": "10:40",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": France vs Japan LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-06",
+            "time": "06:10",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": France vs Sweden LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-07",
+            "time": "10:40",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": France vs Sweden REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-08",
+            "time": "20:30",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Germany vs Denmark LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-13",
+            "time": "15:10",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Germany vs Denmark REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-13",
+            "time": "20:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Germany vs France LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-09",
+            "time": "10:40",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Germany vs France REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-08",
+            "time": "12:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Germany vs Japan LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-07",
+            "time": "06:10",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Germany vs Latvia LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-14",
+            "time": "06:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Italy vs France LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-06",
+            "time": "08:40",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Italy vs Germany LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-10",
+            "time": "10:40",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Italy vs Slovakia LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-13",
+            "time": "06:10",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Japan vs Italy LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-09",
+            "time": "06:10",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Japan vs Sweden LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-10",
+            "time": "06:10",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Latvia vs United States LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-13",
+            "time": "15:10",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Latvia vs United States REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-12",
+            "time": "23:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Slovakia vs Finland LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-10",
+            "time": "10:40",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Slovakia vs Finland REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-11",
+            "time": "20:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Sweden vs Germany LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-06",
+            "time": "06:10",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Sweden vs Italy LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-07",
+            "time": "08:40",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-11",
+            "time": "15:25",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 2
+      },
+      {
+        "event_name": ": Sweden vs Slovakia LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-14",
+            "time": "06:10",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Sweden vs Slovakia REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-14",
+            "time": "20:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Switzerland vs Canada LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-07",
+            "time": "15:10",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Switzerland vs Czechia LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-14",
+            "time": "06:10",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Switzerland vs France LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-11",
+            "time": "06:10",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Switzerland vs United States LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-09",
+            "time": "14:40",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": Switzerland vs United States REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-09",
+            "time": "23:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": United States vs Czechia LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-06",
+            "time": "10:40",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": United States vs Czechia REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-04",
+            "time": "17:30",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": United States vs Denmark LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-14",
+            "time": "15:10",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": United States vs Denmark REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-14",
+            "time": "23:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": United States vs Finland LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-06",
+            "time": "10:40",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": United States vs Finland REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-07",
+            "time": "18:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": United States vs Germany LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-16",
+            "time": "15:10",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": United States vs Germany REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-15",
+            "time": "23:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": ": __________ vs __________ LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-13",
+            "time": "15:10",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-14",
+            "time": "10:40",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-16",
+            "time": "15:10",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-17",
+            "time": "10:40",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-18",
+            "time": "10:40",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-19",
+            "time": "08:40",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-20",
+            "time": "15:10",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 7
+      },
+      {
+        "event_name": ": __________ vs __________ LIVE\ud83c\udfc5",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-19",
+            "time": "13:10",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-21",
+            "time": "14:40",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-22",
+            "time": "08:10",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 3
+      },
+      {
+        "event_name": ": __________ vs __________ REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-13",
+            "time": "20:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-16",
+            "time": "16:15",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-17",
+            "time": "00:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-18",
+            "time": "18:15",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-20",
+            "time": "18:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 5
+      },
+      {
+        "event_name": ": __________ vs __________ REPLAY\ud83c\udfc5",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-19",
+            "time": "12:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-21",
+            "time": "19:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 2
+      },
+      {
+        "event_name": "PREVIEW LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-13",
+            "time": "14:50",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-14",
+            "time": "14:45",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 2
+      }
+    ]
+  },
+  "Luge": {
+    "medal_events": 4,
+    "events": [
+      {
+        "event_name": "LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-06",
+            "time": "11:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-08",
+            "time": "11:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-09",
+            "time": "13:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-10",
+            "time": "11:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-11",
+            "time": "11:50",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 5
+      },
+      {
+        "event_name": "LIVE\ud83c\udfc5",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-08",
+            "time": "12:45",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-10",
+            "time": "11:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-12",
+            "time": "12:45",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 3
+      },
+      {
+        "event_name": "REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-09",
+            "time": "20:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-11",
+            "time": "17:45",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 2
+      },
+      {
+        "event_name": "REPLAY\ud83c\udfc5",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-08",
+            "time": "22:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-10",
+            "time": "17:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-11",
+            "time": "18:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-13",
+            "time": "09:30",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 4
+      }
+    ]
+  },
+  "Nordic Combined": {
+    "medal_events": 4,
+    "events": [
+      {
+        "event_name": "LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-11",
+            "time": "03:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-17",
+            "time": "03:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-18",
+            "time": "04:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 3
+      },
+      {
+        "event_name": "LIVE\ud83c\udfc5",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-10",
+            "time": "07:45",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-17",
+            "time": "07:45",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-18",
+            "time": "08:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 3
+      },
+      {
+        "event_name": "REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-11",
+            "time": "11:20",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-12",
+            "time": "00:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-17",
+            "time": "09:50",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-18",
+            "time": "00:30",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 4
+      },
+      {
+        "event_name": "REPLAY\ud83c\udfc5",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-10",
+            "time": "10:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-11",
+            "time": "12:25",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-19",
+            "time": "17:30",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 3
+      }
+    ]
+  },
+  "Short-Track Speed Skating": {
+    "medal_events": 1,
+    "events": [
+      {
+        "event_name": "Short-Track Speed Skating Event",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-10",
+            "time": "04:30",
+            "round": "Short Program"
+          },
+          {
+            "date": "2026-02-11",
+            "time": "01:00",
+            "round": "Short Program"
+          },
+          {
+            "date": "2026-02-13",
+            "time": "14:15",
+            "round": "Short Program"
+          },
+          {
+            "date": "2026-02-14",
+            "time": "14:15",
+            "round": "Short Program"
+          },
+          {
+            "date": "2026-02-16",
+            "time": "05:00",
+            "round": "Short Program"
+          },
+          {
+            "date": "2026-02-18",
+            "time": "14:15",
+            "round": "Short Program"
+          },
+          {
+            "date": "2026-02-20",
+            "time": "14:15",
+            "round": "Short Program"
+          }
+        ],
+        "total_preliminary_days": 7
+      }
+    ]
+  },
+  "Skeleton": {
+    "medal_events": 4,
+    "events": [
+      {
+        "event_name": "LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-11",
+            "time": "03:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-13",
+            "time": "10:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-14",
+            "time": "12:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 3
+      },
+      {
+        "event_name": "LIVE\ud83c\udfc5",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-13",
+            "time": "13:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-14",
+            "time": "12:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-15",
+            "time": "12:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-16",
+            "time": "13:15",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 4
+      },
+      {
+        "event_name": "REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-13",
+            "time": "13:30",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": "REPLAY\ud83c\udfc5",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-13",
+            "time": "17:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-14",
+            "time": "17:30",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 2
+      }
+    ]
+  },
+  "Ski Jumping": {
+    "medal_events": 2,
+    "events": [
+      {
+        "event_name": "LIVE\ud83c\udfc5",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-06",
+            "time": "12:45",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-09",
+            "time": "13:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-10",
+            "time": "12:45",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-14",
+            "time": "12:45",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-15",
+            "time": "12:45",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-16",
+            "time": "13:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 6
+      },
+      {
+        "event_name": "REPLAY\ud83c\udfc5",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-09",
+            "time": "17:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-10",
+            "time": "18:15",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-14",
+            "time": "19:15",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-15",
+            "time": "08:45",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-16",
+            "time": "01:15",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 5
+      }
+    ]
+  },
+  "Ski Mountaineering": {
+    "medal_events": 3,
+    "events": [
+      {
+        "event_name": "LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-18",
+            "time": "03:50",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": "LIVE\ud83c\udfc5",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-18",
+            "time": "06:55",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-21",
+            "time": "07:30",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 2
+      },
+      {
+        "event_name": "REPLAY\ud83c\udfc5",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-21",
+            "time": "20:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      }
+    ]
+  },
+  "Snowboarding": {
+    "medal_events": 4,
+    "events": [
+      {
+        "event_name": "LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-08",
+            "time": "03:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-10",
+            "time": "06:45",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-11",
+            "time": "04:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-13",
+            "time": "04:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-16",
+            "time": "04:30",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 5
+      },
+      {
+        "event_name": "LIVE\ud83c\udfc5",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-07",
+            "time": "13:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-08",
+            "time": "07:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-09",
+            "time": "13:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-11",
+            "time": "07:45",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-12",
+            "time": "08:35",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-13",
+            "time": "13:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-14",
+            "time": "07:45",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-17",
+            "time": "07:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 8
+      },
+      {
+        "event_name": "REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-06",
+            "time": "12:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-08",
+            "time": "18:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-11",
+            "time": "14:15",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-12",
+            "time": "00:45",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-16",
+            "time": "10:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 5
+      },
+      {
+        "event_name": "REPLAY\ud83c\udfc5",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-07",
+            "time": "15:15",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-13",
+            "time": "02:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-14",
+            "time": "13:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-15",
+            "time": "08:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-17",
+            "time": "12:45",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-19",
+            "time": "02:45",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 6
+      }
+    ]
+  },
+  "Speed Skating": {
+    "medal_events": 4,
+    "events": [
+      {
+        "event_name": "LIVE",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-14",
+            "time": "10:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-15",
+            "time": "10:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 2
+      },
+      {
+        "event_name": "LIVE\ud83c\udfc5",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-06",
+            "time": "10:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-07",
+            "time": "10:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-08",
+            "time": "11:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-11",
+            "time": "12:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-12",
+            "time": "10:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-13",
+            "time": "10:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-14",
+            "time": "11:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-15",
+            "time": "11:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-19",
+            "time": "10:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-20",
+            "time": "10:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-21",
+            "time": "09:00",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 11
+      },
+      {
+        "event_name": "REPLAY",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-14",
+            "time": "21:30",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 1
+      },
+      {
+        "event_name": "REPLAY\ud83c\udfc5",
+        "preliminary_rounds": [
+          {
+            "date": "2026-02-07",
+            "time": "17:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-08",
+            "time": "17:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-09",
+            "time": "18:45",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-11",
+            "time": "13:15",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-13",
+            "time": "13:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-14",
+            "time": "15:45",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-15",
+            "time": "02:00",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-17",
+            "time": "10:20",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-19",
+            "time": "12:30",
+            "round": "Unknown"
+          },
+          {
+            "date": "2026-02-20",
+            "time": "07:30",
+            "round": "Unknown"
+          }
+        ],
+        "total_preliminary_days": 10
+      }
+    ]
+  }
+}

@@ -1,0 +1,262 @@
+{
+  "note": "Official IOC schedule data manually extracted and parsed from olympics.com schedule pages",
+  "timezone_info": {
+    "source": "Cortina, Italy (CET)",
+    "display": "EST (America/New_York)",
+    "offset": -6
+  },
+  "disciplines": [
+    {
+      "discipline": "Skeleton",
+      "code": "skn",
+      "events": [
+        {
+          "event": "Men's Skeleton",
+          "instances": [
+            {
+              "date": "2026-02-12",
+              "time_local_cet": "09:30",
+              "time_est": "03:30",
+              "round": "Heat 1",
+              "stage": "prelim",
+              "venue": "Cortina Sliding Centre",
+              "network": ["TBD"],
+              "is_replay": false
+            },
+            {
+              "date": "2026-02-12",
+              "time_local_cet": "11:08",
+              "time_est": "05:08",
+              "round": "Heat 2",
+              "stage": "prelim",
+              "venue": "Cortina Sliding Centre",
+              "network": ["TBD"],
+              "is_replay": false
+            },
+            {
+              "date": "2026-02-13",
+              "time_local_cet": "19:30",
+              "time_est": "13:30",
+              "round": "Heat 3",
+              "stage": "final",
+              "venue": "Cortina Sliding Centre",
+              "network": ["TBD"],
+              "is_replay": false
+            },
+            {
+              "date": "2026-02-13",
+              "time_local_cet": "21:05",
+              "time_est": "15:05",
+              "round": "Heat 4 / Final Classification",
+              "stage": "final",
+              "venue": "Cortina Sliding Centre",
+              "network": ["TBD"],
+              "is_replay": false
+            }
+          ]
+        },
+        {
+          "event": "Women's Skeleton",
+          "instances": [
+            {
+              "date": "2026-02-13",
+              "time_local_cet": "16:00",
+              "time_est": "10:00",
+              "round": "Heat 1",
+              "stage": "prelim",
+              "venue": "Cortina Sliding Centre",
+              "network": ["TBD"],
+              "is_replay": false
+            },
+            {
+              "date": "2026-02-13",
+              "time_local_cet": "17:48",
+              "time_est": "11:48",
+              "round": "Heat 2",
+              "stage": "prelim",
+              "venue": "Cortina Sliding Centre",
+              "network": ["TBD"],
+              "is_replay": false
+            },
+            {
+              "date": "2026-02-14",
+              "time_local_cet": "18:00",
+              "time_est": "12:00",
+              "round": "Heat 3",
+              "stage": "final",
+              "venue": "Cortina Sliding Centre",
+              "network": ["TBD"],
+              "is_replay": false
+            },
+            {
+              "date": "2026-02-14",
+              "time_local_cet": "19:44",
+              "time_est": "13:44",
+              "round": "Heat 4 / Final Classification",
+              "stage": "final",
+              "venue": "Cortina Sliding Centre",
+              "network": ["TBD"],
+              "is_replay": false
+            }
+          ]
+        },
+        {
+          "event": "Mixed Team Skeleton",
+          "instances": [
+            {
+              "date": "2026-02-15",
+              "time_local_cet": "18:00",
+              "time_est": "12:00",
+              "round": "Final",
+              "stage": "final",
+              "venue": "Cortina Sliding Centre",
+              "network": ["TBD"],
+              "is_replay": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "discipline": "Curling",
+      "code": "cur",
+      "events": [
+        {
+          "event": "Mixed Doubles",
+          "instances": [
+            {
+              "date": "2026-02-04",
+              "time_local_cet": "19:05",
+              "time_est": "13:05",
+              "round": "Round Robin Session 1",
+              "stage": "prelim",
+              "venue": "Cortina Curling Olympic Stadium",
+              "network": ["Peacock"],
+              "is_replay": false
+            },
+            {
+              "date": "2026-02-09",
+              "time_local_cet": "18:05",
+              "time_est": "12:05",
+              "round": "Semi-final",
+              "stage": "playoff",
+              "venue": "Cortina Curling Olympic Stadium",
+              "network": ["TBD"],
+              "is_replay": false
+            },
+            {
+              "date": "2026-02-10",
+              "time_local_cet": "14:05",
+              "time_est": "08:05",
+              "round": "Bronze Medal Game",
+              "stage": "final",
+              "venue": "Cortina Curling Olympic Stadium",
+              "network": ["TBD"],
+              "is_replay": false
+            },
+            {
+              "date": "2026-02-10",
+              "time_local_cet": "18:05",
+              "time_est": "12:05",
+              "round": "Gold Medal Game",
+              "stage": "final",
+              "venue": "Cortina Curling Olympic Stadium",
+              "network": ["TBD"],
+              "is_replay": false
+            }
+          ]
+        },
+        {
+          "event": "Men's Team",
+          "instances": [
+            {
+              "date": "2026-02-11",
+              "time_local_cet": "19:05",
+              "time_est": "13:05",
+              "round": "Round Robin Session 1",
+              "stage": "prelim",
+              "venue": "Cortina Curling Olympic Stadium",
+              "network": ["TBD"],
+              "is_replay": false
+            },
+            {
+              "date": "2026-02-19",
+              "time_local_cet": "19:05",
+              "time_est": "13:05",
+              "round": "Semi-final",
+              "stage": "playoff",
+              "venue": "Cortina Curling Olympic Stadium",
+              "network": ["TBD"],
+              "is_replay": false
+            },
+            {
+              "date": "2026-02-20",
+              "time_local_cet": "19:05",
+              "time_est": "13:05",
+              "round": "Bronze Medal Game",
+              "stage": "final",
+              "venue": "Cortina Curling Olympic Stadium",
+              "network": ["TBD"],
+              "is_replay": false
+            },
+            {
+              "date": "2026-02-21",
+              "time_local_cet": "19:05",
+              "time_est": "13:05",
+              "round": "Gold Medal Game",
+              "stage": "final",
+              "venue": "Cortina Curling Olympic Stadium",
+              "network": ["TBD"],
+              "is_replay": false
+            }
+          ]
+        },
+        {
+          "event": "Women's Team",
+          "instances": [
+            {
+              "date": "2026-02-12",
+              "time_local_cet": "09:05",
+              "time_est": "03:05",
+              "round": "Round Robin Session 1",
+              "stage": "prelim",
+              "venue": "Cortina Curling Olympic Stadium",
+              "network": ["TBD"],
+              "is_replay": false
+            },
+            {
+              "date": "2026-02-20",
+              "time_local_cet": "14:05",
+              "time_est": "08:05",
+              "round": "Semi-final",
+              "stage": "playoff",
+              "venue": "Cortina Curling Olympic Stadium",
+              "network": ["TBD"],
+              "is_replay": false
+            },
+            {
+              "date": "2026-02-21",
+              "time_local_cet": "14:05",
+              "time_est": "08:05",
+              "round": "Bronze Medal Game",
+              "stage": "final",
+              "venue": "Cortina Curling Olympic Stadium",
+              "network": ["TBD"],
+              "is_replay": false
+            },
+            {
+              "date": "2026-02-22",
+              "time_local_cet": "11:05",
+              "time_est": "05:05",
+              "round": "Gold Medal Game",
+              "stage": "final",
+              "venue": "Cortina Curling Olympic Stadium",
+              "network": ["TBD"],
+              "is_replay": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

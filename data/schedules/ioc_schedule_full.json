@@ -1,0 +1,77 @@
+[
+  {
+    "discipline": "Alpine Skiing",
+    "code": "alp",
+    "events": []
+  },
+  {
+    "discipline": "Biathlon",
+    "code": "bth",
+    "events": []
+  },
+  {
+    "discipline": "Bobsleigh",
+    "code": "bob",
+    "events": []
+  },
+  {
+    "discipline": "Cross-Country Skiing",
+    "code": "ccs",
+    "events": []
+  },
+  {
+    "discipline": "Figure Skating",
+    "code": "fsk",
+    "events": []
+  },
+  {
+    "discipline": "Freestyle Skiing",
+    "code": "frs",
+    "events": []
+  },
+  {
+    "discipline": "Ice Hockey",
+    "code": "iho",
+    "events": []
+  },
+  {
+    "discipline": "Luge",
+    "code": "lug",
+    "events": []
+  },
+  {
+    "discipline": "Nordic Combined",
+    "code": "ncb",
+    "events": []
+  },
+  {
+    "discipline": "Short Track Speed Skating",
+    "code": "stk",
+    "events": []
+  },
+  {
+    "discipline": "Skeleton",
+    "code": "skn",
+    "events": []
+  },
+  {
+    "discipline": "Ski Jumping",
+    "code": "sjp",
+    "events": []
+  },
+  {
+    "discipline": "Ski Mountaineering",
+    "code": "smt",
+    "events": []
+  },
+  {
+    "discipline": "Snowboard",
+    "code": "sbd",
+    "events": []
+  },
+  {
+    "discipline": "Speed Skating",
+    "code": "ssk",
+    "events": []
+  }
+]

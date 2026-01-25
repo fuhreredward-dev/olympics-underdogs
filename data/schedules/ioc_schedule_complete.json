@@ -1,0 +1,272 @@
+{
+  "metadata": {
+    "source": "olympics.com/schedule official pages",
+    "games": "Milano-Cortina 2026",
+    "timezone_conversion": {
+      "local": "CET (Europe/Rome)",
+      "display": "EST (America/New_York)",
+      "offset_hours": -6
+    },
+    "last_updated": "2026-01-24",
+    "note": "Times extracted from IOC official schedule pages. Local CET times converted to EST for US viewership."
+  },
+  "summary": {
+    "total_disciplines": 15,
+    "disciplines_with_data": ["Alpine", "Biathlon", "Bobsleigh", "Cross-Country Skiing", "Curling", "Figure Skating", "Freestyle Skiing", "Ice Hockey", "Luge", "Nordic Combined", "Short Track", "Skeleton", "Ski Jumping", "Ski Mountaineering", "Snowboard", "Speed Skating"]
+  },
+  "disciplines": {
+    "Alpine": {
+      "code": "alp",
+      "medal_events": [
+        {"date": "2026-02-07", "time_cet": "11:30", "time_est": "05:30", "event": "Men's Downhill"},
+        {"date": "2026-02-08", "time_cet": "11:30", "time_est": "05:30", "event": "Women's Downhill"},
+        {"date": "2026-02-09", "time_cet": "10:30", "time_est": "04:30", "event": "Men's Team Combined"},
+        {"date": "2026-02-10", "time_cet": "10:30", "time_est": "04:30", "event": "Women's Team Combined"},
+        {"date": "2026-02-11", "time_cet": "11:30", "time_est": "05:30", "event": "Men's Super-G"},
+        {"date": "2026-02-12", "time_cet": "11:30", "time_est": "05:30", "event": "Women's Super-G"},
+        {"date": "2026-02-14", "time_cet": "10:00", "time_est": "04:00", "event": "Men's Giant Slalom Run 1"},
+        {"date": "2026-02-14", "time_cet": "13:30", "time_est": "07:30", "event": "Men's Giant Slalom Run 2"},
+        {"date": "2026-02-15", "time_cet": "10:00", "time_est": "04:00", "event": "Women's Giant Slalom Run 1"},
+        {"date": "2026-02-15", "time_cet": "13:30", "time_est": "07:30", "event": "Women's Giant Slalom Run 2"},
+        {"date": "2026-02-16", "time_cet": "10:00", "time_est": "04:00", "event": "Men's Slalom Run 1"},
+        {"date": "2026-02-16", "time_cet": "13:30", "time_est": "07:30", "event": "Men's Slalom Run 2"},
+        {"date": "2026-02-18", "time_cet": "10:00", "time_est": "04:00", "event": "Women's Slalom Run 1"},
+        {"date": "2026-02-18", "time_cet": "13:30", "time_est": "07:30", "event": "Women's Slalom Run 2"}
+      ]
+    },
+    "Biathlon": {
+      "code": "bth",
+      "medal_events": [
+        {"date": "2026-02-08", "time_cet": "14:05", "time_est": "08:05", "event": "Mixed Relay 4x6km"},
+        {"date": "2026-02-10", "time_cet": "13:30", "time_est": "07:30", "event": "Men's 20km Individual"},
+        {"date": "2026-02-11", "time_cet": "14:15", "time_est": "08:15", "event": "Women's 15km Individual"},
+        {"date": "2026-02-13", "time_cet": "14:00", "time_est": "08:00", "event": "Men's 10km Sprint"},
+        {"date": "2026-02-14", "time_cet": "14:45", "time_est": "08:45", "event": "Women's 7.5km Sprint"},
+        {"date": "2026-02-15", "time_cet": "11:15", "time_est": "05:15", "event": "Men's 12.5km Pursuit"},
+        {"date": "2026-02-15", "time_cet": "14:45", "time_est": "08:45", "event": "Women's 10km Pursuit"},
+        {"date": "2026-02-17", "time_cet": "14:30", "time_est": "08:30", "event": "Men's 4x7.5km Relay"},
+        {"date": "2026-02-18", "time_cet": "14:45", "time_est": "08:45", "event": "Women's 4x6km Relay"},
+        {"date": "2026-02-20", "time_cet": "14:15", "time_est": "08:15", "event": "Men's 15km Mass Start"},
+        {"date": "2026-02-21", "time_cet": "14:15", "time_est": "08:15", "event": "Women's 12.5km Mass Start"}
+      ]
+    },
+    "Bobsleigh": {
+      "code": "bob",
+      "medal_events": [
+        {"date": "2026-02-15", "time_cet": "10:00", "time_est": "04:00", "event": "Women's Monobob Heat 1"},
+        {"date": "2026-02-15", "time_cet": "11:50", "time_est": "05:50", "event": "Women's Monobob Heat 2"},
+        {"date": "2026-02-16", "time_cet": "10:00", "time_est": "04:00", "event": "Men's 2-Man Heat 1"},
+        {"date": "2026-02-16", "time_cet": "11:57", "time_est": "05:57", "event": "Men's 2-Man Heat 2"},
+        {"date": "2026-02-16", "time_cet": "19:00", "time_est": "13:00", "event": "Women's Monobob Heat 3"},
+        {"date": "2026-02-16", "time_cet": "21:06", "time_est": "15:06", "event": "Women's Monobob Heat 4"},
+        {"date": "2026-02-17", "time_cet": "19:00", "time_est": "13:00", "event": "Men's 2-Man Heat 3"},
+        {"date": "2026-02-17", "time_cet": "21:05", "time_est": "15:05", "event": "Men's 2-Man Heat 4"},
+        {"date": "2026-02-20", "time_cet": "18:00", "time_est": "12:00", "event": "Women's 2-Woman Heat 1"},
+        {"date": "2026-02-20", "time_cet": "19:50", "time_est": "13:50", "event": "Women's 2-Woman Heat 2"},
+        {"date": "2026-02-21", "time_cet": "10:00", "time_est": "04:00", "event": "Men's 4-Man Heat 1"},
+        {"date": "2026-02-21", "time_cet": "11:57", "time_est": "05:57", "event": "Men's 4-Man Heat 2"},
+        {"date": "2026-02-21", "time_cet": "19:00", "time_est": "13:00", "event": "Women's 2-Woman Heat 3"},
+        {"date": "2026-02-21", "time_cet": "21:05", "time_est": "15:05", "event": "Women's 2-Woman Heat 4"},
+        {"date": "2026-02-22", "time_cet": "10:00", "time_est": "04:00", "event": "Men's 4-Man Heat 3"},
+        {"date": "2026-02-22", "time_cet": "12:15", "time_est": "06:15", "event": "Men's 4-Man Heat 4"}
+      ]
+    },
+    "Cross-Country Skiing": {
+      "code": "ccs",
+      "medal_events": [
+        {"date": "2026-02-07", "time_cet": "13:00", "time_est": "07:00", "event": "Women's 10km + 10km Skiathlon"},
+        {"date": "2026-02-08", "time_cet": "12:30", "time_est": "06:30", "event": "Men's 10km + 10km Skiathlon"},
+        {"date": "2026-02-10", "time_cet": "13:13", "time_est": "07:13", "event": "Women's Sprint Classic Final"},
+        {"date": "2026-02-10", "time_cet": "13:25", "time_est": "07:25", "event": "Men's Sprint Classic Final"},
+        {"date": "2026-02-12", "time_cet": "13:00", "time_est": "07:00", "event": "Women's 10km Interval Start Free"},
+        {"date": "2026-02-13", "time_cet": "11:45", "time_est": "05:45", "event": "Men's 10km Interval Start Free"},
+        {"date": "2026-02-14", "time_cet": "12:00", "time_est": "06:00", "event": "Women's 4x7.5km Relay"},
+        {"date": "2026-02-15", "time_cet": "12:00", "time_est": "06:00", "event": "Men's 4x7.5km Relay"},
+        {"date": "2026-02-18", "time_cet": "11:45", "time_est": "05:45", "event": "Women's Team Sprint Free Final"},
+        {"date": "2026-02-18", "time_cet": "12:15", "time_est": "06:15", "event": "Men's Team Sprint Free Final"},
+        {"date": "2026-02-21", "time_cet": "11:00", "time_est": "05:00", "event": "Men's 50km Mass Start Classic"},
+        {"date": "2026-02-22", "time_cet": "10:00", "time_est": "04:00", "event": "Women's 50km Mass Start Classic"}
+      ]
+    },
+    "Curling": {
+      "code": "cur",
+      "medal_events": [
+        {"date": "2026-02-04", "time_cet": "19:05", "time_est": "13:05", "event": "Mixed Doubles RR Session 1"},
+        {"date": "2026-02-09", "time_cet": "18:05", "time_est": "12:05", "event": "Mixed Doubles Semi-final"},
+        {"date": "2026-02-10", "time_cet": "14:05", "time_est": "08:05", "event": "Mixed Doubles Bronze Medal"},
+        {"date": "2026-02-10", "time_cet": "18:05", "time_est": "12:05", "event": "Mixed Doubles Gold Medal"},
+        {"date": "2026-02-11", "time_cet": "19:05", "time_est": "13:05", "event": "Men's Team RR Session 1"},
+        {"date": "2026-02-19", "time_cet": "19:05", "time_est": "13:05", "event": "Men's Team Semi-final"},
+        {"date": "2026-02-20", "time_cet": "19:05", "time_est": "13:05", "event": "Men's Team Bronze Medal"},
+        {"date": "2026-02-21", "time_cet": "19:05", "time_est": "13:05", "event": "Men's Team Gold Medal"},
+        {"date": "2026-02-12", "time_cet": "09:05", "time_est": "03:05", "event": "Women's Team RR Session 1"},
+        {"date": "2026-02-20", "time_cet": "14:05", "time_est": "08:05", "event": "Women's Team Semi-final"},
+        {"date": "2026-02-21", "time_cet": "14:05", "time_est": "08:05", "event": "Women's Team Bronze Medal"},
+        {"date": "2026-02-22", "time_cet": "11:05", "time_est": "05:05", "event": "Women's Team Gold Medal"}
+      ]
+    },
+    "Figure Skating": {
+      "code": "fsk",
+      "medal_events": [
+        {"date": "2026-02-06", "time_cet": "09:55", "time_est": "03:55", "event": "Team Event - Ice Dance - RD"},
+        {"date": "2026-02-06", "time_cet": "11:35", "time_est": "05:35", "event": "Team Event - Pairs - SP"},
+        {"date": "2026-02-06", "time_cet": "13:35", "time_est": "07:35", "event": "Team Event - Women Single - SP"},
+        {"date": "2026-02-07", "time_cet": "19:45", "time_est": "13:45", "event": "Team Event - Men Single - SP"},
+        {"date": "2026-02-07", "time_cet": "22:05", "time_est": "16:05", "event": "Team Event - Ice Dance - FD"},
+        {"date": "2026-02-08", "time_cet": "19:30", "time_est": "13:30", "event": "Team Event - Pairs - FS"},
+        {"date": "2026-02-08", "time_cet": "20:45", "time_est": "14:45", "event": "Team Event - Women Single - FS"},
+        {"date": "2026-02-08", "time_cet": "21:55", "time_est": "15:55", "event": "Team Event - Men Single - FS"},
+        {"date": "2026-02-09", "time_cet": "19:20", "time_est": "13:20", "event": "Ice Dance - Rhythm Dance"},
+        {"date": "2026-02-10", "time_cet": "18:30", "time_est": "12:30", "event": "Men's Single - Short Program"},
+        {"date": "2026-02-11", "time_cet": "19:30", "time_est": "13:30", "event": "Ice Dance - Free Dance"},
+        {"date": "2026-02-13", "time_cet": "19:00", "time_est": "13:00", "event": "Men's Single - Free Skating"},
+        {"date": "2026-02-15", "time_cet": "19:45", "time_est": "13:45", "event": "Pairs - Short Program"},
+        {"date": "2026-02-16", "time_cet": "20:00", "time_est": "14:00", "event": "Pairs - Free Skating"},
+        {"date": "2026-02-17", "time_cet": "18:45", "time_est": "12:45", "event": "Women's Single - Short Program"},
+        {"date": "2026-02-19", "time_cet": "19:00", "time_est": "13:00", "event": "Women's Single - Free Skating"}
+      ]
+    },
+    "Freestyle Skiing": {
+      "code": "frs",
+      "medal_events": [
+        {"date": "2026-02-09", "time_cet": "12:30", "time_est": "06:30", "event": "Women's Freeski Slopestyle Final Run 1"},
+        {"date": "2026-02-09", "time_cet": "12:59", "time_est": "06:59", "event": "Women's Freeski Slopestyle Final Run 2"},
+        {"date": "2026-02-09", "time_cet": "13:28", "time_est": "07:28", "event": "Women's Freeski Slopestyle Final Run 3"},
+        {"date": "2026-02-10", "time_cet": "12:30", "time_est": "06:30", "event": "Men's Freeski Slopestyle Final Run 1"},
+        {"date": "2026-02-10", "time_cet": "12:59", "time_est": "06:59", "event": "Men's Freeski Slopestyle Final Run 2"},
+        {"date": "2026-02-10", "time_cet": "13:28", "time_est": "07:28", "event": "Men's Freeski Slopestyle Final Run 3"},
+        {"date": "2026-02-11", "time_cet": "14:15", "time_est": "08:15", "event": "Women's Moguls Final 1"},
+        {"date": "2026-02-11", "time_cet": "14:55", "time_est": "08:55", "event": "Women's Moguls Final 2"},
+        {"date": "2026-02-12", "time_cet": "12:15", "time_est": "06:15", "event": "Men's Moguls Final 1"},
+        {"date": "2026-02-12", "time_cet": "12:55", "time_est": "06:55", "event": "Men's Moguls Final 2"},
+        {"date": "2026-02-14", "time_cet": "11:46", "time_est": "05:46", "event": "Women's Dual Moguls Big Final"},
+        {"date": "2026-02-14", "time_cet": "11:48", "time_est": "05:48", "event": "Women's Dual Moguls Small Final"},
+        {"date": "2026-02-15", "time_cet": "11:46", "time_est": "05:46", "event": "Men's Dual Moguls Small Final"},
+        {"date": "2026-02-15", "time_cet": "11:48", "time_est": "05:48", "event": "Men's Dual Moguls Big Final"},
+        {"date": "2026-02-16", "time_cet": "20:17", "time_est": "14:17", "event": "Women's Freeski BA Final Run 3"},
+        {"date": "2026-02-18", "time_cet": "12:30", "time_est": "06:30", "event": "Women's Aerials Final 2"},
+        {"date": "2026-02-19", "time_cet": "12:30", "time_est": "06:30", "event": "Men's Aerials Final 2"},
+        {"date": "2026-02-20", "time_cet": "13:15", "time_est": "07:15", "event": "Women's Ski Cross Big Final"},
+        {"date": "2026-02-20", "time_cet": "20:28", "time_est": "14:28", "event": "Men's Freeski Halfpipe Final Run 3"},
+        {"date": "2026-02-21", "time_cet": "11:45", "time_est": "05:45", "event": "Mixed Team Aerials Final 2"},
+        {"date": "2026-02-21", "time_cet": "13:15", "time_est": "07:15", "event": "Men's Ski Cross Big Final"},
+        {"date": "2026-02-21", "time_cet": "20:28", "time_est": "14:28", "event": "Women's Freeski Halfpipe Final Run 3"}
+      ]
+    },
+    "Ice Hockey": {
+      "code": "iho",
+      "medal_events": [
+        {"date": "2026-02-19", "time_cet": "14:40", "time_est": "08:40", "event": "Women's Bronze Medal Game"},
+        {"date": "2026-02-19", "time_cet": "19:10", "time_est": "13:10", "event": "Women's Gold Medal Game"},
+        {"date": "2026-02-21", "time_cet": "20:40", "time_est": "14:40", "event": "Men's Bronze Medal Game"},
+        {"date": "2026-02-22", "time_cet": "14:10", "time_est": "08:10", "event": "Men's Gold Medal Game"}
+      ]
+    },
+    "Luge": {
+      "code": "lug",
+      "medal_events": [
+        {"date": "2026-02-07", "time_cet": "17:00", "time_est": "11:00", "event": "Men's Singles Run 1"},
+        {"date": "2026-02-07", "time_cet": "18:32", "time_est": "12:32", "event": "Men's Singles Run 2"},
+        {"date": "2026-02-08", "time_cet": "17:00", "time_est": "11:00", "event": "Men's Singles Run 3"},
+        {"date": "2026-02-08", "time_cet": "18:34", "time_est": "12:34", "event": "Men's Singles Run 4"},
+        {"date": "2026-02-09", "time_cet": "17:00", "time_est": "11:00", "event": "Women's Singles Run 1"},
+        {"date": "2026-02-09", "time_cet": "18:35", "time_est": "12:35", "event": "Women's Singles Run 2"},
+        {"date": "2026-02-10", "time_cet": "17:00", "time_est": "11:00", "event": "Women's Singles Run 3"},
+        {"date": "2026-02-10", "time_cet": "18:34", "time_est": "12:34", "event": "Women's Singles Run 4"},
+        {"date": "2026-02-11", "time_cet": "17:00", "time_est": "11:00", "event": "Women's Doubles Run 1"},
+        {"date": "2026-02-11", "time_cet": "17:51", "time_est": "11:51", "event": "Men's Doubles Run 1"},
+        {"date": "2026-02-11", "time_cet": "18:53", "time_est": "12:53", "event": "Women's Doubles Run 2"},
+        {"date": "2026-02-11", "time_cet": "19:44", "time_est": "13:44", "event": "Men's Doubles Run 2"},
+        {"date": "2026-02-12", "time_cet": "18:30", "time_est": "12:30", "event": "Team Relay"}
+      ]
+    },
+    "Nordic Combined": {
+      "code": "ncb",
+      "medal_events": [
+        {"date": "2026-02-11", "time_cet": "13:45", "time_est": "07:45", "event": "Individual Gundersen NH/10km Cross-Country"},
+        {"date": "2026-02-17", "time_cet": "13:45", "time_est": "07:45", "event": "Individual Gundersen LH/10km Cross-Country"},
+        {"date": "2026-02-19", "time_cet": "14:00", "time_est": "08:00", "event": "Team Sprint Cross-Country"}
+      ]
+    },
+    "Short Track Speed Skating": {
+      "code": "stk",
+      "medal_events": [
+        {"date": "2026-02-10", "time_cet": "12:56", "time_est": "06:56", "event": "Mixed Team Relay Final A"},
+        {"date": "2026-02-12", "time_cet": "21:31", "time_est": "15:31", "event": "Women's 500m Final A"},
+        {"date": "2026-02-12", "time_cet": "21:43", "time_est": "15:43", "event": "Men's 1000m Final A"},
+        {"date": "2026-02-14", "time_cet": "22:34", "time_est": "16:34", "event": "Men's 1500m Final A"},
+        {"date": "2026-02-16", "time_cet": "12:42", "time_est": "06:42", "event": "Women's 1000m Final A"},
+        {"date": "2026-02-18", "time_cet": "20:59", "time_est": "14:59", "event": "Women's 3000m Relay Final A"},
+        {"date": "2026-02-18", "time_cet": "21:29", "time_est": "15:29", "event": "Men's 500m Final A"},
+        {"date": "2026-02-20", "time_cet": "21:29", "time_est": "15:29", "event": "Men's 5000m Relay Final A"},
+        {"date": "2026-02-20", "time_cet": "22:03", "time_est": "16:03", "event": "Women's 1500m Final A"}
+      ]
+    },
+    "Skeleton": {
+      "code": "skn",
+      "medal_events": [
+        {"date": "2026-02-13", "time_cet": "19:30", "time_est": "13:30", "event": "Men's Heat 3"},
+        {"date": "2026-02-13", "time_cet": "21:05", "time_est": "15:05", "event": "Men's Heat 4 / Final Classification"},
+        {"date": "2026-02-13", "time_cet": "16:00", "time_est": "10:00", "event": "Women's Heat 1"},
+        {"date": "2026-02-13", "time_cet": "17:48", "time_est": "11:48", "event": "Women's Heat 2"},
+        {"date": "2026-02-14", "time_cet": "18:00", "time_est": "12:00", "event": "Women's Heat 3"},
+        {"date": "2026-02-14", "time_cet": "19:44", "time_est": "13:44", "event": "Women's Heat 4 / Final Classification"},
+        {"date": "2026-02-15", "time_cet": "18:00", "time_est": "12:00", "event": "Mixed Team Final"}
+      ]
+    },
+    "Ski Jumping": {
+      "code": "sjp",
+      "medal_events": [
+        {"date": "2026-02-07", "time_cet": "19:57", "time_est": "13:57", "event": "Women's NH Individual Final Round"},
+        {"date": "2026-02-09", "time_cet": "20:12", "time_est": "14:12", "event": "Men's NH Individual Final Round"},
+        {"date": "2026-02-10", "time_cet": "20:00", "time_est": "14:00", "event": "Mixed Team Final Round"},
+        {"date": "2026-02-14", "time_cet": "19:57", "time_est": "13:57", "event": "Men's LH Individual Final Round"},
+        {"date": "2026-02-15", "time_cet": "19:57", "time_est": "13:57", "event": "Women's LH Individual Final Round"},
+        {"date": "2026-02-16", "time_cet": "20:20", "time_est": "14:20", "event": "Men's Super Team Final Round"}
+      ]
+    },
+    "Ski Mountaineering": {
+      "code": "smt",
+      "medal_events": [
+        {"date": "2026-02-19", "time_cet": "13:55", "time_est": "07:55", "event": "Women's Sprint Final"},
+        {"date": "2026-02-19", "time_cet": "14:15", "time_est": "08:15", "event": "Men's Sprint Final"},
+        {"date": "2026-02-21", "time_cet": "13:30", "time_est": "07:30", "event": "Mixed Relay"}
+      ]
+    },
+    "Snowboard": {
+      "code": "sbd",
+      "medal_events": [
+        {"date": "2026-02-07", "time_cet": "20:17", "time_est": "14:17", "event": "Men's Big Air Final Run 3"},
+        {"date": "2026-02-08", "time_cet": "14:29", "time_est": "08:29", "event": "Women's PGS Big Final"},
+        {"date": "2026-02-08", "time_cet": "14:39", "time_est": "08:39", "event": "Men's PGS Big Final"},
+        {"date": "2026-02-09", "time_cet": "20:17", "time_est": "14:17", "event": "Women's Big Air Final Run 3"},
+        {"date": "2026-02-12", "time_cet": "20:28", "time_est": "14:28", "event": "Women's Halfpipe Final Run 3"},
+        {"date": "2026-02-12", "time_cet": "15:01", "time_est": "09:01", "event": "Men's Snowboard Cross Big Final"},
+        {"date": "2026-02-13", "time_cet": "20:28", "time_est": "14:28", "event": "Men's Halfpipe Final Run 3"},
+        {"date": "2026-02-13", "time_cet": "14:46", "time_est": "08:46", "event": "Women's Snowboard Cross Big Final"},
+        {"date": "2026-02-15", "time_cet": "14:40", "time_est": "08:40", "event": "Mixed Team Snowboard Cross Big Final"},
+        {"date": "2026-02-17", "time_cet": "13:54", "time_est": "07:54", "event": "Women's Slopestyle Final Run 3"},
+        {"date": "2026-02-18", "time_cet": "13:28", "time_est": "07:28", "event": "Men's Slopestyle Final Run 3"}
+      ]
+    },
+    "Speed Skating": {
+      "code": "ssk",
+      "medal_events": [
+        {"date": "2026-02-07", "time_cet": "16:00", "time_est": "10:00", "event": "Women's 3000m"},
+        {"date": "2026-02-08", "time_cet": "16:00", "time_est": "10:00", "event": "Men's 5000m"},
+        {"date": "2026-02-09", "time_cet": "17:30", "time_est": "11:30", "event": "Women's 1000m"},
+        {"date": "2026-02-11", "time_cet": "18:30", "time_est": "12:30", "event": "Men's 1000m"},
+        {"date": "2026-02-12", "time_cet": "16:30", "time_est": "10:30", "event": "Women's 5000m"},
+        {"date": "2026-02-13", "time_cet": "16:00", "time_est": "10:00", "event": "Men's 10000m"},
+        {"date": "2026-02-14", "time_cet": "17:00", "time_est": "11:00", "event": "Men's 500m"},
+        {"date": "2026-02-15", "time_cet": "17:03", "time_est": "11:03", "event": "Women's 500m"},
+        {"date": "2026-02-17", "time_cet": "16:28", "time_est": "10:28", "event": "Men's Team Pursuit Final A"},
+        {"date": "2026-02-17", "time_cet": "16:47", "time_est": "10:47", "event": "Women's Team Pursuit Final A"},
+        {"date": "2026-02-19", "time_cet": "16:30", "time_est": "10:30", "event": "Men's 1500m"},
+        {"date": "2026-02-20", "time_cet": "16:30", "time_est": "10:30", "event": "Women's 1500m"},
+        {"date": "2026-02-21", "time_cet": "16:40", "time_est": "10:40", "event": "Men's Mass Start Final"},
+        {"date": "2026-02-21", "time_cet": "17:15", "time_est": "11:15", "event": "Women's Mass Start Final"}
+      ]
+    }
+  }
+}

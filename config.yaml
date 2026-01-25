@@ -1,0 +1,33 @@
+# Olympic Underdogs Watchlist Configuration
+
+# Olympics Details
+olympics:
+  name: "Winter Olympics 2026"
+  start_date: "2026-02-06"
+  end_date: "2026-02-22"
+  host_city: "Milano-Cortina"
+
+# Underdog Criteria
+criteria:
+  never_medaled: true           # Include nations that never won any Olympic medal
+  never_won_gold: true          # Include nations that never won Olympic gold
+  population_threshold: 1000000 # Population under 1 million
+
+# Data Paths
+data_paths:
+  schedule: "data/schedule/schedule.json"
+  medals: "data/medals/historical_medals.json"
+  population: "data/population/population.json"
+  processed: "data/processed/"
+
+# Output Settings
+output:
+  directory: "outputs/daily_watchlists"
+  format: "markdown"  # Options: markdown, json, html
+  include_sidebar: true  # Include medals per capita leaderboard
+
+# Display Settings
+display:
+  show_session_times: true
+  group_by_sport: true
+  max_nations_sidebar: 20  # Top N nations in medals per capita

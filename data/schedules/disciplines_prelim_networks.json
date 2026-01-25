@@ -1,0 +1,335 @@
+[
+  {
+    "discipline": "Skeleton",
+    "events": [
+      {
+        "event": "Men's Skeleton",
+        "instances": [
+          {"date": "2026-02-12", "time_est": "03:30", "round": "Heat 1", "stage": "prelim", "network": ["TBD"], "is_replay": false},
+          {"date": "2026-02-12", "time_est": "05:08", "round": "Heat 2", "stage": "prelim", "network": ["TBD"], "is_replay": false},
+          {"date": "2026-02-13", "time_est": "13:30", "round": "Heat 3", "stage": "final", "network": ["TBD"], "is_replay": false},
+          {"date": "2026-02-13", "time_est": "15:05", "round": "Heat 4 / Final Classification", "stage": "final", "network": ["TBD"], "is_replay": false}
+        ]
+      },
+      {
+        "event": "Women's Skeleton",
+        "instances": [
+          {"date": "2026-02-13", "time_est": "10:00", "round": "Heat 1", "stage": "prelim", "network": ["TBD"], "is_replay": false},
+          {"date": "2026-02-13", "time_est": "11:48", "round": "Heat 2", "stage": "prelim", "network": ["TBD"], "is_replay": false},
+          {"date": "2026-02-14", "time_est": "12:00", "round": "Heat 3", "stage": "final", "network": ["TBD"], "is_replay": false},
+          {"date": "2026-02-14", "time_est": "13:44", "round": "Heat 4 / Final Classification", "stage": "final", "network": ["TBD"], "is_replay": false}
+        ]
+      },
+      {
+        "event": "Mixed Team Skeleton",
+        "instances": [
+          {"date": "2026-02-15", "time_est": "12:00", "round": "Final", "stage": "final", "network": ["TBD"], "is_replay": false}
+        ]
+      }
+    ],
+    "participants": [
+      {"nation": "Brazil", "ioc": "BRA", "gender": "W", "events": ["Women's Skeleton"], "dates": ["2026-02-13", "2026-02-14"], "probable": true, "criteria": ["Never won any Olympic medal"]},
+      {"nation": "Denmark", "ioc": "DEN", "gender": "M", "events": ["Men's Skeleton"], "dates": ["2026-02-12", "2026-02-13"], "probable": true, "criteria": ["Never won any Olympic medal"]},
+      {"nation": "Denmark", "ioc": "DEN", "gender": "W", "events": ["Women's Skeleton"], "dates": ["2026-02-13", "2026-02-14"], "probable": true, "criteria": ["Never won any Olympic medal"]},
+      {"nation": "Denmark", "ioc": "DEN", "gender": "Mixed", "events": ["Mixed Team Skeleton"], "dates": ["2026-02-15"], "probable": true, "criteria": ["Never won any Olympic medal"], "mixed_team": true},
+      {"nation": "Estonia", "ioc": "EST", "gender": "W", "events": ["Women's Skeleton"], "dates": ["2026-02-13", "2026-02-14"], "probable": true, "criteria": ["Never won any Olympic medal"]},
+      {"nation": "Israel", "ioc": "ISR", "gender": "M", "events": ["Men's Skeleton"], "dates": ["2026-02-12", "2026-02-13"], "probable": true, "criteria": ["Never won any Olympic medal"]},
+      {"nation": "Puerto Rico", "ioc": "PUR", "gender": "W", "events": ["Women's Skeleton"], "dates": ["2026-02-13", "2026-02-14"], "probable": true, "criteria": ["Never won any Olympic medal"]},
+      {"nation": "South Africa", "ioc": "RSA", "gender": "W", "events": ["Women's Skeleton"], "dates": ["2026-02-13", "2026-02-14"], "probable": true, "criteria": ["Never won any Olympic medal"]}
+    ]
+  },
+  {
+    "discipline": "Curling",
+    "events": [
+      {
+        "event": "Mixed Doubles",
+        "instances": [
+          {"date": "2026-02-04", "time_est": "01:05", "round": "First Session Group Play", "stage": "prelim", "network": ["Peacock"], "is_replay": false},
+          {"date": "2026-02-04", "time_est": "TBD", "round": "Group Play (Feb 4-17)", "stage": "prelim", "network": ["Peacock", "USA Network"], "is_replay": false},
+          {"date": "2026-02-18", "time_est": "TBD", "round": "Playoffs", "stage": "playoff", "network": ["TBD"], "is_replay": false},
+          {"date": "2026-02-20", "time_est": "TBD", "round": "Medal Games", "stage": "final", "network": ["TBD"], "is_replay": false}
+        ]
+      },
+      {
+        "event": "Men's & Women's Team",
+        "instances": [
+          {"date": "2026-02-09", "time_est": "TBD", "round": "Group Play (Feb 9-20)", "stage": "prelim", "network": ["Peacock", "USA Network", "NBC"], "is_replay": false},
+          {"date": "2026-02-20", "time_est": "TBD", "round": "Playoffs", "stage": "playoff", "network": ["TBD"], "is_replay": false},
+          {"date": "2026-02-22", "time_est": "TBD", "round": "Medal Games", "stage": "final", "network": ["TBD"], "is_replay": false}
+        ]
+      }
+    ]
+  },
+  {
+    "discipline": "Nordic Combined",
+    "events": [
+      {
+        "event": "Individual (Normal Hill)",
+        "instances": [
+          {"date": "2026-02-11", "time_est": "04:00", "round": "Ski Jumping Qualification", "stage": "prelim", "network": ["TBD"], "is_replay": false},
+          {"date": "2026-02-11", "time_est": "06:00", "round": "Cross-Country 10km", "stage": "final", "network": ["TBD"], "is_replay": false}
+        ]
+      },
+      {
+        "event": "Individual (Large Hill)",
+        "instances": [
+          {"date": "2026-02-15", "time_est": "04:00", "round": "Ski Jumping Qualification", "stage": "prelim", "network": ["TBD"], "is_replay": false},
+          {"date": "2026-02-15", "time_est": "06:00", "round": "Cross-Country 10km", "stage": "final", "network": ["TBD"], "is_replay": false}
+        ]
+      },
+      {
+        "event": "Team",
+        "instances": [
+          {"date": "2026-02-18", "time_est": "04:00", "round": "Ski Jumping Qualification", "stage": "prelim", "network": ["TBD"], "is_replay": false},
+          {"date": "2026-02-18", "time_est": "06:00", "round": "Cross-Country Relay", "stage": "final", "network": ["TBD"], "is_replay": false}
+        ]
+      }
+    ]
+  },
+  {
+    "discipline": "Figure Skating",
+    "events": [
+      {
+        "event": "Men's Singles",
+        "instances": [
+          {"date": "2026-02-10", "time_est": "05:30", "round": "Short Program", "stage": "prelim", "network": ["TBD"], "is_replay": false},
+          {"date": "2026-02-12", "time_est": "TBD", "round": "Free Skate / Final", "stage": "final", "network": ["TBD"], "is_replay": false}
+        ]
+      },
+      {
+        "event": "Women's Singles",
+        "instances": [
+          {"date": "2026-02-12", "time_est": "05:30", "round": "Short Program", "stage": "prelim", "network": ["TBD"], "is_replay": false},
+          {"date": "2026-02-14", "time_est": "TBD", "round": "Free Skate / Final", "stage": "final", "network": ["TBD"], "is_replay": false}
+        ]
+      },
+      {
+        "event": "Pairs",
+        "instances": [
+          {"date": "2026-02-14", "time_est": "05:30", "round": "Short Program", "stage": "prelim", "network": ["TBD"], "is_replay": false},
+          {"date": "2026-02-16", "time_est": "TBD", "round": "Free Skate / Final", "stage": "final", "network": ["TBD"], "is_replay": false}
+        ]
+      },
+      {
+        "event": "Ice Dance",
+        "instances": [
+          {"date": "2026-02-09", "time_est": "03:55", "round": "Rhythm Dance", "stage": "prelim", "network": ["USA Network", "Peacock"], "is_replay": false},
+          {"date": "2026-02-10", "time_est": "TBD", "round": "Free Dance / Final", "stage": "final", "network": ["TBD"], "is_replay": false}
+        ]
+      },
+      {
+        "event": "Team Event",
+        "instances": [
+          {"date": "2026-02-06", "time_est": "03:55", "round": "Rhythm Dance", "stage": "prelim", "network": ["USA Network", "Peacock"], "is_replay": false},
+          {"date": "2026-02-06", "time_est": "05:35", "round": "Pairs Short Program", "stage": "prelim", "network": ["USA Network", "Peacock"], "is_replay": false},
+          {"date": "2026-02-06", "time_est": "07:35", "round": "Women's Short Program", "stage": "prelim", "network": ["USA Network", "Peacock"], "is_replay": false},
+          {"date": "2026-02-07", "time_est": "13:45", "round": "Men's Short Program", "stage": "prelim", "network": ["NBC", "Peacock"], "is_replay": false},
+          {"date": "2026-02-08", "time_est": "13:30", "round": "Pairs Free Skate", "stage": "final", "network": ["USA Network", "Peacock"], "is_replay": false},
+          {"date": "2026-02-08", "time_est": "14:45", "round": "Women's Free Skate", "stage": "final", "network": ["USA Network", "Peacock"], "is_replay": false},
+          {"date": "2026-02-08", "time_est": "15:55", "round": "Men's Free Skate", "stage": "final", "network": ["USA Network", "Peacock"], "is_replay": false}
+        ]
+      }
+    ]
+  },
+  {
+    "discipline": "Luge",
+    "events": [
+      {
+        "event": "Men's Singles",
+        "instances": [
+          {"date": "2026-02-06", "time_est": "11:00", "round": "Run 1", "stage": "prelim", "network": ["Peacock"], "is_replay": false},
+          {"date": "2026-02-06", "time_est": "12:45", "round": "Run 2", "stage": "prelim", "network": ["NBC", "Peacock"], "is_replay": false},
+          {"date": "2026-02-08", "time_est": "11:00", "round": "Runs 3 & 4 / Final", "stage": "final", "network": ["USA Network", "Peacock"], "is_replay": false}
+        ]
+      },
+      {
+        "event": "Women's Singles",
+        "instances": [
+          {"date": "2026-02-08", "time_est": "03:00", "round": "Run 1", "stage": "prelim", "network": ["USA Network", "Peacock"], "is_replay": false},
+          {"date": "2026-02-08", "time_est": "05:30", "round": "Run 2", "stage": "prelim", "network": ["USA Network", "Peacock"], "is_replay": false},
+          {"date": "2026-02-08", "time_est": "11:45", "round": "Runs 3 & 4 / Final", "stage": "final", "network": ["NBC", "Peacock"], "is_replay": false}
+        ]
+      },
+      {
+        "event": "Doubles",
+        "instances": [
+          {"date": "2026-02-11", "time_est": "04:00", "round": "Run 1", "stage": "prelim", "network": ["Peacock"], "is_replay": false},
+          {"date": "2026-02-11", "time_est": "05:30", "round": "Run 2", "stage": "prelim", "network": ["Peacock"], "is_replay": false},
+          {"date": "2026-02-11", "time_est": "TBD", "round": "Runs 3 & 4 / Final", "stage": "final", "network": ["TBD"], "is_replay": false}
+        ]
+      },
+      {
+        "event": "Team Relay",
+        "instances": [
+          {"date": "2026-02-15", "time_est": "04:00", "round": "Team Relay / Final", "stage": "final", "network": ["TBD"], "is_replay": false}
+        ]
+      }
+    ]
+  },
+  {
+    "discipline": "Ski Jumping",
+    "events": [
+      {
+        "event": "Women's Normal Hill",
+        "instances": [
+          {"date": "2026-02-06", "time_est": "12:45", "round": "Qualification", "stage": "prelim", "network": ["Peacock"], "is_replay": false},
+          {"date": "2026-02-06", "time_est": "TBD", "round": "Final", "stage": "final", "network": ["Peacock"], "is_replay": false}
+        ]
+      },
+      {
+        "event": "Men's Normal Hill",
+        "instances": [
+          {"date": "2026-02-08", "time_est": "04:00", "round": "Qualification", "stage": "prelim", "network": ["Peacock"], "is_replay": false},
+          {"date": "2026-02-08", "time_est": "TBD", "round": "Final", "stage": "final", "network": ["Peacock"], "is_replay": false}
+        ]
+      },
+      {
+        "event": "Women's Large Hill",
+        "instances": [
+          {"date": "2026-02-10", "time_est": "04:00", "round": "Qualification", "stage": "prelim", "network": ["Peacock"], "is_replay": false},
+          {"date": "2026-02-10", "time_est": "TBD", "round": "Final", "stage": "final", "network": ["TBD"], "is_replay": false}
+        ]
+      },
+      {
+        "event": "Men's Large Hill",
+        "instances": [
+          {"date": "2026-02-12", "time_est": "04:00", "round": "Qualification", "stage": "prelim", "network": ["Peacock"], "is_replay": false},
+          {"date": "2026-02-12", "time_est": "TBD", "round": "Final", "stage": "final", "network": ["TBD"], "is_replay": false}
+        ]
+      },
+      {
+        "event": "Mixed Team",
+        "instances": [
+          {"date": "2026-02-14", "time_est": "04:00", "round": "Qualification", "stage": "prelim", "network": ["Peacock"], "is_replay": false},
+          {"date": "2026-02-14", "time_est": "TBD", "round": "Final", "stage": "final", "network": ["TBD"], "is_replay": false}
+        ]
+      }
+    ]
+  },
+  {
+    "discipline": "Short-Track Speed Skating",
+    "events": [
+      {"event": "Men's 500m", "instances": [{"date": "2026-02-09", "time_est": "11:00", "round": "Heats", "stage": "prelim", "network": ["TBD"], "is_replay": false}, {"date": "2026-02-09", "time_est": "TBD", "round": "Final", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Women's 500m", "instances": [{"date": "2026-02-10", "time_est": "11:00", "round": "Heats", "stage": "prelim", "network": ["TBD"], "is_replay": false}, {"date": "2026-02-10", "time_est": "TBD", "round": "Final", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Men's 1000m", "instances": [{"date": "2026-02-11", "time_est": "11:00", "round": "Heats", "stage": "prelim", "network": ["TBD"], "is_replay": false}, {"date": "2026-02-11", "time_est": "TBD", "round": "Final", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Women's 1000m", "instances": [{"date": "2026-02-12", "time_est": "11:00", "round": "Heats", "stage": "prelim", "network": ["TBD"], "is_replay": false}, {"date": "2026-02-12", "time_est": "TBD", "round": "Final", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Men's 1500m", "instances": [{"date": "2026-02-13", "time_est": "11:00", "round": "Heats", "stage": "prelim", "network": ["TBD"], "is_replay": false}, {"date": "2026-02-13", "time_est": "TBD", "round": "Final", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Women's 1500m", "instances": [{"date": "2026-02-14", "time_est": "11:00", "round": "Heats", "stage": "prelim", "network": ["TBD"], "is_replay": false}, {"date": "2026-02-14", "time_est": "TBD", "round": "Final", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Men's 3000m Relay", "instances": [{"date": "2026-02-16", "time_est": "11:00", "round": "Heats", "stage": "prelim", "network": ["TBD"], "is_replay": false}, {"date": "2026-02-16", "time_est": "TBD", "round": "Final", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Women's 3000m Relay", "instances": [{"date": "2026-02-17", "time_est": "11:00", "round": "Heats", "stage": "prelim", "network": ["TBD"], "is_replay": false}, {"date": "2026-02-17", "time_est": "TBD", "round": "Final", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Mass Start", "instances": [{"date": "2026-02-18", "time_est": "11:00", "round": "Heats", "stage": "prelim", "network": ["TBD"], "is_replay": false}, {"date": "2026-02-18", "time_est": "TBD", "round": "Final", "stage": "final", "network": ["TBD"], "is_replay": false}]}
+    ]
+  },
+  {
+    "discipline": "Ski Mountaineering",
+    "events": [
+      {"event": "Individual", "instances": [{"date": "2026-02-12", "time_est": "TBD", "round": "First Day Race", "stage": "prelim", "network": ["TBD"], "is_replay": false}, {"date": "2026-02-12", "time_est": "TBD", "round": "Medal Race", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Team", "instances": [{"date": "2026-02-14", "time_est": "TBD", "round": "First Day Race", "stage": "prelim", "network": ["TBD"], "is_replay": false}, {"date": "2026-02-14", "time_est": "TBD", "round": "Medal Race", "stage": "final", "network": ["TBD"], "is_replay": false}]}
+    ]
+  },
+  {
+    "discipline": "Speed Skating",
+    "events": [
+      {"event": "Women's 3000m", "instances": [{"date": "2026-02-06", "time_est": "10:00", "round": "Heats/Final", "stage": "final", "network": ["NBC", "Peacock"], "is_replay": false}]},
+      {"event": "Men's 5000m", "instances": [{"date": "2026-02-07", "time_est": "10:00", "round": "Heats/Final", "stage": "final", "network": ["NBC", "Peacock"], "is_replay": false}]},
+      {"event": "Women's 500m", "instances": [{"date": "2026-02-08", "time_est": "TBD", "round": "Heats/Final", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Men's 500m", "instances": [{"date": "2026-02-09", "time_est": "TBD", "round": "Heats/Final", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Women's 1500m", "instances": [{"date": "2026-02-10", "time_est": "TBD", "round": "Heats/Final", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Men's 1500m", "instances": [{"date": "2026-02-11", "time_est": "TBD", "round": "Heats/Final", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Women's 1000m", "instances": [{"date": "2026-02-12", "time_est": "TBD", "round": "Heats/Final", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Men's 1000m", "instances": [{"date": "2026-02-13", "time_est": "TBD", "round": "Heats/Final", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Team Pursuit (Women's)", "instances": [{"date": "2026-02-15", "time_est": "TBD", "round": "Heats/Final", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Team Pursuit (Men's)", "instances": [{"date": "2026-02-16", "time_est": "TBD", "round": "Heats/Final", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Mass Start (Women's)", "instances": [{"date": "2026-02-19", "time_est": "TBD", "round": "Heats/Final", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Mass Start (Men's)", "instances": [{"date": "2026-02-20", "time_est": "TBD", "round": "Heats/Final", "stage": "final", "network": ["TBD"], "is_replay": false}]}
+    ]
+  },
+  {
+    "discipline": "Snowboarding",
+    "events": [
+      {"event": "Men's Big Air", "instances": [{"date": "2026-02-04", "time_est": "13:30", "round": "Qualification", "stage": "prelim", "network": ["USA Network", "Peacock"], "is_replay": false}, {"date": "2026-02-07", "time_est": "13:30", "round": "Final", "stage": "final", "network": ["USA Network", "Peacock"], "is_replay": false}]},
+      {"event": "Women's Big Air", "instances": [{"date": "2026-02-08", "time_est": "13:30", "round": "Qualification", "stage": "prelim", "network": ["Peacock"], "is_replay": false}, {"date": "2026-02-08", "time_est": "07:30", "round": "Final", "stage": "final", "network": ["NBC", "Peacock"], "is_replay": false}]},
+      {"event": "Men's Slopestyle", "instances": [{"date": "2026-02-09", "time_est": "TBD", "round": "Qualification", "stage": "prelim", "network": ["TBD"], "is_replay": false}, {"date": "2026-02-10", "time_est": "TBD", "round": "Final", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Women's Slopestyle", "instances": [{"date": "2026-02-07", "time_est": "04:30", "round": "Qualification", "stage": "prelim", "network": ["USA Network", "Peacock"], "is_replay": false}, {"date": "2026-02-08", "time_est": "TBD", "round": "Final", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Men's Halfpipe", "instances": [{"date": "2026-02-11", "time_est": "TBD", "round": "Qualification", "stage": "prelim", "network": ["TBD"], "is_replay": false}, {"date": "2026-02-13", "time_est": "TBD", "round": "Final", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Women's Halfpipe", "instances": [{"date": "2026-02-12", "time_est": "TBD", "round": "Qualification", "stage": "prelim", "network": ["TBD"], "is_replay": false}, {"date": "2026-02-14", "time_est": "TBD", "round": "Final", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Men's Parallel Giant Slalom", "instances": [{"date": "2026-02-08", "time_est": "03:00", "round": "Qualification", "stage": "prelim", "network": ["USA Network", "Peacock"], "is_replay": false}, {"date": "2026-02-08", "time_est": "07:30", "round": "Final", "stage": "final", "network": ["NBC", "Peacock"], "is_replay": false}]},
+      {"event": "Women's Parallel Giant Slalom", "instances": [{"date": "2026-02-08", "time_est": "03:00", "round": "Qualification", "stage": "prelim", "network": ["USA Network", "Peacock"], "is_replay": false}, {"date": "2026-02-08", "time_est": "07:30", "round": "Final", "stage": "final", "network": ["NBC", "Peacock"], "is_replay": false}]},
+      {"event": "Men's Parallel Slalom", "instances": [{"date": "2026-02-14", "time_est": "TBD", "round": "Qualification", "stage": "prelim", "network": ["TBD"], "is_replay": false}, {"date": "2026-02-14", "time_est": "TBD", "round": "Final", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Women's Parallel Slalom", "instances": [{"date": "2026-02-15", "time_est": "TBD", "round": "Qualification", "stage": "prelim", "network": ["TBD"], "is_replay": false}, {"date": "2026-02-15", "time_est": "TBD", "round": "Final", "stage": "final", "network": ["TBD"], "is_replay": false}]}
+    ]
+  },
+  {
+    "discipline": "Freestyle Skiing",
+    "events": [
+      {"event": "Women's Slopestyle", "instances": [{"date": "2026-02-07", "time_est": "04:30", "round": "Qualification", "stage": "prelim", "network": ["USA Network", "Peacock"], "is_replay": false}, {"date": "2026-02-08", "time_est": "TBD", "round": "Final", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Men's Slopestyle", "instances": [{"date": "2026-02-07", "time_est": "08:00", "round": "Qualification", "stage": "prelim", "network": ["NBC", "Peacock"], "is_replay": false}, {"date": "2026-02-08", "time_est": "TBD", "round": "Final", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Women's Big Air", "instances": [{"date": "2026-02-11", "time_est": "TBD", "round": "Qualification", "stage": "prelim", "network": ["TBD"], "is_replay": false}, {"date": "2026-02-12", "time_est": "TBD", "round": "Final", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Men's Big Air", "instances": [{"date": "2026-02-12", "time_est": "TBD", "round": "Qualification", "stage": "prelim", "network": ["TBD"], "is_replay": false}, {"date": "2026-02-13", "time_est": "TBD", "round": "Final", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Women's Halfpipe", "instances": [{"date": "2026-02-13", "time_est": "TBD", "round": "Qualification", "stage": "prelim", "network": ["TBD"], "is_replay": false}, {"date": "2026-02-14", "time_est": "TBD", "round": "Final", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Men's Halfpipe", "instances": [{"date": "2026-02-14", "time_est": "TBD", "round": "Qualification", "stage": "prelim", "network": ["TBD"], "is_replay": false}, {"date": "2026-02-15", "time_est": "TBD", "round": "Final", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Women's Moguls", "instances": [{"date": "2026-02-16", "time_est": "TBD", "round": "Qualification", "stage": "prelim", "network": ["TBD"], "is_replay": false}, {"date": "2026-02-16", "time_est": "TBD", "round": "Final", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Men's Moguls", "instances": [{"date": "2026-02-17", "time_est": "TBD", "round": "Qualification", "stage": "prelim", "network": ["TBD"], "is_replay": false}, {"date": "2026-02-17", "time_est": "TBD", "round": "Final", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Women's Ski Cross", "instances": [{"date": "2026-02-19", "time_est": "TBD", "round": "Qualification", "stage": "prelim", "network": ["TBD"], "is_replay": false}, {"date": "2026-02-19", "time_est": "TBD", "round": "Final", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Men's Ski Cross", "instances": [{"date": "2026-02-20", "time_est": "TBD", "round": "Qualification", "stage": "prelim", "network": ["TBD"], "is_replay": false}, {"date": "2026-02-20", "time_est": "TBD", "round": "Final", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Mixed Team Aerials", "instances": [{"date": "2026-02-18", "time_est": "TBD", "round": "Qualification", "stage": "prelim", "network": ["TBD"], "is_replay": false}, {"date": "2026-02-18", "time_est": "TBD", "round": "Final", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Women's Aerials", "instances": [{"date": "2026-02-18", "time_est": "TBD", "round": "Qualification", "stage": "prelim", "network": ["TBD"], "is_replay": false}, {"date": "2026-02-18", "time_est": "TBD", "round": "Final", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Men's Aerials", "instances": [{"date": "2026-02-19", "time_est": "TBD", "round": "Qualification", "stage": "prelim", "network": ["TBD"], "is_replay": false}, {"date": "2026-02-19", "time_est": "TBD", "round": "Final", "stage": "final", "network": ["TBD"], "is_replay": false}]}
+    ]
+  },
+  {
+    "discipline": "Ice Hockey",
+    "events": [
+      {"event": "Women's Tournament", "instances": [{"date": "2026-02-04", "time_est": "TBD", "round": "Group Play Begins", "stage": "prelim", "network": ["Peacock", "USA Network", "NBC"], "is_replay": false}, {"date": "2026-02-17", "time_est": "TBD", "round": "Quarterfinals/Semis", "stage": "playoff", "network": ["NBC", "USA Network", "Peacock"], "is_replay": false}, {"date": "2026-02-22", "time_est": "TBD", "round": "Final", "stage": "final", "network": ["NBC", "USA Network", "Peacock"], "is_replay": false}]},
+      {"event": "Men's Tournament", "instances": [{"date": "2026-02-09", "time_est": "TBD", "round": "Group Play Begins", "stage": "prelim", "network": ["Peacock", "USA Network", "NBC"], "is_replay": false}, {"date": "2026-02-19", "time_est": "TBD", "round": "Quarterfinals/Semis", "stage": "playoff", "network": ["NBC", "USA Network", "Peacock"], "is_replay": false}, {"date": "2026-02-22", "time_est": "TBD", "round": "Final", "stage": "final", "network": ["NBC", "USA Network", "Peacock"], "is_replay": false}]}
+    ]
+  },
+  {
+    "discipline": "Alpine Skiing",
+    "events": [
+      {"event": "Women's Downhill", "instances": [{"date": "2026-02-08", "time_est": "05:30", "round": "Race (Medal)", "stage": "final", "network": ["USA Network", "Peacock"], "is_replay": false}]},
+      {"event": "Men's Downhill", "instances": [{"date": "2026-02-07", "time_est": "05:30", "round": "Race (Medal)", "stage": "final", "network": ["USA Network", "Peacock"], "is_replay": false}]},
+      {"event": "Women's Super-G", "instances": [{"date": "2026-02-09", "time_est": "05:30", "round": "Race (Medal)", "stage": "final", "network": ["USA Network", "Peacock"], "is_replay": false}]},
+      {"event": "Men's Super-G", "instances": [{"date": "2026-02-10", "time_est": "05:30", "round": "Race (Medal)", "stage": "final", "network": ["USA Network", "Peacock"], "is_replay": false}]},
+      {"event": "Women's Giant Slalom", "instances": [{"date": "2026-02-11", "time_est": "05:30", "round": "Run 1", "stage": "prelim", "network": ["TBD"], "is_replay": false}, {"date": "2026-02-11", "time_est": "TBD", "round": "Run 2 / Medal", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Men's Giant Slalom", "instances": [{"date": "2026-02-12", "time_est": "05:30", "round": "Run 1", "stage": "prelim", "network": ["TBD"], "is_replay": false}, {"date": "2026-02-12", "time_est": "TBD", "round": "Run 2 / Medal", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Women's Slalom", "instances": [{"date": "2026-02-16", "time_est": "05:30", "round": "Run 1", "stage": "prelim", "network": ["TBD"], "is_replay": false}, {"date": "2026-02-16", "time_est": "TBD", "round": "Run 2 / Medal", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Men's Slalom", "instances": [{"date": "2026-02-17", "time_est": "05:30", "round": "Run 1", "stage": "prelim", "network": ["TBD"], "is_replay": false}, {"date": "2026-02-17", "time_est": "TBD", "round": "Run 2 / Medal", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Team Event", "instances": [{"date": "2026-02-19", "time_est": "TBD", "round": "Competition / Medal", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Mixed Team Parallel", "instances": [{"date": "2026-02-22", "time_est": "TBD", "round": "Competition / Medal", "stage": "final", "network": ["TBD"], "is_replay": false}]}
+    ]
+  },
+  {
+    "discipline": "Biathlon",
+    "events": [
+      {"event": "Mixed Relay 4x6km", "instances": [{"date": "2026-02-08", "time_est": "08:05", "round": "Race (Medal)", "stage": "final", "network": ["Peacock", "NBC"], "is_replay": false}]},
+      {"event": "Women's Sprint 7.5km", "instances": [{"date": "2026-02-09", "time_est": "TBD", "round": "Race (Medal)", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Men's Sprint 10km", "instances": [{"date": "2026-02-10", "time_est": "TBD", "round": "Race (Medal)", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Women's Pursuit 10km", "instances": [{"date": "2026-02-12", "time_est": "TBD", "round": "Race (Medal)", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Men's Pursuit 12.5km", "instances": [{"date": "2026-02-13", "time_est": "TBD", "round": "Race (Medal)", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Women's Individual 15km", "instances": [{"date": "2026-02-15", "time_est": "TBD", "round": "Race (Medal)", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Men's Individual 20km", "instances": [{"date": "2026-02-16", "time_est": "TBD", "round": "Race (Medal)", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Women's Mass Start 12.5km", "instances": [{"date": "2026-02-18", "time_est": "TBD", "round": "Race (Medal)", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Men's Mass Start 15km", "instances": [{"date": "2026-02-19", "time_est": "TBD", "round": "Race (Medal)", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Women's Relay 4x6km", "instances": [{"date": "2026-02-20", "time_est": "TBD", "round": "Race (Medal)", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Men's Relay 4x6km", "instances": [{"date": "2026-02-21", "time_est": "TBD", "round": "Race (Medal)", "stage": "final", "network": ["TBD"], "is_replay": false}]}
+    ]
+  },
+  {
+    "discipline": "Cross-Country Skiing",
+    "events": [
+      {"event": "Women's 10km Skiathlon", "instances": [{"date": "2026-02-07", "time_est": "07:00", "round": "Race (Medal)", "stage": "final", "network": ["NBC", "Peacock"], "is_replay": false}]},
+      {"event": "Men's 10km Skiathlon", "instances": [{"date": "2026-02-08", "time_est": "06:45", "round": "Race (Medal)", "stage": "final", "network": ["USA Network", "Peacock"], "is_replay": false}]},
+      {"event": "Women's Sprint (Classic)", "instances": [{"date": "2026-02-09", "time_est": "TBD", "round": "Race (Medal)", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Men's Sprint (Classic)", "instances": [{"date": "2026-02-10", "time_est": "TBD", "round": "Race (Medal)", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Women's 10km (Freestyle)", "instances": [{"date": "2026-02-12", "time_est": "TBD", "round": "Race (Medal)", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Men's 15km (Freestyle)", "instances": [{"date": "2026-02-13", "time_est": "TBD", "round": "Race (Medal)", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Women's Pursuit 10km", "instances": [{"date": "2026-02-15", "time_est": "TBD", "round": "Race (Medal)", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Men's Pursuit 15km", "instances": [{"date": "2026-02-16", "time_est": "TBD", "round": "Race (Medal)", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Women's Team Sprint 2x3km", "instances": [{"date": "2026-02-18", "time_est": "TBD", "round": "Race (Medal)", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Men's Team Sprint 2x3km", "instances": [{"date": "2026-02-19", "time_est": "TBD", "round": "Race (Medal)", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Women's Relay 4x5km", "instances": [{"date": "2026-02-21", "time_est": "TBD", "round": "Race (Medal)", "stage": "final", "network": ["TBD"], "is_replay": false}]},
+      {"event": "Men's Relay 4x5km", "instances": [{"date": "2026-02-22", "time_est": "TBD", "round": "Race (Medal)", "stage": "final", "network": ["TBD"], "is_replay": false}]}
+    ]
+  }
+]
