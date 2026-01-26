@@ -36,7 +36,7 @@ class OlympicsHTMLGenerator:
         'SVK': 'Slovakia', 'SWE': 'Sweden', 'THA': 'Thailand', 'TPE': 'Chinese Taipei',
         'TTO': 'Trinidad and Tobago', 'TUR': 'Turkey', 'UAE': 'United Arab Emirates',
         'UKR': 'Ukraine', 'URU': 'Uruguay', 'USA': 'United States', 'UZB': 'Uzbekistan',
-        'VEN': 'Venezuela'
+        'VEN': 'Venezuela', 'GBS': 'Guinea-Bissau'
     }
     
     # Nations below the equator (Southern Hemisphere)

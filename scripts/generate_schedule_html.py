@@ -19,6 +19,25 @@ def generate_interactive_schedule():
     with open(base_path / 'data' / 'nation_schedules_2026.json', 'r', encoding='utf-8') as f:
         nation_schedules = json.load(f)
     
+    # Load event_nations to derive a complete sports list
+    try:
+        with open(base_path / 'data' / 'event_nations_2026.json', 'r', encoding='utf-8') as f:
+            event_nations = json.load(f)
+        event_sports = set()
+        for event_name in event_nations.keys():
+            sport = event_name.split(' - ')[0]
+            event_sports.add(sport)
+    except FileNotFoundError:
+        event_nations = {}
+        event_sports = set()
+    
+    # Also load participating nations for cross-page consistency
+    try:
+        with open(base_path / 'data' / 'participating_nations_2026.json', 'r', encoding='utf-8') as f:
+            participating_nations = json.load(f)
+    except FileNotFoundError:
+        participating_nations = []
+    
     print("Generating interactive schedule page...")
     
     # Group events by date
@@ -281,12 +300,13 @@ def generate_interactive_schedule():
                 <option value="all">All Sports</option>
 """
     
-    # Get unique sports
-    sports = set()
-    for events in daily_schedule.values():
-        for event_name in events.keys():
-            sport = event_name.split(' - ')[0]
-            sports.add(sport)
+    # Get unique sports (prefer the comprehensive set from event_nations)
+    sports = set(event_sports)
+    if not sports:
+        for events in daily_schedule.values():
+            for event_name in events.keys():
+                sport = event_name.split(' - ')[0]
+                sports.add(sport)
     
     for sport in sorted(sports):
         html += f'                <option value="{sport}">{sport}</option>\n'
@@ -301,12 +321,20 @@ def generate_interactive_schedule():
     
     <div id="summary" class="summary-grid">
         <div class="summary-card">
+            <div class="summary-number">""" + str(len(participating_nations)) + """</div>
+            <div class="summary-label">Participating Nations</div>
+        </div>
+        <div class="summary-card">
+            <div class="summary-number">""" + str(len([n for n in nation_schedules.values() if n.get('total_competition_days', 0) > 0])) + """</div>
+            <div class="summary-label">Nations with Schedules</div>
+        </div>
+        <div class="summary-card">
             <div class="summary-number">""" + str(len(dates)) + """</div>
             <div class="summary-label">Competition Days</div>
         </div>
         <div class="summary-card">
-            <div class="summary-number">""" + str(len([n for n in nation_schedules.values() if n['total_competition_days'] > 0])) + """</div>
-            <div class="summary-label">Underdog Nations</div>
+            <div class="summary-number">""" + str(len(sports)) + """</div>
+            <div class="summary-label">Total Sports</div>
         </div>
         <div class="summary-card">
             <div class="summary-number">""" + str(sum(len(events) for events in daily_schedule.values())) + """</div>
