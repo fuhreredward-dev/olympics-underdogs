@@ -37,6 +37,13 @@ def generate_interactive_schedule():
             participating_nations = json.load(f)
     except FileNotFoundError:
         participating_nations = []
+
+    # Load nation tiers (Full Name -> Tier) for color-coding
+    try:
+        with open(base_path / 'data' / 'nation_tiers_2026.json', 'r', encoding='utf-8') as f:
+            nation_tiers = json.load(f)
+    except FileNotFoundError:
+        nation_tiers = {}
     
     print("Generating interactive schedule page...")
     
@@ -228,6 +235,89 @@ def generate_interactive_schedule():
             margin-left: 5px;
         }
         
+        /* Tier color coding system - green gradient (tier 5 darkest to tier 1 lightest) */
+        .nation-pill.tier-1 {
+            background: rgba(173, 255, 47, 0.35) !important;
+            border-left: 4px solid #adff2f;
+        }
+        
+        .nation-pill.tier-2 {
+            background: rgba(152, 251, 152, 0.35) !important;
+            border-left: 4px solid #98fb98;
+        }
+        
+        .nation-pill.tier-3 {
+            background: rgba(144, 238, 144, 0.35) !important;
+            border-left: 4px solid #90ee90;
+        }
+        
+        .nation-pill.tier-4 {
+            background: rgba(60, 179, 113, 0.35) !important;
+            border-left: 4px solid #3cb371;
+        }
+        
+        .nation-pill.tier-5 {
+            background: rgba(34, 139, 34, 0.35) !important;
+            border-left: 4px solid #228b22;
+        }
+        
+        .legend {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            backdrop-filter: blur(10px);
+        }
+        
+        .legend h3 {
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+        
+        .legend-items {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .legend-color {
+            width: 30px;
+            height: 30px;
+            border-radius: 5px;
+            border-left: 4px solid;
+        }
+        
+        .legend-item-1 .legend-color {
+            background: rgba(173, 255, 47, 0.4);
+            border-left-color: #adff2f;
+        }
+        
+        .legend-item-2 .legend-color {
+            background: rgba(152, 251, 152, 0.4);
+            border-left-color: #98fb98;
+        }
+        
+        .legend-item-3 .legend-color {
+            background: rgba(144, 238, 144, 0.4);
+            border-left-color: #90ee90;
+        }
+        
+        .legend-item-4 .legend-color {
+            background: rgba(60, 179, 113, 0.4);
+            border-left-color: #3cb371;
+        }
+        
+        .legend-item-5 .legend-color {
+            background: rgba(34, 139, 34, 0.4);
+            border-left-color: #228b22;
+        }
+        
         .summary-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -258,10 +348,17 @@ def generate_interactive_schedule():
                 font-size: 2em;
             }
             
-            .day-title {
+            .nation-pill.unconfirmed, .nation-pill.maybe {
                 font-size: 1.5em;
             }
             
+        
+            /* Tier color accents */
+            .nation-pill.tier-5 { border-left-color: #e74c3c; }
+            .nation-pill.tier-4 { border-left-color: #e67e22; }
+            .nation-pill.tier-3 { border-left-color: #f39c12; }
+            .nation-pill.tier-2 { border-left-color: #3498db; }
+            .nation-pill.tier-1 { border-left-color: #95a5a6; }
             .nations-grid {
                 grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
             }
@@ -316,6 +413,32 @@ def generate_interactive_schedule():
         <div class="filter-group">
             <label for="nationSearch">🔍 Search Nation:</label>
             <input type="text" id="nationSearch" placeholder="Type nation name..." oninput="filterEvents()">
+        </div>
+    </div>
+    
+    <div class="legend">
+        <h3>🎯 Underdog Tier System</h3>
+        <div class="legend-items">
+            <div class="legend-item legend-item-1">
+                <div class="legend-color"></div>
+                <div><strong>Tier 1: Mild Underdogs</strong></div>
+            </div>
+            <div class="legend-item legend-item-2">
+                <div class="legend-color"></div>
+                <div><strong>Tier 2: Moderate Underdogs</strong></div>
+            </div>
+            <div class="legend-item legend-item-3">
+                <div class="legend-color"></div>
+                <div><strong>Tier 3: Strong Underdogs</strong></div>
+            </div>
+            <div class="legend-item legend-item-4">
+                <div class="legend-color"></div>
+                <div><strong>Tier 4: Major Underdogs</strong></div>
+            </div>
+            <div class="legend-item legend-item-5">
+                <div class="legend-color"></div>
+                <div><strong>Tier 5: Ultimate Underdogs</strong></div>
+            </div>
         </div>
     </div>
     
@@ -388,10 +511,14 @@ def generate_interactive_schedule():
                 nation = nation_info['nation']
                 athletes = nation_info['athletes']
                 status = nation_info['status']
-                status_class = 'unconfirmed' if status == 'unconfirmed' else ''
-                status_icon = '?' if status == 'unconfirmed' else '✓'
+                if sport in {'Cross-Country Skiing', 'Biathlon', 'Alpine Skiing'} and status == 'probable':
+                    status = 'maybe'
+                status_class = 'unconfirmed' if status in {'unconfirmed', 'maybe'} else ''
+                status_icon = '?' if status in {'unconfirmed', 'maybe'} else '✓'
+                tier = nation_tiers.get(nation, 0)
+                tier_class = f"tier-{tier}" if isinstance(tier, int) and tier > 0 else ''
                 
-                html += f"""                    <div class="nation-pill {status_class}" data-nation="{nation}">
+                html += f"""                    <div class="nation-pill {status_class} {tier_class}" data-nation="{nation}">
                         <span>{status_icon} {nation}</span>
                         <span class="athlete-count">{athletes}</span>
                     </div>

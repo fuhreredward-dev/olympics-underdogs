@@ -70,6 +70,16 @@ class OlympicsHTMLGenerator:
         nation_data = self._calculate_nation_data()
         sport_stats = self._calculate_sport_stats(nation_data)
         underdog_stats = self._calculate_underdog_stats()
+
+        # Persist nation tiers mapping (Full Name -> Tier) for schedule page use
+        try:
+            tiers_map = { data['name']: data['underdog_tier'] for data in nation_data.values() }
+            out_path = Path(__file__).parent.parent / 'data' / 'nation_tiers_2026.json'
+            with open(out_path, 'w', encoding='utf-8') as tf:
+                json.dump(tiers_map, tf, ensure_ascii=False, indent=2)
+        except Exception:
+            # Non-fatal: continue generating HTML even if tier export fails
+            pass
         
         html = f"""<!DOCTYPE html>
 <html lang="en">

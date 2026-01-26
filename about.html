@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - OlympicUnderdogs.com</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        /* Header Styles */
+        .site-header {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 20px 0;
+            border-bottom: 3px solid #00d4ff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .header-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .site-branding {
+            flex: 1;
+        }
+
+        .site-title {
+            font-size: 2em;
+            font-weight: bold;
+            color: #00d4ff;
+            margin-bottom: 5px;
+        }
+
+        .site-tagline {
+            font-size: 1.1em;
+            color: #fff;
+            font-style: italic;
+            opacity: 0.9;
+        }
+
+        .site-nav {
+            display: flex;
+            gap: 30px;
+        }
+
+        .site-nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1em;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: all 0.3s;
+        }
+
+        .site-nav a:hover {
+            background: rgba(0, 212, 255, 0.2);
+            color: #00d4ff;
+        }
+
+        .site-nav a.active {
+            background: rgba(0, 212, 255, 0.3);
+            color: #00d4ff;
+            font-weight: bold;
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .about-section {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 40px;
+            margin-bottom: 30px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #00d4ff;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            margin: 30px 0 15px 0;
+            color: #00d4ff;
+        }
+
+        h3 {
+            font-size: 1.4em;
+            margin: 20px 0 10px 0;
+            color: #66e0ff;
+        }
+
+        p {
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+
+        ul {
+            margin: 15px 0 15px 30px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            font-size: 1.05em;
+        }
+
+        .tier-explanation {
+            background: rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .tier-item {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .tier-color {
+            width: 40px;
+            height: 40px;
+            border-radius: 5px;
+            margin-right: 15px;
+        }
+
+        .tier-1 { background-color: #adff2f; }
+        .tier-2 { background-color: #98fb98; }
+        .tier-3 { background-color: #90ee90; }
+        .tier-4 { background-color: #3cb371; }
+        .tier-5 { background-color: #228b22; }
+
+        .highlight {
+            color: #00d4ff;
+            font-weight: bold;
+        }
+
+        .status-badge {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 5px;
+            margin: 0 5px;
+            font-weight: bold;
+        }
+
+        .status-confirmed {
+            background-color: rgba(0, 255, 0, 0.2);
+            border: 1px solid #00ff00;
+        }
+
+        .status-probable {
+            background-color: rgba(255, 255, 0, 0.2);
+            border: 1px solid #ffff00;
+        }
+
+        .status-maybe {
+            background-color: rgba(255, 165, 0, 0.2);
+            border: 1px solid #ffa500;
+        }
+
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .site-nav {
+                margin-top: 20px;
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .site-title {
+                font-size: 1.5em;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .about-section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Site Header -->
+    <header class="site-header">
+        <div class="header-content">
+            <div class="site-branding">
+                <div class="site-title">OlympicUnderdogs.com</div>
+                <div class="site-tagline">Every Country. Every Chance.</div>
+            </div>
+            <nav class="site-nav">
+                <a href="index.html">Home</a>
+                <a href="schedule.html">Schedule</a>
+                <a href="about.html" class="active">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="about-section">
+            <h1>About OlympicUnderdogs.com</h1>
+            
+            <p>Welcome to <span class="highlight">OlympicUnderdogs.com</span> – your guide to discovering the inspiring stories and heroic efforts of nations competing against the odds at the <strong>2026 Winter Olympics in Milan-Cortina</strong>.</p>
+
+            <h2>🌍 Our Mission</h2>
+            <p>The Winter Olympics showcase incredible athletic achievement, but the spotlight often shines brightest on traditional powerhouses. We believe <strong>every country has a story worth celebrating</strong> – especially those nations that rarely stand on the podium but show up with passion, dedication, and the courage to compete at the world's highest level.</p>
+            
+            <p><span class="highlight">OlympicUnderdogs.com</span> highlights the <strong>64 underdog nations</strong> competing in Milan-Cortina 2026, providing you with:</p>
+            <ul>
+                <li><strong>Daily competition schedules</strong> showing when and where these nations compete</li>
+                <li><strong>Nation profiles</strong> with athlete counts, historical medal records, and participation details</li>
+                <li><strong>Entry status tracking</strong> to help you follow confirmed, probable, and potential competitors</li>
+                <li><strong>Smart organization</strong> by underdog tier, making it easy to find the most remarkable stories</li>
+            </ul>
+
+            <h2>🥇 What Makes a Nation an "Underdog"?</h2>
+            <p>We've identified 64 underdog nations competing in Milan-Cortina 2026 based on several criteria:</p>
+            <ul>
+                <li>Limited historical success in Winter Olympics (few or no medals)</li>
+                <li>Small delegation sizes (often fewer than 5 athletes)</li>
+                <li>Geographic or climatic challenges (nations without natural winter sports infrastructure)</li>
+                <li>First-time or rare Olympic appearances in winter sports</li>
+            </ul>
+
+            <h2>🎯 The Five Underdog Tiers</h2>
+            <p>We've organized nations into five tiers based on the magnitude of their underdog status:</p>
+            
+            <div class="tier-explanation">
+                <div class="tier-item">
+                    <div class="tier-color tier-1"></div>
+                    <div>
+                        <strong>Tier 1: Mild Underdogs</strong><br>
+                        Nations with some Winter Olympic history and occasional medal success, but still competing against more dominant programs.
+                    </div>
+                </div>
+                <div class="tier-item">
+                    <div class="tier-color tier-2"></div>
+                    <div>
+                        <strong>Tier 2: Moderate Underdogs</strong><br>
+                        Countries with limited winter sports tradition, small teams, and rare podium appearances.
+                    </div>
+                </div>
+                <div class="tier-item">
+                    <div class="tier-color tier-3"></div>
+                    <div>
+                        <strong>Tier 3: Strong Underdogs</strong><br>
+                        Nations facing significant challenges – minimal winter sports infrastructure, very few athletes, and little Olympic medal history.
+                    </div>
+                </div>
+                <div class="tier-item">
+                    <div class="tier-color tier-4"></div>
+                    <div>
+                        <strong>Tier 4: Major Underdogs</strong><br>
+                        Countries with extreme obstacles – tropical/desert climates, no natural snow, tiny delegations (often 1-2 athletes), and virtually no medal history.
+                    </div>
+                </div>
+                <div class="tier-item">
+                    <div class="tier-color tier-5"></div>
+                    <div>
+                        <strong>Tier 5: Ultimate Underdogs</strong><br>
+                        The most remarkable stories – nations sending athletes despite having no winter sports tradition whatsoever, often competing in their first Winter Olympics.
+                    </div>
+                </div>
+            </div>
+
+            <h2>📅 Understanding Entry Status</h2>
+            <p>Olympic rosters aren't finalized until closer to the Games. We track three levels of entry certainty:</p>
+            <ul>
+                <li><span class="status-badge status-confirmed">✅ Confirmed</span> Athletes officially qualified and roster spots secured</li>
+                <li><span class="status-badge status-probable">⭐ Probable</span> Athletes meeting qualification standards or historically participating</li>
+                <li><span class="status-badge status-maybe">❓ Maybe</span> Potential entries based on rankings, past participation, or uncertain qualification pathways</li>
+            </ul>
+
+            <h2>🗓️ How to Use This Site</h2>
+            
+            <h3>Home Page</h3>
+            <p>Browse all 64 underdog nations organized by tier. Each nation card shows:</p>
+            <ul>
+                <li>Number of athletes competing</li>
+                <li>Historical Winter Olympic medal counts</li>
+                <li>All-time Olympic medal counts</li>
+                <li>Competition dates</li>
+                <li>Sports they're competing in</li>
+                <li>Specific underdog criteria</li>
+            </ul>
+            <p>Below the nation cards, you'll find a <strong>Daily Competition Schedule</strong> showing which underdog nations compete each day, organized by entry status.</p>
+
+            <h3>Schedule Page</h3>
+            <p>View detailed competition schedules by date. Filter by:</p>
+            <ul>
+                <li><strong>Date</strong> – See all events on a specific day</li>
+                <li><strong>Sport</strong> – Focus on particular disciplines</li>
+                <li><strong>Nation</strong> – Follow your favorite underdog countries</li>
+            </ul>
+            <p>Each entry shows the event name, participating nations (with tier colors), athlete counts, entry status, and estimated competition times.</p>
+
+            <h2>🌟 Why Follow the Underdogs?</h2>
+            <p>These nations represent the <strong>true Olympic spirit</strong> – not competing for the medal count, but for the pride of representation, the joy of participation, and the dream of inspiring the next generation back home.</p>
+            
+            <p>From Jamaica's bobsled team to Kenya's cross-country skiers, from tropical nations skiing in Alpine events to countries sending their first-ever Winter Olympians – these stories remind us that the Olympics are about <strong>every country, every chance</strong>.</p>
+
+            <h2>📊 Data & Updates</h2>
+            <p>Our data is compiled from:</p>
+            <ul>
+                <li>Official Olympic qualification lists</li>
+                <li>National Olympic Committee announcements</li>
+                <li>International federation rankings and results</li>
+                <li>Historical Olympic records</li>
+            </ul>
+            <p>As the 2026 Games approach, rosters will be finalized and we'll update entry statuses accordingly. Check back regularly for the latest information!</p>
+
+            <h2>🏔️ Milan-Cortina 2026</h2>
+            <p>The <strong>2026 Winter Olympics</strong> take place February 6-22, 2026, across venues in Milan and Cortina d'Ampezzo, Italy. This marks Italy's third time hosting the Winter Games and promises to be a spectacular celebration of winter sports.</p>
+
+            <h2>💙 Join the Underdog Movement</h2>
+            <p>As you watch the 2026 Winter Olympics, we encourage you to:</p>
+            <ul>
+                <li>Tune in to events featuring underdog nations</li>
+                <li>Learn about their athletes' journeys and challenges</li>
+                <li>Celebrate their participation, not just their placement</li>
+                <li>Share their stories with friends and family</li>
+            </ul>
+
+            <p style="margin-top: 30px; font-size: 1.2em; text-align: center;">
+                <strong>Every Country. Every Chance.</strong><br>
+                <span style="color: #00d4ff;">🏔️ See you in Milan-Cortina! 🏔️</span>
+            </p>
+        </div>
+
+        <div class="about-section" style="text-align: center;">
+            <h2>📧 Contact</h2>
+            <p>Have questions, suggestions, or want to share an underdog story?</p>
+            <p style="margin-top: 15px;">
+                <strong>Eddie Fuhrer</strong><br>
+                <a href="mailto:fuhreredward@gmail.com" style="color: #00d4ff; text-decoration: none; font-size: 1.1em;">fuhreredward@gmail.com</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,1 +1,3864 @@
-{"2026-02-06":{"Figure Skating - Pairs":[{"nation":"Australia","athletes":1,"status":"probable","time_est":"05:35"},{"nation":"Georgia","athletes":1,"status":"probable","time_est":"05:35"},{"nation":"Armenia","athletes":1,"status":"probable","time_est":"05:35"},{"nation":"Uzbekistan","athletes":1,"status":"probable","time_est":"05:35"}],"Figure Skating - Ice Dance":[{"nation":"Australia","athletes":1,"status":"probable","time_est":"03:55"},{"nation":"Georgia","athletes":1,"status":"probable","time_est":"03:55"},{"nation":"Lithuania","athletes":1,"status":"probable","time_est":"03:55"}]},"2026-02-07":{"Luge - Men's":[{"nation":"Australia","athletes":1,"status":"probable","time_est":"11:00"},{"nation":"Romania","athletes":2,"status":"probable","time_est":"11:00"}],"Cross-Country Skiing - Women's skiathlon":[{"nation":"Australia","athletes":4,"status":"unconfirmed","time_est":"07:00"},{"nation":"Brazil","athletes":2,"status":"unconfirmed","time_est":"07:00"},{"nation":"Romania","athletes":1,"status":"unconfirmed","time_est":"07:00"},{"nation":"Turkey","athletes":1,"status":"unconfirmed","time_est":"07:00"},{"nation":"Chinese Taipei","athletes":1,"status":"unconfirmed","time_est":"07:00"},{"nation":"Mexico","athletes":1,"status":"unconfirmed","time_est":"07:00"},{"nation":"Lithuania","athletes":2,"status":"unconfirmed","time_est":"07:00"},{"nation":"Armenia","athletes":1,"status":"unconfirmed","time_est":"07:00"},{"nation":"Argentina","athletes":2,"status":"unconfirmed","time_est":"07:00"},{"nation":"Moldova","athletes":1,"status":"unconfirmed","time_est":"07:00"},{"nation":"Andorra","athletes":1,"status":"unconfirmed","time_est":"07:00"},{"nation":"Bosnia and Herzegovina","athletes":1,"status":"unconfirmed","time_est":"07:00"},{"nation":"Iran","athletes":1,"status":"unconfirmed","time_est":"07:00"},{"nation":"Mongolia","athletes":1,"status":"unconfirmed","time_est":"07:00"},{"nation":"North Macedonia","athletes":1,"status":"unconfirmed","time_est":"07:00"},{"nation":"Serbia","athletes":1,"status":"unconfirmed","time_est":"07:00"},{"nation":"Thailand","athletes":1,"status":"unconfirmed","time_est":"07:00"},{"nation":"Malta","athletes":1,"status":"unconfirmed","time_est":"07:00"}],"Alpine Skiing - Men's Downhill":[{"nation":"Australia","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Denmark","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Israel","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Brazil","athletes":3,"status":"unconfirmed","time_est":"05:30"},{"nation":"South Africa","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Romania","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Turkey","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Chinese Taipei","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Liechtenstein","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Jamaica","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Trinidad and Tobago","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Georgia","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Mexico","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Lithuania","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Armenia","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Uzbekistan","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Ireland","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Argentina","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Hong Kong","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Andorra","athletes":2,"status":"unconfirmed","time_est":"05:30"},{"nation":"Bosnia and Herzegovina","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Chile","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Haiti","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Iceland","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"India","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Iran","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Kyrgyzstan","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Mongolia","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Montenegro","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"North Macedonia","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Portugal","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Serbia","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Saudi Arabia","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Thailand","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Lebanon","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Morocco","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Albania","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Benin","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Cyprus","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Eritrea","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Guinea-Bissau","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Japan","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Kenya","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Kosovo","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Luxembourg","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Madagascar","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Malaysia","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Monaco","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Pakistan","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Philippines","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"San Marino","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Singapore","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Spain","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"United Arab Emirates","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Uruguay","athletes":1,"status":"unconfirmed","time_est":"05:30"}],"Snowboarding - Men's Big Air":[{"nation":"New Zealand","athletes":3,"status":"unconfirmed","time_est":"14:17"}]},"2026-02-08":{"Cross-Country Skiing - Men's skiathlon":[{"nation":"Australia","athletes":3,"status":"unconfirmed","time_est":"06:30"},{"nation":"Israel","athletes":1,"status":"unconfirmed","time_est":"06:30"},{"nation":"Brazil","athletes":1,"status":"unconfirmed","time_est":"06:30"},{"nation":"South Africa","athletes":1,"status":"unconfirmed","time_est":"06:30"},{"nation":"Romania","athletes":2,"status":"unconfirmed","time_est":"06:30"},{"nation":"Turkey","athletes":1,"status":"unconfirmed","time_est":"06:30"},{"nation":"Chinese Taipei","athletes":1,"status":"unconfirmed","time_est":"06:30"},{"nation":"Liechtenstein","athletes":1,"status":"unconfirmed","time_est":"06:30"},{"nation":"Mexico","athletes":1,"status":"unconfirmed","time_est":"06:30"},{"nation":"Lithuania","athletes":2,"status":"unconfirmed","time_est":"06:30"},{"nation":"Armenia","athletes":1,"status":"unconfirmed","time_est":"06:30"},{"nation":"Ireland","athletes":1,"status":"unconfirmed","time_est":"06:30"},{"nation":"Argentina","athletes":2,"status":"unconfirmed","time_est":"06:30"},{"nation":"Moldova","athletes":1,"status":"unconfirmed","time_est":"06:30"},{"nation":"Andorra","athletes":1,"status":"unconfirmed","time_est":"06:30"},{"nation":"Bolivia","athletes":1,"status":"unconfirmed","time_est":"06:30"},{"nation":"Bosnia and Herzegovina","athletes":1,"status":"unconfirmed","time_est":"06:30"},{"nation":"Chile","athletes":1,"status":"unconfirmed","time_est":"06:30"},{"nation":"Colombia","athletes":1,"status":"unconfirmed","time_est":"06:30"},{"nation":"Haiti","athletes":1,"status":"unconfirmed","time_est":"06:30"},{"nation":"Iceland","athletes":1,"status":"unconfirmed","time_est":"06:30"},{"nation":"India","athletes":1,"status":"unconfirmed","time_est":"06:30"},{"nation":"Iran","athletes":1,"status":"unconfirmed","time_est":"06:30"},{"nation":"Kyrgyzstan","athletes":1,"status":"unconfirmed","time_est":"06:30"},{"nation":"Mongolia","athletes":1,"status":"unconfirmed","time_est":"06:30"},{"nation":"Montenegro","athletes":1,"status":"unconfirmed","time_est":"06:30"},{"nation":"Nigeria","athletes":1,"status":"unconfirmed","time_est":"06:30"},{"nation":"North Macedonia","athletes":1,"status":"unconfirmed","time_est":"06:30"},{"nation":"Portugal","athletes":1,"status":"unconfirmed","time_est":"06:30"},{"nation":"Serbia","athletes":1,"status":"unconfirmed","time_est":"06:30"},{"nation":"Saudi Arabia","athletes":1,"status":"unconfirmed","time_est":"06:30"},{"nation":"Thailand","athletes":1,"status":"unconfirmed","time_est":"06:30"},{"nation":"Ecuador","athletes":1,"status":"unconfirmed","time_est":"06:30"},{"nation":"Lebanon","athletes":1,"status":"unconfirmed","time_est":"06:30"},{"nation":"Morocco","athletes":1,"status":"unconfirmed","time_est":"06:30"},{"nation":"Venezuela","athletes":1,"status":"unconfirmed","time_est":"06:30"}],"Alpine Skiing - Women's Downhill":[{"nation":"Australia","athletes":2,"status":"unconfirmed","time_est":"05:30"},{"nation":"Denmark","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Israel","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Brazil","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"South Africa","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Romania","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Turkey","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"New Zealand","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Chinese Taipei","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Liechtenstein","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Trinidad and Tobago","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Azerbaijan","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Georgia","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Mexico","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Lithuania","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Ireland","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Argentina","athletes":2,"status":"unconfirmed","time_est":"05:30"},{"nation":"Hong Kong","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Andorra","athletes":3,"status":"unconfirmed","time_est":"05:30"},{"nation":"Bosnia and Herzegovina","athletes":2,"status":"unconfirmed","time_est":"05:30"},{"nation":"Chile","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Iceland","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Iran","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"North Macedonia","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Portugal","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Albania","athletes":3,"status":"unconfirmed","time_est":"05:30"},{"nation":"Cyprus","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Japan","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Kenya","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Kosovo","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Luxembourg","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Madagascar","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Malaysia","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Philippines","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Spain","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"United Arab Emirates","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Belgium","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Bulgaria","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Estonia","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Hungary","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Kazakhstan","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Latvia","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Poland","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"South Korea","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Ukraine","athletes":1,"status":"unconfirmed","time_est":"05:30"}]},"2026-02-09":{"Alpine Skiing - Men's Team Combined":[{"nation":"Brazil","athletes":1,"status":"probable","time_est":"04:30"},{"nation":"Andorra","athletes":1,"status":"probable","time_est":"04:30"}],"Luge - Women's":[{"nation":"Romania","athletes":1,"status":"probable","time_est":"11:00"},{"nation":"Argentina","athletes":1,"status":"probable","time_est":"11:00"}]},"2026-02-10":{"Alpine Skiing - Women's Team Combined":[{"nation":"Australia","athletes":1,"status":"probable","time_est":"04:30"},{"nation":"Argentina","athletes":1,"status":"probable","time_est":"04:30"},{"nation":"Andorra","athletes":1,"status":"probable","time_est":"04:30"},{"nation":"Bosnia and Herzegovina","athletes":1,"status":"probable","time_est":"04:30"},{"nation":"Albania","athletes":1,"status":"probable","time_est":"04:30"}],"Biathlon - Men's 20km":[{"nation":"Denmark","athletes":1,"status":"probable","time_est":"07:30"},{"nation":"Romania","athletes":4,"status":"probable","time_est":"07:30"},{"nation":"Lithuania","athletes":4,"status":"probable","time_est":"07:30"},{"nation":"Moldova","athletes":2,"status":"probable","time_est":"07:30"}]},"2026-02-11":{"Freestyle Skiing - Women's Moguls":[{"nation":"Australia","athletes":3,"status":"unconfirmed","time_est":"08:15"},{"nation":"South Africa","athletes":1,"status":"unconfirmed","time_est":"08:15"}],"Biathlon - Women's 15km":[{"nation":"Australia","athletes":1,"status":"probable","time_est":"08:15"},{"nation":"Australia","athletes":1,"status":"unconfirmed","time_est":"08:15"},{"nation":"Denmark","athletes":2,"status":"probable","time_est":"08:15"},{"nation":"Denmark","athletes":2,"status":"unconfirmed","time_est":"08:15"},{"nation":"Romania","athletes":1,"status":"probable","time_est":"08:15"},{"nation":"Romania","athletes":1,"status":"unconfirmed","time_est":"08:15"},{"nation":"Lithuania","athletes":4,"status":"probable","time_est":"08:15"},{"nation":"Lithuania","athletes":4,"status":"unconfirmed","time_est":"08:15"},{"nation":"Moldova","athletes":1,"status":"probable","time_est":"08:15"},{"nation":"Moldova","athletes":1,"status":"unconfirmed","time_est":"08:15"}],"Alpine Skiing - Men's Super-G":[{"nation":"Australia","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Denmark","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Israel","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Brazil","athletes":3,"status":"unconfirmed","time_est":"05:30"},{"nation":"South Africa","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Romania","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Turkey","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Chinese Taipei","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Liechtenstein","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Jamaica","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Trinidad and Tobago","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Georgia","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Mexico","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Lithuania","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Armenia","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Uzbekistan","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Ireland","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Argentina","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Hong Kong","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Andorra","athletes":2,"status":"unconfirmed","time_est":"05:30"},{"nation":"Bosnia and Herzegovina","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Chile","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Haiti","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Iceland","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"India","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Iran","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Kyrgyzstan","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Mongolia","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Montenegro","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"North Macedonia","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Portugal","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Serbia","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Saudi Arabia","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Thailand","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Lebanon","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Morocco","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Albania","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Benin","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Cyprus","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Eritrea","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Guinea-Bissau","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Japan","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Kenya","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Kosovo","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Luxembourg","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Madagascar","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Malaysia","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Monaco","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Pakistan","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Philippines","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"San Marino","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Singapore","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Spain","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"United Arab Emirates","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Uruguay","athletes":1,"status":"unconfirmed","time_est":"05:30"}],"Luge - Men's Doubles":[{"nation":"Romania","athletes":1,"status":"probable","time_est":"11:51"}],"Luge - Women's Doubles":[{"nation":"Romania","athletes":1,"status":"probable","time_est":"11:00"}]},"2026-02-12":{"Snowboarding - Men's Snowboard Cross":[{"nation":"Australia","athletes":3,"status":"probable","time_est":"09:01"}],"Snowboarding - Women's Halfpipe":[{"nation":"Australia","athletes":3,"status":"probable","time_est":"14:28"}],"Freestyle Skiing - Men's Moguls":[{"nation":"Australia","athletes":4,"status":"unconfirmed","time_est":"06:15"},{"nation":"Australia","athletes":4,"status":"unconfirmed","time_est":"06:15"}],"Cross-Country Skiing - Women's 10km classical":[{"nation":"Australia","athletes":4,"status":"probable","time_est":"07:00"},{"nation":"Brazil","athletes":2,"status":"probable","time_est":"07:00"},{"nation":"Romania","athletes":1,"status":"probable","time_est":"07:00"},{"nation":"Turkey","athletes":1,"status":"probable","time_est":"07:00"},{"nation":"Chinese Taipei","athletes":1,"status":"probable","time_est":"07:00"},{"nation":"Mexico","athletes":1,"status":"probable","time_est":"07:00"},{"nation":"Lithuania","athletes":2,"status":"probable","time_est":"07:00"},{"nation":"Armenia","athletes":1,"status":"probable","time_est":"07:00"},{"nation":"Argentina","athletes":2,"status":"probable","time_est":"07:00"},{"nation":"Moldova","athletes":1,"status":"probable","time_est":"07:00"},{"nation":"Andorra","athletes":1,"status":"probable","time_est":"07:00"},{"nation":"Bosnia and Herzegovina","athletes":1,"status":"probable","time_est":"07:00"},{"nation":"Iran","athletes":1,"status":"probable","time_est":"07:00"},{"nation":"Mongolia","athletes":1,"status":"probable","time_est":"07:00"},{"nation":"North Macedonia","athletes":1,"status":"probable","time_est":"07:00"},{"nation":"Serbia","athletes":1,"status":"probable","time_est":"07:00"},{"nation":"Thailand","athletes":1,"status":"probable","time_est":"07:00"},{"nation":"Malta","athletes":1,"status":"probable","time_est":"07:00"}],"Alpine Skiing - Women's Super-G":[{"nation":"Australia","athletes":2,"status":"unconfirmed","time_est":"05:30"},{"nation":"Denmark","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Israel","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Brazil","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"South Africa","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Romania","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Turkey","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"New Zealand","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Chinese Taipei","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Liechtenstein","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Trinidad and Tobago","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Azerbaijan","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Georgia","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Mexico","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Lithuania","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Ireland","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Argentina","athletes":2,"status":"unconfirmed","time_est":"05:30"},{"nation":"Hong Kong","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Andorra","athletes":3,"status":"unconfirmed","time_est":"05:30"},{"nation":"Bosnia and Herzegovina","athletes":2,"status":"unconfirmed","time_est":"05:30"},{"nation":"Chile","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Iceland","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Iran","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"North Macedonia","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Portugal","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Albania","athletes":3,"status":"unconfirmed","time_est":"05:30"},{"nation":"Cyprus","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Japan","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Kenya","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Kosovo","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Luxembourg","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Madagascar","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Malaysia","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Philippines","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Spain","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"United Arab Emirates","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Belgium","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Bulgaria","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Estonia","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Hungary","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Kazakhstan","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Latvia","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Poland","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"South Korea","athletes":1,"status":"unconfirmed","time_est":"05:30"},{"nation":"Ukraine","athletes":1,"status":"unconfirmed","time_est":"05:30"}],"Luge - Relay":[{"nation":"Romania","athletes":1,"status":"probable","time_est":"12:30"}]},"2026-02-13":{"Skeleton - Men's":[{"nation":"Australia","athletes":1,"status":"probable","time_est":"13:30"},{"nation":"Denmark","athletes":1,"status":"probable","time_est":"13:30"},{"nation":"Israel","athletes":1,"status":"probable","time_est":"13:30"}],"Snowboarding - Men's Halfpipe":[{"nation":"Australia","athletes":2,"status":"probable","time_est":"14:28"},{"nation":"Brazil","athletes":2,"status":"probable","time_est":"14:28"},{"nation":"New Zealand","athletes":1,"status":"probable","time_est":"14:28"}],"Snowboarding - Women's Snowboard Cross":[{"nation":"Australia","athletes":3,"status":"probable","time_est":"08:46"}],"Cross-Country Skiing - Men's 15km classical":[{"nation":"Australia","athletes":3,"status":"probable","time_est":"05:45"},{"nation":"Israel","athletes":1,"status":"probable","time_est":"05:45"},{"nation":"Brazil","athletes":1,"status":"probable","time_est":"05:45"},{"nation":"South Africa","athletes":1,"status":"probable","time_est":"05:45"},{"nation":"Romania","athletes":2,"status":"probable","time_est":"05:45"},{"nation":"Turkey","athletes":1,"status":"probable","time_est":"05:45"},{"nation":"Chinese Taipei","athletes":1,"status":"probable","time_est":"05:45"},{"nation":"Liechtenstein","athletes":1,"status":"probable","time_est":"05:45"},{"nation":"Mexico","athletes":1,"status":"probable","time_est":"05:45"},{"nation":"Lithuania","athletes":2,"status":"probable","time_est":"05:45"},{"nation":"Armenia","athletes":1,"status":"probable","time_est":"05:45"},{"nation":"Ireland","athletes":1,"status":"probable","time_est":"05:45"},{"nation":"Argentina","athletes":2,"status":"probable","time_est":"05:45"},{"nation":"Moldova","athletes":1,"status":"probable","time_est":"05:45"},{"nation":"Andorra","athletes":1,"status":"probable","time_est":"05:45"},{"nation":"Bolivia","athletes":1,"status":"probable","time_est":"05:45"},{"nation":"Bosnia and Herzegovina","athletes":1,"status":"probable","time_est":"05:45"},{"nation":"Chile","athletes":1,"status":"probable","time_est":"05:45"},{"nation":"Colombia","athletes":1,"status":"probable","time_est":"05:45"},{"nation":"Haiti","athletes":1,"status":"probable","time_est":"05:45"},{"nation":"Iceland","athletes":1,"status":"probable","time_est":"05:45"},{"nation":"India","athletes":1,"status":"probable","time_est":"05:45"},{"nation":"Iran","athletes":1,"status":"probable","time_est":"05:45"},{"nation":"Kyrgyzstan","athletes":1,"status":"probable","time_est":"05:45"},{"nation":"Mongolia","athletes":1,"status":"probable","time_est":"05:45"},{"nation":"Montenegro","athletes":1,"status":"probable","time_est":"05:45"},{"nation":"Nigeria","athletes":1,"status":"probable","time_est":"05:45"},{"nation":"North Macedonia","athletes":1,"status":"probable","time_est":"05:45"},{"nation":"Portugal","athletes":1,"status":"probable","time_est":"05:45"},{"nation":"Serbia","athletes":1,"status":"probable","time_est":"05:45"},{"nation":"Saudi Arabia","athletes":1,"status":"probable","time_est":"05:45"},{"nation":"Thailand","athletes":1,"status":"probable","time_est":"05:45"},{"nation":"Ecuador","athletes":1,"status":"probable","time_est":"05:45"},{"nation":"Lebanon","athletes":1,"status":"probable","time_est":"05:45"},{"nation":"Morocco","athletes":1,"status":"probable","time_est":"05:45"},{"nation":"Venezuela","athletes":1,"status":"probable","time_est":"05:45"}],"Skeleton - Women's":[{"nation":"Brazil","athletes":1,"status":"probable","time_est":"10:00"},{"nation":"Puerto Rico","athletes":1,"status":"probable","time_est":"10:00"},{"nation":"South Africa","athletes":1,"status":"probable","time_est":"10:00"}]},"2026-02-14":{"Freestyle Skiing - Women's Dual Moguls":[{"nation":"Australia","athletes":3,"status":"unconfirmed","time_est":"05:46"},{"nation":"South Africa","athletes":1,"status":"unconfirmed","time_est":"05:46"}],"Biathlon - Women's 7.5km Sprint":[{"nation":"Australia","athletes":1,"status":"probable","time_est":"08:45"},{"nation":"Denmark","athletes":2,"status":"probable","time_est":"08:45"},{"nation":"Romania","athletes":1,"status":"probable","time_est":"08:45"},{"nation":"Lithuania","athletes":4,"status":"probable","time_est":"08:45"},{"nation":"Moldova","athletes":1,"status":"probable","time_est":"08:45"}],"Alpine Skiing - Men's Giant Slalom":[{"nation":"Australia","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Denmark","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Israel","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Brazil","athletes":3,"status":"probable","time_est":"04:00"},{"nation":"South Africa","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Romania","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Turkey","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Chinese Taipei","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Liechtenstein","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Jamaica","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Trinidad and Tobago","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Georgia","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Mexico","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Lithuania","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Armenia","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Uzbekistan","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Ireland","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Argentina","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Hong Kong","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Andorra","athletes":2,"status":"probable","time_est":"04:00"},{"nation":"Bosnia and Herzegovina","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Chile","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Haiti","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Iceland","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"India","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Iran","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Kyrgyzstan","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Mongolia","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Montenegro","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"North Macedonia","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Portugal","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Serbia","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Saudi Arabia","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Thailand","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Lebanon","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Morocco","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Albania","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Benin","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Cyprus","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Eritrea","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Guinea-Bissau","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Japan","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Kenya","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Kosovo","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Luxembourg","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Madagascar","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Malaysia","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Monaco","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Pakistan","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Philippines","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"San Marino","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Singapore","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Spain","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"United Arab Emirates","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"United States","athletes":6,"status":"probable","time_est":"04:00"},{"nation":"Uruguay","athletes":1,"status":"probable","time_est":"04:00"}]},"2026-02-15":{"Bobsleigh - Women's Monobob":[{"nation":"Australia","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Denmark","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Chinese Taipei","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Jamaica","athletes":1,"status":"probable","time_est":"04:00"}],"Alpine Skiing - Women's Giant Slalom":[{"nation":"Australia","athletes":2,"status":"probable","time_est":"04:00"},{"nation":"Denmark","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Israel","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Brazil","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"South Africa","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Romania","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Turkey","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"New Zealand","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Chinese Taipei","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Liechtenstein","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Trinidad and Tobago","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Azerbaijan","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Georgia","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Mexico","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Lithuania","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Ireland","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Argentina","athletes":2,"status":"probable","time_est":"04:00"},{"nation":"Hong Kong","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Andorra","athletes":3,"status":"probable","time_est":"04:00"},{"nation":"Bosnia and Herzegovina","athletes":2,"status":"probable","time_est":"04:00"},{"nation":"Chile","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Iceland","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Iran","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"North Macedonia","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Portugal","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Albania","athletes":3,"status":"probable","time_est":"04:00"},{"nation":"Cyprus","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Japan","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Kenya","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Kosovo","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Luxembourg","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Madagascar","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Malaysia","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Philippines","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Spain","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"United Arab Emirates","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Belgium","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Bulgaria","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Estonia","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Hungary","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Kazakhstan","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Latvia","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Poland","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"South Korea","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Ukraine","athletes":1,"status":"probable","time_est":"04:00"}],"Skeleton - Mixed Team":[{"nation":"Denmark","athletes":1,"status":"probable","time_est":"12:00"}],"Biathlon - Men's 12.5km Pursuit":[{"nation":"Denmark","athletes":1,"status":"unconfirmed","time_est":"05:15"},{"nation":"Romania","athletes":4,"status":"unconfirmed","time_est":"05:15"},{"nation":"Lithuania","athletes":4,"status":"unconfirmed","time_est":"05:15"},{"nation":"Moldova","athletes":2,"status":"unconfirmed","time_est":"05:15"}],"Speed Skating - Women's 500m":[{"nation":"Chinese Taipei","athletes":1,"status":"probable","time_est":"11:03"}]},"2026-02-16":{"Alpine Skiing - Men's Slalom":[{"nation":"Australia","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Denmark","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Israel","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Brazil","athletes":3,"status":"probable","time_est":"04:00"},{"nation":"South Africa","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Romania","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Turkey","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Chinese Taipei","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Liechtenstein","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Jamaica","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Trinidad and Tobago","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Georgia","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Mexico","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Lithuania","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Armenia","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Uzbekistan","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Ireland","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Argentina","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Hong Kong","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Andorra","athletes":2,"status":"probable","time_est":"04:00"},{"nation":"Bosnia and Herzegovina","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Chile","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Haiti","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Iceland","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"India","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Iran","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Kyrgyzstan","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Mongolia","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Montenegro","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"North Macedonia","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Portugal","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Serbia","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Saudi Arabia","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Thailand","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Lebanon","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Morocco","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Albania","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Benin","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Cyprus","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Eritrea","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Guinea-Bissau","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Japan","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Kenya","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Kosovo","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Luxembourg","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Madagascar","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Malaysia","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Monaco","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Pakistan","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Philippines","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"San Marino","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Singapore","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Spain","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"United Arab Emirates","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Uruguay","athletes":1,"status":"probable","time_est":"04:00"}],"Bobsleigh - Men's 2-Man":[{"nation":"Israel","athletes":1,"status":"unconfirmed","time_est":"04:00"},{"nation":"Brazil","athletes":1,"status":"unconfirmed","time_est":"04:00"},{"nation":"Liechtenstein","athletes":1,"status":"unconfirmed","time_est":"04:00"},{"nation":"Jamaica","athletes":1,"status":"unconfirmed","time_est":"04:00"},{"nation":"Trinidad and Tobago","athletes":1,"status":"unconfirmed","time_est":"04:00"}]},"2026-02-17":{"Snowboarding - Women's Slopestyle/Big Air":[{"nation":"Australia","athletes":3,"status":"probable","time_est":"07:54"},{"nation":"New Zealand","athletes":2,"status":"probable","time_est":"07:54"}]},"2026-02-18":{"Freestyle Skiing - Women's Aerials":[{"nation":"Australia","athletes":4,"status":"probable","time_est":"06:30"}],"Alpine Skiing - Women's Slalom":[{"nation":"Australia","athletes":2,"status":"probable","time_est":"04:00"},{"nation":"Denmark","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Israel","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Brazil","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"South Africa","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Romania","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Turkey","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"New Zealand","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Chinese Taipei","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Liechtenstein","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Trinidad and Tobago","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Azerbaijan","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Georgia","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Mexico","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Lithuania","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Ireland","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Argentina","athletes":2,"status":"probable","time_est":"04:00"},{"nation":"Hong Kong","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Andorra","athletes":3,"status":"probable","time_est":"04:00"},{"nation":"Bosnia and Herzegovina","athletes":2,"status":"probable","time_est":"04:00"},{"nation":"Chile","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Iceland","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Iran","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"North Macedonia","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Portugal","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Albania","athletes":3,"status":"probable","time_est":"04:00"},{"nation":"Cyprus","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Japan","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Kenya","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Kosovo","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Luxembourg","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Madagascar","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Malaysia","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Philippines","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Spain","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"United Arab Emirates","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Belgium","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Bulgaria","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Estonia","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Hungary","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Kazakhstan","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Latvia","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Poland","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"South Korea","athletes":1,"status":"probable","time_est":"04:00"},{"nation":"Ukraine","athletes":1,"status":"probable","time_est":"04:00"}],"Snowboarding - Men's Slopestyle":[{"nation":"New Zealand","athletes":3,"status":"unconfirmed","time_est":"07:28"}]},"2026-02-19":{"Ski Mountaineering - Men's":[{"nation":"Australia","athletes":1,"status":"probable","time_est":"08:15"}],"Ski Mountaineering - Women's":[{"nation":"Australia","athletes":1,"status":"probable","time_est":"07:55"}],"Freestyle Skiing - Men's Aerials":[{"nation":"Australia","athletes":1,"status":"probable","time_est":"06:30"}]},"2026-02-20":{"Biathlon - Men's 15km Mass Start":[{"nation":"Denmark","athletes":1,"status":"unconfirmed","time_est":"08:15"},{"nation":"Romania","athletes":4,"status":"unconfirmed","time_est":"08:15"},{"nation":"Lithuania","athletes":4,"status":"unconfirmed","time_est":"08:15"},{"nation":"Moldova","athletes":2,"status":"unconfirmed","time_est":"08:15"}]},"2026-02-21":{"Biathlon - Women's 12.5km Mass Start":[{"nation":"Australia","athletes":1,"status":"unconfirmed","time_est":"08:15"},{"nation":"Denmark","athletes":2,"status":"unconfirmed","time_est":"08:15"},{"nation":"Romania","athletes":1,"status":"unconfirmed","time_est":"08:15"},{"nation":"Lithuania","athletes":4,"status":"unconfirmed","time_est":"08:15"},{"nation":"Moldova","athletes":1,"status":"unconfirmed","time_est":"08:15"}],"Cross-Country Skiing - Men's 50km mass start":[{"nation":"Australia","athletes":3,"status":"unconfirmed","time_est":"05:00"},{"nation":"Israel","athletes":1,"status":"unconfirmed","time_est":"05:00"},{"nation":"Brazil","athletes":1,"status":"unconfirmed","time_est":"05:00"},{"nation":"South Africa","athletes":1,"status":"unconfirmed","time_est":"05:00"},{"nation":"Romania","athletes":2,"status":"unconfirmed","time_est":"05:00"},{"nation":"Turkey","athletes":1,"status":"unconfirmed","time_est":"05:00"},{"nation":"Chinese Taipei","athletes":1,"status":"unconfirmed","time_est":"05:00"},{"nation":"Liechtenstein","athletes":1,"status":"unconfirmed","time_est":"05:00"},{"nation":"Mexico","athletes":1,"status":"unconfirmed","time_est":"05:00"},{"nation":"Lithuania","athletes":2,"status":"unconfirmed","time_est":"05:00"},{"nation":"Armenia","athletes":1,"status":"unconfirmed","time_est":"05:00"},{"nation":"Ireland","athletes":1,"status":"unconfirmed","time_est":"05:00"},{"nation":"Argentina","athletes":2,"status":"unconfirmed","time_est":"05:00"},{"nation":"Moldova","athletes":1,"status":"unconfirmed","time_est":"05:00"},{"nation":"Andorra","athletes":1,"status":"unconfirmed","time_est":"05:00"},{"nation":"Bolivia","athletes":1,"status":"unconfirmed","time_est":"05:00"},{"nation":"Bosnia and Herzegovina","athletes":1,"status":"unconfirmed","time_est":"05:00"},{"nation":"Chile","athletes":1,"status":"unconfirmed","time_est":"05:00"},{"nation":"Colombia","athletes":1,"status":"unconfirmed","time_est":"05:00"},{"nation":"Haiti","athletes":1,"status":"unconfirmed","time_est":"05:00"},{"nation":"Iceland","athletes":1,"status":"unconfirmed","time_est":"05:00"},{"nation":"India","athletes":1,"status":"unconfirmed","time_est":"05:00"},{"nation":"Iran","athletes":1,"status":"unconfirmed","time_est":"05:00"},{"nation":"Kyrgyzstan","athletes":1,"status":"unconfirmed","time_est":"05:00"},{"nation":"Mongolia","athletes":1,"status":"unconfirmed","time_est":"05:00"},{"nation":"Montenegro","athletes":1,"status":"unconfirmed","time_est":"05:00"},{"nation":"Nigeria","athletes":1,"status":"unconfirmed","time_est":"05:00"},{"nation":"North Macedonia","athletes":1,"status":"unconfirmed","time_est":"05:00"},{"nation":"Portugal","athletes":1,"status":"unconfirmed","time_est":"05:00"},{"nation":"Serbia","athletes":1,"status":"unconfirmed","time_est":"05:00"},{"nation":"Saudi Arabia","athletes":1,"status":"unconfirmed","time_est":"05:00"},{"nation":"Thailand","athletes":1,"status":"unconfirmed","time_est":"05:00"},{"nation":"Ecuador","athletes":1,"status":"unconfirmed","time_est":"05:00"},{"nation":"Lebanon","athletes":1,"status":"unconfirmed","time_est":"05:00"},{"nation":"Morocco","athletes":1,"status":"unconfirmed","time_est":"05:00"},{"nation":"Venezuela","athletes":1,"status":"unconfirmed","time_est":"05:00"}],"Speed Skating - Men's Mass Start":[{"nation":"Denmark","athletes":2,"status":"probable","time_est":"10:40"}],"Bobsleigh - Men's 4-Man":[{"nation":"Israel","athletes":1,"status":"unconfirmed","time_est":"04:00"},{"nation":"Brazil","athletes":1,"status":"unconfirmed","time_est":"04:00"},{"nation":"Liechtenstein","athletes":1,"status":"unconfirmed","time_est":"04:00"},{"nation":"Jamaica","athletes":1,"status":"unconfirmed","time_est":"04:00"},{"nation":"Trinidad and Tobago","athletes":1,"status":"unconfirmed","time_est":"04:00"}]},"2026-02-22":{"Cross-Country Skiing - Women's 30km mass start":[{"nation":"Australia","athletes":4,"status":"unconfirmed","time_est":"04:00"},{"nation":"Brazil","athletes":2,"status":"unconfirmed","time_est":"04:00"},{"nation":"Romania","athletes":1,"status":"unconfirmed","time_est":"04:00"},{"nation":"Chinese Taipei","athletes":1,"status":"unconfirmed","time_est":"04:00"},{"nation":"Mexico","athletes":1,"status":"unconfirmed","time_est":"04:00"},{"nation":"Lithuania","athletes":2,"status":"unconfirmed","time_est":"04:00"},{"nation":"Armenia","athletes":1,"status":"unconfirmed","time_est":"04:00"},{"nation":"Argentina","athletes":2,"status":"unconfirmed","time_est":"04:00"},{"nation":"Moldova","athletes":1,"status":"unconfirmed","time_est":"04:00"},{"nation":"Andorra","athletes":1,"status":"unconfirmed","time_est":"04:00"},{"nation":"Bosnia and Herzegovina","athletes":1,"status":"unconfirmed","time_est":"04:00"},{"nation":"Iran","athletes":1,"status":"unconfirmed","time_est":"04:00"},{"nation":"Mongolia","athletes":1,"status":"unconfirmed","time_est":"04:00"},{"nation":"North Macedonia","athletes":1,"status":"unconfirmed","time_est":"04:00"},{"nation":"Serbia","athletes":1,"status":"unconfirmed","time_est":"04:00"},{"nation":"Thailand","athletes":1,"status":"unconfirmed","time_est":"04:00"},{"nation":"Malta","athletes":1,"status":"unconfirmed","time_est":"04:00"}]}}
+{
+  "2026-02-06": {
+    "Figure Skating - Pairs": [
+      {
+        "nation": "Australia",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "05:35"
+      },
+      {
+        "nation": "Georgia",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "05:35"
+      },
+      {
+        "nation": "Armenia",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "05:35"
+      },
+      {
+        "nation": "Uzbekistan",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "05:35"
+      }
+    ],
+    "Figure Skating - Ice Dance": [
+      {
+        "nation": "Australia",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "03:55"
+      },
+      {
+        "nation": "Georgia",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "03:55"
+      },
+      {
+        "nation": "Lithuania",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "03:55"
+      }
+    ]
+  },
+  "2026-02-07": {
+    "Luge - Men's": [
+      {
+        "nation": "Australia",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "11:00"
+      },
+      {
+        "nation": "Romania",
+        "athletes": 2,
+        "status": "probable",
+        "time_est": "11:00"
+      }
+    ],
+    "Cross-Country Skiing - Women's skiathlon": [
+      {
+        "nation": "Australia",
+        "athletes": 4,
+        "status": "unconfirmed",
+        "time_est": "07:00"
+      },
+      {
+        "nation": "Brazil",
+        "athletes": 2,
+        "status": "unconfirmed",
+        "time_est": "07:00"
+      },
+      {
+        "nation": "Romania",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "07:00"
+      },
+      {
+        "nation": "Turkey",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "07:00"
+      },
+      {
+        "nation": "Chinese Taipei",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "07:00"
+      },
+      {
+        "nation": "Mexico",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "07:00"
+      },
+      {
+        "nation": "Lithuania",
+        "athletes": 2,
+        "status": "unconfirmed",
+        "time_est": "07:00"
+      },
+      {
+        "nation": "Armenia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "07:00"
+      },
+      {
+        "nation": "Argentina",
+        "athletes": 2,
+        "status": "unconfirmed",
+        "time_est": "07:00"
+      },
+      {
+        "nation": "Moldova",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "07:00"
+      },
+      {
+        "nation": "Andorra",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "07:00"
+      },
+      {
+        "nation": "Bosnia and Herzegovina",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "07:00"
+      },
+      {
+        "nation": "Iran",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "07:00"
+      },
+      {
+        "nation": "Mongolia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "07:00"
+      },
+      {
+        "nation": "North Macedonia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "07:00"
+      },
+      {
+        "nation": "Serbia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "07:00"
+      },
+      {
+        "nation": "Thailand",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "07:00"
+      },
+      {
+        "nation": "Malta",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "07:00"
+      }
+    ],
+    "Alpine Skiing - Men's Downhill": [
+      {
+        "nation": "Australia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Denmark",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Israel",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Brazil",
+        "athletes": 3,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "South Africa",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Romania",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Turkey",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Chinese Taipei",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Liechtenstein",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Jamaica",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Trinidad and Tobago",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Georgia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Mexico",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Lithuania",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Armenia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Uzbekistan",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Ireland",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Argentina",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Hong Kong",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Andorra",
+        "athletes": 2,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Bosnia and Herzegovina",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Chile",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Haiti",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Iceland",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "India",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Iran",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Kyrgyzstan",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Mongolia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Montenegro",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "North Macedonia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Portugal",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Serbia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Saudi Arabia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Thailand",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Lebanon",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Morocco",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Albania",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Benin",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Cyprus",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Eritrea",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Guinea-Bissau",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Kenya",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Kosovo",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Luxembourg",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Madagascar",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Malaysia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Monaco",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Pakistan",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Philippines",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "San Marino",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Singapore",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "United Arab Emirates",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Uruguay",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      }
+    ],
+    "Snowboarding - Men's Big Air": [
+      {
+        "nation": "New Zealand",
+        "athletes": 3,
+        "status": "unconfirmed",
+        "time_est": "14:17"
+      }
+    ]
+  },
+  "2026-02-08": {
+    "Cross-Country Skiing - Men's skiathlon": [
+      {
+        "nation": "Australia",
+        "athletes": 3,
+        "status": "unconfirmed",
+        "time_est": "06:30"
+      },
+      {
+        "nation": "Israel",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "06:30"
+      },
+      {
+        "nation": "Brazil",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "06:30"
+      },
+      {
+        "nation": "South Africa",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "06:30"
+      },
+      {
+        "nation": "Romania",
+        "athletes": 2,
+        "status": "unconfirmed",
+        "time_est": "06:30"
+      },
+      {
+        "nation": "Turkey",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "06:30"
+      },
+      {
+        "nation": "Chinese Taipei",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "06:30"
+      },
+      {
+        "nation": "Liechtenstein",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "06:30"
+      },
+      {
+        "nation": "Mexico",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "06:30"
+      },
+      {
+        "nation": "Lithuania",
+        "athletes": 2,
+        "status": "unconfirmed",
+        "time_est": "06:30"
+      },
+      {
+        "nation": "Armenia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "06:30"
+      },
+      {
+        "nation": "Ireland",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "06:30"
+      },
+      {
+        "nation": "Argentina",
+        "athletes": 2,
+        "status": "unconfirmed",
+        "time_est": "06:30"
+      },
+      {
+        "nation": "Moldova",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "06:30"
+      },
+      {
+        "nation": "Andorra",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "06:30"
+      },
+      {
+        "nation": "Bolivia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "06:30"
+      },
+      {
+        "nation": "Bosnia and Herzegovina",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "06:30"
+      },
+      {
+        "nation": "Chile",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "06:30"
+      },
+      {
+        "nation": "Colombia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "06:30"
+      },
+      {
+        "nation": "Haiti",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "06:30"
+      },
+      {
+        "nation": "Iceland",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "06:30"
+      },
+      {
+        "nation": "India",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "06:30"
+      },
+      {
+        "nation": "Iran",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "06:30"
+      },
+      {
+        "nation": "Kyrgyzstan",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "06:30"
+      },
+      {
+        "nation": "Mongolia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "06:30"
+      },
+      {
+        "nation": "Montenegro",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "06:30"
+      },
+      {
+        "nation": "Nigeria",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "06:30"
+      },
+      {
+        "nation": "North Macedonia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "06:30"
+      },
+      {
+        "nation": "Portugal",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "06:30"
+      },
+      {
+        "nation": "Serbia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "06:30"
+      },
+      {
+        "nation": "Saudi Arabia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "06:30"
+      },
+      {
+        "nation": "Thailand",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "06:30"
+      },
+      {
+        "nation": "Ecuador",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "06:30"
+      },
+      {
+        "nation": "Lebanon",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "06:30"
+      },
+      {
+        "nation": "Morocco",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "06:30"
+      },
+      {
+        "nation": "Venezuela",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "06:30"
+      }
+    ],
+    "Alpine Skiing - Women's Downhill": [
+      {
+        "nation": "Australia",
+        "athletes": 2,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Denmark",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Israel",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Brazil",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "South Africa",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Romania",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Turkey",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "New Zealand",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Chinese Taipei",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Liechtenstein",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Trinidad and Tobago",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Azerbaijan",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Georgia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Mexico",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Lithuania",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Ireland",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Argentina",
+        "athletes": 2,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Hong Kong",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Andorra",
+        "athletes": 3,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Bosnia and Herzegovina",
+        "athletes": 2,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Chile",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Iceland",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Iran",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "North Macedonia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Portugal",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Albania",
+        "athletes": 3,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Cyprus",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Kenya",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Kosovo",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Luxembourg",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Madagascar",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Malaysia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Philippines",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "United Arab Emirates",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      }
+    ]
+  },
+  "2026-02-09": {
+    "Alpine Skiing - Men's Team Combined": [
+      {
+        "nation": "Brazil",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:30"
+      },
+      {
+        "nation": "Andorra",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:30"
+      }
+    ],
+    "Luge - Women's": [
+      {
+        "nation": "Romania",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "11:00"
+      },
+      {
+        "nation": "Argentina",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "11:00"
+      }
+    ]
+  },
+  "2026-02-10": {
+    "Alpine Skiing - Women's Team Combined": [
+      {
+        "nation": "Australia",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:30"
+      },
+      {
+        "nation": "Argentina",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:30"
+      },
+      {
+        "nation": "Andorra",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:30"
+      },
+      {
+        "nation": "Bosnia and Herzegovina",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:30"
+      },
+      {
+        "nation": "Albania",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:30"
+      }
+    ],
+    "Biathlon - Men's 20km": [
+      {
+        "nation": "Denmark",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "07:30"
+      },
+      {
+        "nation": "Romania",
+        "athletes": 4,
+        "status": "probable",
+        "time_est": "07:30"
+      },
+      {
+        "nation": "Lithuania",
+        "athletes": 4,
+        "status": "probable",
+        "time_est": "07:30"
+      },
+      {
+        "nation": "Moldova",
+        "athletes": 2,
+        "status": "probable",
+        "time_est": "07:30"
+      }
+    ]
+  },
+  "2026-02-11": {
+    "Freestyle Skiing - Women's Moguls": [
+      {
+        "nation": "Australia",
+        "athletes": 3,
+        "status": "unconfirmed",
+        "time_est": "08:15"
+      },
+      {
+        "nation": "South Africa",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "08:15"
+      }
+    ],
+    "Biathlon - Women's 15km": [
+      {
+        "nation": "Australia",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "08:15"
+      },
+      {
+        "nation": "Australia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "08:15"
+      },
+      {
+        "nation": "Denmark",
+        "athletes": 2,
+        "status": "probable",
+        "time_est": "08:15"
+      },
+      {
+        "nation": "Denmark",
+        "athletes": 2,
+        "status": "unconfirmed",
+        "time_est": "08:15"
+      },
+      {
+        "nation": "Romania",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "08:15"
+      },
+      {
+        "nation": "Romania",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "08:15"
+      },
+      {
+        "nation": "Lithuania",
+        "athletes": 4,
+        "status": "probable",
+        "time_est": "08:15"
+      },
+      {
+        "nation": "Lithuania",
+        "athletes": 4,
+        "status": "unconfirmed",
+        "time_est": "08:15"
+      },
+      {
+        "nation": "Moldova",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "08:15"
+      },
+      {
+        "nation": "Moldova",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "08:15"
+      }
+    ],
+    "Alpine Skiing - Men's Super-G": [
+      {
+        "nation": "Australia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Denmark",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Israel",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Brazil",
+        "athletes": 3,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "South Africa",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Romania",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Turkey",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Chinese Taipei",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Liechtenstein",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Jamaica",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Trinidad and Tobago",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Georgia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Mexico",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Lithuania",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Armenia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Uzbekistan",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Ireland",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Argentina",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Hong Kong",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Andorra",
+        "athletes": 2,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Bosnia and Herzegovina",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Chile",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Haiti",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Iceland",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "India",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Iran",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Kyrgyzstan",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Mongolia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Montenegro",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "North Macedonia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Portugal",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Serbia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Saudi Arabia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Thailand",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Lebanon",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Morocco",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Albania",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Benin",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Cyprus",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Eritrea",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Guinea-Bissau",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Kenya",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Kosovo",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Luxembourg",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Madagascar",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Malaysia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Monaco",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Pakistan",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Philippines",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "San Marino",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Singapore",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "United Arab Emirates",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Uruguay",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      }
+    ],
+    "Luge - Men's Doubles": [
+      {
+        "nation": "Romania",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "11:51"
+      }
+    ],
+    "Luge - Women's Doubles": [
+      {
+        "nation": "Romania",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "11:00"
+      }
+    ]
+  },
+  "2026-02-12": {
+    "Snowboarding - Men's Snowboard Cross": [
+      {
+        "nation": "Australia",
+        "athletes": 3,
+        "status": "probable",
+        "time_est": "09:01"
+      }
+    ],
+    "Snowboarding - Women's Halfpipe": [
+      {
+        "nation": "Australia",
+        "athletes": 3,
+        "status": "probable",
+        "time_est": "14:28"
+      }
+    ],
+    "Freestyle Skiing - Men's Moguls": [
+      {
+        "nation": "Australia",
+        "athletes": 4,
+        "status": "unconfirmed",
+        "time_est": "06:15"
+      },
+      {
+        "nation": "Australia",
+        "athletes": 4,
+        "status": "unconfirmed",
+        "time_est": "06:15"
+      }
+    ],
+    "Cross-Country Skiing - Women's 10km classical": [
+      {
+        "nation": "Australia",
+        "athletes": 4,
+        "status": "probable",
+        "time_est": "07:00"
+      },
+      {
+        "nation": "Brazil",
+        "athletes": 2,
+        "status": "probable",
+        "time_est": "07:00"
+      },
+      {
+        "nation": "Romania",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "07:00"
+      },
+      {
+        "nation": "Turkey",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "07:00"
+      },
+      {
+        "nation": "Chinese Taipei",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "07:00"
+      },
+      {
+        "nation": "Mexico",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "07:00"
+      },
+      {
+        "nation": "Lithuania",
+        "athletes": 2,
+        "status": "probable",
+        "time_est": "07:00"
+      },
+      {
+        "nation": "Armenia",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "07:00"
+      },
+      {
+        "nation": "Argentina",
+        "athletes": 2,
+        "status": "probable",
+        "time_est": "07:00"
+      },
+      {
+        "nation": "Moldova",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "07:00"
+      },
+      {
+        "nation": "Andorra",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "07:00"
+      },
+      {
+        "nation": "Bosnia and Herzegovina",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "07:00"
+      },
+      {
+        "nation": "Iran",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "07:00"
+      },
+      {
+        "nation": "Mongolia",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "07:00"
+      },
+      {
+        "nation": "North Macedonia",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "07:00"
+      },
+      {
+        "nation": "Serbia",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "07:00"
+      },
+      {
+        "nation": "Thailand",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "07:00"
+      },
+      {
+        "nation": "Malta",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "07:00"
+      }
+    ],
+    "Alpine Skiing - Women's Super-G": [
+      {
+        "nation": "Australia",
+        "athletes": 2,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Denmark",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Israel",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Brazil",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "South Africa",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Romania",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Turkey",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "New Zealand",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Chinese Taipei",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Liechtenstein",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Trinidad and Tobago",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Azerbaijan",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Georgia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Mexico",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Lithuania",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Ireland",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Argentina",
+        "athletes": 2,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Hong Kong",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Andorra",
+        "athletes": 3,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Bosnia and Herzegovina",
+        "athletes": 2,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Chile",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Iceland",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Iran",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "North Macedonia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Portugal",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Albania",
+        "athletes": 3,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Cyprus",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Kenya",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Kosovo",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Luxembourg",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Madagascar",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Malaysia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "Philippines",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      },
+      {
+        "nation": "United Arab Emirates",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:30"
+      }
+    ],
+    "Luge - Relay": [
+      {
+        "nation": "Romania",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "12:30"
+      }
+    ],
+    "Curling - Women's Round 1": [
+      {
+        "nation": "Denmark",
+        "athletes": 4,
+        "status": "probable",
+        "time_est": "09:05"
+      }
+    ],
+    "Ice Hockey - Men's Group Stage": [
+      {
+        "nation": "Denmark",
+        "athletes": 20,
+        "status": "probable",
+        "time_est": "21:10"
+      }
+    ],
+    "Curling - Women's Round 2": [
+      {
+        "nation": "Denmark",
+        "athletes": 4,
+        "status": "probable",
+        "time_est": "19:05"
+      }
+    ]
+  },
+  "2026-02-13": {
+    "Skeleton - Men's": [
+      {
+        "nation": "Australia",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "13:30"
+      },
+      {
+        "nation": "Denmark",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "13:30"
+      },
+      {
+        "nation": "Israel",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "13:30"
+      }
+    ],
+    "Snowboarding - Men's Halfpipe": [
+      {
+        "nation": "Australia",
+        "athletes": 2,
+        "status": "probable",
+        "time_est": "14:28"
+      },
+      {
+        "nation": "Brazil",
+        "athletes": 2,
+        "status": "probable",
+        "time_est": "14:28"
+      },
+      {
+        "nation": "New Zealand",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "14:28"
+      }
+    ],
+    "Snowboarding - Women's Snowboard Cross": [
+      {
+        "nation": "Australia",
+        "athletes": 3,
+        "status": "probable",
+        "time_est": "08:46"
+      }
+    ],
+    "Cross-Country Skiing - Men's 15km classical": [
+      {
+        "nation": "Australia",
+        "athletes": 3,
+        "status": "probable",
+        "time_est": "05:45"
+      },
+      {
+        "nation": "Israel",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "05:45"
+      },
+      {
+        "nation": "Brazil",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "05:45"
+      },
+      {
+        "nation": "South Africa",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "05:45"
+      },
+      {
+        "nation": "Romania",
+        "athletes": 2,
+        "status": "probable",
+        "time_est": "05:45"
+      },
+      {
+        "nation": "Turkey",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "05:45"
+      },
+      {
+        "nation": "Chinese Taipei",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "05:45"
+      },
+      {
+        "nation": "Liechtenstein",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "05:45"
+      },
+      {
+        "nation": "Mexico",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "05:45"
+      },
+      {
+        "nation": "Lithuania",
+        "athletes": 2,
+        "status": "probable",
+        "time_est": "05:45"
+      },
+      {
+        "nation": "Armenia",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "05:45"
+      },
+      {
+        "nation": "Ireland",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "05:45"
+      },
+      {
+        "nation": "Argentina",
+        "athletes": 2,
+        "status": "probable",
+        "time_est": "05:45"
+      },
+      {
+        "nation": "Moldova",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "05:45"
+      },
+      {
+        "nation": "Andorra",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "05:45"
+      },
+      {
+        "nation": "Bolivia",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "05:45"
+      },
+      {
+        "nation": "Bosnia and Herzegovina",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "05:45"
+      },
+      {
+        "nation": "Chile",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "05:45"
+      },
+      {
+        "nation": "Colombia",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "05:45"
+      },
+      {
+        "nation": "Haiti",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "05:45"
+      },
+      {
+        "nation": "Iceland",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "05:45"
+      },
+      {
+        "nation": "India",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "05:45"
+      },
+      {
+        "nation": "Iran",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "05:45"
+      },
+      {
+        "nation": "Kyrgyzstan",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "05:45"
+      },
+      {
+        "nation": "Mongolia",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "05:45"
+      },
+      {
+        "nation": "Montenegro",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "05:45"
+      },
+      {
+        "nation": "Nigeria",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "05:45"
+      },
+      {
+        "nation": "North Macedonia",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "05:45"
+      },
+      {
+        "nation": "Portugal",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "05:45"
+      },
+      {
+        "nation": "Serbia",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "05:45"
+      },
+      {
+        "nation": "Saudi Arabia",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "05:45"
+      },
+      {
+        "nation": "Thailand",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "05:45"
+      },
+      {
+        "nation": "Ecuador",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "05:45"
+      },
+      {
+        "nation": "Lebanon",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "05:45"
+      },
+      {
+        "nation": "Morocco",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "05:45"
+      },
+      {
+        "nation": "Venezuela",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "05:45"
+      }
+    ],
+    "Skeleton - Women's": [
+      {
+        "nation": "Brazil",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "10:00"
+      },
+      {
+        "nation": "Puerto Rico",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "10:00"
+      },
+      {
+        "nation": "South Africa",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "10:00"
+      }
+    ],
+    "Curling - Women's Round 3": [
+      {
+        "nation": "Denmark",
+        "athletes": 4,
+        "status": "probable",
+        "time_est": "14:05"
+      }
+    ]
+  },
+  "2026-02-14": {
+    "Freestyle Skiing - Women's Dual Moguls": [
+      {
+        "nation": "Australia",
+        "athletes": 3,
+        "status": "unconfirmed",
+        "time_est": "05:46"
+      },
+      {
+        "nation": "South Africa",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:46"
+      }
+    ],
+    "Biathlon - Women's 7.5km Sprint": [
+      {
+        "nation": "Australia",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "08:45"
+      },
+      {
+        "nation": "Denmark",
+        "athletes": 2,
+        "status": "probable",
+        "time_est": "08:45"
+      },
+      {
+        "nation": "Romania",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "08:45"
+      },
+      {
+        "nation": "Lithuania",
+        "athletes": 4,
+        "status": "probable",
+        "time_est": "08:45"
+      },
+      {
+        "nation": "Moldova",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "08:45"
+      }
+    ],
+    "Alpine Skiing - Men's Giant Slalom": [
+      {
+        "nation": "Australia",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Denmark",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Israel",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Brazil",
+        "athletes": 3,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "South Africa",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Romania",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Turkey",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Chinese Taipei",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Liechtenstein",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Jamaica",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Trinidad and Tobago",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Georgia",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Mexico",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Lithuania",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Armenia",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Uzbekistan",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Ireland",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Argentina",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Hong Kong",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Andorra",
+        "athletes": 2,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Bosnia and Herzegovina",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Chile",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Haiti",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Iceland",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "India",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Iran",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Kyrgyzstan",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Mongolia",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Montenegro",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "North Macedonia",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Portugal",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Serbia",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Saudi Arabia",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Thailand",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Lebanon",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Morocco",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Albania",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Benin",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Cyprus",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Eritrea",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Guinea-Bissau",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Kenya",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Kosovo",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Luxembourg",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Madagascar",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Malaysia",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Monaco",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Pakistan",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Philippines",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "San Marino",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Singapore",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "United Arab Emirates",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Uruguay",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      }
+    ],
+    "Curling - Women's Round 5": [
+      {
+        "nation": "Denmark",
+        "athletes": 4,
+        "status": "probable",
+        "time_est": "19:05"
+      }
+    ],
+    "Ice Hockey - Men's Group Stage": [
+      {
+        "nation": "Denmark",
+        "athletes": 20,
+        "status": "probable",
+        "time_est": "21:10"
+      }
+    ]
+  },
+  "2026-02-15": {
+    "Bobsleigh - Women's Monobob": [
+      {
+        "nation": "Australia",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Denmark",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Chinese Taipei",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Jamaica",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "04:00"
+      }
+    ],
+    "Alpine Skiing - Women's Giant Slalom": [
+      {
+        "nation": "Australia",
+        "athletes": 2,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Denmark",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Israel",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Brazil",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "South Africa",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Romania",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Turkey",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "New Zealand",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Chinese Taipei",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Liechtenstein",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Trinidad and Tobago",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Azerbaijan",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Georgia",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Mexico",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Lithuania",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Ireland",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Argentina",
+        "athletes": 2,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Hong Kong",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Andorra",
+        "athletes": 3,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Bosnia and Herzegovina",
+        "athletes": 2,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Chile",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Iceland",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Iran",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "North Macedonia",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Portugal",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Albania",
+        "athletes": 3,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Cyprus",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Kenya",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Kosovo",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Luxembourg",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Madagascar",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Malaysia",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Philippines",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "United Arab Emirates",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      }
+    ],
+    "Skeleton - Mixed Team": [
+      {
+        "nation": "Denmark",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "12:00"
+      }
+    ],
+    "Biathlon - Men's 12.5km Pursuit": [
+      {
+        "nation": "Denmark",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:15"
+      },
+      {
+        "nation": "Romania",
+        "athletes": 4,
+        "status": "unconfirmed",
+        "time_est": "05:15"
+      },
+      {
+        "nation": "Lithuania",
+        "athletes": 4,
+        "status": "unconfirmed",
+        "time_est": "05:15"
+      },
+      {
+        "nation": "Moldova",
+        "athletes": 2,
+        "status": "unconfirmed",
+        "time_est": "05:15"
+      }
+    ],
+    "Speed Skating - Women's 500m": [
+      {
+        "nation": "Chinese Taipei",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "11:03"
+      }
+    ],
+    "Curling - Women's Round 6": [
+      {
+        "nation": "Denmark",
+        "athletes": 4,
+        "status": "probable",
+        "time_est": "14:05"
+      }
+    ],
+    "Ice Hockey - Men's Group Stage": [
+      {
+        "nation": "Denmark",
+        "athletes": 20,
+        "status": "probable",
+        "time_est": "19:10"
+      }
+    ]
+  },
+  "2026-02-16": {
+    "Alpine Skiing - Men's Slalom": [
+      {
+        "nation": "Australia",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Denmark",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Israel",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Brazil",
+        "athletes": 3,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "South Africa",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Romania",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Turkey",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Chinese Taipei",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Liechtenstein",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Jamaica",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Trinidad and Tobago",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Georgia",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Mexico",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Lithuania",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Armenia",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Uzbekistan",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Ireland",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Argentina",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Hong Kong",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Andorra",
+        "athletes": 2,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Bosnia and Herzegovina",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Chile",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Haiti",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Iceland",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "India",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Iran",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Kyrgyzstan",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Mongolia",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Montenegro",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "North Macedonia",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Portugal",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Serbia",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Saudi Arabia",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Thailand",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Lebanon",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Morocco",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Albania",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Benin",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Cyprus",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Eritrea",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Guinea-Bissau",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Kenya",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Kosovo",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Luxembourg",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Madagascar",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Malaysia",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Monaco",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Pakistan",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Philippines",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "San Marino",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Singapore",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "United Arab Emirates",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Uruguay",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      }
+    ],
+    "Bobsleigh - Men's 2-Man": [
+      {
+        "nation": "Israel",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Brazil",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Liechtenstein",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Jamaica",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Trinidad and Tobago",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "04:00"
+      }
+    ],
+    "Curling - Women's Round 7": [
+      {
+        "nation": "Denmark",
+        "athletes": 4,
+        "status": "probable",
+        "time_est": "09:05"
+      }
+    ]
+  },
+  "2026-02-17": {
+    "Snowboarding - Women's Slopestyle/Big Air": [
+      {
+        "nation": "Australia",
+        "athletes": 3,
+        "status": "probable",
+        "time_est": "07:54"
+      },
+      {
+        "nation": "New Zealand",
+        "athletes": 2,
+        "status": "probable",
+        "time_est": "07:54"
+      }
+    ],
+    "Curling - Women's Round 9": [
+      {
+        "nation": "Denmark",
+        "athletes": 4,
+        "status": "probable",
+        "time_est": "14:05"
+      }
+    ]
+  },
+  "2026-02-18": {
+    "Freestyle Skiing - Women's Aerials": [
+      {
+        "nation": "Australia",
+        "athletes": 4,
+        "status": "probable",
+        "time_est": "06:30"
+      }
+    ],
+    "Alpine Skiing - Women's Slalom": [
+      {
+        "nation": "Australia",
+        "athletes": 2,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Denmark",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Israel",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Brazil",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "South Africa",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Romania",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Turkey",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "New Zealand",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Chinese Taipei",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Liechtenstein",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Trinidad and Tobago",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Azerbaijan",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Georgia",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Mexico",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Lithuania",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Ireland",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Argentina",
+        "athletes": 2,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Hong Kong",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Andorra",
+        "athletes": 3,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Bosnia and Herzegovina",
+        "athletes": 2,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Chile",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Iceland",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Iran",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "North Macedonia",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Portugal",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Albania",
+        "athletes": 3,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Cyprus",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Kenya",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Kosovo",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Luxembourg",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Madagascar",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Malaysia",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Philippines",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "United Arab Emirates",
+        "athletes": 1,
+        "status": "maybe",
+        "time_est": "04:00"
+      }
+    ],
+    "Snowboarding - Men's Slopestyle": [
+      {
+        "nation": "New Zealand",
+        "athletes": 3,
+        "status": "unconfirmed",
+        "time_est": "07:28"
+      }
+    ],
+    "Curling - Women's Round 10": [
+      {
+        "nation": "Denmark",
+        "athletes": 4,
+        "status": "probable",
+        "time_est": "09:05"
+      }
+    ],
+    "Curling - Women's Round 11": [
+      {
+        "nation": "Denmark",
+        "athletes": 4,
+        "status": "probable",
+        "time_est": "19:05"
+      }
+    ]
+  },
+  "2026-02-19": {
+    "Ski Mountaineering - Men's": [
+      {
+        "nation": "Australia",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "08:15"
+      }
+    ],
+    "Ski Mountaineering - Women's": [
+      {
+        "nation": "Australia",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "07:55"
+      }
+    ],
+    "Freestyle Skiing - Men's Aerials": [
+      {
+        "nation": "Australia",
+        "athletes": 1,
+        "status": "probable",
+        "time_est": "06:30"
+      }
+    ]
+  },
+  "2026-02-20": {
+    "Biathlon - Men's 15km Mass Start": [
+      {
+        "nation": "Denmark",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "08:15"
+      },
+      {
+        "nation": "Romania",
+        "athletes": 4,
+        "status": "unconfirmed",
+        "time_est": "08:15"
+      },
+      {
+        "nation": "Lithuania",
+        "athletes": 4,
+        "status": "unconfirmed",
+        "time_est": "08:15"
+      },
+      {
+        "nation": "Moldova",
+        "athletes": 2,
+        "status": "unconfirmed",
+        "time_est": "08:15"
+      }
+    ]
+  },
+  "2026-02-21": {
+    "Biathlon - Women's 12.5km Mass Start": [
+      {
+        "nation": "Australia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "08:15"
+      },
+      {
+        "nation": "Denmark",
+        "athletes": 2,
+        "status": "unconfirmed",
+        "time_est": "08:15"
+      },
+      {
+        "nation": "Romania",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "08:15"
+      },
+      {
+        "nation": "Lithuania",
+        "athletes": 4,
+        "status": "unconfirmed",
+        "time_est": "08:15"
+      },
+      {
+        "nation": "Moldova",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "08:15"
+      }
+    ],
+    "Cross-Country Skiing - Men's 50km mass start": [
+      {
+        "nation": "Australia",
+        "athletes": 3,
+        "status": "unconfirmed",
+        "time_est": "05:00"
+      },
+      {
+        "nation": "Israel",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:00"
+      },
+      {
+        "nation": "Brazil",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:00"
+      },
+      {
+        "nation": "South Africa",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:00"
+      },
+      {
+        "nation": "Romania",
+        "athletes": 2,
+        "status": "unconfirmed",
+        "time_est": "05:00"
+      },
+      {
+        "nation": "Turkey",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:00"
+      },
+      {
+        "nation": "Chinese Taipei",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:00"
+      },
+      {
+        "nation": "Liechtenstein",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:00"
+      },
+      {
+        "nation": "Mexico",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:00"
+      },
+      {
+        "nation": "Lithuania",
+        "athletes": 2,
+        "status": "unconfirmed",
+        "time_est": "05:00"
+      },
+      {
+        "nation": "Armenia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:00"
+      },
+      {
+        "nation": "Ireland",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:00"
+      },
+      {
+        "nation": "Argentina",
+        "athletes": 2,
+        "status": "unconfirmed",
+        "time_est": "05:00"
+      },
+      {
+        "nation": "Moldova",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:00"
+      },
+      {
+        "nation": "Andorra",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:00"
+      },
+      {
+        "nation": "Bolivia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:00"
+      },
+      {
+        "nation": "Bosnia and Herzegovina",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:00"
+      },
+      {
+        "nation": "Chile",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:00"
+      },
+      {
+        "nation": "Colombia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:00"
+      },
+      {
+        "nation": "Haiti",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:00"
+      },
+      {
+        "nation": "Iceland",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:00"
+      },
+      {
+        "nation": "India",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:00"
+      },
+      {
+        "nation": "Iran",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:00"
+      },
+      {
+        "nation": "Kyrgyzstan",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:00"
+      },
+      {
+        "nation": "Mongolia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:00"
+      },
+      {
+        "nation": "Montenegro",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:00"
+      },
+      {
+        "nation": "Nigeria",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:00"
+      },
+      {
+        "nation": "North Macedonia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:00"
+      },
+      {
+        "nation": "Portugal",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:00"
+      },
+      {
+        "nation": "Serbia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:00"
+      },
+      {
+        "nation": "Saudi Arabia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:00"
+      },
+      {
+        "nation": "Thailand",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:00"
+      },
+      {
+        "nation": "Ecuador",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:00"
+      },
+      {
+        "nation": "Lebanon",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:00"
+      },
+      {
+        "nation": "Morocco",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:00"
+      },
+      {
+        "nation": "Venezuela",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "05:00"
+      }
+    ],
+    "Speed Skating - Men's Mass Start": [
+      {
+        "nation": "Denmark",
+        "athletes": 2,
+        "status": "probable",
+        "time_est": "10:40"
+      }
+    ],
+    "Bobsleigh - Men's 4-Man": [
+      {
+        "nation": "Israel",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Brazil",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Liechtenstein",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Jamaica",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Trinidad and Tobago",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "04:00"
+      }
+    ]
+  },
+  "2026-02-22": {
+    "Cross-Country Skiing - Women's 30km mass start": [
+      {
+        "nation": "Australia",
+        "athletes": 4,
+        "status": "unconfirmed",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Brazil",
+        "athletes": 2,
+        "status": "unconfirmed",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Romania",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Chinese Taipei",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Mexico",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Lithuania",
+        "athletes": 2,
+        "status": "unconfirmed",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Armenia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Argentina",
+        "athletes": 2,
+        "status": "unconfirmed",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Moldova",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Andorra",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Bosnia and Herzegovina",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Iran",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Mongolia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "North Macedonia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Serbia",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Thailand",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "04:00"
+      },
+      {
+        "nation": "Malta",
+        "athletes": 1,
+        "status": "unconfirmed",
+        "time_est": "04:00"
+      }
+    ]
+  }
+}
