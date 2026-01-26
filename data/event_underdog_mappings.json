@@ -1,0 +1,197 @@
+{
+  "metadata": {
+    "total_events_with_underdogs": 9,
+    "total_underdog_nations": 56,
+    "underdog_nations": [
+      "ALB",
+      "AND",
+      "ARG",
+      "ARM",
+      "AUS",
+      "AZE",
+      "BIH",
+      "BRA",
+      "CHI",
+      "COL",
+      "CYP",
+      "DEN",
+      "ECU",
+      "GEO",
+      "GRE",
+      "HKG",
+      "IND",
+      "IRI",
+      "IRL",
+      "ISL",
+      "ISR",
+      "JAM",
+      "KEN",
+      "KGZ",
+      "KOS",
+      "KSA",
+      "LIB",
+      "LIE",
+      "LTU",
+      "LUX",
+      "MAR",
+      "MAS",
+      "MDA",
+      "MEX",
+      "MGL",
+      "MKD",
+      "MLT",
+      "MNE",
+      "MON",
+      "NGR",
+      "NZL",
+      "PAK",
+      "PHI",
+      "POR",
+      "ROM",
+      "RSA",
+      "SGP",
+      "SMR",
+      "SRB",
+      "THA",
+      "TPE",
+      "TTO",
+      "TUR",
+      "UAE",
+      "URU",
+      "VEN"
+    ],
+    "generated": "2026-01-25T20:58:21.375895"
+  },
+  "event_mappings": {
+    "Skeleton|Men's Skeleton|2026-02-12|Heat 1": {
+      "discipline": "Skeleton",
+      "event": "Men's Skeleton",
+      "date": "2026-02-12",
+      "stage": "Heat 1",
+      "underdog_nations": [
+        "DEN",
+        "ISR"
+      ],
+      "underdog_count": 2
+    },
+    "Skeleton|Men's Skeleton|2026-02-12|Heat 2": {
+      "discipline": "Skeleton",
+      "event": "Men's Skeleton",
+      "date": "2026-02-12",
+      "stage": "Heat 2",
+      "underdog_nations": [
+        "DEN",
+        "ISR"
+      ],
+      "underdog_count": 2
+    },
+    "Skeleton|Men's Skeleton|2026-02-13|Heat 3 - Final": {
+      "discipline": "Skeleton",
+      "event": "Men's Skeleton",
+      "date": "2026-02-13",
+      "stage": "Heat 3 - Final",
+      "underdog_nations": [
+        "DEN",
+        "ISR"
+      ],
+      "underdog_count": 2
+    },
+    "Skeleton|Men's Skeleton|2026-02-13|Heat 4 / Final Classification": {
+      "discipline": "Skeleton",
+      "event": "Men's Skeleton",
+      "date": "2026-02-13",
+      "stage": "Heat 4 / Final Classification",
+      "underdog_nations": [
+        "DEN",
+        "ISR"
+      ],
+      "underdog_count": 2
+    },
+    "Skeleton|Women's Skeleton|2026-02-13|Heat 1": {
+      "discipline": "Skeleton",
+      "event": "Women's Skeleton",
+      "date": "2026-02-13",
+      "stage": "Heat 1",
+      "underdog_nations": [
+        "BRA",
+        "DEN",
+        "RSA"
+      ],
+      "underdog_count": 3
+    },
+    "Skeleton|Women's Skeleton|2026-02-13|Heat 2": {
+      "discipline": "Skeleton",
+      "event": "Women's Skeleton",
+      "date": "2026-02-13",
+      "stage": "Heat 2",
+      "underdog_nations": [
+        "BRA",
+        "DEN",
+        "RSA"
+      ],
+      "underdog_count": 3
+    },
+    "Skeleton|Women's Skeleton|2026-02-14|Heat 3 - Final": {
+      "discipline": "Skeleton",
+      "event": "Women's Skeleton",
+      "date": "2026-02-14",
+      "stage": "Heat 3 - Final",
+      "underdog_nations": [
+        "BRA",
+        "DEN",
+        "RSA"
+      ],
+      "underdog_count": 3
+    },
+    "Skeleton|Women's Skeleton|2026-02-14|Heat 4 / Final Classification": {
+      "discipline": "Skeleton",
+      "event": "Women's Skeleton",
+      "date": "2026-02-14",
+      "stage": "Heat 4 / Final Classification",
+      "underdog_nations": [
+        "BRA",
+        "DEN",
+        "RSA"
+      ],
+      "underdog_count": 3
+    },
+    "Skeleton|Mixed Team Skeleton|2026-02-15|Final": {
+      "discipline": "Skeleton",
+      "event": "Mixed Team Skeleton",
+      "date": "2026-02-15",
+      "stage": "Final",
+      "underdog_nations": [
+        "DEN"
+      ],
+      "underdog_count": 1
+    }
+  },
+  "discipline_summary": {
+    "Skeleton": {
+      "events": [
+        "Men's Skeleton",
+        "Men's Skeleton",
+        "Men's Skeleton",
+        "Men's Skeleton",
+        "Women's Skeleton",
+        "Women's Skeleton",
+        "Women's Skeleton",
+        "Women's Skeleton",
+        "Mixed Team Skeleton"
+      ],
+      "dates": [
+        "2026-02-12",
+        "2026-02-13",
+        "2026-02-14",
+        "2026-02-15"
+      ],
+      "underdogs": [
+        "BRA",
+        "DEN",
+        "ISR",
+        "RSA"
+      ],
+      "event_count": 9
+    }
+  }
+}

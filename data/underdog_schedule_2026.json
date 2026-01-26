@@ -1,0 +1,1500 @@
+{
+  "underdog_by_sport": {
+    "Alpine skiing": [
+      "Albania",
+      "Andorra",
+      "Argentina",
+      "Armenia",
+      "Australia",
+      "Azerbaijan",
+      "Benin",
+      "Bolivia",
+      "Bosnia and Herzegovina",
+      "Brazil",
+      "Chile",
+      "Colombia",
+      "Cyprus",
+      "Denmark",
+      "Ecuador",
+      "Eritrea",
+      "Greece",
+      "Guinea-Bissau",
+      "Haiti",
+      "Hong Kong",
+      "Iceland",
+      "India",
+      "Ireland",
+      "Israel",
+      "Jamaica",
+      "Kenya",
+      "Kosovo",
+      "Kyrgyzstan",
+      "Lebanon",
+      "Liechtenstein",
+      "Lithuania",
+      "Luxembourg",
+      "Madagascar",
+      "Malaysia",
+      "Mexico",
+      "Monaco",
+      "Mongolia",
+      "Montenegro",
+      "Morocco",
+      "New Zealand",
+      "North Macedonia",
+      "Pakistan",
+      "Philippines",
+      "Portugal",
+      "Puerto Rico",
+      "Romania",
+      "San Marino",
+      "Saudi Arabia",
+      "Serbia",
+      "South Africa",
+      "Thailand",
+      "Trinidad and Tobago",
+      "Turkey",
+      "United Arab Emirates",
+      "Uruguay",
+      "Uzbekistan",
+      "Venezuela"
+    ],
+    "Biathlon": [
+      "Armenia",
+      "Australia",
+      "Denmark",
+      "Lithuania",
+      "Moldova",
+      "Romania",
+      "Uzbekistan"
+    ],
+    "Bobsleigh": [
+      "Australia",
+      "Brazil",
+      "Denmark",
+      "Israel",
+      "Jamaica",
+      "Liechtenstein",
+      "Romania",
+      "Trinidad and Tobago"
+    ],
+    "Cross-country skiing": [
+      "Andorra",
+      "Argentina",
+      "Armenia",
+      "Australia",
+      "Azerbaijan",
+      "Bosnia and Herzegovina",
+      "Brazil",
+      "Chile",
+      "Colombia",
+      "Denmark",
+      "Greece",
+      "Haiti",
+      "Iceland",
+      "India",
+      "Ireland",
+      "Israel",
+      "Kyrgyzstan",
+      "Lebanon",
+      "Liechtenstein",
+      "Lithuania",
+      "Malta",
+      "Mexico",
+      "Moldova",
+      "Mongolia",
+      "Montenegro",
+      "Morocco",
+      "Nigeria",
+      "North Macedonia",
+      "Portugal",
+      "Romania",
+      "South Africa",
+      "Thailand",
+      "Turkey",
+      "Uruguay",
+      "Uzbekistan"
+    ],
+    "Curling": [],
+    "Figure skating": [
+      "Australia",
+      "Denmark",
+      "Israel",
+      "Lithuania",
+      "Mexico",
+      "Romania",
+      "Serbia",
+      "Singapore",
+      "Uzbekistan"
+    ],
+    "Freestyle skiing": [
+      "Australia",
+      "Brazil",
+      "Chile",
+      "Denmark",
+      "Ireland",
+      "New Zealand",
+      "Romania",
+      "South Africa",
+      "Turkey",
+      "Uzbekistan"
+    ],
+    "Ice hockey": [],
+    "Luge": [
+      "Australia",
+      "Romania"
+    ],
+    "Nordic combined": [],
+    "Short-track speed skating": [
+      "Australia",
+      "Denmark",
+      "Hong Kong",
+      "Romania"
+    ],
+    "Skeleton": [
+      "Australia",
+      "Denmark",
+      "Israel"
+    ],
+    "Ski jump": [],
+    "Ski jumping": [
+      "Australia",
+      "Turkey"
+    ],
+    "Ski mountaineering": [
+      "Australia"
+    ],
+    "Snowboarding": [
+      "Argentina",
+      "Australia",
+      "Brazil",
+      "New Zealand"
+    ],
+    "Speed skating": [
+      "Australia",
+      "Denmark"
+    ]
+  },
+  "nation_underdog_status": {
+    "Albania": {
+      "is_underdog": true,
+      "criteria_met": [
+        "< 5 Athletes",
+        "No Olympic Gold",
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 4,
+      "sports": [
+        "Alpine skiing"
+      ]
+    },
+    "Andorra": {
+      "is_underdog": true,
+      "criteria_met": [
+        "No Olympic Gold",
+        "No Olympic Medals",
+        "Population < 1M",
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 5,
+      "sports": [
+        "Alpine skiing",
+        "Cross-country skiing"
+      ]
+    },
+    "Argentina": {
+      "is_underdog": true,
+      "criteria_met": [
+        "No Winter Gold",
+        "No Winter Medals",
+        "Southern Hemisphere"
+      ],
+      "criteria_count": 3,
+      "sports": [
+        "Alpine skiing",
+        "Cross-country skiing",
+        "Snowboarding"
+      ]
+    },
+    "Armenia": {
+      "is_underdog": true,
+      "criteria_met": [
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 2,
+      "sports": [
+        "Alpine skiing",
+        "Biathlon",
+        "Cross-country skiing"
+      ]
+    },
+    "Australia": {
+      "is_underdog": true,
+      "criteria_met": [
+        "Southern Hemisphere"
+      ],
+      "criteria_count": 1,
+      "sports": [
+        "Alpine skiing",
+        "Biathlon",
+        "Bobsleigh",
+        "Cross-country skiing",
+        "Figure skating",
+        "Freestyle skiing",
+        "Luge",
+        "Short-track speed skating",
+        "Skeleton",
+        "Ski jumping",
+        "Snowboarding",
+        "Speed skating",
+        "Ski mountaineering"
+      ]
+    },
+    "Austria": {
+      "is_underdog": false,
+      "criteria_met": [],
+      "criteria_count": 0,
+      "sports": [
+        "Alpine skiing",
+        "Biathlon",
+        "Bobsleigh",
+        "Cross-country skiing",
+        "Curling",
+        "Figure skating",
+        "Freestyle skiing",
+        "Ice hockey",
+        "Luge",
+        "Nordic combined",
+        "Short-track speed skating",
+        "Skeleton",
+        "Ski jumping",
+        "Snowboarding",
+        "Speed skating"
+      ]
+    },
+    "Azerbaijan": {
+      "is_underdog": true,
+      "criteria_met": [
+        "< 5 Athletes",
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 3,
+      "sports": [
+        "Alpine skiing",
+        "Cross-country skiing"
+      ]
+    },
+    "Belgium": {
+      "is_underdog": false,
+      "criteria_met": [],
+      "criteria_count": 0,
+      "sports": [
+        "Alpine skiing",
+        "Biathlon",
+        "Bobsleigh",
+        "Figure skating",
+        "Freestyle skiing",
+        "Short-track speed skating",
+        "Speed skating",
+        "Luge",
+        "Nordic combined"
+      ]
+    },
+    "Benin": {
+      "is_underdog": true,
+      "criteria_met": [
+        "No Olympic Gold",
+        "No Olympic Medals",
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 4,
+      "sports": [
+        "Alpine skiing"
+      ]
+    },
+    "Bolivia": {
+      "is_underdog": true,
+      "criteria_met": [
+        "No Olympic Gold",
+        "No Olympic Medals",
+        "No Winter Gold",
+        "No Winter Medals",
+        "Southern Hemisphere"
+      ],
+      "criteria_count": 5,
+      "sports": [
+        "Alpine skiing"
+      ]
+    },
+    "Bosnia and Herzegovina": {
+      "is_underdog": true,
+      "criteria_met": [
+        "< 5 Athletes",
+        "No Olympic Gold",
+        "No Olympic Medals",
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 5,
+      "sports": [
+        "Alpine skiing",
+        "Cross-country skiing"
+      ]
+    },
+    "Brazil": {
+      "is_underdog": true,
+      "criteria_met": [
+        "No Winter Gold",
+        "No Winter Medals",
+        "Southern Hemisphere"
+      ],
+      "criteria_count": 3,
+      "sports": [
+        "Alpine skiing",
+        "Bobsleigh",
+        "Cross-country skiing",
+        "Freestyle skiing",
+        "Snowboarding"
+      ]
+    },
+    "Bulgaria": {
+      "is_underdog": false,
+      "criteria_met": [],
+      "criteria_count": 0,
+      "sports": [
+        "Alpine skiing",
+        "Biathlon",
+        "Cross-country skiing",
+        "Figure skating",
+        "Freestyle skiing",
+        "Short-track speed skating",
+        "Ski jumping",
+        "Speed skating"
+      ]
+    },
+    "Canada": {
+      "is_underdog": false,
+      "criteria_met": [],
+      "criteria_count": 0,
+      "sports": [
+        "Alpine skiing",
+        "Biathlon",
+        "Bobsleigh",
+        "Cross-country skiing",
+        "Curling",
+        "Figure skating",
+        "Freestyle skiing",
+        "Ice hockey",
+        "Luge",
+        "Nordic combined",
+        "Short-track speed skating",
+        "Skeleton",
+        "Ski jumping",
+        "Snowboarding"
+      ]
+    },
+    "Chile": {
+      "is_underdog": true,
+      "criteria_met": [
+        "< 5 Athletes",
+        "No Winter Gold",
+        "No Winter Medals",
+        "Southern Hemisphere"
+      ],
+      "criteria_count": 4,
+      "sports": [
+        "Alpine skiing",
+        "Cross-country skiing",
+        "Freestyle skiing"
+      ]
+    },
+    "China": {
+      "is_underdog": false,
+      "criteria_met": [],
+      "criteria_count": 0,
+      "sports": [
+        "Alpine skiing",
+        "Biathlon",
+        "Bobsleigh",
+        "Cross-country skiing",
+        "Curling",
+        "Figure skating",
+        "Freestyle skiing",
+        "Ice hockey",
+        "Luge",
+        "Nordic combined",
+        "Short-track speed skating",
+        "Skeleton",
+        "Ski jumping",
+        "Snowboarding"
+      ]
+    },
+    "Colombia": {
+      "is_underdog": true,
+      "criteria_met": [
+        "< 5 Athletes",
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 3,
+      "sports": [
+        "Alpine skiing",
+        "Cross-country skiing"
+      ]
+    },
+    "Croatia": {
+      "is_underdog": false,
+      "criteria_met": [],
+      "criteria_count": 0,
+      "sports": [
+        "Alpine skiing",
+        "Biathlon",
+        "Figure skating",
+        "Freestyle skiing",
+        "Ski jumping"
+      ]
+    },
+    "Cyprus": {
+      "is_underdog": true,
+      "criteria_met": [
+        "< 5 Athletes",
+        "No Olympic Gold",
+        "Population < 1M",
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 5,
+      "sports": [
+        "Alpine skiing"
+      ]
+    },
+    "Czech Republic": {
+      "is_underdog": false,
+      "criteria_met": [],
+      "criteria_count": 0,
+      "sports": [
+        "Alpine skiing",
+        "Biathlon",
+        "Bobsleigh",
+        "Cross-country skiing",
+        "Figure skating",
+        "Freestyle skiing",
+        "Luge",
+        "Short-track speed skating",
+        "Skeleton",
+        "Ski jumping",
+        "Snowboarding",
+        "Speed skating",
+        "Nordic combined"
+      ]
+    },
+    "Denmark": {
+      "is_underdog": true,
+      "criteria_met": [
+        "No Winter Gold"
+      ],
+      "criteria_count": 1,
+      "sports": [
+        "Alpine skiing",
+        "Biathlon",
+        "Bobsleigh",
+        "Cross-country skiing",
+        "Figure skating",
+        "Freestyle skiing",
+        "Short-track speed skating",
+        "Skeleton",
+        "Speed skating"
+      ]
+    },
+    "Ecuador": {
+      "is_underdog": true,
+      "criteria_met": [
+        "< 5 Athletes",
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 3,
+      "sports": [
+        "Alpine skiing"
+      ]
+    },
+    "Eritrea": {
+      "is_underdog": true,
+      "criteria_met": [
+        "No Olympic Gold",
+        "No Olympic Medals",
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 4,
+      "sports": [
+        "Alpine skiing"
+      ]
+    },
+    "Estonia": {
+      "is_underdog": false,
+      "criteria_met": [],
+      "criteria_count": 0,
+      "sports": [
+        "Alpine skiing",
+        "Biathlon",
+        "Bobsleigh",
+        "Cross-country skiing",
+        "Figure skating",
+        "Luge",
+        "Short-track speed skating",
+        "Skeleton",
+        "Ski jumping",
+        "Speed skating"
+      ]
+    },
+    "Finland": {
+      "is_underdog": false,
+      "criteria_met": [],
+      "criteria_count": 0,
+      "sports": [
+        "Alpine skiing",
+        "Biathlon",
+        "Cross-country skiing",
+        "Figure skating",
+        "Freestyle skiing",
+        "Luge",
+        "Nordic combined",
+        "Short-track speed skating",
+        "Ski jumping"
+      ]
+    },
+    "France": {
+      "is_underdog": false,
+      "criteria_met": [],
+      "criteria_count": 0,
+      "sports": [
+        "Alpine skiing",
+        "Biathlon",
+        "Bobsleigh",
+        "Cross-country skiing",
+        "Curling",
+        "Figure skating",
+        "Freestyle skiing",
+        "Ice hockey",
+        "Luge",
+        "Nordic combined",
+        "Short-track speed skating",
+        "Skeleton",
+        "Ski jumping",
+        "Snowboarding"
+      ]
+    },
+    "Germany": {
+      "is_underdog": false,
+      "criteria_met": [],
+      "criteria_count": 0,
+      "sports": [
+        "Alpine skiing",
+        "Biathlon",
+        "Bobsleigh",
+        "Cross-country skiing",
+        "Curling",
+        "Figure skating",
+        "Freestyle skiing",
+        "Ice hockey",
+        "Luge",
+        "Nordic combined",
+        "Short-track speed skating",
+        "Skeleton",
+        "Ski jumping",
+        "Snowboarding",
+        "Speed skating"
+      ]
+    },
+    "Great Britain": {
+      "is_underdog": false,
+      "criteria_met": [],
+      "criteria_count": 0,
+      "sports": [
+        "Alpine skiing",
+        "Biathlon",
+        "Bobsleigh",
+        "Cross-country skiing",
+        "Curling",
+        "Figure skating",
+        "Freestyle skiing",
+        "Short-track speed skating",
+        "Skeleton",
+        "Snowboarding",
+        "Speed skating"
+      ]
+    },
+    "Greece": {
+      "is_underdog": true,
+      "criteria_met": [
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 2,
+      "sports": [
+        "Alpine skiing",
+        "Cross-country skiing"
+      ]
+    },
+    "Guinea-Bissau": {
+      "is_underdog": true,
+      "criteria_met": [
+        "No Olympic Gold",
+        "No Olympic Medals",
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 4,
+      "sports": [
+        "Alpine skiing"
+      ]
+    },
+    "Haiti": {
+      "is_underdog": true,
+      "criteria_met": [
+        "No Olympic Gold",
+        "No Olympic Medals",
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 4,
+      "sports": [
+        "Alpine skiing",
+        "Cross-country skiing"
+      ]
+    },
+    "Hong Kong": {
+      "is_underdog": true,
+      "criteria_met": [
+        "< 5 Athletes",
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 3,
+      "sports": [
+        "Alpine skiing",
+        "Short-track speed skating"
+      ]
+    },
+    "Hungary": {
+      "is_underdog": false,
+      "criteria_met": [],
+      "criteria_count": 0,
+      "sports": [
+        "Alpine skiing",
+        "Cross-country skiing",
+        "Figure skating",
+        "Short-track speed skating",
+        "Speed skating"
+      ]
+    },
+    "Iceland": {
+      "is_underdog": true,
+      "criteria_met": [
+        "< 5 Athletes",
+        "No Olympic Gold",
+        "Population < 1M",
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 5,
+      "sports": [
+        "Alpine skiing",
+        "Cross-country skiing"
+      ]
+    },
+    "India": {
+      "is_underdog": true,
+      "criteria_met": [
+        "< 5 Athletes",
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 3,
+      "sports": [
+        "Alpine skiing",
+        "Cross-country skiing"
+      ]
+    },
+    "Ireland": {
+      "is_underdog": true,
+      "criteria_met": [
+        "< 5 Athletes",
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 3,
+      "sports": [
+        "Alpine skiing",
+        "Cross-country skiing",
+        "Freestyle skiing"
+      ]
+    },
+    "Israel": {
+      "is_underdog": true,
+      "criteria_met": [
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 2,
+      "sports": [
+        "Alpine skiing",
+        "Bobsleigh",
+        "Cross-country skiing",
+        "Figure skating",
+        "Skeleton"
+      ]
+    },
+    "Italy": {
+      "is_underdog": false,
+      "criteria_met": [],
+      "criteria_count": 0,
+      "sports": [
+        "Alpine skiing",
+        "Biathlon",
+        "Bobsleigh",
+        "Cross-country skiing",
+        "Curling",
+        "Figure skating",
+        "Freestyle skiing",
+        "Ice hockey",
+        "Luge",
+        "Nordic combined",
+        "Short-track speed skating",
+        "Skeleton",
+        "Ski jumping",
+        "Ski mountaineering",
+        "Snowboarding",
+        "Speed skating"
+      ]
+    },
+    "Jamaica": {
+      "is_underdog": true,
+      "criteria_met": [
+        "< 5 Athletes",
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 3,
+      "sports": [
+        "Alpine skiing",
+        "Bobsleigh"
+      ]
+    },
+    "Japan": {
+      "is_underdog": false,
+      "criteria_met": [],
+      "criteria_count": 0,
+      "sports": [
+        "Alpine skiing",
+        "Cross-country skiing",
+        "Curling",
+        "Figure skating",
+        "Freestyle skiing",
+        "Ice hockey",
+        "Luge",
+        "Nordic combined",
+        "Short-track speed skating",
+        "Skeleton",
+        "Ski jumping",
+        "Snowboarding",
+        "Speed skating"
+      ]
+    },
+    "Kazakhstan": {
+      "is_underdog": false,
+      "criteria_met": [],
+      "criteria_count": 0,
+      "sports": [
+        "Alpine skiing",
+        "Biathlon",
+        "Cross-country skiing",
+        "Figure skating",
+        "Freestyle skiing",
+        "Nordic combined",
+        "Short-track speed skating",
+        "Ski jumping",
+        "Speed skating"
+      ]
+    },
+    "Kenya": {
+      "is_underdog": true,
+      "criteria_met": [
+        "< 5 Athletes",
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 3,
+      "sports": [
+        "Alpine skiing"
+      ]
+    },
+    "Kosovo": {
+      "is_underdog": true,
+      "criteria_met": [
+        "< 5 Athletes",
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 3,
+      "sports": [
+        "Alpine skiing"
+      ]
+    },
+    "Kyrgyzstan": {
+      "is_underdog": true,
+      "criteria_met": [
+        "< 5 Athletes",
+        "No Olympic Gold",
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 4,
+      "sports": [
+        "Alpine skiing",
+        "Cross-country skiing"
+      ]
+    },
+    "Latvia": {
+      "is_underdog": false,
+      "criteria_met": [],
+      "criteria_count": 0,
+      "sports": [
+        "Alpine skiing",
+        "Biathlon",
+        "Bobsleigh",
+        "Cross-country skiing",
+        "Figure skating",
+        "Ice hockey",
+        "Luge",
+        "Short-track speed skating",
+        "Skeleton"
+      ]
+    },
+    "Lebanon": {
+      "is_underdog": true,
+      "criteria_met": [
+        "No Olympic Gold",
+        "No Olympic Medals",
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 4,
+      "sports": [
+        "Alpine skiing",
+        "Cross-country skiing"
+      ]
+    },
+    "Liechtenstein": {
+      "is_underdog": true,
+      "criteria_met": [
+        "< 5 Athletes",
+        "Population < 1M"
+      ],
+      "criteria_count": 2,
+      "sports": [
+        "Alpine skiing",
+        "Bobsleigh",
+        "Cross-country skiing"
+      ]
+    },
+    "Lithuania": {
+      "is_underdog": true,
+      "criteria_met": [
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 2,
+      "sports": [
+        "Alpine skiing",
+        "Biathlon",
+        "Cross-country skiing",
+        "Figure skating"
+      ]
+    },
+    "Luxembourg": {
+      "is_underdog": true,
+      "criteria_met": [
+        "< 5 Athletes",
+        "Population < 1M",
+        "No Winter Gold"
+      ],
+      "criteria_count": 3,
+      "sports": [
+        "Alpine skiing"
+      ]
+    },
+    "Madagascar": {
+      "is_underdog": true,
+      "criteria_met": [
+        "No Olympic Gold",
+        "No Olympic Medals",
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 4,
+      "sports": [
+        "Alpine skiing"
+      ]
+    },
+    "Malaysia": {
+      "is_underdog": true,
+      "criteria_met": [
+        "< 5 Athletes",
+        "No Olympic Gold",
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 4,
+      "sports": [
+        "Alpine skiing"
+      ]
+    },
+    "Malta": {
+      "is_underdog": true,
+      "criteria_met": [
+        "< 5 Athletes",
+        "No Olympic Gold",
+        "No Olympic Medals",
+        "Population < 1M",
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 6,
+      "sports": [
+        "Cross-country skiing"
+      ]
+    },
+    "Mexico": {
+      "is_underdog": true,
+      "criteria_met": [
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 2,
+      "sports": [
+        "Alpine skiing",
+        "Cross-country skiing",
+        "Figure skating"
+      ]
+    },
+    "Moldova": {
+      "is_underdog": true,
+      "criteria_met": [
+        "< 5 Athletes",
+        "No Olympic Gold",
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 4,
+      "sports": [
+        "Biathlon",
+        "Cross-country skiing"
+      ]
+    },
+    "Monaco": {
+      "is_underdog": true,
+      "criteria_met": [
+        "< 5 Athletes",
+        "No Olympic Gold",
+        "No Olympic Medals",
+        "Population < 1M",
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 6,
+      "sports": [
+        "Alpine skiing"
+      ]
+    },
+    "Mongolia": {
+      "is_underdog": true,
+      "criteria_met": [
+        "< 5 Athletes",
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 3,
+      "sports": [
+        "Alpine skiing",
+        "Cross-country skiing"
+      ]
+    },
+    "Montenegro": {
+      "is_underdog": true,
+      "criteria_met": [
+        "< 5 Athletes",
+        "No Olympic Gold",
+        "Population < 1M",
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 5,
+      "sports": [
+        "Alpine skiing",
+        "Cross-country skiing"
+      ]
+    },
+    "Morocco": {
+      "is_underdog": true,
+      "criteria_met": [
+        "< 5 Athletes",
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 3,
+      "sports": [
+        "Alpine skiing",
+        "Cross-country skiing"
+      ]
+    },
+    "Netherlands": {
+      "is_underdog": false,
+      "criteria_met": [],
+      "criteria_count": 0,
+      "sports": [
+        "Bobsleigh",
+        "Figure skating",
+        "Short-track speed skating",
+        "Skeleton",
+        "Snowboarding",
+        "Speed skating"
+      ]
+    },
+    "New Zealand": {
+      "is_underdog": true,
+      "criteria_met": [
+        "< 5 Athletes",
+        "Southern Hemisphere"
+      ],
+      "criteria_count": 2,
+      "sports": [
+        "Alpine skiing",
+        "Freestyle skiing",
+        "Snowboarding"
+      ]
+    },
+    "Nigeria": {
+      "is_underdog": true,
+      "criteria_met": [
+        "< 5 Athletes",
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 3,
+      "sports": [
+        "Cross-country skiing"
+      ]
+    },
+    "North Macedonia": {
+      "is_underdog": true,
+      "criteria_met": [
+        "< 5 Athletes",
+        "No Olympic Gold",
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 4,
+      "sports": [
+        "Alpine skiing",
+        "Cross-country skiing"
+      ]
+    },
+    "Norway": {
+      "is_underdog": false,
+      "criteria_met": [],
+      "criteria_count": 0,
+      "sports": [
+        "Alpine skiing",
+        "Biathlon",
+        "Cross-country skiing",
+        "Curling",
+        "Freestyle skiing",
+        "Nordic combined",
+        "Ski jumping",
+        "Ski mountaineering",
+        "Snowboarding",
+        "Speed skating"
+      ]
+    },
+    "Pakistan": {
+      "is_underdog": true,
+      "criteria_met": [
+        "< 5 Athletes",
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 3,
+      "sports": [
+        "Alpine skiing"
+      ]
+    },
+    "Philippines": {
+      "is_underdog": true,
+      "criteria_met": [
+        "< 5 Athletes",
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 3,
+      "sports": [
+        "Alpine skiing"
+      ]
+    },
+    "Poland": {
+      "is_underdog": false,
+      "criteria_met": [],
+      "criteria_count": 0,
+      "sports": [
+        "Alpine skiing",
+        "Biathlon",
+        "Bobsleigh",
+        "Cross-country skiing",
+        "Figure skating",
+        "Luge",
+        "Nordic combined",
+        "Short-track speed skating",
+        "Ski jumping",
+        "Ski mountaineering",
+        "Snowboarding",
+        "Speed skating"
+      ]
+    },
+    "Portugal": {
+      "is_underdog": true,
+      "criteria_met": [
+        "< 5 Athletes",
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 3,
+      "sports": [
+        "Alpine skiing",
+        "Cross-country skiing"
+      ]
+    },
+    "Puerto Rico": {
+      "is_underdog": true,
+      "criteria_met": [
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 2,
+      "sports": [
+        "Alpine skiing"
+      ]
+    },
+    "Romania": {
+      "is_underdog": true,
+      "criteria_met": [
+        "No Olympic Gold",
+        "No Olympic Medals",
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 4,
+      "sports": [
+        "Alpine skiing",
+        "Biathlon",
+        "Bobsleigh",
+        "Cross-country skiing",
+        "Figure skating",
+        "Freestyle skiing",
+        "Luge",
+        "Short-track speed skating"
+      ]
+    },
+    "San Marino": {
+      "is_underdog": true,
+      "criteria_met": [
+        "< 5 Athletes",
+        "No Olympic Gold",
+        "Population < 1M",
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 5,
+      "sports": [
+        "Alpine skiing"
+      ]
+    },
+    "Saudi Arabia": {
+      "is_underdog": true,
+      "criteria_met": [
+        "< 5 Athletes",
+        "No Olympic Gold",
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 4,
+      "sports": [
+        "Alpine skiing"
+      ]
+    },
+    "Serbia": {
+      "is_underdog": true,
+      "criteria_met": [
+        "< 5 Athletes",
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 3,
+      "sports": [
+        "Alpine skiing",
+        "Figure skating"
+      ]
+    },
+    "Singapore": {
+      "is_underdog": true,
+      "criteria_met": [
+        "< 5 Athletes",
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 3,
+      "sports": [
+        "Figure skating"
+      ]
+    },
+    "Slovakia": {
+      "is_underdog": false,
+      "criteria_met": [],
+      "criteria_count": 0,
+      "sports": [
+        "Alpine skiing",
+        "Biathlon",
+        "Cross-country skiing",
+        "Figure skating",
+        "Freestyle skiing",
+        "Luge",
+        "Nordic combined",
+        "Skeleton",
+        "Ski jumping"
+      ]
+    },
+    "Slovenia": {
+      "is_underdog": false,
+      "criteria_met": [],
+      "criteria_count": 0,
+      "sports": [
+        "Alpine skiing",
+        "Biathlon",
+        "Cross-country skiing",
+        "Freestyle skiing",
+        "Luge",
+        "Nordic combined",
+        "Ski jumping",
+        "Speed skating"
+      ]
+    },
+    "South Africa": {
+      "is_underdog": true,
+      "criteria_met": [
+        "< 5 Athletes",
+        "No Winter Gold",
+        "No Winter Medals",
+        "Southern Hemisphere"
+      ],
+      "criteria_count": 4,
+      "sports": [
+        "Alpine skiing",
+        "Cross-country skiing",
+        "Freestyle skiing"
+      ]
+    },
+    "South Korea": {
+      "is_underdog": false,
+      "criteria_met": [],
+      "criteria_count": 0,
+      "sports": [
+        "Alpine skiing",
+        "Biathlon",
+        "Bobsleigh",
+        "Cross-country skiing",
+        "Curling",
+        "Figure skating",
+        "Freestyle skiing",
+        "Ice hockey",
+        "Luge",
+        "Short-track speed skating",
+        "Skeleton",
+        "Ski jumping",
+        "Snowboarding",
+        "Speed skating"
+      ]
+    },
+    "Spain": {
+      "is_underdog": false,
+      "criteria_met": [],
+      "criteria_count": 0,
+      "sports": [
+        "Alpine skiing",
+        "Biathlon",
+        "Cross-country skiing",
+        "Figure skating",
+        "Freestyle skiing",
+        "Luge"
+      ]
+    },
+    "Sweden": {
+      "is_underdog": false,
+      "criteria_met": [],
+      "criteria_count": 0,
+      "sports": [
+        "Alpine skiing",
+        "Biathlon",
+        "Bobsleigh",
+        "Cross-country skiing",
+        "Curling",
+        "Figure skating",
+        "Freestyle skiing",
+        "Ice hockey",
+        "Luge",
+        "Nordic combined",
+        "Short-track speed skating",
+        "Skeleton",
+        "Ski jump",
+        "Snowboarding",
+        "Speed skating"
+      ]
+    },
+    "Switzerland": {
+      "is_underdog": false,
+      "criteria_met": [],
+      "criteria_count": 0,
+      "sports": [
+        "Alpine skiing",
+        "Biathlon",
+        "Bobsleigh",
+        "Cross-country skiing",
+        "Curling",
+        "Figure skating",
+        "Freestyle skiing",
+        "Ice hockey",
+        "Luge",
+        "Nordic combined",
+        "Short-track speed skating",
+        "Skeleton",
+        "Ski jumping",
+        "Ski mountaineering",
+        "Snowboarding",
+        "Speed skating"
+      ]
+    },
+    "Thailand": {
+      "is_underdog": true,
+      "criteria_met": [
+        "< 5 Athletes",
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 3,
+      "sports": [
+        "Alpine skiing",
+        "Cross-country skiing"
+      ]
+    },
+    "Trinidad and Tobago": {
+      "is_underdog": true,
+      "criteria_met": [
+        "< 5 Athletes",
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 3,
+      "sports": [
+        "Alpine skiing",
+        "Bobsleigh"
+      ]
+    },
+    "Turkey": {
+      "is_underdog": true,
+      "criteria_met": [
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 2,
+      "sports": [
+        "Alpine skiing",
+        "Cross-country skiing",
+        "Freestyle skiing",
+        "Ski jumping"
+      ]
+    },
+    "Ukraine": {
+      "is_underdog": false,
+      "criteria_met": [],
+      "criteria_count": 0,
+      "sports": [
+        "Alpine skiing",
+        "Biathlon",
+        "Cross-country skiing",
+        "Figure skating",
+        "Freestyle skiing",
+        "Luge",
+        "Short-track speed skating"
+      ]
+    },
+    "United Arab Emirates": {
+      "is_underdog": true,
+      "criteria_met": [
+        "< 5 Athletes",
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 3,
+      "sports": [
+        "Alpine skiing"
+      ]
+    },
+    "Uruguay": {
+      "is_underdog": true,
+      "criteria_met": [
+        "< 5 Athletes",
+        "No Winter Gold",
+        "No Winter Medals",
+        "Southern Hemisphere"
+      ],
+      "criteria_count": 4,
+      "sports": [
+        "Alpine skiing",
+        "Cross-country skiing"
+      ]
+    },
+    "Uzbekistan": {
+      "is_underdog": true,
+      "criteria_met": [
+        "< 5 Athletes"
+      ],
+      "criteria_count": 1,
+      "sports": [
+        "Alpine skiing",
+        "Biathlon",
+        "Cross-country skiing",
+        "Figure skating",
+        "Freestyle skiing"
+      ]
+    },
+    "Venezuela": {
+      "is_underdog": true,
+      "criteria_met": [
+        "< 5 Athletes",
+        "No Winter Gold",
+        "No Winter Medals"
+      ],
+      "criteria_count": 3,
+      "sports": [
+        "Alpine skiing"
+      ]
+    }
+  },
+  "total_nations": 88,
+  "total_underdogs": 61,
+  "total_sports": 17
+}

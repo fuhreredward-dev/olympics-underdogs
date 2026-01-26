@@ -1,26 +1,34 @@
 """
 Daily watchlist generator for Olympic underdogs.
+Uses event underdog mappings to show only events where underdogs are actually competing.
 """
 
 from datetime import datetime, timedelta
-from typing import Dict, List
+from typing import Dict, List, Optional
 from pathlib import Path
 from src.data_loader import DataLoader
 from src.underdog_checker import UnderdogChecker
 from src.medals_per_capita import MedalsPerCapitaCalculator
 from src.utils import format_date_display, get_ioc_code_name_map
 
+try:
+    from src.event_underdog_mapper import EventUnderdogMapper
+except ImportError:
+    EventUnderdogMapper = None
+
 
 class WatchlistGenerator:
     """Generates daily watchlists of underdog nations competing."""
     
     def __init__(self, data_loader: DataLoader, underdog_checker: UnderdogChecker,
-                 medals_calculator: MedalsPerCapitaCalculator, config: Dict):
+                 medals_calculator: MedalsPerCapitaCalculator, config: Dict,
+                 event_mapper: Optional['EventUnderdogMapper'] = None):
         self.data_loader = data_loader
         self.underdog_checker = underdog_checker
         self.medals_calculator = medals_calculator
         self.config = config
         self.nation_names = get_ioc_code_name_map()
+        self.event_mapper = event_mapper
     
     def generate_for_date(self, date: str) -> str:
         """
@@ -32,6 +40,11 @@ class WatchlistGenerator:
         Returns:
             Formatted watchlist as string
         """
+        # If using event mapper, use the refined mappings
+        if self.event_mapper:
+            return self._generate_mapped_watchlist(date)
+        
+        # Otherwise use legacy method
         # Get events for this date
         events = self.data_loader.get_events_for_date(date)
         
@@ -49,6 +62,29 @@ class WatchlistGenerator:
         
         # Build watchlist
         return self._format_watchlist(date, events, underdogs)
+    
+    def _generate_mapped_watchlist(self, date: str) -> str:
+        """Generate watchlist using event underdog mappings (refined version)."""
+        # Get events with underdog mappings for this date
+        mapped_events = self.event_mapper.get_events_for_date(date)
+        
+        if not mapped_events:
+            return self._format_empty_watchlist(date)
+        
+        # Extract unique underdogs competing
+        all_underdogs = set()
+        for event in mapped_events:
+            all_underdogs.update(event['underdog_nations'])
+        
+        # Get criteria for each underdog
+        underdogs = {}
+        for nation in all_underdogs:
+            is_underdog, criteria = self.underdog_checker.is_underdog(nation)
+            if is_underdog:
+                underdogs[nation] = criteria
+        
+        # Format watchlist
+        return self._format_mapped_watchlist(date, mapped_events, underdogs)
     
     def _format_empty_watchlist(self, date: str) -> str:
         """Format watchlist when no events scheduled."""
@@ -73,6 +109,69 @@ class WatchlistGenerator:
         
         # Still include medals per capita sidebar
         if self.config['output'].get('include_sidebar', True):
+            output.append("")
+            output.append(self._generate_sidebar())
+        
+        return "\n".join(output)
+    
+    def _format_mapped_watchlist(self, date: str, mapped_events: List[Dict], 
+                                 underdogs: Dict[str, List[str]]) -> str:
+        """Format watchlist using refined event mappings."""
+        date_obj = datetime.strptime(date, "%Y-%m-%d")
+        output = [
+            f"# Olympic Underdogs Watchlist - {format_date_display(date_obj)}",
+            "",
+            f"**{len(underdogs)} underdog nation(s) competing in {len(mapped_events)} event(s) today!**",
+            ""
+        ]
+        
+        # Group by discipline
+        disciplines = {}
+        for event in mapped_events:
+            disc = event['discipline']
+            if disc not in disciplines:
+                disciplines[disc] = []
+            disciplines[disc].append(event)
+        
+        # Format each discipline
+        for discipline in sorted(disciplines.keys()):
+            output.append(f"## {discipline}")
+            output.append("")
+            
+            disc_events = disciplines[discipline]
+            
+            # Get all underdogs in this discipline
+            disc_underdogs = set()
+            for event in disc_events:
+                disc_underdogs.update(event['underdog_nations'])
+            
+            # Show each underdog
+            for nation in sorted(disc_underdogs):
+                name = self.nation_names.get(nation, nation)
+                output.append(f"### {name} ({nation})")
+                
+                # Show criteria
+                if nation in underdogs:
+                    for criterion in underdogs[nation]:
+                        output.append(f"- _{criterion}_")
+                
+                # Show events for this nation
+                nation_events = [e for e in disc_events if nation in e['underdog_nations']]
+                
+                if nation_events:
+                    output.append("")
+                    output.append("**Events:**")
+                    for event in nation_events:
+                        event_str = f"{event['event']}"
+                        if event.get('stage'):
+                            event_str += f" ({event['stage']})"
+                        output.append(f"- {event_str}")
+                
+                output.append("")
+        
+        # Add sidebar
+        if self.config['output'].get('include_sidebar', True):
+            output.append("---")
             output.append("")
             output.append(self._generate_sidebar())
         

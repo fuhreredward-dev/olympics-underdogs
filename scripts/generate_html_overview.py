@@ -15,31 +15,33 @@ class OlympicsHTMLGenerator:
     NATION_NAMES = {
         'ALB': 'Albania', 'AND': 'Andorra', 'ARG': 'Argentina', 'ARM': 'Armenia',
         'AUS': 'Australia', 'AUT': 'Austria', 'AZE': 'Azerbaijan', 'BEL': 'Belgium',
-        'BIH': 'Bosnia and Herzegovina', 'BRA': 'Brazil', 'BUL': 'Bulgaria', 'CAN': 'Canada',
-        'CHI': 'Chile', 'CHN': 'China', 'COL': 'Colombia', 'CRO': 'Croatia',
-        'CYP': 'Cyprus', 'CZE': 'Czech Republic', 'DEN': 'Denmark', 'ECU': 'Ecuador',
-        'ESP': 'Spain', 'EST': 'Estonia', 'FIN': 'Finland', 'FRA': 'France',
-        'GBR': 'Great Britain', 'GEO': 'Georgia', 'GER': 'Germany', 'GRE': 'Greece',
+        'BEN': 'Benin', 'BIH': 'Bosnia and Herzegovina', 'BOL': 'Bolivia', 'BRA': 'Brazil',
+        'BUL': 'Bulgaria', 'CAN': 'Canada', 'CHI': 'Chile', 'CHN': 'China',
+        'COL': 'Colombia', 'CRO': 'Croatia', 'CYP': 'Cyprus', 'CZE': 'Czech Republic',
+        'DEN': 'Denmark', 'ECU': 'Ecuador', 'ERI': 'Eritrea', 'ESP': 'Spain',
+        'EST': 'Estonia', 'FIN': 'Finland', 'FRA': 'France', 'GBR': 'Great Britain',
+        'GEO': 'Georgia', 'GER': 'Germany', 'GRE': 'Greece', 'HAI': 'Haiti',
         'HKG': 'Hong Kong', 'HUN': 'Hungary', 'IND': 'India', 'IRI': 'Iran',
         'IRL': 'Ireland', 'ISL': 'Iceland', 'ISR': 'Israel', 'ITA': 'Italy',
         'JAM': 'Jamaica', 'JPN': 'Japan', 'KAZ': 'Kazakhstan', 'KEN': 'Kenya',
         'KGZ': 'Kyrgyzstan', 'KOR': 'South Korea', 'KOS': 'Kosovo', 'KSA': 'Saudi Arabia',
         'LAT': 'Latvia', 'LIB': 'Lebanon', 'LIE': 'Liechtenstein', 'LTU': 'Lithuania',
-        'LUX': 'Luxembourg', 'MAR': 'Morocco', 'MAS': 'Malaysia', 'MDA': 'Moldova',
-        'MEX': 'Mexico', 'MGL': 'Mongolia', 'MKD': 'North Macedonia', 'MLT': 'Malta',
-        'MNE': 'Montenegro', 'MON': 'Monaco', 'NED': 'Netherlands', 'NGR': 'Nigeria',
-        'NOR': 'Norway', 'NZL': 'New Zealand', 'PAK': 'Pakistan', 'PHI': 'Philippines',
-        'POL': 'Poland', 'POR': 'Portugal', 'ROM': 'Romania', 'RSA': 'South Africa',
-        'SRB': 'Serbia', 'SGP': 'Singapore', 'SKK': 'Slovakia', 'SLO': 'Slovenia',
-        'SMR': 'San Marino', 'SUI': 'Switzerland', 'SVK': 'Slovakia', 'SWE': 'Sweden',
-        'THA': 'Thailand', 'TPE': 'Chinese Taipei', 'TTO': 'Trinidad and Tobago', 'TUR': 'Turkey',
-        'UAE': 'United Arab Emirates', 'UKR': 'Ukraine', 'URU': 'Uruguay', 'USA': 'United States',
-        'UZB': 'Uzbekistan', 'VEN': 'Venezuela'
+        'LUX': 'Luxembourg', 'MAD': 'Madagascar', 'MAR': 'Morocco', 'MAS': 'Malaysia',
+        'MDA': 'Moldova', 'MEX': 'Mexico', 'MGL': 'Mongolia', 'MKD': 'North Macedonia',
+        'MLT': 'Malta', 'MNE': 'Montenegro', 'MON': 'Monaco', 'NED': 'Netherlands',
+        'NGR': 'Nigeria', 'NOR': 'Norway', 'NZL': 'New Zealand', 'PAK': 'Pakistan',
+        'PHI': 'Philippines', 'POL': 'Poland', 'POR': 'Portugal', 'PUR': 'Puerto Rico',
+        'ROM': 'Romania', 'RSA': 'South Africa', 'SRB': 'Serbia', 'SGP': 'Singapore',
+        'SKK': 'Slovakia', 'SLO': 'Slovenia', 'SMR': 'San Marino', 'SUI': 'Switzerland',
+        'SVK': 'Slovakia', 'SWE': 'Sweden', 'THA': 'Thailand', 'TPE': 'Chinese Taipei',
+        'TTO': 'Trinidad and Tobago', 'TUR': 'Turkey', 'UAE': 'United Arab Emirates',
+        'UKR': 'Ukraine', 'URU': 'Uruguay', 'USA': 'United States', 'UZB': 'Uzbekistan',
+        'VEN': 'Venezuela'
     }
     
     # Nations below the equator (Southern Hemisphere)
     SOUTHERN_HEMISPHERE = {
-        'AUS', 'NZL', 'RSA', 'BRA', 'CHI', 'ARG', 'URU', 'ECU'
+        'AUS', 'NZL', 'RSA', 'BRA', 'CHI', 'ARG', 'URU', 'ECU', 'MAD'
     }
     
     def __init__(self):
@@ -47,6 +49,7 @@ class OlympicsHTMLGenerator:
         self.participating_nations = self._load_json('data/participating_nations_2026.json')
         self.athlete_counts = self._load_json('data/athlete_counts_2026.json')
         self.nation_sports = self._load_json('data/nation_sports_participation_2026.json')
+        self.nation_schedules = self._load_json('data/nation_schedules_2026.json')
         self.schedule = self._load_json('data/schedule/2026_olympics_schedule.json')
         self.winter_medals = self._load_json('data/medals/winter_medals.json')
         self.all_time_medals = self._load_json('data/medals/all_time_medals.json')
@@ -761,6 +764,9 @@ class OlympicsHTMLGenerator:
             <h1>🏂 2026 Winter Olympics</h1>
             <div class="subtitle">Underdog Nations & Competition Overview</div>
             <div class="subtitle">Milan-Cortina d'Ampezzo | February 6-22, 2026</div>
+            <div style="margin-top: 20px;">
+                <a href="schedule.html" style="display: inline-block; padding: 12px 30px; background: #00d4ff; color: #0f0f23; text-decoration: none; border-radius: 8px; font-weight: bold; transition: transform 0.2s;">📅 View Full Schedule</a>
+            </div>
         </header>
         
         <div class="content">
@@ -890,6 +896,14 @@ class OlympicsHTMLGenerator:
         """Get all days when a nation competes."""
         days = set()
         
+        # Try to get from nation_schedules first (more reliable)
+        # nation_schedules uses full names, so convert IOC code to full name
+        nation_name = self.NATION_NAMES.get(nation, nation)
+        nation_schedule = self.nation_schedules.get(nation_name, {})
+        if 'competition_dates' in nation_schedule:
+            return set(nation_schedule['competition_dates'])
+        
+        # Fallback to schedule data
         for date, day_data in self.schedule.items():
             for sport_entry in day_data['sports']:
                 if sport_entry['sport'] in sports:

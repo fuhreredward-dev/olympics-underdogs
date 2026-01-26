@@ -1,0 +1,835 @@
+﻿Skeleton:
+Men’s:
+Australia (1)
+Denmark (1)
+Israel (1)
+Women’s:
+Brazil (1)
+Puerto Rico (1)
+South Africa (1)
+Mixed Team:
+Denmark (1)
+Ski Jumping:
+Men’s Normal Hill:
+Romania (2)
+Turkey (1)
+Men’s Large Hill:
+Romania (2)
+Turkey (1)
+Women’s Normal Hill:
+Romania (2)
+Women’s Large Hill:
+Romania (2)
+Ski Mountaineering:
+Men’s:
+Australia (1)
+Women’s:
+Australia (1)
+Mixed Team:
+Australia (1)
+Snowboarding:
+Men’s Halfpipe:
+Australia (2)
+Brazil (2)
+New Zealand (1)
+Men’s Snowboard Cross:
+Australia (3)
+Men’s Slopestyle:
+New Zealand (3)*
+Men’s Big Air:
+New Zealand (3)*
+Women’s Halfpipe:
+Australia (3)
+Women’s Snowboard Cross:
+Australia (3)
+Women’s Slopestyle/Big Air:
+Australia (3)
+New Zealand (2)
+Snowboard Cross Team:
+Australia (2)
+Speed Skating:
+Men’s Mass Start:
+Denmark (2)
+Women’s 500m:
+Chinese Taipei (1)
+Bobsleigh:
+Men’s 4-Man:
+Brazil (1)*
+Liechtenstein (1)*
+Jamaica (1)*
+Israel (1)*
+Trinidad and Tobago (1)*
+Men’s 2-Man:
+Brazil (1)*
+Liechtenstein (1)*
+Jamaica (1)*
+Israel (1)*
+Trinidad and Tobago (1)*
+Women’s Monobob:
+Australia (1)
+Chinese Taipei (1)
+Jamaica (1)
+Denmark (1)
+Women’s Two-Woman:
+Australia (2)
+Chinese Taipei (1)
+Curling:
+Women’s Curling:
+Denmark (1)
+Figure Skating:
+Men’s singles:
+Azerbaijan (1)
+Chinese Taipei (1)
+Georgia (1)
+Mexico (1)
+Women’s singles:
+Georgia (1)
+Lithuania (1)
+Romania (1)
+Pairs:
+Armenia (1)
+Australia (1)
+Georgia (1)
+Uzbekistan (1)
+Ice Dance:
+Australia (1)
+Georgia (1)
+Lithuania (1)
+Team Events:
+Georgia (1)
+Freestyle Skiing:
+Men’s Aerials:
+Australia (1)
+Men’s Halfpipe:
+Ireland (1)
+New Zealand (4)
+Men’s Moguls:
+Australia (4)*
+Men’s Moguls:
+Australia (4)*
+Men’s Slopestyle:
+New Zealand (3)*
+Men’s Big Air:
+New Zealand (3)*
+Women’s Aerials:
+Australia (4)
+Women’s Halfpipe:
+Australia (1)
+New Zealand (1)
+Women’s Moguls:
+Australia (3)*
+South Africa (1)*
+Women’s Dual Moguls:
+Australia (3)*
+South Africa (1)*
+Women’s Big Air:
+Australia (1)*
+New Zealand (2)*
+Women’s Slopestyle:
+Australia (1)*
+New Zealand (2)*
+Aerials team:
+Australia (1)
+Ice Hockey:
+Men’s Ice Hockey:
+Denmark (1)
+Women’s Ice Hockey:
+Denmark (1)
+Luge:
+Men’s:
+Australia (1)
+Romania (2)
+Men’s Doubles:
+Romania (1)
+Women’s:
+Argentina (1)
+Romania (1)
+Women’s Doubles:
+Romania (1)
+Relay:
+Romania (1)
+Short Track Speed Skating:
+Men’s 500m:
+Australia (1)
+Uzbekistan (1)
+Men’s 1000m:
+Australia (1)
+Hong Kong (1)
+Men’s 1500m:
+Australia (1)
+Hong Kong (1)
+Women’s 1000m:
+Australia (1)
+Women’s 1500m:
+Hong Kong (1)
+Biathlon:
+Men’s 10km sprint:
+Denmark (1)
+Lithuania (4)
+Moldova (2)
+Romania (4)
+Women’s 7.5km Sprint:
+Australia (1)
+Denmark (2)
+Lithuania (4)
+Moldova (1)
+Romania (1)
+Men’s 20km:
+Denmark (1)
+Lithuania (4)
+Moldova (2)
+Romania (4)
+Women’s 15km:
+Australia (1)
+Denmark (2)
+Lithuania (4)
+Moldova (1)
+Romania (1)
+Men’s 12.5km Pursuit:
+Denmark (1)*
+Lithuania (4)*
+Moldova (2)*
+Romania (4)*
+Women’s 15km:
+Australia (1)*
+Denmark (2)*
+Lithuania (4)*
+Moldova (1)*
+Romania (1)*
+Men’s 15km Mass Start:
+Denmark (1)*
+Lithuania (4)*
+Moldova (2)*
+Romania (4)*
+Women’s 12.5km Mass Start:
+Australia (1)*
+Denmark (2)*
+Lithuania (4)*
+Moldova (1)*
+Romania (1)*
+Cross-Country Skiing:
+Men’s 15km classical:
+Andorra (1)
+Argentina (2)
+Armenia (1)
+Australia (3)
+Bolivia (1)
+Bosnia and Herzegovina (1)
+Brazil (1)
+Chile (1)
+Colombia (1)
+Haiti (1)
+Iceland (1)
+India (1)
+Iran (1)
+Ireland (1)
+Kyrgyzstan (1)
+Liechtenstein (1)
+Lithuania (2)
+Mexico (1)
+Mongolia (1)
+Montenegro (1)
+Nigeria (1)
+North Macedonia (1)
+Portugal (1)
+Romania (2)
+Serbia (1)
+Saudi Arabia (1)
+South Africa (1)
+Chinese Taipei (1)
+Thailand (1)
+Turkey (1)
+Ecuador (1)
+Israel (1)
+Lebanon (1)
+Moldova (1)
+Morocco (1)
+Venezuela (1)
+Women’s 10km classical:
+Andorra (1)
+Argentina (2)
+Armenia (1)
+Australia (4)
+Bosnia and Herzegovina (1)
+Brazil (2)
+Iran (1)
+Lithuania (2)
+Malta (1)
+Mexico (1)
+Moldova (1)
+Mongolia (1)
+North Macedonia (1)
+Romania (1)
+Serbia (1)
+Chinese Taipei (1)
+Thailand (1)
+Turkey (1)
+Men’s skiathlon:
+Andorra (1)*
+Argentina (2)*
+Armenia (1)*
+Australia (3)*
+Bolivia (1)*
+Bosnia and Herzegovina (1)*
+Brazil (1)*
+Chile (1)*
+Colombia (1)*
+Haiti (1)*
+Iceland (1)*
+India (1)*
+Iran (1)*
+Ireland (1)*
+Kyrgyzstan (1)*
+Liechtenstein (1)*
+Lithuania (2)*
+Mexico (1)*
+Mongolia (1)*
+Montenegro (1)*
+Nigeria (1)*
+North Macedonia (1)*
+Portugal (1)*
+Romania (2)*
+Serbia (1)*
+Saudi Arabia (1)*
+South Africa (1)*
+Chinese Taipei (1)*
+Thailand (1)*
+Turkey (1)*
+Ecuador (1)*
+Israel (1)*
+Lebanon (1)*
+Moldova (1)*
+Morocco (1)*
+Venezuela (1)*
+Women’s skiathlon:
+Andorra (1)*
+Argentina (2)*
+Armenia (1)*
+Australia (4)*
+Bosnia and Herzegovina (1)*
+Brazil (2)*
+Iran (1)*
+Lithuania (2)*
+Malta (1)*
+Mexico (1)*
+Moldova (1)*
+Mongolia (1)*
+North Macedonia (1)*
+Romania (1)*
+Serbia (1)*
+Chinese Taipei (1)*
+Thailand (1)*
+Turkey (1)*
+Men’s 50km mass start:
+Andorra (1)*
+Argentina (2)*
+Armenia (1)*
+Australia (3)*
+Bolivia (1)*
+Bosnia and Herzegovina (1)*
+Brazil (1)*
+Chile (1)*
+Colombia (1)*
+Haiti (1)*
+Iceland (1)*
+India (1)*
+Iran (1)*
+Ireland (1)*
+Kyrgyzstan (1)*
+Liechtenstein (1)*
+Lithuania (2)*
+Mexico (1)*
+Mongolia (1)*
+Montenegro (1)*
+Nigeria (1)*
+North Macedonia (1)*
+Portugal (1)*
+Romania (2)*
+Serbia (1)*
+Saudi Arabia (1)*
+South Africa (1)*
+Chinese Taipei (1)*
+Thailand (1)*
+Turkey (1)*
+Ecuador (1)*
+Israel (1)*
+Lebanon (1)*
+Moldova (1)*
+Morocco (1)*
+Venezuela (1)*
+Women’s 30km mass start:
+Andorra (1)*
+Argentina (2)*
+Armenia (1)*
+Australia (4)*
+Bosnia and Herzegovina (1)*
+Brazil (2)*
+Iran (1)*
+Lithuania (2)*
+Malta (1)*
+Mexico (1)*
+Moldova (1)*
+Mongolia (1)*
+North Macedonia (1)*
+Romania (1)*
+Serbia (1)*
+Chinese Taipei (1)*
+Thailand (1)*
+Men’s Giant Slalom:
+
+
+Albania (1)
+Andorra (2)
+Argentina (1)
+Armenia (1)
+Australia (1)
+Benin (1)
+Bosnia and Herzegovina (1)
+Brazil (3)
+Chile (1)
+Chinese Taipei (1)
+Cyprus (1)
+Denmark (1)
+Eritrea (1)
+Georgia (1)
+Guinea-Bissau (1)
+Haiti (1)
+Hong Kong (1)
+Iceland (1)
+India (1)
+Iran (1)
+Ireland (1)
+Israel (1)
+Jamaica (1)
+Japan (1)
+Kenya (1)
+Kosovo (1)
+Kyrgyzstan (1)
+Lebanon (1)
+Liechtenstein (1)
+Lithuania (1)
+Luxembourg (1)
+Madagascar (1)
+Malaysia (1)
+Mexico (1)
+Monaco (1)
+Mongolia (1)
+Montenegro (1)
+Morocco (1)
+North Macedonia (1)
+Pakistan (1)
+Philippines (1)
+Portugal (1)
+Romania (1)
+San Marino (1)
+Saudi Arabia (1)
+Serbia (1)
+Singapore (1)
+South Africa (1)
+Spain (1)
+Thailand (1)
+Trinidad and Tobago (1)
+Turkey (1)
+United Arab Emirates (1)
+United States (6)
+Uruguay (1)
+Uzbekistan (1)
+
+
+Women’s Giant Slalom:
+
+
+Albania (3)
+Andorra (3)
+Argentina (2)
+Australia (2)
+Azerbaijan (1)
+Belgium (1)
+Bosnia and Herzegovina (2)
+Brazil (1)
+Bulgaria (1)
+Chile (1)
+Chinese Taipei (1)
+Cyprus (1)
+Denmark (1)
+Estonia (1)
+Georgia (1)
+Hong Kong (1)
+Hungary (1)
+Iceland (1)
+Iran (1)
+Ireland (1)
+Israel (1)
+Japan (1)
+Kazakhstan (1)
+Kenya (1)
+Kosovo (1)
+Latvia (1)
+Liechtenstein (1)
+Lithuania (1)
+Luxembourg (1)
+Madagascar (1)
+Malaysia (1)
+Mexico (1)
+New Zealand (1)
+North Macedonia (1)
+Philippines (1)
+Poland (1)
+Portugal (1)
+Romania (1)
+South Africa (1)
+South Korea (1)
+Spain (1)
+Trinidad and Tobago (1)
+Turkey (1)
+Ukraine (1)
+United Arab Emirates (1)
+
+
+Men’s Slalom:
+
+
+Albania (1)
+Andorra (2)
+Argentina (1)
+Armenia (1)
+Australia (1)
+Benin (1)
+Bosnia and Herzegovina (1)
+Brazil (3)
+Chile (1)
+Chinese Taipei (1)
+Cyprus (1)
+Denmark (1)
+Eritrea (1)
+Georgia (1)
+Guinea-Bissau (1)
+Haiti (1)
+Hong Kong (1)
+Iceland (1)
+India (1)
+Iran (1)
+Ireland (1)
+Israel (1)
+Jamaica (1)
+Japan (1)
+Kenya (1)
+Kosovo (1)
+Kyrgyzstan (1)
+Lebanon (1)
+Liechtenstein (1)
+Lithuania (1)
+Luxembourg (1)
+Madagascar (1)
+Malaysia (1)
+Mexico (1)
+Monaco (1)
+Mongolia (1)
+Montenegro (1)
+Morocco (1)
+North Macedonia (1)
+Pakistan (1)
+Philippines (1)
+Portugal (1)
+Romania (1)
+San Marino (1)
+Saudi Arabia (1)
+Serbia (1)
+Singapore (1)
+South Africa (1)
+Spain (1)
+Thailand (1)
+Trinidad and Tobago (1)
+Turkey (1)
+United Arab Emirates (1)
+Uruguay (1)
+Uzbekistan (1)
+
+
+Women’s Slalom:
+
+
+Albania (3)
+Andorra (3)
+Argentina (2)
+Australia (2)
+Azerbaijan (1)
+Belgium (1)
+Bosnia and Herzegovina (2)
+Brazil (1)
+Bulgaria (1)
+Chile (1)
+Chinese Taipei (1)
+Cyprus (1)
+Denmark (1)
+Estonia (1)
+Georgia (1)
+Hong Kong (1)
+Hungary (1)
+Iceland (1)
+Iran (1)
+Ireland (1)
+Israel (1)
+Japan (1)
+Kazakhstan (1)
+Kenya (1)
+Kosovo (1)
+Latvia (1)
+Liechtenstein (1)
+Lithuania (1)
+Luxembourg (1)
+Madagascar (1)
+Malaysia (1)
+Mexico (1)
+New Zealand (1)
+North Macedonia (1)
+Philippines (1)
+Poland (1)
+Portugal (1)
+Romania (1)
+South Africa (1)
+South Korea (1)
+Spain (1)
+Trinidad and Tobago (1)
+Turkey (1)
+Ukraine (1)
+United Arab Emirates (1)
+
+
+Men’s Team Combined:
+
+
+Andorra (1)
+Brazil (1)
+
+
+
+
+Women’s Team Combined:
+
+
+Albania (1)
+Andorra (1)
+Argentina (1)
+Australia (1)
+Bosnia and Herzegovina (1)
+
+
+
+
+Men’s Super-G:
+
+
+Albania (1)*
+Andorra (2)*
+Argentina (1)*
+Armenia (1)*
+Australia (1)*
+Benin (1)*
+Bosnia and Herzegovina (1)*
+Brazil (3)*
+Chile (1)*
+Chinese Taipei (1)*
+Cyprus (1)*
+Denmark (1)*
+Eritrea (1)*
+Georgia (1)*
+Guinea-Bissau (1)*
+Haiti (1)*
+Hong Kong (1)*
+Iceland (1)*
+India (1)*
+Iran (1)*
+Ireland (1)*
+Israel (1)*
+Jamaica (1)*
+Japan (1)*
+Kenya (1)*
+Kosovo (1)*
+Kyrgyzstan (1)*
+Lebanon (1)*
+Liechtenstein (1)*
+Lithuania (1)*
+Luxembourg (1)*
+Madagascar (1)*
+Malaysia (1)*
+Mexico (1)*
+Monaco (1)*
+Mongolia (1)*
+Montenegro (1)*
+Morocco (1)*
+North Macedonia (1)*
+Pakistan (1)*
+Philippines (1)*
+Portugal (1)*
+Romania (1)*
+San Marino (1)*
+Saudi Arabia (1)*
+Serbia (1)*
+Singapore (1)*
+South Africa (1)*
+Spain (1)*
+Thailand (1)*
+Trinidad and Tobago (1)*
+Turkey (1)*
+United Arab Emirates (1)*
+Uruguay (1)*
+Uzbekistan (1)*
+
+
+Women’s Super-G:
+
+Albania (3)*
+Andorra (3)*
+Argentina (2)*
+Australia (2)*
+Azerbaijan (1)*
+Belgium (1)*
+Bosnia and Herzegovina (2)*
+Brazil (1)*
+Bulgaria (1)*
+Chile (1)*
+Chinese Taipei (1)*
+Cyprus (1)*
+Denmark (1)*
+Estonia (1)*
+Georgia (1)*
+Hong Kong (1)*
+Hungary (1)*
+Iceland (1)*
+Iran (1)*
+Ireland (1)*
+Israel (1)*
+Japan (1)*
+Kazakhstan (1)*
+Kenya (1)*
+Kosovo (1)*
+Latvia (1)*
+Liechtenstein (1)*
+Lithuania (1)*
+Luxembourg (1)*
+Madagascar (1)*
+Malaysia (1)*
+Mexico (1)*
+New Zealand (1)*
+North Macedonia (1)*
+Philippines (1)*
+Poland (1)*
+Portugal (1)*
+Romania (1)*
+South Africa (1)*
+South Korea (1)*
+Spain (1)*
+Trinidad and Tobago (1)*
+Turkey (1)*
+Ukraine (1)*
+United Arab Emirates (1)*
+
+
+Men’s Downhill:
+
+
+Albania (1)*
+Andorra (2)*
+Argentina (1)*
+Armenia (1)*
+Australia (1)*
+Benin (1)*
+Bosnia and Herzegovina (1)*
+Brazil (3)*
+Chile (1)*
+Chinese Taipei (1)*
+Cyprus (1)*
+Denmark (1)*
+Eritrea (1)*
+Georgia (1)*
+Guinea-Bissau (1)*
+Haiti (1)*
+Hong Kong (1)*
+Iceland (1)*
+India (1)*
+Iran (1)*
+Ireland (1)*
+Israel (1)*
+Jamaica (1)*
+Japan (1)*
+Kenya (1)*
+Kosovo (1)*
+Kyrgyzstan (1)*
+Lebanon (1)*
+Liechtenstein (1)*
+Lithuania (1)*
+Luxembourg (1)*
+Madagascar (1)*
+Malaysia (1)*
+Mexico (1)*
+Monaco (1)*
+Mongolia (1)*
+Montenegro (1)*
+Morocco (1)*
+North Macedonia (1)*
+Pakistan (1)*
+Philippines (1)*
+Portugal (1)*
+Romania (1)*
+San Marino (1)*
+Saudi Arabia (1)*
+Serbia (1)*
+Singapore (1)*
+South Africa (1)*
+Spain (1)*
+Thailand (1)*
+Trinidad and Tobago (1)*
+Turkey (1)*
+United Arab Emirates (1)*
+Uruguay (1)*
+Uzbekistan (1)*
+
+
+Women’s Downhill:
+
+Albania (3)*
+Andorra (3)*
+Argentina (2)*
+Australia (2)*
+Azerbaijan (1)*
+Belgium (1)*
+Bosnia and Herzegovina (2)*
+Brazil (1)*
+Bulgaria (1)*
+Chile (1)*
+Chinese Taipei (1)*
+Cyprus (1)*
+Denmark (1)*
+Estonia (1)*
+Georgia (1)*
+Hong Kong (1)*
+Hungary (1)*
+Iceland (1)*
+Iran (1)*
+Ireland (1)*
+Israel (1)*
+Japan (1)*
+Kazakhstan (1)*
+Kenya (1)*
+Kosovo (1)*
+Latvia (1)*
+Liechtenstein (1)*
+Lithuania (1)*
+Luxembourg (1)*
+Madagascar (1)*
+Malaysia (1)*
+Mexico (1)*
+New Zealand (1)*
+North Macedonia (1)*
+Philippines (1)*
+Poland (1)*
+Portugal (1)*
+Romania (1)*
+South Africa (1)*
+South Korea (1)*
+Spain (1)*
+Trinidad and Tobago (1)*
+Turkey (1)*
+Ukraine (1)*
+United Arab Emirates (1)*

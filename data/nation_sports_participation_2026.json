@@ -1,2077 +1,2124 @@
 {
-  "USA": {
-    "Alpine Skiing": {
-      "men": 6,
-      "women": 11,
-      "total": 17
-    },
-    "Biathlon": {
-      "men": 4,
-      "women": 4,
-      "total": 8
-    },
-    "Bobsleigh": {
-      "men": 8,
-      "women": 6,
-      "total": 14
-    },
-    "Cross-Country Skiing": {
-      "men": 7,
-      "women": 8,
-      "total": 15
-    },
-    "Curling": {
-      "men": 6,
-      "women": 6,
-      "total": 12
-    },
-    "Figure Skating": {
-      "men": 8,
-      "women": 8,
-      "total": 16
-    },
-    "Freestyle Skiing": {
-      "men": 18,
-      "women": 17,
-      "total": 35
-    },
-    "Ice Hockey": {
-      "men": 25,
-      "women": 23,
-      "total": 48
-    },
-    "Luge": {
-      "men": 6,
-      "women": 5,
-      "total": 11
-    },
-    "Nordic Combined": {
-      "men": 2,
-      "women": 0,
-      "total": 2
-    },
-    "Speed Skating": {
-      "men": 7,
-      "women": 6,
-      "total": 13
-    },
-    "Skeleton": {
-      "men": 2,
-      "women": 2,
-      "total": 4
-    },
-    "Ski Jumping": {
-      "men": 3,
-      "women": 3,
-      "total": 6
-    },
-    "Ski Mountaineering": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Snowboard": {
-      "men": 13,
-      "women": 12,
-      "total": 25
-    }
-  },
-  "CAN": {
-    "Alpine Skiing": {
-      "men": 5,
-      "women": 6,
-      "total": 11
-    },
-    "Biathlon": {
-      "men": 4,
-      "women": 4,
-      "total": 8
-    },
-    "Bobsleigh": {
-      "men": 8,
-      "women": 6,
-      "total": 14
-    },
-    "Cross-Country Skiing": {
-      "men": 5,
-      "women": 7,
-      "total": 12
-    },
-    "Curling": {
-      "men": 5,
-      "women": 6,
-      "total": 11
-    },
-    "Figure Skating": {
-      "men": 6,
-      "women": 6,
-      "total": 12
-    },
-    "Freestyle Skiing": {
-      "men": 16,
-      "women": 16,
-      "total": 32
-    },
-    "Ice Hockey": {
-      "men": 25,
-      "women": 23,
-      "total": 48
-    },
-    "Luge": {
-      "men": 2,
-      "women": 4,
-      "total": 6
-    },
-    "Speed Skating": {
-      "men": 7,
-      "women": 8,
-      "total": 15
-    },
-    "Skeleton": {
-      "men": 2,
-      "women": 2,
-      "total": 4
-    },
-    "Ski Jumping": {
-      "men": 1,
-      "women": 3,
-      "total": 4
-    },
-    "Snowboard": {
-      "men": 9,
-      "women": 10,
-      "total": 19
-    }
-  },
-  "ITA": {
-    "Alpine Skiing": {
-      "men": 10,
-      "women": 11,
-      "total": 21
-    },
-    "Biathlon": {
-      "men": 5,
-      "women": 5,
-      "total": 10
-    },
-    "Bobsleigh": {
-      "men": 4,
-      "women": 4,
-      "total": 8
-    },
-    "Cross-Country Skiing": {
-      "men": 5,
-      "women": 7,
-      "total": 12
-    },
-    "Curling": {
-      "men": 5,
-      "women": 5,
-      "total": 10
-    },
-    "Figure Skating": {
-      "men": 5,
-      "women": 4,
-      "total": 9
-    },
-    "Freestyle Skiing": {
-      "men": 5,
-      "women": 4,
-      "total": 9
-    },
-    "Ice Hockey": {
-      "men": 25,
-      "women": 23,
-      "total": 48
-    },
-    "Luge": {
-      "men": 7,
-      "women": 4,
-      "total": 11
-    },
-    "Nordic Combined": {
-      "men": 2,
-      "women": 0,
-      "total": 2
-    },
-    "Speed Skating": {
-      "men": 7,
-      "women": 3,
-      "total": 10
-    },
-    "Skeleton": {
-      "men": 2,
-      "women": 2,
-      "total": 4
-    },
-    "Ski Jumping": {
-      "men": 3,
-      "women": 4,
-      "total": 7
-    },
-    "Ski Mountaineering": {
-      "men": 1,
-      "women": 2,
-      "total": 3
-    },
-    "Snowboard": {
-      "men": 9,
-      "women": 8,
-      "total": 17
-    }
-  },
-  "GER": {
-    "Alpine Skiing": {
-      "men": 5,
-      "women": 4,
-      "total": 9
-    },
-    "Biathlon": {
-      "men": 5,
-      "women": 6,
-      "total": 11
-    },
-    "Bobsleigh": {
-      "men": 12,
-      "women": 6,
-      "total": 18
-    },
-    "Cross-Country Skiing": {
-      "men": 5,
-      "women": 7,
-      "total": 12
-    },
-    "Curling": {
-      "men": 5,
-      "women": 0,
-      "total": 5
-    },
-    "Figure Skating": {
-      "men": 3,
-      "women": 3,
-      "total": 6
-    },
-    "Freestyle Skiing": {
-      "men": 4,
-      "women": 7,
-      "total": 11
-    },
-    "Ice Hockey": {
-      "men": 25,
-      "women": 23,
-      "total": 48
-    },
-    "Luge": {
-      "men": 7,
-      "women": 5,
-      "total": 12
-    },
-    "Nordic Combined": {
-      "men": 3,
-      "women": 0,
-      "total": 3
-    },
-    "Skeleton": {
-      "men": 3,
-      "women": 3,
-      "total": 6
-    },
-    "Ski Jumping": {
-      "men": 4,
-      "women": 4,
-      "total": 8
-    },
-    "Ski Mountaineering": {
-      "men": 1,
-      "women": 2,
-      "total": 3
-    },
-    "Snowboard": {
-      "men": 10,
-      "women": 9,
-      "total": 19
-    },
-    "Speed Skating": {
-      "men": 7,
-      "women": 6,
-      "total": 13
-    }
-  },
-  "SUI": {
-    "Alpine Skiing": {
-      "men": 11,
-      "women": 11,
-      "total": 22
-    },
-    "Biathlon": {
-      "men": 5,
-      "women": 5,
-      "total": 10
-    },
-    "Bobsleigh": {
-      "men": 12,
-      "women": 4,
-      "total": 16
-    },
-    "Cross-Country Skiing": {
-      "men": 5,
-      "women": 6,
-      "total": 11
-    },
-    "Curling": {
-      "men": 5,
-      "women": 6,
-      "total": 11
-    },
-    "Figure Skating": {
-      "men": 1,
-      "women": 2,
-      "total": 3
-    },
-    "Ice Hockey": {
-      "men": 25,
-      "women": 23,
-      "total": 48
-    },
-    "Luge": {
-      "men": 0,
-      "women": 1,
-      "total": 1
-    },
-    "Nordic Combined": {
-      "men": 2,
-      "women": 0,
-      "total": 2
-    },
-    "Skeleton": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    },
-    "Ski Jumping": {
-      "men": 3,
-      "women": 2,
-      "total": 5
-    },
-    "Ski Mountaineering": {
-      "men": 2,
-      "women": 2,
-      "total": 4
-    },
-    "Speed Skating": {
-      "men": 1,
-      "women": 5,
-      "total": 6
-    }
-  },
-  "FRA": {
-    "Alpine Skiing": {
-      "men": 6,
-      "women": 8,
-      "total": 14
-    },
-    "Biathlon": {
-      "men": 6,
-      "women": 6,
-      "total": 12
-    },
-    "Bobsleigh": {
-      "men": 4,
-      "women": 2,
-      "total": 6
-    },
-    "Cross-Country Skiing": {
-      "men": 7,
-      "women": 6,
-      "total": 13
-    },
-    "Figure Skating": {
-      "men": 4,
-      "women": 3,
-      "total": 7
-    },
-    "Ice Hockey": {
-      "men": 25,
-      "women": 23,
-      "total": 48
-    },
-    "Nordic Combined": {
-      "men": 2,
-      "women": 0,
-      "total": 2
-    },
-    "Speed Skating": {
-      "men": 6,
-      "women": 1,
-      "total": 7
-    },
-    "Skeleton": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    },
-    "Ski Jumping": {
-      "men": 3,
-      "women": 3,
-      "total": 6
-    },
-    "Ski Mountaineering": {
-      "men": 2,
-      "women": 2,
-      "total": 4
-    }
-  },
-  "AUT": {
-    "Alpine Skiing": {
-      "men": 10,
-      "women": 11,
-      "total": 21
-    },
-    "Biathlon": {
-      "men": 4,
-      "women": 5,
-      "total": 9
-    },
-    "Bobsleigh": {
-      "men": 8,
-      "women": 4,
-      "total": 12
-    },
-    "Cross-Country Skiing": {
-      "men": 3,
-      "women": 4,
-      "total": 7
-    },
-    "Figure Skating": {
-      "men": 0,
-      "women": 1,
-      "total": 1
-    },
-    "Freestyle Skiing": {
-      "men": 7,
-      "women": 6,
-      "total": 13
-    },
-    "Luge": {
-      "men": 7,
-      "women": 5,
-      "total": 12
-    },
-    "Nordic Combined": {
-      "men": 3,
-      "women": 0,
-      "total": 3
-    },
-    "Speed Skating": {
-      "men": 5,
-      "women": 5,
-      "total": 10
-    },
-    "Skeleton": {
-      "men": 2,
-      "women": 1,
-      "total": 3
-    },
-    "Ski Jumping": {
-      "men": 4,
-      "women": 4,
-      "total": 8
-    },
-    "Ski Mountaineering": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Snowboard": {
-      "men": 10,
-      "women": 6,
-      "total": 16
-    }
-  },
-  "CZE": {
-    "Alpine Skiing": {
-      "men": 2,
-      "women": 4,
-      "total": 6
-    },
-    "Biathlon": {
-      "men": 5,
-      "women": 5,
-      "total": 10
-    },
-    "Cross-Country Skiing": {
-      "men": 5,
-      "women": 7,
-      "total": 12
-    },
-    "Curling": {
-      "men": 6,
-      "women": 1,
-      "total": 7
-    },
-    "Figure Skating": {
-      "men": 2,
-      "women": 2,
-      "total": 4
-    },
-    "Freestyle Skiing": {
-      "men": 3,
-      "women": 3,
-      "total": 6
-    },
-    "Ice Hockey": {
-      "men": 25,
-      "women": 23,
-      "total": 48
-    },
-    "Luge": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    },
-    "Nordic Combined": {
-      "men": 2,
-      "women": 0,
-      "total": 2
-    },
-    "Speed Skating": {
-      "men": 1,
-      "women": 2,
-      "total": 3
-    },
-    "Skeleton": {
-      "men": 0,
-      "women": 1,
-      "total": 1
-    },
-    "Ski Jumping": {
-      "men": 1,
-      "women": 3,
-      "total": 4
-    },
-    "Snowboard": {
-      "men": 4,
-      "women": 5,
-      "total": 9
-    }
-  },
-  "SWE": {
-    "Alpine Skiing": {
-      "men": 0,
-      "women": 4,
-      "total": 4
-    },
-    "Biathlon": {
-      "men": 6,
-      "women": 6,
-      "total": 12
-    },
-    "Cross-Country Skiing": {
-      "men": 8,
-      "women": 8,
-      "total": 16
-    },
-    "Curling": {
-      "men": 5,
-      "women": 6,
-      "total": 11
-    },
-    "Figure Skating": {
-      "men": 2,
-      "women": 1,
-      "total": 3
-    },
-    "Freestyle Skiing": {
-      "men": 5,
-      "women": 2,
-      "total": 7
-    },
-    "Ice Hockey": {
-      "men": 25,
-      "women": 23,
-      "total": 48
-    },
-    "Ski Jumping": {
-      "men": 0,
-      "women": 1,
-      "total": 1
-    }
-  },
-  "FIN": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Biathlon": {
-      "men": 5,
-      "women": 5,
-      "total": 10
-    },
-    "Cross-Country Skiing": {
-      "men": 7,
-      "women": 8,
-      "total": 15
-    },
-    "Figure Skating": {
-      "men": 1,
-      "women": 2,
-      "total": 3
-    },
-    "Ice Hockey": {
-      "men": 25,
-      "women": 23,
-      "total": 48
-    }
-  },
-  "JPN": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Cross-Country Skiing": {
-      "men": 3,
-      "women": 3,
-      "total": 6
-    },
-    "Curling": {
-      "men": 0,
-      "women": 5,
-      "total": 5
-    },
-    "Figure Skating": {
-      "men": 4,
-      "women": 4,
-      "total": 8
-    },
-    "Ice Hockey": {
-      "men": 0,
-      "women": 23,
-      "total": 23
-    },
-    "Luge": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    },
-    "Nordic Combined": {
-      "men": 3,
-      "women": 0,
-      "total": 3
-    },
-    "Speed Skating": {
-      "men": 7,
-      "women": 7,
-      "total": 14
-    },
-    "Ski Jumping": {
-      "men": 3,
-      "women": 4,
-      "total": 7
-    }
-  },
-  "CHN": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Bobsleigh": {
-      "men": 8,
-      "women": 4,
-      "total": 12
-    },
-    "Cross-Country Skiing": {
-      "men": 2,
-      "women": 4,
-      "total": 6
-    },
-    "Curling": {
-      "men": 5,
-      "women": 5,
-      "total": 10
-    },
-    "Figure Skating": {
-      "men": 3,
-      "women": 3,
-      "total": 6
-    },
-    "Luge": {
-      "men": 3,
-      "women": 3,
-      "total": 6
-    },
-    "Speed Skating": {
-      "men": 7,
-      "women": 8,
-      "total": 15
-    },
-    "Skeleton": {
-      "men": 3,
-      "women": 2,
-      "total": 5
-    },
-    "Ski Mountaineering": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    }
-  },
-  "LAT": {
-    "Alpine Skiing": {
-      "men": 2,
-      "women": 1,
-      "total": 3
-    },
-    "Biathlon": {
-      "men": 4,
-      "women": 4,
-      "total": 8
-    },
-    "Bobsleigh": {
-      "men": 8,
-      "women": 0,
-      "total": 8
-    },
-    "Cross-Country Skiing": {
-      "men": 4,
-      "women": 3,
-      "total": 7
-    },
-    "Figure Skating": {
-      "men": 2,
-      "women": 0,
-      "total": 2
-    },
-    "Ice Hockey": {
-      "men": 25,
-      "women": 0,
-      "total": 25
-    },
-    "Luge": {
-      "men": 6,
-      "women": 4,
-      "total": 10
-    },
-    "Speed Skating": {
-      "men": 2,
-      "women": 0,
-      "total": 2
-    },
-    "Skeleton": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    }
-  },
-  "NOR": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Biathlon": {
-      "men": 6,
-      "women": 5,
-      "total": 11
-    },
-    "Cross-Country Skiing": {
-      "men": 7,
-      "women": 8,
-      "total": 15
-    },
-    "Curling": {
-      "men": 6,
-      "women": 1,
-      "total": 7
-    },
-    "Nordic Combined": {
-      "men": 3,
-      "women": 0,
-      "total": 3
-    },
-    "Ski Jumping": {
-      "men": 3,
-      "women": 4,
-      "total": 7
-    },
-    "Ski Mountaineering": {
-      "men": 2,
-      "women": 1,
-      "total": 3
-    },
-    "Speed Skating": {
-      "men": 8,
-      "women": 5,
-      "total": 13
-    }
-  },
-  "POL": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 2,
-      "total": 3
-    },
-    "Biathlon": {
-      "men": 4,
-      "women": 4,
-      "total": 8
-    },
-    "Bobsleigh": {
-      "men": 0,
-      "women": 2,
-      "total": 2
-    },
-    "Cross-Country Skiing": {
-      "men": 3,
-      "women": 4,
-      "total": 7
-    },
-    "Figure Skating": {
-      "men": 2,
-      "women": 2,
-      "total": 4
-    },
-    "Luge": {
-      "men": 3,
-      "women": 3,
-      "total": 6
-    },
-    "Nordic Combined": {
-      "men": 2,
-      "women": 0,
-      "total": 2
-    },
-    "Speed Skating": {
-      "men": 4,
-      "women": 5,
-      "total": 9
-    },
-    "Ski Jumping": {
-      "men": 3,
-      "women": 2,
-      "total": 5
-    },
-    "Ski Mountaineering": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Snowboard": {
-      "men": 2,
-      "women": 2,
-      "total": 4
-    }
-  },
-  "GBR": {
-    "Alpine Skiing": {
-      "men": 3,
-      "women": 0,
-      "total": 3
-    },
-    "Bobsleigh": {
-      "men": 8,
-      "women": 2,
-      "total": 10
-    },
-    "Cross-Country Skiing": {
-      "men": 3,
-      "women": 1,
-      "total": 4
-    },
-    "Curling": {
-      "men": 5,
-      "women": 5,
-      "total": 10
-    },
-    "Figure Skating": {
-      "men": 4,
-      "women": 4,
-      "total": 8
-    },
-    "Freestyle Skiing": {
-      "men": 5,
-      "women": 3,
-      "total": 8
-    },
-    "Speed Skating": {
-      "men": 0,
-      "women": 1,
-      "total": 1
-    },
-    "Skeleton": {
-      "men": 2,
-      "women": 3,
-      "total": 5
-    },
-    "Snowboard": {
-      "men": 2,
-      "women": 3,
-      "total": 5
-    }
-  },
-  "SVK": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 3,
-      "total": 4
-    },
-    "Biathlon": {
-      "men": 2,
-      "women": 4,
-      "total": 6
-    },
-    "Bobsleigh": {
-      "men": 0,
-      "women": 2,
-      "total": 2
-    },
-    "Cross-Country Skiing": {
-      "men": 2,
-      "women": 1,
-      "total": 3
-    },
-    "Figure Skating": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    },
-    "Freestyle Skiing": {
-      "men": 0,
-      "women": 1,
-      "total": 1
-    },
-    "Ice Hockey": {
-      "men": 25,
-      "women": 0,
-      "total": 25
-    },
-    "Luge": {
-      "men": 3,
-      "women": 2,
-      "total": 5
-    },
-    "Speed Skating": {
-      "men": 0,
-      "women": 1,
-      "total": 1
-    },
-    "Ski Jumping": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    },
-    "Ski Mountaineering": {
-      "men": 1,
-      "women": 2,
-      "total": 3
-    }
-  },
-  "KOR": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Bobsleigh": {
-      "men": 4,
-      "women": 2,
-      "total": 6
-    },
-    "Cross-Country Skiing": {
-      "men": 1,
-      "women": 2,
-      "total": 3
-    },
-    "Curling": {
-      "men": 1,
-      "women": 6,
-      "total": 7
-    },
-    "Figure Skating": {
-      "men": 3,
-      "women": 3,
-      "total": 6
-    },
-    "Luge": {
-      "men": 0,
-      "women": 1,
-      "total": 1
-    },
-    "Speed Skating": {
-      "men": 4,
-      "women": 5,
-      "total": 9
-    },
-    "Skeleton": {
-      "men": 2,
-      "women": 1,
-      "total": 3
-    }
-  },
-  "DEN": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Biathlon": {
-      "men": 1,
-      "women": 2,
-      "total": 3
-    },
-    "Bobsleigh": {
-      "men": 0,
-      "women": 1,
-      "total": 1
-    },
-    "Cross-Country Skiing": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    },
-    "Curling": {
-      "men": 0,
-      "women": 5,
-      "total": 5
-    },
-    "Ice Hockey": {
-      "men": 25,
-      "women": 0,
-      "total": 25
-    },
-    "Skeleton": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Speed Skating": {
-      "men": 2,
-      "women": 3,
-      "total": 5
-    }
-  },
-  "NED": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Bobsleigh": {
-      "men": 4,
-      "women": 0,
-      "total": 4
-    },
-    "Figure Skating": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Nordic Combined": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    },
-    "Speed Skating": {
-      "men": 9,
-      "women": 9,
-      "total": 18
-    },
-    "Skeleton": {
-      "men": 0,
-      "women": 1,
-      "total": 1
-    }
-  },
-  "SLO": {
-    "Alpine Skiing": {
-      "men": 3,
-      "women": 5,
-      "total": 8
-    },
-    "Biathlon": {
-      "men": 5,
-      "women": 4,
-      "total": 9
-    },
-    "Cross-Country Skiing": {
-      "men": 3,
-      "women": 4,
-      "total": 7
-    },
-    "Nordic Combined": {
-      "men": 2,
-      "women": 0,
-      "total": 2
-    },
-    "Ski Jumping": {
-      "men": 3,
-      "women": 4,
-      "total": 7
-    },
-    "Snowboard": {
-      "men": 3,
-      "women": 1,
-      "total": 4
-    }
-  },
-  "BEL": {
-    "Alpine Skiing": {
-      "men": 2,
-      "women": 1,
-      "total": 3
-    },
-    "Biathlon": {
-      "men": 4,
-      "women": 4,
-      "total": 8
-    },
-    "Bobsleigh": {
-      "men": 0,
-      "women": 1,
-      "total": 1
-    },
-    "Cross-Country Skiing": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    },
-    "Figure Skating": {
-      "men": 0,
-      "women": 2,
-      "total": 2
-    },
-    "Speed Skating": {
-      "men": 3,
-      "women": 3,
-      "total": 6
-    },
-    "Skeleton": {
-      "men": 0,
-      "women": 1,
-      "total": 1
-    },
-    "Ski Mountaineering": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    },
-    "Snowboard": {
-      "men": 0,
-      "women": 2,
-      "total": 2
-    }
-  },
-  "KAZ": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Biathlon": {
-      "men": 2,
-      "women": 2,
-      "total": 4
-    },
-    "Cross-Country Skiing": {
-      "men": 3,
-      "women": 4,
-      "total": 7
-    },
-    "Figure Skating": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Speed Skating": {
-      "men": 1,
-      "women": 8,
-      "total": 9
-    }
-  },
-  "ROM": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Biathlon": {
-      "men": 4,
-      "women": 1,
-      "total": 5
-    },
-    "Bobsleigh": {
-      "men": 4,
-      "women": 0,
-      "total": 4
-    },
-    "Cross-Country Skiing": {
-      "men": 2,
-      "women": 1,
-      "total": 3
-    },
-    "Figure Skating": {
-      "men": 0,
-      "women": 1,
-      "total": 1
-    },
-    "Luge": {
-      "men": 4,
-      "women": 3,
-      "total": 7
-    },
-    "Snowboard": {
-      "men": 0,
-      "women": 2,
-      "total": 2
-    }
-  },
-  "EST": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Biathlon": {
-      "men": 4,
-      "women": 4,
-      "total": 8
-    },
-    "Cross-Country Skiing": {
-      "men": 3,
-      "women": 4,
-      "total": 7
-    },
-    "Curling": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Figure Skating": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Speed Skating": {
-      "men": 2,
-      "women": 0,
-      "total": 2
-    }
-  },
-  "AUS": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Bobsleigh": {
-      "men": 0,
-      "women": 4,
-      "total": 4
-    },
-    "Cross-Country Skiing": {
-      "men": 3,
-      "women": 4,
-      "total": 7
-    },
-    "Figure Skating": {
-      "men": 2,
-      "women": 2,
-      "total": 4
-    },
-    "Speed Skating": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Ski Mountaineering": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    }
-  },
-  "BUL": {
-    "Alpine Skiing": {
-      "men": 2,
-      "women": 1,
-      "total": 3
-    },
-    "Biathlon": {
-      "men": 4,
-      "women": 4,
-      "total": 8
-    },
-    "Cross-Country Skiing": {
-      "men": 2,
-      "women": 1,
-      "total": 3
-    },
-    "Figure Skating": {
-      "men": 0,
-      "women": 1,
-      "total": 1
-    },
-    "Ski Jumping": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    },
-    "Snowboard": {
-      "men": 3,
-      "women": 1,
-      "total": 4
-    }
-  },
-  "UKR": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Biathlon": {
-      "men": 5,
-      "women": 5,
-      "total": 10
-    },
-    "Cross-Country Skiing": {
-      "men": 2,
-      "women": 3,
-      "total": 5
-    },
-    "Figure Skating": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    },
-    "Luge": {
-      "men": 6,
-      "women": 4,
-      "total": 10
-    },
-    "Nordic Combined": {
-      "men": 2,
-      "women": 0,
-      "total": 2
-    },
-    "Speed Skating": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Skeleton": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    },
-    "Ski Jumping": {
-      "men": 2,
-      "women": 0,
-      "total": 2
-    }
-  },
-  "LTU": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Biathlon": {
-      "men": 4,
-      "women": 4,
-      "total": 8
-    },
-    "Cross-Country Skiing": {
-      "men": 2,
-      "women": 2,
-      "total": 4
-    },
-    "Figure Skating": {
-      "men": 1,
-      "women": 2,
-      "total": 3
-    }
-  },
-  "HUN": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Cross-Country Skiing": {
-      "men": 2,
-      "women": 2,
-      "total": 4
-    },
-    "Figure Skating": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Speed Skating": {
-      "men": 2,
-      "women": 0,
-      "total": 2
-    }
-  },
-  "ESP": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Cross-Country Skiing": {
-      "men": 3,
-      "women": 0,
-      "total": 3
-    },
-    "Figure Skating": {
-      "men": 3,
-      "women": 2,
-      "total": 5
-    },
-    "Ski Mountaineering": {
-      "men": 2,
-      "women": 2,
-      "total": 4
-    },
-    "Speed Skating": {
-      "men": 2,
-      "women": 0,
-      "total": 2
-    }
-  },
-  "BRA": {
-    "Alpine Skiing": {
-      "men": 3,
-      "women": 1,
-      "total": 4
-    },
-    "Bobsleigh": {
-      "men": 5,
-      "women": 0,
-      "total": 5
-    },
-    "Cross-Country Skiing": {
-      "men": 1,
-      "women": 2,
-      "total": 3
-    },
-    "Skeleton": {
-      "men": 0,
-      "women": 1,
-      "total": 1
-    },
-    "Snowboard": {
-      "men": 2,
-      "women": 0,
-      "total": 2
-    }
-  },
-  "CRO": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Cross-Country Skiing": {
-      "men": 1,
-      "women": 2,
-      "total": 3
-    },
-    "Speed Skating": {
-      "men": 0,
-      "women": 2,
-      "total": 2
-    }
-  },
-  "TPE": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Bobsleigh": {
-      "men": 0,
-      "women": 2,
-      "total": 2
-    },
-    "Cross-Country Skiing": {
-      "men": 1,
-      "women": 2,
-      "total": 3
-    },
-    "Figure Skating": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    },
-    "Speed Skating": {
-      "men": 0,
-      "women": 1,
-      "total": 1
-    }
-  },
-  "AND": {
-    "Alpine Skiing": {
-      "men": 2,
-      "women": 3,
-      "total": 5
-    },
-    "Cross-Country Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    }
-  },
-  "ARG": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 2,
-      "total": 3
-    },
-    "Cross-Country Skiing": {
-      "men": 2,
-      "women": 2,
-      "total": 4
-    },
-    "Luge": {
-      "men": 0,
-      "women": 1,
-      "total": 1
-    }
-  },
-  "ARM": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    },
-    "Cross-Country Skiing": {
-      "men": 1,
-      "women": 2,
-      "total": 3
-    },
-    "Figure Skating": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    }
-  },
-  "TUR": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Cross-Country Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Speed Skating": {
-      "men": 2,
-      "women": 0,
-      "total": 2
-    },
-    "Ski Jumping": {
-      "men": 2,
-      "women": 0,
-      "total": 2
-    }
-  },
-  "GRE": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Cross-Country Skiing": {
-      "men": 1,
-      "women": 2,
-      "total": 3
-    }
-  },
-  "ISR": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Cross-Country Skiing": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    },
-    "Figure Skating": {
-      "men": 0,
-      "women": 1,
-      "total": 1
-    },
-    "Skeleton": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    }
-  },
-  "MEX": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Cross-Country Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Figure Skating": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    }
-  },
-  "BIH": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Cross-Country Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Luge": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    }
-  },
-  "ISL": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Cross-Country Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    }
-  },
-  "IRI": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Cross-Country Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    }
-  },
-  "IRL": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Cross-Country Skiing": {
-      "men": 2,
-      "women": 0,
-      "total": 2
-    }
-  },
-  "LIE": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Bobsleigh": {
-      "men": 4,
-      "women": 0,
-      "total": 4
-    },
-    "Cross-Country Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    }
-  },
-  "MKD": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Cross-Country Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    }
-  },
-  "POR": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Cross-Country Skiing": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    },
-    "Speed Skating": {
-      "men": 0,
-      "women": 1,
-      "total": 1
-    }
-  },
-  "SRB": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    },
-    "Cross-Country Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    }
-  },
-  "UZB": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    },
-    "Figure Skating": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Speed Skating": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    }
-  },
-  "CHI": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Cross-Country Skiing": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    }
-  },
-  "HKG": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    },
-    "Speed Skating": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    }
-  },
-  "LIB": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Cross-Country Skiing": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    }
-  },
-  "MGL": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    },
-    "Cross-Country Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    }
-  },
-  "RSA": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    },
-    "Cross-Country Skiing": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    }
-  },
-  "THA": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    },
-    "Cross-Country Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    }
-  },
-  "ALB": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    }
-  },
-  "AZE": {
-    "Alpine Skiing": {
-      "men": 0,
-      "women": 1,
-      "total": 1
-    },
-    "Figure Skating": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    }
-  },
-  "CYP": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    }
-  },
-  "IND": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    },
-    "Cross-Country Skiing": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    }
-  },
-  "KOS": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    }
-  },
-  "KGZ": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    },
-    "Cross-Country Skiing": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    }
-  },
-  "LUX": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    }
-  },
-  "MDA": {
-    "Biathlon": {
-      "men": 2,
-      "women": 1,
-      "total": 3
-    },
-    "Cross-Country Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    }
-  },
-  "MNE": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    },
-    "Cross-Country Skiing": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    }
-  },
-  "MAR": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    },
-    "Cross-Country Skiing": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    }
-  },
-  "NZL": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    }
-  },
-  "PHI": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    }
-  },
-  "KSA": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    },
-    "Cross-Country Skiing": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    }
-  },
-  "TTO": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    }
-  },
-  "UAE": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 1,
-      "total": 2
-    }
-  },
-  "COL": {
-    "Cross-Country Skiing": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    }
-  },
-  "ECU": {
-    "Cross-Country Skiing": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    }
-  },
-  "JAM": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    },
-    "Bobsleigh": {
-      "men": 2,
-      "women": 1,
-      "total": 3
-    }
-  },
-  "KEN": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    }
-  },
-  "MAS": {
-    "Alpine Skiing": {
-      "men": 0,
-      "women": 1,
-      "total": 1
-    }
-  },
-  "MLT": {
-    "Cross-Country Skiing": {
-      "men": 0,
-      "women": 1,
-      "total": 1
-    }
-  },
-  "MON": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    }
-  },
-  "NGR": {
-    "Cross-Country Skiing": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    }
-  },
-  "PAK": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    }
-  },
-  "SMR": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    }
-  },
-  "SGP": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    }
-  },
-  "URU": {
-    "Alpine Skiing": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    }
-  },
-  "VEN": {
-    "Cross-Country Skiing": {
-      "men": 1,
-      "women": 0,
-      "total": 1
-    }
-  },
-  "GEO": {
-    "Figure Skating": {
-      "men": 4,
-      "women": 4,
-      "total": 8
-    }
-  }
+    "USA":  {
+                "Alpine Skiing":  {
+                                      "men":  6,
+                                      "women":  11,
+                                      "total":  17
+                                  },
+                "Biathlon":  {
+                                 "men":  4,
+                                 "women":  4,
+                                 "total":  8
+                             },
+                "Bobsleigh":  {
+                                  "men":  8,
+                                  "women":  6,
+                                  "total":  14
+                              },
+                "Cross-Country Skiing":  {
+                                             "men":  7,
+                                             "women":  8,
+                                             "total":  15
+                                         },
+                "Curling":  {
+                                "men":  6,
+                                "women":  6,
+                                "total":  12
+                            },
+                "Figure Skating":  {
+                                       "men":  8,
+                                       "women":  8,
+                                       "total":  16
+                                   },
+                "Freestyle Skiing":  {
+                                         "men":  18,
+                                         "women":  17,
+                                         "total":  35
+                                     },
+                "Ice Hockey":  {
+                                   "men":  25,
+                                   "women":  23,
+                                   "total":  48
+                               },
+                "Luge":  {
+                             "men":  6,
+                             "women":  5,
+                             "total":  11
+                         },
+                "Nordic Combined":  {
+                                        "men":  2,
+                                        "women":  0,
+                                        "total":  2
+                                    },
+                "Speed Skating":  {
+                                      "men":  7,
+                                      "women":  6,
+                                      "total":  13
+                                  },
+                "Skeleton":  {
+                                 "men":  2,
+                                 "women":  2,
+                                 "total":  4
+                             },
+                "Ski Jumping":  {
+                                    "men":  3,
+                                    "women":  3,
+                                    "total":  6
+                                },
+                "Ski Mountaineering":  {
+                                           "men":  1,
+                                           "women":  1,
+                                           "total":  2
+                                       },
+                "Snowboard":  {
+                                  "men":  13,
+                                  "women":  12,
+                                  "total":  25
+                              }
+            },
+    "CAN":  {
+                "Alpine Skiing":  {
+                                      "men":  5,
+                                      "women":  6,
+                                      "total":  11
+                                  },
+                "Biathlon":  {
+                                 "men":  4,
+                                 "women":  4,
+                                 "total":  8
+                             },
+                "Bobsleigh":  {
+                                  "men":  8,
+                                  "women":  6,
+                                  "total":  14
+                              },
+                "Cross-Country Skiing":  {
+                                             "men":  5,
+                                             "women":  7,
+                                             "total":  12
+                                         },
+                "Curling":  {
+                                "men":  5,
+                                "women":  6,
+                                "total":  11
+                            },
+                "Figure Skating":  {
+                                       "men":  6,
+                                       "women":  6,
+                                       "total":  12
+                                   },
+                "Freestyle Skiing":  {
+                                         "men":  16,
+                                         "women":  16,
+                                         "total":  32
+                                     },
+                "Ice Hockey":  {
+                                   "men":  25,
+                                   "women":  23,
+                                   "total":  48
+                               },
+                "Luge":  {
+                             "men":  2,
+                             "women":  4,
+                             "total":  6
+                         },
+                "Speed Skating":  {
+                                      "men":  7,
+                                      "women":  8,
+                                      "total":  15
+                                  },
+                "Skeleton":  {
+                                 "men":  2,
+                                 "women":  2,
+                                 "total":  4
+                             },
+                "Ski Jumping":  {
+                                    "men":  1,
+                                    "women":  3,
+                                    "total":  4
+                                },
+                "Snowboard":  {
+                                  "men":  9,
+                                  "women":  10,
+                                  "total":  19
+                              }
+            },
+    "ITA":  {
+                "Alpine Skiing":  {
+                                      "men":  10,
+                                      "women":  11,
+                                      "total":  21
+                                  },
+                "Biathlon":  {
+                                 "men":  5,
+                                 "women":  5,
+                                 "total":  10
+                             },
+                "Bobsleigh":  {
+                                  "men":  4,
+                                  "women":  4,
+                                  "total":  8
+                              },
+                "Cross-Country Skiing":  {
+                                             "men":  5,
+                                             "women":  7,
+                                             "total":  12
+                                         },
+                "Curling":  {
+                                "men":  5,
+                                "women":  5,
+                                "total":  10
+                            },
+                "Figure Skating":  {
+                                       "men":  5,
+                                       "women":  4,
+                                       "total":  9
+                                   },
+                "Freestyle Skiing":  {
+                                         "men":  5,
+                                         "women":  4,
+                                         "total":  9
+                                     },
+                "Ice Hockey":  {
+                                   "men":  25,
+                                   "women":  23,
+                                   "total":  48
+                               },
+                "Luge":  {
+                             "men":  7,
+                             "women":  4,
+                             "total":  11
+                         },
+                "Nordic Combined":  {
+                                        "men":  2,
+                                        "women":  0,
+                                        "total":  2
+                                    },
+                "Speed Skating":  {
+                                      "men":  7,
+                                      "women":  3,
+                                      "total":  10
+                                  },
+                "Skeleton":  {
+                                 "men":  2,
+                                 "women":  2,
+                                 "total":  4
+                             },
+                "Ski Jumping":  {
+                                    "men":  3,
+                                    "women":  4,
+                                    "total":  7
+                                },
+                "Ski Mountaineering":  {
+                                           "men":  1,
+                                           "women":  2,
+                                           "total":  3
+                                       },
+                "Snowboard":  {
+                                  "men":  9,
+                                  "women":  8,
+                                  "total":  17
+                              }
+            },
+    "GER":  {
+                "Alpine Skiing":  {
+                                      "men":  5,
+                                      "women":  4,
+                                      "total":  9
+                                  },
+                "Biathlon":  {
+                                 "men":  5,
+                                 "women":  6,
+                                 "total":  11
+                             },
+                "Bobsleigh":  {
+                                  "men":  12,
+                                  "women":  6,
+                                  "total":  18
+                              },
+                "Cross-Country Skiing":  {
+                                             "men":  5,
+                                             "women":  7,
+                                             "total":  12
+                                         },
+                "Curling":  {
+                                "men":  5,
+                                "women":  0,
+                                "total":  5
+                            },
+                "Figure Skating":  {
+                                       "men":  3,
+                                       "women":  3,
+                                       "total":  6
+                                   },
+                "Freestyle Skiing":  {
+                                         "men":  4,
+                                         "women":  7,
+                                         "total":  11
+                                     },
+                "Ice Hockey":  {
+                                   "men":  25,
+                                   "women":  23,
+                                   "total":  48
+                               },
+                "Luge":  {
+                             "men":  7,
+                             "women":  5,
+                             "total":  12
+                         },
+                "Nordic Combined":  {
+                                        "men":  3,
+                                        "women":  0,
+                                        "total":  3
+                                    },
+                "Skeleton":  {
+                                 "men":  3,
+                                 "women":  3,
+                                 "total":  6
+                             },
+                "Ski Jumping":  {
+                                    "men":  4,
+                                    "women":  4,
+                                    "total":  8
+                                },
+                "Ski Mountaineering":  {
+                                           "men":  1,
+                                           "women":  2,
+                                           "total":  3
+                                       },
+                "Snowboard":  {
+                                  "men":  10,
+                                  "women":  9,
+                                  "total":  19
+                              },
+                "Speed Skating":  {
+                                      "men":  7,
+                                      "women":  6,
+                                      "total":  13
+                                  }
+            },
+    "SUI":  {
+                "Alpine Skiing":  {
+                                      "men":  11,
+                                      "women":  11,
+                                      "total":  22
+                                  },
+                "Biathlon":  {
+                                 "men":  5,
+                                 "women":  5,
+                                 "total":  10
+                             },
+                "Bobsleigh":  {
+                                  "men":  12,
+                                  "women":  4,
+                                  "total":  16
+                              },
+                "Cross-Country Skiing":  {
+                                             "men":  5,
+                                             "women":  6,
+                                             "total":  11
+                                         },
+                "Curling":  {
+                                "men":  5,
+                                "women":  6,
+                                "total":  11
+                            },
+                "Figure Skating":  {
+                                       "men":  1,
+                                       "women":  2,
+                                       "total":  3
+                                   },
+                "Ice Hockey":  {
+                                   "men":  25,
+                                   "women":  23,
+                                   "total":  48
+                               },
+                "Luge":  {
+                             "men":  0,
+                             "women":  1,
+                             "total":  1
+                         },
+                "Nordic Combined":  {
+                                        "men":  2,
+                                        "women":  0,
+                                        "total":  2
+                                    },
+                "Skeleton":  {
+                                 "men":  1,
+                                 "women":  0,
+                                 "total":  1
+                             },
+                "Ski Jumping":  {
+                                    "men":  3,
+                                    "women":  2,
+                                    "total":  5
+                                },
+                "Ski Mountaineering":  {
+                                           "men":  2,
+                                           "women":  2,
+                                           "total":  4
+                                       },
+                "Speed Skating":  {
+                                      "men":  1,
+                                      "women":  5,
+                                      "total":  6
+                                  }
+            },
+    "FRA":  {
+                "Alpine Skiing":  {
+                                      "men":  6,
+                                      "women":  8,
+                                      "total":  14
+                                  },
+                "Biathlon":  {
+                                 "men":  6,
+                                 "women":  6,
+                                 "total":  12
+                             },
+                "Bobsleigh":  {
+                                  "men":  4,
+                                  "women":  2,
+                                  "total":  6
+                              },
+                "Cross-Country Skiing":  {
+                                             "men":  7,
+                                             "women":  6,
+                                             "total":  13
+                                         },
+                "Figure Skating":  {
+                                       "men":  4,
+                                       "women":  3,
+                                       "total":  7
+                                   },
+                "Ice Hockey":  {
+                                   "men":  25,
+                                   "women":  23,
+                                   "total":  48
+                               },
+                "Nordic Combined":  {
+                                        "men":  2,
+                                        "women":  0,
+                                        "total":  2
+                                    },
+                "Speed Skating":  {
+                                      "men":  6,
+                                      "women":  1,
+                                      "total":  7
+                                  },
+                "Skeleton":  {
+                                 "men":  1,
+                                 "women":  0,
+                                 "total":  1
+                             },
+                "Ski Jumping":  {
+                                    "men":  3,
+                                    "women":  3,
+                                    "total":  6
+                                },
+                "Ski Mountaineering":  {
+                                           "men":  2,
+                                           "women":  2,
+                                           "total":  4
+                                       }
+            },
+    "AUT":  {
+                "Alpine Skiing":  {
+                                      "men":  10,
+                                      "women":  11,
+                                      "total":  21
+                                  },
+                "Biathlon":  {
+                                 "men":  4,
+                                 "women":  5,
+                                 "total":  9
+                             },
+                "Bobsleigh":  {
+                                  "men":  8,
+                                  "women":  4,
+                                  "total":  12
+                              },
+                "Cross-Country Skiing":  {
+                                             "men":  3,
+                                             "women":  4,
+                                             "total":  7
+                                         },
+                "Figure Skating":  {
+                                       "men":  0,
+                                       "women":  1,
+                                       "total":  1
+                                   },
+                "Freestyle Skiing":  {
+                                         "men":  7,
+                                         "women":  6,
+                                         "total":  13
+                                     },
+                "Luge":  {
+                             "men":  7,
+                             "women":  5,
+                             "total":  12
+                         },
+                "Nordic Combined":  {
+                                        "men":  3,
+                                        "women":  0,
+                                        "total":  3
+                                    },
+                "Speed Skating":  {
+                                      "men":  5,
+                                      "women":  5,
+                                      "total":  10
+                                  },
+                "Skeleton":  {
+                                 "men":  2,
+                                 "women":  1,
+                                 "total":  3
+                             },
+                "Ski Jumping":  {
+                                    "men":  4,
+                                    "women":  4,
+                                    "total":  8
+                                },
+                "Ski Mountaineering":  {
+                                           "men":  1,
+                                           "women":  1,
+                                           "total":  2
+                                       },
+                "Snowboard":  {
+                                  "men":  10,
+                                  "women":  6,
+                                  "total":  16
+                              }
+            },
+    "CZE":  {
+                "Alpine Skiing":  {
+                                      "men":  2,
+                                      "women":  4,
+                                      "total":  6
+                                  },
+                "Biathlon":  {
+                                 "men":  5,
+                                 "women":  5,
+                                 "total":  10
+                             },
+                "Cross-Country Skiing":  {
+                                             "men":  5,
+                                             "women":  7,
+                                             "total":  12
+                                         },
+                "Curling":  {
+                                "men":  6,
+                                "women":  1,
+                                "total":  7
+                            },
+                "Figure Skating":  {
+                                       "men":  2,
+                                       "women":  2,
+                                       "total":  4
+                                   },
+                "Freestyle Skiing":  {
+                                         "men":  3,
+                                         "women":  3,
+                                         "total":  6
+                                     },
+                "Ice Hockey":  {
+                                   "men":  25,
+                                   "women":  23,
+                                   "total":  48
+                               },
+                "Luge":  {
+                             "men":  1,
+                             "women":  0,
+                             "total":  1
+                         },
+                "Nordic Combined":  {
+                                        "men":  2,
+                                        "women":  0,
+                                        "total":  2
+                                    },
+                "Speed Skating":  {
+                                      "men":  1,
+                                      "women":  2,
+                                      "total":  3
+                                  },
+                "Skeleton":  {
+                                 "men":  0,
+                                 "women":  1,
+                                 "total":  1
+                             },
+                "Ski Jumping":  {
+                                    "men":  1,
+                                    "women":  3,
+                                    "total":  4
+                                },
+                "Snowboard":  {
+                                  "men":  4,
+                                  "women":  5,
+                                  "total":  9
+                              }
+            },
+    "SWE":  {
+                "Alpine Skiing":  {
+                                      "men":  0,
+                                      "women":  4,
+                                      "total":  4
+                                  },
+                "Biathlon":  {
+                                 "men":  6,
+                                 "women":  6,
+                                 "total":  12
+                             },
+                "Cross-Country Skiing":  {
+                                             "men":  8,
+                                             "women":  8,
+                                             "total":  16
+                                         },
+                "Curling":  {
+                                "men":  5,
+                                "women":  6,
+                                "total":  11
+                            },
+                "Figure Skating":  {
+                                       "men":  2,
+                                       "women":  1,
+                                       "total":  3
+                                   },
+                "Freestyle Skiing":  {
+                                         "men":  5,
+                                         "women":  2,
+                                         "total":  7
+                                     },
+                "Ice Hockey":  {
+                                   "men":  25,
+                                   "women":  23,
+                                   "total":  48
+                               },
+                "Ski Jumping":  {
+                                    "men":  0,
+                                    "women":  1,
+                                    "total":  1
+                                }
+            },
+    "FIN":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  1,
+                                      "total":  2
+                                  },
+                "Biathlon":  {
+                                 "men":  5,
+                                 "women":  5,
+                                 "total":  10
+                             },
+                "Cross-Country Skiing":  {
+                                             "men":  7,
+                                             "women":  8,
+                                             "total":  15
+                                         },
+                "Figure Skating":  {
+                                       "men":  1,
+                                       "women":  2,
+                                       "total":  3
+                                   },
+                "Ice Hockey":  {
+                                   "men":  25,
+                                   "women":  23,
+                                   "total":  48
+                               }
+            },
+    "JPN":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  1,
+                                      "total":  2
+                                  },
+                "Cross-Country Skiing":  {
+                                             "men":  3,
+                                             "women":  3,
+                                             "total":  6
+                                         },
+                "Curling":  {
+                                "men":  0,
+                                "women":  5,
+                                "total":  5
+                            },
+                "Figure Skating":  {
+                                       "men":  4,
+                                       "women":  4,
+                                       "total":  8
+                                   },
+                "Ice Hockey":  {
+                                   "men":  0,
+                                   "women":  23,
+                                   "total":  23
+                               },
+                "Luge":  {
+                             "men":  1,
+                             "women":  0,
+                             "total":  1
+                         },
+                "Nordic Combined":  {
+                                        "men":  3,
+                                        "women":  0,
+                                        "total":  3
+                                    },
+                "Speed Skating":  {
+                                      "men":  7,
+                                      "women":  7,
+                                      "total":  14
+                                  },
+                "Ski Jumping":  {
+                                    "men":  3,
+                                    "women":  4,
+                                    "total":  7
+                                }
+            },
+    "CHN":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  1,
+                                      "total":  2
+                                  },
+                "Bobsleigh":  {
+                                  "men":  8,
+                                  "women":  4,
+                                  "total":  12
+                              },
+                "Cross-Country Skiing":  {
+                                             "men":  2,
+                                             "women":  4,
+                                             "total":  6
+                                         },
+                "Curling":  {
+                                "men":  5,
+                                "women":  5,
+                                "total":  10
+                            },
+                "Figure Skating":  {
+                                       "men":  3,
+                                       "women":  3,
+                                       "total":  6
+                                   },
+                "Luge":  {
+                             "men":  3,
+                             "women":  3,
+                             "total":  6
+                         },
+                "Speed Skating":  {
+                                      "men":  7,
+                                      "women":  8,
+                                      "total":  15
+                                  },
+                "Skeleton":  {
+                                 "men":  3,
+                                 "women":  2,
+                                 "total":  5
+                             },
+                "Ski Mountaineering":  {
+                                           "men":  1,
+                                           "women":  1,
+                                           "total":  2
+                                       }
+            },
+    "LAT":  {
+                "Alpine Skiing":  {
+                                      "men":  2,
+                                      "women":  1,
+                                      "total":  3
+                                  },
+                "Biathlon":  {
+                                 "men":  4,
+                                 "women":  4,
+                                 "total":  8
+                             },
+                "Bobsleigh":  {
+                                  "men":  8,
+                                  "women":  0,
+                                  "total":  8
+                              },
+                "Cross-Country Skiing":  {
+                                             "men":  4,
+                                             "women":  3,
+                                             "total":  7
+                                         },
+                "Figure Skating":  {
+                                       "men":  2,
+                                       "women":  0,
+                                       "total":  2
+                                   },
+                "Ice Hockey":  {
+                                   "men":  25,
+                                   "women":  0,
+                                   "total":  25
+                               },
+                "Luge":  {
+                             "men":  6,
+                             "women":  4,
+                             "total":  10
+                         },
+                "Speed Skating":  {
+                                      "men":  2,
+                                      "women":  0,
+                                      "total":  2
+                                  },
+                "Skeleton":  {
+                                 "men":  1,
+                                 "women":  1,
+                                 "total":  2
+                             }
+            },
+    "NOR":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  1,
+                                      "total":  2
+                                  },
+                "Biathlon":  {
+                                 "men":  6,
+                                 "women":  5,
+                                 "total":  11
+                             },
+                "Cross-Country Skiing":  {
+                                             "men":  7,
+                                             "women":  8,
+                                             "total":  15
+                                         },
+                "Curling":  {
+                                "men":  6,
+                                "women":  1,
+                                "total":  7
+                            },
+                "Nordic Combined":  {
+                                        "men":  3,
+                                        "women":  0,
+                                        "total":  3
+                                    },
+                "Ski Jumping":  {
+                                    "men":  3,
+                                    "women":  4,
+                                    "total":  7
+                                },
+                "Ski Mountaineering":  {
+                                           "men":  2,
+                                           "women":  1,
+                                           "total":  3
+                                       },
+                "Speed Skating":  {
+                                      "men":  8,
+                                      "women":  5,
+                                      "total":  13
+                                  }
+            },
+    "POL":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  2,
+                                      "total":  3
+                                  },
+                "Biathlon":  {
+                                 "men":  4,
+                                 "women":  4,
+                                 "total":  8
+                             },
+                "Bobsleigh":  {
+                                  "men":  0,
+                                  "women":  2,
+                                  "total":  2
+                              },
+                "Cross-Country Skiing":  {
+                                             "men":  3,
+                                             "women":  4,
+                                             "total":  7
+                                         },
+                "Figure Skating":  {
+                                       "men":  2,
+                                       "women":  2,
+                                       "total":  4
+                                   },
+                "Luge":  {
+                             "men":  3,
+                             "women":  3,
+                             "total":  6
+                         },
+                "Nordic Combined":  {
+                                        "men":  2,
+                                        "women":  0,
+                                        "total":  2
+                                    },
+                "Speed Skating":  {
+                                      "men":  4,
+                                      "women":  5,
+                                      "total":  9
+                                  },
+                "Ski Jumping":  {
+                                    "men":  3,
+                                    "women":  2,
+                                    "total":  5
+                                },
+                "Ski Mountaineering":  {
+                                           "men":  1,
+                                           "women":  1,
+                                           "total":  2
+                                       },
+                "Snowboard":  {
+                                  "men":  2,
+                                  "women":  2,
+                                  "total":  4
+                              }
+            },
+    "GBR":  {
+                "Alpine Skiing":  {
+                                      "men":  3,
+                                      "women":  0,
+                                      "total":  3
+                                  },
+                "Bobsleigh":  {
+                                  "men":  8,
+                                  "women":  2,
+                                  "total":  10
+                              },
+                "Cross-Country Skiing":  {
+                                             "men":  3,
+                                             "women":  1,
+                                             "total":  4
+                                         },
+                "Curling":  {
+                                "men":  5,
+                                "women":  5,
+                                "total":  10
+                            },
+                "Figure Skating":  {
+                                       "men":  4,
+                                       "women":  4,
+                                       "total":  8
+                                   },
+                "Freestyle Skiing":  {
+                                         "men":  5,
+                                         "women":  3,
+                                         "total":  8
+                                     },
+                "Speed Skating":  {
+                                      "men":  0,
+                                      "women":  1,
+                                      "total":  1
+                                  },
+                "Skeleton":  {
+                                 "men":  2,
+                                 "women":  3,
+                                 "total":  5
+                             },
+                "Snowboard":  {
+                                  "men":  2,
+                                  "women":  3,
+                                  "total":  5
+                              }
+            },
+    "SVK":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  3,
+                                      "total":  4
+                                  },
+                "Biathlon":  {
+                                 "men":  2,
+                                 "women":  4,
+                                 "total":  6
+                             },
+                "Bobsleigh":  {
+                                  "men":  0,
+                                  "women":  2,
+                                  "total":  2
+                              },
+                "Cross-Country Skiing":  {
+                                             "men":  2,
+                                             "women":  1,
+                                             "total":  3
+                                         },
+                "Figure Skating":  {
+                                       "men":  1,
+                                       "women":  0,
+                                       "total":  1
+                                   },
+                "Freestyle Skiing":  {
+                                         "men":  0,
+                                         "women":  1,
+                                         "total":  1
+                                     },
+                "Ice Hockey":  {
+                                   "men":  25,
+                                   "women":  0,
+                                   "total":  25
+                               },
+                "Luge":  {
+                             "men":  3,
+                             "women":  2,
+                             "total":  5
+                         },
+                "Speed Skating":  {
+                                      "men":  0,
+                                      "women":  1,
+                                      "total":  1
+                                  },
+                "Ski Jumping":  {
+                                    "men":  1,
+                                    "women":  0,
+                                    "total":  1
+                                },
+                "Ski Mountaineering":  {
+                                           "men":  1,
+                                           "women":  2,
+                                           "total":  3
+                                       }
+            },
+    "KOR":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  1,
+                                      "total":  2
+                                  },
+                "Bobsleigh":  {
+                                  "men":  4,
+                                  "women":  2,
+                                  "total":  6
+                              },
+                "Cross-Country Skiing":  {
+                                             "men":  1,
+                                             "women":  2,
+                                             "total":  3
+                                         },
+                "Curling":  {
+                                "men":  1,
+                                "women":  6,
+                                "total":  7
+                            },
+                "Figure Skating":  {
+                                       "men":  3,
+                                       "women":  3,
+                                       "total":  6
+                                   },
+                "Luge":  {
+                             "men":  0,
+                             "women":  1,
+                             "total":  1
+                         },
+                "Speed Skating":  {
+                                      "men":  4,
+                                      "women":  5,
+                                      "total":  9
+                                  },
+                "Skeleton":  {
+                                 "men":  2,
+                                 "women":  1,
+                                 "total":  3
+                             }
+            },
+    "DEN":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  1,
+                                      "total":  2
+                                  },
+                "Biathlon":  {
+                                 "men":  1,
+                                 "women":  2,
+                                 "total":  3
+                             },
+                "Bobsleigh":  {
+                                  "men":  0,
+                                  "women":  1,
+                                  "total":  1
+                              },
+                "Cross-Country Skiing":  {
+                                             "men":  1,
+                                             "women":  0,
+                                             "total":  1
+                                         },
+                "Curling":  {
+                                "men":  0,
+                                "women":  5,
+                                "total":  5
+                            },
+                "Ice Hockey":  {
+                                   "men":  25,
+                                   "women":  0,
+                                   "total":  25
+                               },
+                "Skeleton":  {
+                                 "men":  1,
+                                 "women":  1,
+                                 "total":  2
+                             },
+                "Speed Skating":  {
+                                      "men":  2,
+                                      "women":  3,
+                                      "total":  5
+                                  }
+            },
+    "NED":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  1,
+                                      "total":  2
+                                  },
+                "Bobsleigh":  {
+                                  "men":  4,
+                                  "women":  0,
+                                  "total":  4
+                              },
+                "Figure Skating":  {
+                                       "men":  1,
+                                       "women":  1,
+                                       "total":  2
+                                   },
+                "Nordic Combined":  {
+                                        "men":  1,
+                                        "women":  0,
+                                        "total":  1
+                                    },
+                "Speed Skating":  {
+                                      "men":  9,
+                                      "women":  9,
+                                      "total":  18
+                                  },
+                "Skeleton":  {
+                                 "men":  0,
+                                 "women":  1,
+                                 "total":  1
+                             }
+            },
+    "SLO":  {
+                "Alpine Skiing":  {
+                                      "men":  3,
+                                      "women":  5,
+                                      "total":  8
+                                  },
+                "Biathlon":  {
+                                 "men":  5,
+                                 "women":  4,
+                                 "total":  9
+                             },
+                "Cross-Country Skiing":  {
+                                             "men":  3,
+                                             "women":  4,
+                                             "total":  7
+                                         },
+                "Nordic Combined":  {
+                                        "men":  2,
+                                        "women":  0,
+                                        "total":  2
+                                    },
+                "Ski Jumping":  {
+                                    "men":  3,
+                                    "women":  4,
+                                    "total":  7
+                                },
+                "Snowboard":  {
+                                  "men":  3,
+                                  "women":  1,
+                                  "total":  4
+                              }
+            },
+    "BEL":  {
+                "Alpine Skiing":  {
+                                      "men":  2,
+                                      "women":  1,
+                                      "total":  3
+                                  },
+                "Biathlon":  {
+                                 "men":  4,
+                                 "women":  4,
+                                 "total":  8
+                             },
+                "Bobsleigh":  {
+                                  "men":  0,
+                                  "women":  1,
+                                  "total":  1
+                              },
+                "Cross-Country Skiing":  {
+                                             "men":  1,
+                                             "women":  0,
+                                             "total":  1
+                                         },
+                "Figure Skating":  {
+                                       "men":  0,
+                                       "women":  2,
+                                       "total":  2
+                                   },
+                "Speed Skating":  {
+                                      "men":  3,
+                                      "women":  3,
+                                      "total":  6
+                                  },
+                "Skeleton":  {
+                                 "men":  0,
+                                 "women":  1,
+                                 "total":  1
+                             },
+                "Ski Mountaineering":  {
+                                           "men":  1,
+                                           "women":  0,
+                                           "total":  1
+                                       },
+                "Snowboard":  {
+                                  "men":  0,
+                                  "women":  2,
+                                  "total":  2
+                              }
+            },
+    "KAZ":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  1,
+                                      "total":  2
+                                  },
+                "Biathlon":  {
+                                 "men":  2,
+                                 "women":  2,
+                                 "total":  4
+                             },
+                "Cross-Country Skiing":  {
+                                             "men":  3,
+                                             "women":  4,
+                                             "total":  7
+                                         },
+                "Figure Skating":  {
+                                       "men":  1,
+                                       "women":  1,
+                                       "total":  2
+                                   },
+                "Speed Skating":  {
+                                      "men":  1,
+                                      "women":  8,
+                                      "total":  9
+                                  }
+            },
+    "ROM":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  1,
+                                      "total":  2
+                                  },
+                "Biathlon":  {
+                                 "men":  4,
+                                 "women":  1,
+                                 "total":  5
+                             },
+                "Bobsleigh":  {
+                                  "men":  4,
+                                  "women":  0,
+                                  "total":  4
+                              },
+                "Cross-Country Skiing":  {
+                                             "men":  2,
+                                             "women":  1,
+                                             "total":  3
+                                         },
+                "Figure Skating":  {
+                                       "men":  0,
+                                       "women":  1,
+                                       "total":  1
+                                   },
+                "Luge":  {
+                             "men":  4,
+                             "women":  3,
+                             "total":  7
+                         },
+                "Snowboard":  {
+                                  "men":  0,
+                                  "women":  2,
+                                  "total":  2
+                              }
+            },
+    "EST":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  1,
+                                      "total":  2
+                                  },
+                "Biathlon":  {
+                                 "men":  4,
+                                 "women":  4,
+                                 "total":  8
+                             },
+                "Cross-Country Skiing":  {
+                                             "men":  3,
+                                             "women":  4,
+                                             "total":  7
+                                         },
+                "Curling":  {
+                                "men":  1,
+                                "women":  1,
+                                "total":  2
+                            },
+                "Figure Skating":  {
+                                       "men":  1,
+                                       "women":  1,
+                                       "total":  2
+                                   },
+                "Speed Skating":  {
+                                      "men":  2,
+                                      "women":  0,
+                                      "total":  2
+                                  }
+            },
+    "AUS":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  1,
+                                      "total":  2
+                                  },
+                "Bobsleigh":  {
+                                  "men":  0,
+                                  "women":  4,
+                                  "total":  4
+                              },
+                "Cross-Country Skiing":  {
+                                             "men":  3,
+                                             "women":  4,
+                                             "total":  7
+                                         },
+                "Figure Skating":  {
+                                       "men":  2,
+                                       "women":  2,
+                                       "total":  4
+                                   },
+                "Speed Skating":  {
+                                      "men":  1,
+                                      "women":  1,
+                                      "total":  2
+                                  },
+                "Ski Mountaineering":  {
+                                           "men":  1,
+                                           "women":  1,
+                                           "total":  2
+                                       }
+            },
+    "BUL":  {
+                "Alpine Skiing":  {
+                                      "men":  2,
+                                      "women":  1,
+                                      "total":  3
+                                  },
+                "Biathlon":  {
+                                 "men":  4,
+                                 "women":  4,
+                                 "total":  8
+                             },
+                "Cross-Country Skiing":  {
+                                             "men":  2,
+                                             "women":  1,
+                                             "total":  3
+                                         },
+                "Figure Skating":  {
+                                       "men":  0,
+                                       "women":  1,
+                                       "total":  1
+                                   },
+                "Ski Jumping":  {
+                                    "men":  1,
+                                    "women":  0,
+                                    "total":  1
+                                },
+                "Snowboard":  {
+                                  "men":  3,
+                                  "women":  1,
+                                  "total":  4
+                              }
+            },
+    "UKR":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  1,
+                                      "total":  2
+                                  },
+                "Biathlon":  {
+                                 "men":  5,
+                                 "women":  5,
+                                 "total":  10
+                             },
+                "Cross-Country Skiing":  {
+                                             "men":  2,
+                                             "women":  3,
+                                             "total":  5
+                                         },
+                "Figure Skating":  {
+                                       "men":  1,
+                                       "women":  0,
+                                       "total":  1
+                                   },
+                "Luge":  {
+                             "men":  6,
+                             "women":  4,
+                             "total":  10
+                         },
+                "Nordic Combined":  {
+                                        "men":  2,
+                                        "women":  0,
+                                        "total":  2
+                                    },
+                "Speed Skating":  {
+                                      "men":  1,
+                                      "women":  1,
+                                      "total":  2
+                                  },
+                "Skeleton":  {
+                                 "men":  1,
+                                 "women":  0,
+                                 "total":  1
+                             },
+                "Ski Jumping":  {
+                                    "men":  2,
+                                    "women":  0,
+                                    "total":  2
+                                }
+            },
+    "LTU":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  1,
+                                      "total":  2
+                                  },
+                "Biathlon":  {
+                                 "men":  4,
+                                 "women":  4,
+                                 "total":  8
+                             },
+                "Cross-Country Skiing":  {
+                                             "men":  2,
+                                             "women":  2,
+                                             "total":  4
+                                         },
+                "Figure Skating":  {
+                                       "men":  1,
+                                       "women":  2,
+                                       "total":  3
+                                   }
+            },
+    "HUN":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  1,
+                                      "total":  2
+                                  },
+                "Cross-Country Skiing":  {
+                                             "men":  2,
+                                             "women":  2,
+                                             "total":  4
+                                         },
+                "Figure Skating":  {
+                                       "men":  1,
+                                       "women":  1,
+                                       "total":  2
+                                   },
+                "Speed Skating":  {
+                                      "men":  2,
+                                      "women":  0,
+                                      "total":  2
+                                  }
+            },
+    "ESP":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  1,
+                                      "total":  2
+                                  },
+                "Cross-Country Skiing":  {
+                                             "men":  3,
+                                             "women":  0,
+                                             "total":  3
+                                         },
+                "Figure Skating":  {
+                                       "men":  3,
+                                       "women":  2,
+                                       "total":  5
+                                   },
+                "Ski Mountaineering":  {
+                                           "men":  2,
+                                           "women":  2,
+                                           "total":  4
+                                       },
+                "Speed Skating":  {
+                                      "men":  2,
+                                      "women":  0,
+                                      "total":  2
+                                  }
+            },
+    "BRA":  {
+                "Alpine Skiing":  {
+                                      "men":  3,
+                                      "women":  1,
+                                      "total":  4
+                                  },
+                "Bobsleigh":  {
+                                  "men":  5,
+                                  "women":  0,
+                                  "total":  5
+                              },
+                "Cross-Country Skiing":  {
+                                             "men":  1,
+                                             "women":  2,
+                                             "total":  3
+                                         },
+                "Skeleton":  {
+                                 "men":  0,
+                                 "women":  1,
+                                 "total":  1
+                             },
+                "Snowboard":  {
+                                  "men":  2,
+                                  "women":  0,
+                                  "total":  2
+                              }
+            },
+    "CRO":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  1,
+                                      "total":  2
+                                  },
+                "Cross-Country Skiing":  {
+                                             "men":  1,
+                                             "women":  2,
+                                             "total":  3
+                                         },
+                "Speed Skating":  {
+                                      "men":  0,
+                                      "women":  2,
+                                      "total":  2
+                                  }
+            },
+    "TPE":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  1,
+                                      "total":  2
+                                  },
+                "Bobsleigh":  {
+                                  "men":  0,
+                                  "women":  2,
+                                  "total":  2
+                              },
+                "Cross-Country Skiing":  {
+                                             "men":  1,
+                                             "women":  2,
+                                             "total":  3
+                                         },
+                "Figure Skating":  {
+                                       "men":  1,
+                                       "women":  0,
+                                       "total":  1
+                                   },
+                "Speed Skating":  {
+                                      "men":  0,
+                                      "women":  1,
+                                      "total":  1
+                                  }
+            },
+    "AND":  {
+                "Alpine Skiing":  {
+                                      "men":  2,
+                                      "women":  3,
+                                      "total":  5
+                                  },
+                "Cross-Country Skiing":  {
+                                             "men":  1,
+                                             "women":  1,
+                                             "total":  2
+                                         }
+            },
+    "ARG":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  2,
+                                      "total":  3
+                                  },
+                "Cross-Country Skiing":  {
+                                             "men":  2,
+                                             "women":  2,
+                                             "total":  4
+                                         },
+                "Luge":  {
+                             "men":  0,
+                             "women":  1,
+                             "total":  1
+                         }
+            },
+    "ARM":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  0,
+                                      "total":  1
+                                  },
+                "Cross-Country Skiing":  {
+                                             "men":  1,
+                                             "women":  2,
+                                             "total":  3
+                                         },
+                "Figure Skating":  {
+                                       "men":  1,
+                                       "women":  1,
+                                       "total":  2
+                                   }
+            },
+    "TUR":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  1,
+                                      "total":  2
+                                  },
+                "Cross-Country Skiing":  {
+                                             "men":  1,
+                                             "women":  1,
+                                             "total":  2
+                                         },
+                "Speed Skating":  {
+                                      "men":  2,
+                                      "women":  0,
+                                      "total":  2
+                                  },
+                "Ski Jumping":  {
+                                    "men":  2,
+                                    "women":  0,
+                                    "total":  2
+                                }
+            },
+    "GRE":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  1,
+                                      "total":  2
+                                  },
+                "Cross-Country Skiing":  {
+                                             "men":  1,
+                                             "women":  2,
+                                             "total":  3
+                                         }
+            },
+    "ISR":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  1,
+                                      "total":  2
+                                  },
+                "Cross-Country Skiing":  {
+                                             "men":  1,
+                                             "women":  0,
+                                             "total":  1
+                                         },
+                "Figure Skating":  {
+                                       "men":  0,
+                                       "women":  1,
+                                       "total":  1
+                                   },
+                "Skeleton":  {
+                                 "men":  1,
+                                 "women":  0,
+                                 "total":  1
+                             }
+            },
+    "MEX":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  1,
+                                      "total":  2
+                                  },
+                "Cross-Country Skiing":  {
+                                             "men":  1,
+                                             "women":  1,
+                                             "total":  2
+                                         },
+                "Figure Skating":  {
+                                       "men":  1,
+                                       "women":  0,
+                                       "total":  1
+                                   }
+            },
+    "BIH":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  1,
+                                      "total":  2
+                                  },
+                "Cross-Country Skiing":  {
+                                             "men":  1,
+                                             "women":  1,
+                                             "total":  2
+                                         },
+                "Luge":  {
+                             "men":  1,
+                             "women":  0,
+                             "total":  1
+                         }
+            },
+    "ISL":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  1,
+                                      "total":  2
+                                  },
+                "Cross-Country Skiing":  {
+                                             "men":  1,
+                                             "women":  1,
+                                             "total":  2
+                                         }
+            },
+    "IRI":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  1,
+                                      "total":  2
+                                  },
+                "Cross-Country Skiing":  {
+                                             "men":  1,
+                                             "women":  1,
+                                             "total":  2
+                                         }
+            },
+    "IRL":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  1,
+                                      "total":  2
+                                  },
+                "Cross-Country Skiing":  {
+                                             "men":  2,
+                                             "women":  0,
+                                             "total":  2
+                                         }
+            },
+    "LIE":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  1,
+                                      "total":  2
+                                  },
+                "Bobsleigh":  {
+                                  "men":  4,
+                                  "women":  0,
+                                  "total":  4
+                              },
+                "Cross-Country Skiing":  {
+                                             "men":  1,
+                                             "women":  1,
+                                             "total":  2
+                                         }
+            },
+    "MKD":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  1,
+                                      "total":  2
+                                  },
+                "Cross-Country Skiing":  {
+                                             "men":  1,
+                                             "women":  1,
+                                             "total":  2
+                                         }
+            },
+    "POR":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  1,
+                                      "total":  2
+                                  },
+                "Cross-Country Skiing":  {
+                                             "men":  1,
+                                             "women":  0,
+                                             "total":  1
+                                         },
+                "Speed Skating":  {
+                                      "men":  0,
+                                      "women":  1,
+                                      "total":  1
+                                  }
+            },
+    "SRB":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  0,
+                                      "total":  1
+                                  },
+                "Cross-Country Skiing":  {
+                                             "men":  1,
+                                             "women":  1,
+                                             "total":  2
+                                         }
+            },
+    "UZB":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  0,
+                                      "total":  1
+                                  },
+                "Figure Skating":  {
+                                       "men":  1,
+                                       "women":  1,
+                                       "total":  2
+                                   },
+                "Speed Skating":  {
+                                      "men":  1,
+                                      "women":  0,
+                                      "total":  1
+                                  }
+            },
+    "CHI":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  1,
+                                      "total":  2
+                                  },
+                "Cross-Country Skiing":  {
+                                             "men":  1,
+                                             "women":  0,
+                                             "total":  1
+                                         }
+            },
+    "HKG":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  0,
+                                      "total":  1
+                                  },
+                "Speed Skating":  {
+                                      "men":  1,
+                                      "women":  1,
+                                      "total":  2
+                                  }
+            },
+    "LIB":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  1,
+                                      "total":  2
+                                  },
+                "Cross-Country Skiing":  {
+                                             "men":  1,
+                                             "women":  0,
+                                             "total":  1
+                                         }
+            },
+    "MGL":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  0,
+                                      "total":  1
+                                  },
+                "Cross-Country Skiing":  {
+                                             "men":  1,
+                                             "women":  1,
+                                             "total":  2
+                                         }
+            },
+    "RSA":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  1,
+                                      "total":  2
+                                  },
+                "Cross-Country Skiing":  {
+                                             "men":  1,
+                                             "women":  0,
+                                             "total":  1
+                                         }
+            },
+    "THA":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  0,
+                                      "total":  1
+                                  },
+                "Cross-Country Skiing":  {
+                                             "men":  1,
+                                             "women":  1,
+                                             "total":  2
+                                         }
+            },
+    "ALB":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  1,
+                                      "total":  2
+                                  }
+            },
+    "AZE":  {
+                "Alpine Skiing":  {
+                                      "men":  0,
+                                      "women":  1,
+                                      "total":  1
+                                  },
+                "Figure Skating":  {
+                                       "men":  1,
+                                       "women":  0,
+                                       "total":  1
+                                   }
+            },
+    "CYP":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  1,
+                                      "total":  2
+                                  }
+            },
+    "IND":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  0,
+                                      "total":  1
+                                  },
+                "Cross-Country Skiing":  {
+                                             "men":  1,
+                                             "women":  0,
+                                             "total":  1
+                                         }
+            },
+    "KOS":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  1,
+                                      "total":  2
+                                  }
+            },
+    "KGZ":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  0,
+                                      "total":  1
+                                  },
+                "Cross-Country Skiing":  {
+                                             "men":  1,
+                                             "women":  0,
+                                             "total":  1
+                                         }
+            },
+    "LUX":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  1,
+                                      "total":  2
+                                  }
+            },
+    "MDA":  {
+                "Biathlon":  {
+                                 "men":  2,
+                                 "women":  1,
+                                 "total":  3
+                             },
+                "Cross-Country Skiing":  {
+                                             "men":  1,
+                                             "women":  1,
+                                             "total":  2
+                                         }
+            },
+    "MNE":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  0,
+                                      "total":  1
+                                  },
+                "Cross-Country Skiing":  {
+                                             "men":  1,
+                                             "women":  0,
+                                             "total":  1
+                                         }
+            },
+    "MAR":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  0,
+                                      "total":  1
+                                  },
+                "Cross-Country Skiing":  {
+                                             "men":  1,
+                                             "women":  0,
+                                             "total":  1
+                                         }
+            },
+    "NZL":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  1,
+                                      "total":  2
+                                  }
+            },
+    "PHI":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  1,
+                                      "total":  2
+                                  }
+            },
+    "KSA":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  0,
+                                      "total":  1
+                                  },
+                "Cross-Country Skiing":  {
+                                             "men":  1,
+                                             "women":  0,
+                                             "total":  1
+                                         }
+            },
+    "TTO":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  1,
+                                      "total":  2
+                                  }
+            },
+    "UAE":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  1,
+                                      "total":  2
+                                  }
+            },
+    "COL":  {
+                "Cross-Country Skiing":  {
+                                             "men":  1,
+                                             "women":  0,
+                                             "total":  1
+                                         }
+            },
+    "ECU":  {
+                "Cross-Country Skiing":  {
+                                             "men":  1,
+                                             "women":  0,
+                                             "total":  1
+                                         }
+            },
+    "JAM":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  0,
+                                      "total":  1
+                                  },
+                "Bobsleigh":  {
+                                  "men":  2,
+                                  "women":  1,
+                                  "total":  3
+                              }
+            },
+    "KEN":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  0,
+                                      "total":  1
+                                  }
+            },
+    "MAS":  {
+                "Alpine Skiing":  {
+                                      "men":  0,
+                                      "women":  1,
+                                      "total":  1
+                                  }
+            },
+    "MLT":  {
+                "Cross-Country Skiing":  {
+                                             "men":  0,
+                                             "women":  1,
+                                             "total":  1
+                                         }
+            },
+    "MON":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  0,
+                                      "total":  1
+                                  }
+            },
+    "NGR":  {
+                "Cross-Country Skiing":  {
+                                             "men":  1,
+                                             "women":  0,
+                                             "total":  1
+                                         }
+            },
+    "PAK":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  0,
+                                      "total":  1
+                                  }
+            },
+    "SMR":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  0,
+                                      "total":  1
+                                  }
+            },
+    "SGP":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  0,
+                                      "total":  1
+                                  }
+            },
+    "URU":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  0,
+                                      "total":  1
+                                  }
+            },
+    "VEN":  {
+                "Cross-Country Skiing":  {
+                                             "men":  1,
+                                             "women":  0,
+                                             "total":  1
+                                         }
+            },
+    "GEO":  {
+                "Figure Skating":  {
+                                       "men":  4,
+                                       "women":  4,
+                                       "total":  8
+                                   }
+            },
+    "BEN":  {
+                "Alpine Skiing":  {
+                                      "men":  0,
+                                      "women":  1,
+                                      "total":  1
+                                  }
+            },
+    "BOL":  {
+                "Cross-Country Skiing":  {
+                                             "men":  1,
+                                             "women":  0,
+                                             "total":  1
+                                         }
+            },
+    "PUR":  {
+                "Skeleton":  {
+                                 "men":  0,
+                                 "women":  1,
+                                 "total":  1
+                             }
+            },
+    "MAD":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  0,
+                                      "total":  1
+                                  }
+            },
+    "HAI":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  0,
+                                      "total":  1
+                                  },
+                "Cross-Country Skiing":  {
+                                             "men":  1,
+                                             "women":  0,
+                                             "total":  1
+                                         }
+            },
+    "ERI":  {
+                "Alpine Skiing":  {
+                                      "men":  1,
+                                      "women":  0,
+                                      "total":  1
+                                  }
+            }
 }

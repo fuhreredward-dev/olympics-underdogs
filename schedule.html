@@ -1,0 +1,3544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olympic Underdog Schedule 2026 | Milano-Cortina</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #7e22ce 100%);
+            color: #fff;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            padding: 40px 20px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 15px;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .nav-links {
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .nav-links a {
+            display: inline-block;
+            padding: 12px 24px;
+            margin: 0 10px;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        
+        .nav-links a:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+        
+        .filters {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        
+        .filter-group {
+            flex: 1;
+            min-width: 200px;
+        }
+        
+        .filter-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        
+        .filter-group input,
+        .filter-group select {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            background: rgba(255, 255, 255, 0.9);
+            font-size: 14px;
+        }
+        
+        .day-section {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 30px;
+            backdrop-filter: blur(10px);
+        }
+        
+        .day-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+        }
+        
+        .day-title {
+            font-size: 2em;
+            font-weight: bold;
+        }
+        
+        .day-stats {
+            text-align: right;
+            opacity: 0.9;
+        }
+        
+        .event-card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-left: 4px solid #4ade80;
+        }
+        
+        .event-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        
+        .event-title {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #4ade80;
+        }
+        
+        .event-time {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        
+        .nations-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 10px;
+        }
+        
+        .nation-pill {
+            background: rgba(255, 255, 255, 0.15);
+            padding: 8px 12px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s;
+        }
+        
+        .nation-pill:hover {
+            background: rgba(255, 255, 255, 0.25);
+            transform: scale(1.05);
+        }
+        
+        .nation-pill.unconfirmed {
+            opacity: 0.6;
+            border: 1px dashed rgba(255, 255, 255, 0.3);
+        }
+        
+        .athlete-count {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 0.85em;
+            margin-left: 5px;
+        }
+        
+        .summary-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        
+        .summary-card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .summary-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #4ade80;
+        }
+        
+        .summary-label {
+            opacity: 0.8;
+            margin-top: 5px;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .day-title {
+                font-size: 1.5em;
+            }
+            
+            .nations-grid {
+                grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🏆 Olympic Underdog Schedule</h1>
+        <p>Milano-Cortina 2026 Winter Olympics | Complete Competition Calendar</p>
+    </div>
+    
+    <div class="nav-links">
+        <a href="index.html">← Back to Main Page</a>
+        <a href="#summary">📊 Summary</a>
+    </div>
+    
+    <div class="filters">
+        <div class="filter-group">
+            <label for="dateFilter">📅 Filter by Date:</label>
+            <select id="dateFilter" onchange="filterEvents()">
+                <option value="all">All Dates</option>
+                <option value="2026-02-06">Fri Feb 06, 2026</option>
+                <option value="2026-02-07">Sat Feb 07, 2026</option>
+                <option value="2026-02-08">Sun Feb 08, 2026</option>
+                <option value="2026-02-09">Mon Feb 09, 2026</option>
+                <option value="2026-02-10">Tue Feb 10, 2026</option>
+                <option value="2026-02-11">Wed Feb 11, 2026</option>
+                <option value="2026-02-12">Thu Feb 12, 2026</option>
+                <option value="2026-02-13">Fri Feb 13, 2026</option>
+                <option value="2026-02-14">Sat Feb 14, 2026</option>
+                <option value="2026-02-15">Sun Feb 15, 2026</option>
+                <option value="2026-02-16">Mon Feb 16, 2026</option>
+                <option value="2026-02-17">Tue Feb 17, 2026</option>
+                <option value="2026-02-18">Wed Feb 18, 2026</option>
+                <option value="2026-02-19">Thu Feb 19, 2026</option>
+                <option value="2026-02-20">Fri Feb 20, 2026</option>
+                <option value="2026-02-21">Sat Feb 21, 2026</option>
+                <option value="2026-02-22">Sun Feb 22, 2026</option>
+            </select>
+        </div>
+        <div class="filter-group">
+            <label for="sportFilter">🎿 Filter by Sport:</label>
+            <select id="sportFilter" onchange="filterEvents()">
+                <option value="all">All Sports</option>
+                <option value="Alpine Skiing">Alpine Skiing</option>
+                <option value="Biathlon">Biathlon</option>
+                <option value="Bobsleigh">Bobsleigh</option>
+                <option value="Cross-Country Skiing">Cross-Country Skiing</option>
+                <option value="Figure Skating">Figure Skating</option>
+                <option value="Freestyle Skiing">Freestyle Skiing</option>
+                <option value="Luge">Luge</option>
+                <option value="Skeleton">Skeleton</option>
+                <option value="Ski Mountaineering">Ski Mountaineering</option>
+                <option value="Snowboarding">Snowboarding</option>
+                <option value="Speed Skating">Speed Skating</option>
+            </select>
+        </div>
+        <div class="filter-group">
+            <label for="nationSearch">🔍 Search Nation:</label>
+            <input type="text" id="nationSearch" placeholder="Type nation name..." oninput="filterEvents()">
+        </div>
+    </div>
+    
+    <div id="summary" class="summary-grid">
+        <div class="summary-card">
+            <div class="summary-number">17</div>
+            <div class="summary-label">Competition Days</div>
+        </div>
+        <div class="summary-card">
+            <div class="summary-number">75</div>
+            <div class="summary-label">Underdog Nations</div>
+        </div>
+        <div class="summary-card">
+            <div class="summary-number">51</div>
+            <div class="summary-label">Total Events</div>
+        </div>
+        <div class="summary-card">
+            <div class="summary-number">658</div>
+            <div class="summary-label">Nation Participations</div>
+        </div>
+    </div>
+    
+    <div id="schedule">
+        <div class="day-section" data-date="2026-02-06">
+            <div class="day-header">
+                <div class="day-title">Friday, February 06, 2026</div>
+                <div class="day-stats">
+                    2 events • 7 nation participations
+                </div>
+            </div>
+            <div class="event-card" data-sport="Figure Skating">
+                <div class="event-header">
+                    <div class="event-title">Figure Skating - Ice Dance</div>
+                    <div class="event-time">⏰ 03:55 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill " data-nation="Australia">
+                        <span>✓ Australia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Georgia">
+                        <span>✓ Georgia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Lithuania">
+                        <span>✓ Lithuania</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                </div>
+            </div>
+            <div class="event-card" data-sport="Figure Skating">
+                <div class="event-header">
+                    <div class="event-title">Figure Skating - Pairs</div>
+                    <div class="event-time">⏰ 05:35 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill " data-nation="Armenia">
+                        <span>✓ Armenia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Australia">
+                        <span>✓ Australia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Georgia">
+                        <span>✓ Georgia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Uzbekistan">
+                        <span>✓ Uzbekistan</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="day-section" data-date="2026-02-07">
+            <div class="day-header">
+                <div class="day-title">Saturday, February 07, 2026</div>
+                <div class="day-stats">
+                    4 events • 76 nation participations
+                </div>
+            </div>
+            <div class="event-card" data-sport="Alpine Skiing">
+                <div class="event-header">
+                    <div class="event-title">Alpine Skiing - Men's Downhill</div>
+                    <div class="event-time">⏰ 05:30 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill unconfirmed" data-nation="Albania">
+                        <span>? Albania</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Andorra">
+                        <span>? Andorra</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Argentina">
+                        <span>? Argentina</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Armenia">
+                        <span>? Armenia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Australia">
+                        <span>? Australia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Benin">
+                        <span>? Benin</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Bosnia and Herzegovina">
+                        <span>? Bosnia and Herzegovina</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Brazil">
+                        <span>? Brazil</span>
+                        <span class="athlete-count">3</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Chile">
+                        <span>? Chile</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Chinese Taipei">
+                        <span>? Chinese Taipei</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Cyprus">
+                        <span>? Cyprus</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Denmark">
+                        <span>? Denmark</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Eritrea">
+                        <span>? Eritrea</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Georgia">
+                        <span>? Georgia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Guinea-Bissau">
+                        <span>? Guinea-Bissau</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Haiti">
+                        <span>? Haiti</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Hong Kong">
+                        <span>? Hong Kong</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Iceland">
+                        <span>? Iceland</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="India">
+                        <span>? India</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Iran">
+                        <span>? Iran</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Ireland">
+                        <span>? Ireland</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Israel">
+                        <span>? Israel</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Jamaica">
+                        <span>? Jamaica</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Japan">
+                        <span>? Japan</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Kenya">
+                        <span>? Kenya</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Kosovo">
+                        <span>? Kosovo</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Kyrgyzstan">
+                        <span>? Kyrgyzstan</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Lebanon">
+                        <span>? Lebanon</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Liechtenstein">
+                        <span>? Liechtenstein</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Lithuania">
+                        <span>? Lithuania</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Luxembourg">
+                        <span>? Luxembourg</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Madagascar">
+                        <span>? Madagascar</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Malaysia">
+                        <span>? Malaysia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Mexico">
+                        <span>? Mexico</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Monaco">
+                        <span>? Monaco</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Mongolia">
+                        <span>? Mongolia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Montenegro">
+                        <span>? Montenegro</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Morocco">
+                        <span>? Morocco</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="North Macedonia">
+                        <span>? North Macedonia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Pakistan">
+                        <span>? Pakistan</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Philippines">
+                        <span>? Philippines</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Portugal">
+                        <span>? Portugal</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Romania">
+                        <span>? Romania</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="San Marino">
+                        <span>? San Marino</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Saudi Arabia">
+                        <span>? Saudi Arabia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Serbia">
+                        <span>? Serbia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Singapore">
+                        <span>? Singapore</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="South Africa">
+                        <span>? South Africa</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Spain">
+                        <span>? Spain</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Thailand">
+                        <span>? Thailand</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Trinidad and Tobago">
+                        <span>? Trinidad and Tobago</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Turkey">
+                        <span>? Turkey</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="United Arab Emirates">
+                        <span>? United Arab Emirates</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Uruguay">
+                        <span>? Uruguay</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Uzbekistan">
+                        <span>? Uzbekistan</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                </div>
+            </div>
+            <div class="event-card" data-sport="Cross-Country Skiing">
+                <div class="event-header">
+                    <div class="event-title">Cross-Country Skiing - Women's skiathlon</div>
+                    <div class="event-time">⏰ 07:00 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill unconfirmed" data-nation="Andorra">
+                        <span>? Andorra</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Argentina">
+                        <span>? Argentina</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Armenia">
+                        <span>? Armenia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Australia">
+                        <span>? Australia</span>
+                        <span class="athlete-count">4</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Bosnia and Herzegovina">
+                        <span>? Bosnia and Herzegovina</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Brazil">
+                        <span>? Brazil</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Chinese Taipei">
+                        <span>? Chinese Taipei</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Iran">
+                        <span>? Iran</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Lithuania">
+                        <span>? Lithuania</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Malta">
+                        <span>? Malta</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Mexico">
+                        <span>? Mexico</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Moldova">
+                        <span>? Moldova</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Mongolia">
+                        <span>? Mongolia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="North Macedonia">
+                        <span>? North Macedonia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Romania">
+                        <span>? Romania</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Serbia">
+                        <span>? Serbia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Thailand">
+                        <span>? Thailand</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Turkey">
+                        <span>? Turkey</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                </div>
+            </div>
+            <div class="event-card" data-sport="Luge">
+                <div class="event-header">
+                    <div class="event-title">Luge - Men's</div>
+                    <div class="event-time">⏰ 11:00 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill " data-nation="Australia">
+                        <span>✓ Australia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Romania">
+                        <span>✓ Romania</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                </div>
+            </div>
+            <div class="event-card" data-sport="Snowboarding">
+                <div class="event-header">
+                    <div class="event-title">Snowboarding - Men's Big Air</div>
+                    <div class="event-time">⏰ 14:17 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill unconfirmed" data-nation="New Zealand">
+                        <span>? New Zealand</span>
+                        <span class="athlete-count">3</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="day-section" data-date="2026-02-08">
+            <div class="day-header">
+                <div class="day-title">Sunday, February 08, 2026</div>
+                <div class="day-stats">
+                    2 events • 81 nation participations
+                </div>
+            </div>
+            <div class="event-card" data-sport="Alpine Skiing">
+                <div class="event-header">
+                    <div class="event-title">Alpine Skiing - Women's Downhill</div>
+                    <div class="event-time">⏰ 05:30 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill unconfirmed" data-nation="Albania">
+                        <span>? Albania</span>
+                        <span class="athlete-count">3</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Andorra">
+                        <span>? Andorra</span>
+                        <span class="athlete-count">3</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Argentina">
+                        <span>? Argentina</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Australia">
+                        <span>? Australia</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Azerbaijan">
+                        <span>? Azerbaijan</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Belgium">
+                        <span>? Belgium</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Bosnia and Herzegovina">
+                        <span>? Bosnia and Herzegovina</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Brazil">
+                        <span>? Brazil</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Bulgaria">
+                        <span>? Bulgaria</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Chile">
+                        <span>? Chile</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Chinese Taipei">
+                        <span>? Chinese Taipei</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Cyprus">
+                        <span>? Cyprus</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Denmark">
+                        <span>? Denmark</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Estonia">
+                        <span>? Estonia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Georgia">
+                        <span>? Georgia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Hong Kong">
+                        <span>? Hong Kong</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Hungary">
+                        <span>? Hungary</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Iceland">
+                        <span>? Iceland</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Iran">
+                        <span>? Iran</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Ireland">
+                        <span>? Ireland</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Israel">
+                        <span>? Israel</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Japan">
+                        <span>? Japan</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Kazakhstan">
+                        <span>? Kazakhstan</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Kenya">
+                        <span>? Kenya</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Kosovo">
+                        <span>? Kosovo</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Latvia">
+                        <span>? Latvia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Liechtenstein">
+                        <span>? Liechtenstein</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Lithuania">
+                        <span>? Lithuania</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Luxembourg">
+                        <span>? Luxembourg</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Madagascar">
+                        <span>? Madagascar</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Malaysia">
+                        <span>? Malaysia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Mexico">
+                        <span>? Mexico</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="New Zealand">
+                        <span>? New Zealand</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="North Macedonia">
+                        <span>? North Macedonia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Philippines">
+                        <span>? Philippines</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Poland">
+                        <span>? Poland</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Portugal">
+                        <span>? Portugal</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Romania">
+                        <span>? Romania</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="South Africa">
+                        <span>? South Africa</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="South Korea">
+                        <span>? South Korea</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Spain">
+                        <span>? Spain</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Trinidad and Tobago">
+                        <span>? Trinidad and Tobago</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Turkey">
+                        <span>? Turkey</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Ukraine">
+                        <span>? Ukraine</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="United Arab Emirates">
+                        <span>? United Arab Emirates</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                </div>
+            </div>
+            <div class="event-card" data-sport="Cross-Country Skiing">
+                <div class="event-header">
+                    <div class="event-title">Cross-Country Skiing - Men's skiathlon</div>
+                    <div class="event-time">⏰ 06:30 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill unconfirmed" data-nation="Andorra">
+                        <span>? Andorra</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Argentina">
+                        <span>? Argentina</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Armenia">
+                        <span>? Armenia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Australia">
+                        <span>? Australia</span>
+                        <span class="athlete-count">3</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Bolivia">
+                        <span>? Bolivia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Bosnia and Herzegovina">
+                        <span>? Bosnia and Herzegovina</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Brazil">
+                        <span>? Brazil</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Chile">
+                        <span>? Chile</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Chinese Taipei">
+                        <span>? Chinese Taipei</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Colombia">
+                        <span>? Colombia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Ecuador">
+                        <span>? Ecuador</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Haiti">
+                        <span>? Haiti</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Iceland">
+                        <span>? Iceland</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="India">
+                        <span>? India</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Iran">
+                        <span>? Iran</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Ireland">
+                        <span>? Ireland</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Israel">
+                        <span>? Israel</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Kyrgyzstan">
+                        <span>? Kyrgyzstan</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Lebanon">
+                        <span>? Lebanon</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Liechtenstein">
+                        <span>? Liechtenstein</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Lithuania">
+                        <span>? Lithuania</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Mexico">
+                        <span>? Mexico</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Moldova">
+                        <span>? Moldova</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Mongolia">
+                        <span>? Mongolia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Montenegro">
+                        <span>? Montenegro</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Morocco">
+                        <span>? Morocco</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Nigeria">
+                        <span>? Nigeria</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="North Macedonia">
+                        <span>? North Macedonia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Portugal">
+                        <span>? Portugal</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Romania">
+                        <span>? Romania</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Saudi Arabia">
+                        <span>? Saudi Arabia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Serbia">
+                        <span>? Serbia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="South Africa">
+                        <span>? South Africa</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Thailand">
+                        <span>? Thailand</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Turkey">
+                        <span>? Turkey</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Venezuela">
+                        <span>? Venezuela</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="day-section" data-date="2026-02-09">
+            <div class="day-header">
+                <div class="day-title">Monday, February 09, 2026</div>
+                <div class="day-stats">
+                    2 events • 4 nation participations
+                </div>
+            </div>
+            <div class="event-card" data-sport="Alpine Skiing">
+                <div class="event-header">
+                    <div class="event-title">Alpine Skiing - Men's Team Combined</div>
+                    <div class="event-time">⏰ 04:30 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill " data-nation="Andorra">
+                        <span>✓ Andorra</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Brazil">
+                        <span>✓ Brazil</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                </div>
+            </div>
+            <div class="event-card" data-sport="Luge">
+                <div class="event-header">
+                    <div class="event-title">Luge - Women's</div>
+                    <div class="event-time">⏰ 11:00 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill " data-nation="Argentina">
+                        <span>✓ Argentina</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Romania">
+                        <span>✓ Romania</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="day-section" data-date="2026-02-10">
+            <div class="day-header">
+                <div class="day-title">Tuesday, February 10, 2026</div>
+                <div class="day-stats">
+                    2 events • 9 nation participations
+                </div>
+            </div>
+            <div class="event-card" data-sport="Alpine Skiing">
+                <div class="event-header">
+                    <div class="event-title">Alpine Skiing - Women's Team Combined</div>
+                    <div class="event-time">⏰ 04:30 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill " data-nation="Albania">
+                        <span>✓ Albania</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Andorra">
+                        <span>✓ Andorra</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Argentina">
+                        <span>✓ Argentina</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Australia">
+                        <span>✓ Australia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Bosnia and Herzegovina">
+                        <span>✓ Bosnia and Herzegovina</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                </div>
+            </div>
+            <div class="event-card" data-sport="Biathlon">
+                <div class="event-header">
+                    <div class="event-title">Biathlon - Men's 20km</div>
+                    <div class="event-time">⏰ 07:30 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill " data-nation="Denmark">
+                        <span>✓ Denmark</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Lithuania">
+                        <span>✓ Lithuania</span>
+                        <span class="athlete-count">4</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Moldova">
+                        <span>✓ Moldova</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Romania">
+                        <span>✓ Romania</span>
+                        <span class="athlete-count">4</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="day-section" data-date="2026-02-11">
+            <div class="day-header">
+                <div class="day-title">Wednesday, February 11, 2026</div>
+                <div class="day-stats">
+                    5 events • 69 nation participations
+                </div>
+            </div>
+            <div class="event-card" data-sport="Alpine Skiing">
+                <div class="event-header">
+                    <div class="event-title">Alpine Skiing - Men's Super-G</div>
+                    <div class="event-time">⏰ 05:30 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill unconfirmed" data-nation="Albania">
+                        <span>? Albania</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Andorra">
+                        <span>? Andorra</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Argentina">
+                        <span>? Argentina</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Armenia">
+                        <span>? Armenia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Australia">
+                        <span>? Australia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Benin">
+                        <span>? Benin</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Bosnia and Herzegovina">
+                        <span>? Bosnia and Herzegovina</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Brazil">
+                        <span>? Brazil</span>
+                        <span class="athlete-count">3</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Chile">
+                        <span>? Chile</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Chinese Taipei">
+                        <span>? Chinese Taipei</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Cyprus">
+                        <span>? Cyprus</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Denmark">
+                        <span>? Denmark</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Eritrea">
+                        <span>? Eritrea</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Georgia">
+                        <span>? Georgia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Guinea-Bissau">
+                        <span>? Guinea-Bissau</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Haiti">
+                        <span>? Haiti</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Hong Kong">
+                        <span>? Hong Kong</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Iceland">
+                        <span>? Iceland</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="India">
+                        <span>? India</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Iran">
+                        <span>? Iran</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Ireland">
+                        <span>? Ireland</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Israel">
+                        <span>? Israel</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Jamaica">
+                        <span>? Jamaica</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Japan">
+                        <span>? Japan</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Kenya">
+                        <span>? Kenya</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Kosovo">
+                        <span>? Kosovo</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Kyrgyzstan">
+                        <span>? Kyrgyzstan</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Lebanon">
+                        <span>? Lebanon</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Liechtenstein">
+                        <span>? Liechtenstein</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Lithuania">
+                        <span>? Lithuania</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Luxembourg">
+                        <span>? Luxembourg</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Madagascar">
+                        <span>? Madagascar</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Malaysia">
+                        <span>? Malaysia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Mexico">
+                        <span>? Mexico</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Monaco">
+                        <span>? Monaco</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Mongolia">
+                        <span>? Mongolia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Montenegro">
+                        <span>? Montenegro</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Morocco">
+                        <span>? Morocco</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="North Macedonia">
+                        <span>? North Macedonia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Pakistan">
+                        <span>? Pakistan</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Philippines">
+                        <span>? Philippines</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Portugal">
+                        <span>? Portugal</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Romania">
+                        <span>? Romania</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="San Marino">
+                        <span>? San Marino</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Saudi Arabia">
+                        <span>? Saudi Arabia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Serbia">
+                        <span>? Serbia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Singapore">
+                        <span>? Singapore</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="South Africa">
+                        <span>? South Africa</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Spain">
+                        <span>? Spain</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Thailand">
+                        <span>? Thailand</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Trinidad and Tobago">
+                        <span>? Trinidad and Tobago</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Turkey">
+                        <span>? Turkey</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="United Arab Emirates">
+                        <span>? United Arab Emirates</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Uruguay">
+                        <span>? Uruguay</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Uzbekistan">
+                        <span>? Uzbekistan</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                </div>
+            </div>
+            <div class="event-card" data-sport="Freestyle Skiing">
+                <div class="event-header">
+                    <div class="event-title">Freestyle Skiing - Women's Moguls</div>
+                    <div class="event-time">⏰ 08:15 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill unconfirmed" data-nation="Australia">
+                        <span>? Australia</span>
+                        <span class="athlete-count">3</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="South Africa">
+                        <span>? South Africa</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                </div>
+            </div>
+            <div class="event-card" data-sport="Biathlon">
+                <div class="event-header">
+                    <div class="event-title">Biathlon - Women's 15km</div>
+                    <div class="event-time">⏰ 08:15 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill " data-nation="Australia">
+                        <span>✓ Australia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Australia">
+                        <span>? Australia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Denmark">
+                        <span>✓ Denmark</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Denmark">
+                        <span>? Denmark</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Lithuania">
+                        <span>✓ Lithuania</span>
+                        <span class="athlete-count">4</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Lithuania">
+                        <span>? Lithuania</span>
+                        <span class="athlete-count">4</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Moldova">
+                        <span>✓ Moldova</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Moldova">
+                        <span>? Moldova</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Romania">
+                        <span>✓ Romania</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Romania">
+                        <span>? Romania</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                </div>
+            </div>
+            <div class="event-card" data-sport="Luge">
+                <div class="event-header">
+                    <div class="event-title">Luge - Women's Doubles</div>
+                    <div class="event-time">⏰ 11:00 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill " data-nation="Romania">
+                        <span>✓ Romania</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                </div>
+            </div>
+            <div class="event-card" data-sport="Luge">
+                <div class="event-header">
+                    <div class="event-title">Luge - Men's Doubles</div>
+                    <div class="event-time">⏰ 11:51 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill " data-nation="Romania">
+                        <span>✓ Romania</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="day-section" data-date="2026-02-12">
+            <div class="day-header">
+                <div class="day-title">Thursday, February 12, 2026</div>
+                <div class="day-stats">
+                    6 events • 68 nation participations
+                </div>
+            </div>
+            <div class="event-card" data-sport="Alpine Skiing">
+                <div class="event-header">
+                    <div class="event-title">Alpine Skiing - Women's Super-G</div>
+                    <div class="event-time">⏰ 05:30 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill unconfirmed" data-nation="Albania">
+                        <span>? Albania</span>
+                        <span class="athlete-count">3</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Andorra">
+                        <span>? Andorra</span>
+                        <span class="athlete-count">3</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Argentina">
+                        <span>? Argentina</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Australia">
+                        <span>? Australia</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Azerbaijan">
+                        <span>? Azerbaijan</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Belgium">
+                        <span>? Belgium</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Bosnia and Herzegovina">
+                        <span>? Bosnia and Herzegovina</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Brazil">
+                        <span>? Brazil</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Bulgaria">
+                        <span>? Bulgaria</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Chile">
+                        <span>? Chile</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Chinese Taipei">
+                        <span>? Chinese Taipei</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Cyprus">
+                        <span>? Cyprus</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Denmark">
+                        <span>? Denmark</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Estonia">
+                        <span>? Estonia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Georgia">
+                        <span>? Georgia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Hong Kong">
+                        <span>? Hong Kong</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Hungary">
+                        <span>? Hungary</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Iceland">
+                        <span>? Iceland</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Iran">
+                        <span>? Iran</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Ireland">
+                        <span>? Ireland</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Israel">
+                        <span>? Israel</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Japan">
+                        <span>? Japan</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Kazakhstan">
+                        <span>? Kazakhstan</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Kenya">
+                        <span>? Kenya</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Kosovo">
+                        <span>? Kosovo</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Latvia">
+                        <span>? Latvia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Liechtenstein">
+                        <span>? Liechtenstein</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Lithuania">
+                        <span>? Lithuania</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Luxembourg">
+                        <span>? Luxembourg</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Madagascar">
+                        <span>? Madagascar</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Malaysia">
+                        <span>? Malaysia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Mexico">
+                        <span>? Mexico</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="New Zealand">
+                        <span>? New Zealand</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="North Macedonia">
+                        <span>? North Macedonia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Philippines">
+                        <span>? Philippines</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Poland">
+                        <span>? Poland</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Portugal">
+                        <span>? Portugal</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Romania">
+                        <span>? Romania</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="South Africa">
+                        <span>? South Africa</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="South Korea">
+                        <span>? South Korea</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Spain">
+                        <span>? Spain</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Trinidad and Tobago">
+                        <span>? Trinidad and Tobago</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Turkey">
+                        <span>? Turkey</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Ukraine">
+                        <span>? Ukraine</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="United Arab Emirates">
+                        <span>? United Arab Emirates</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                </div>
+            </div>
+            <div class="event-card" data-sport="Freestyle Skiing">
+                <div class="event-header">
+                    <div class="event-title">Freestyle Skiing - Men's Moguls</div>
+                    <div class="event-time">⏰ 06:15 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill unconfirmed" data-nation="Australia">
+                        <span>? Australia</span>
+                        <span class="athlete-count">4</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Australia">
+                        <span>? Australia</span>
+                        <span class="athlete-count">4</span>
+                    </div>
+                </div>
+            </div>
+            <div class="event-card" data-sport="Cross-Country Skiing">
+                <div class="event-header">
+                    <div class="event-title">Cross-Country Skiing - Women's 10km classical</div>
+                    <div class="event-time">⏰ 07:00 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill " data-nation="Andorra">
+                        <span>✓ Andorra</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Argentina">
+                        <span>✓ Argentina</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Armenia">
+                        <span>✓ Armenia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Australia">
+                        <span>✓ Australia</span>
+                        <span class="athlete-count">4</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Bosnia and Herzegovina">
+                        <span>✓ Bosnia and Herzegovina</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Brazil">
+                        <span>✓ Brazil</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Chinese Taipei">
+                        <span>✓ Chinese Taipei</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Iran">
+                        <span>✓ Iran</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Lithuania">
+                        <span>✓ Lithuania</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Malta">
+                        <span>✓ Malta</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Mexico">
+                        <span>✓ Mexico</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Moldova">
+                        <span>✓ Moldova</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Mongolia">
+                        <span>✓ Mongolia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="North Macedonia">
+                        <span>✓ North Macedonia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Romania">
+                        <span>✓ Romania</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Serbia">
+                        <span>✓ Serbia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Thailand">
+                        <span>✓ Thailand</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Turkey">
+                        <span>✓ Turkey</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                </div>
+            </div>
+            <div class="event-card" data-sport="Snowboarding">
+                <div class="event-header">
+                    <div class="event-title">Snowboarding - Men's Snowboard Cross</div>
+                    <div class="event-time">⏰ 09:01 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill " data-nation="Australia">
+                        <span>✓ Australia</span>
+                        <span class="athlete-count">3</span>
+                    </div>
+                </div>
+            </div>
+            <div class="event-card" data-sport="Luge">
+                <div class="event-header">
+                    <div class="event-title">Luge - Relay</div>
+                    <div class="event-time">⏰ 12:30 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill " data-nation="Romania">
+                        <span>✓ Romania</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                </div>
+            </div>
+            <div class="event-card" data-sport="Snowboarding">
+                <div class="event-header">
+                    <div class="event-title">Snowboarding - Women's Halfpipe</div>
+                    <div class="event-time">⏰ 14:28 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill " data-nation="Australia">
+                        <span>✓ Australia</span>
+                        <span class="athlete-count">3</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="day-section" data-date="2026-02-13">
+            <div class="day-header">
+                <div class="day-title">Friday, February 13, 2026</div>
+                <div class="day-stats">
+                    5 events • 46 nation participations
+                </div>
+            </div>
+            <div class="event-card" data-sport="Cross-Country Skiing">
+                <div class="event-header">
+                    <div class="event-title">Cross-Country Skiing - Men's 15km classical</div>
+                    <div class="event-time">⏰ 05:45 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill " data-nation="Andorra">
+                        <span>✓ Andorra</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Argentina">
+                        <span>✓ Argentina</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Armenia">
+                        <span>✓ Armenia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Australia">
+                        <span>✓ Australia</span>
+                        <span class="athlete-count">3</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Bolivia">
+                        <span>✓ Bolivia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Bosnia and Herzegovina">
+                        <span>✓ Bosnia and Herzegovina</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Brazil">
+                        <span>✓ Brazil</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Chile">
+                        <span>✓ Chile</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Chinese Taipei">
+                        <span>✓ Chinese Taipei</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Colombia">
+                        <span>✓ Colombia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Ecuador">
+                        <span>✓ Ecuador</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Haiti">
+                        <span>✓ Haiti</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Iceland">
+                        <span>✓ Iceland</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="India">
+                        <span>✓ India</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Iran">
+                        <span>✓ Iran</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Ireland">
+                        <span>✓ Ireland</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Israel">
+                        <span>✓ Israel</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Kyrgyzstan">
+                        <span>✓ Kyrgyzstan</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Lebanon">
+                        <span>✓ Lebanon</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Liechtenstein">
+                        <span>✓ Liechtenstein</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Lithuania">
+                        <span>✓ Lithuania</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Mexico">
+                        <span>✓ Mexico</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Moldova">
+                        <span>✓ Moldova</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Mongolia">
+                        <span>✓ Mongolia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Montenegro">
+                        <span>✓ Montenegro</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Morocco">
+                        <span>✓ Morocco</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Nigeria">
+                        <span>✓ Nigeria</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="North Macedonia">
+                        <span>✓ North Macedonia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Portugal">
+                        <span>✓ Portugal</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Romania">
+                        <span>✓ Romania</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Saudi Arabia">
+                        <span>✓ Saudi Arabia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Serbia">
+                        <span>✓ Serbia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="South Africa">
+                        <span>✓ South Africa</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Thailand">
+                        <span>✓ Thailand</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Turkey">
+                        <span>✓ Turkey</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Venezuela">
+                        <span>✓ Venezuela</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                </div>
+            </div>
+            <div class="event-card" data-sport="Snowboarding">
+                <div class="event-header">
+                    <div class="event-title">Snowboarding - Women's Snowboard Cross</div>
+                    <div class="event-time">⏰ 08:46 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill " data-nation="Australia">
+                        <span>✓ Australia</span>
+                        <span class="athlete-count">3</span>
+                    </div>
+                </div>
+            </div>
+            <div class="event-card" data-sport="Skeleton">
+                <div class="event-header">
+                    <div class="event-title">Skeleton - Women's</div>
+                    <div class="event-time">⏰ 10:00 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill " data-nation="Brazil">
+                        <span>✓ Brazil</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Puerto Rico">
+                        <span>✓ Puerto Rico</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="South Africa">
+                        <span>✓ South Africa</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                </div>
+            </div>
+            <div class="event-card" data-sport="Skeleton">
+                <div class="event-header">
+                    <div class="event-title">Skeleton - Men's</div>
+                    <div class="event-time">⏰ 13:30 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill " data-nation="Australia">
+                        <span>✓ Australia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Denmark">
+                        <span>✓ Denmark</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Israel">
+                        <span>✓ Israel</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                </div>
+            </div>
+            <div class="event-card" data-sport="Snowboarding">
+                <div class="event-header">
+                    <div class="event-title">Snowboarding - Men's Halfpipe</div>
+                    <div class="event-time">⏰ 14:28 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill " data-nation="Australia">
+                        <span>✓ Australia</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Brazil">
+                        <span>✓ Brazil</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                    <div class="nation-pill " data-nation="New Zealand">
+                        <span>✓ New Zealand</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="day-section" data-date="2026-02-14">
+            <div class="day-header">
+                <div class="day-title">Saturday, February 14, 2026</div>
+                <div class="day-stats">
+                    3 events • 63 nation participations
+                </div>
+            </div>
+            <div class="event-card" data-sport="Alpine Skiing">
+                <div class="event-header">
+                    <div class="event-title">Alpine Skiing - Men's Giant Slalom</div>
+                    <div class="event-time">⏰ 04:00 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill " data-nation="Albania">
+                        <span>✓ Albania</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Andorra">
+                        <span>✓ Andorra</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Argentina">
+                        <span>✓ Argentina</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Armenia">
+                        <span>✓ Armenia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Australia">
+                        <span>✓ Australia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Benin">
+                        <span>✓ Benin</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Bosnia and Herzegovina">
+                        <span>✓ Bosnia and Herzegovina</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Brazil">
+                        <span>✓ Brazil</span>
+                        <span class="athlete-count">3</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Chile">
+                        <span>✓ Chile</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Chinese Taipei">
+                        <span>✓ Chinese Taipei</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Cyprus">
+                        <span>✓ Cyprus</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Denmark">
+                        <span>✓ Denmark</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Eritrea">
+                        <span>✓ Eritrea</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Georgia">
+                        <span>✓ Georgia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Guinea-Bissau">
+                        <span>✓ Guinea-Bissau</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Haiti">
+                        <span>✓ Haiti</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Hong Kong">
+                        <span>✓ Hong Kong</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Iceland">
+                        <span>✓ Iceland</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="India">
+                        <span>✓ India</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Iran">
+                        <span>✓ Iran</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Ireland">
+                        <span>✓ Ireland</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Israel">
+                        <span>✓ Israel</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Jamaica">
+                        <span>✓ Jamaica</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Japan">
+                        <span>✓ Japan</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Kenya">
+                        <span>✓ Kenya</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Kosovo">
+                        <span>✓ Kosovo</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Kyrgyzstan">
+                        <span>✓ Kyrgyzstan</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Lebanon">
+                        <span>✓ Lebanon</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Liechtenstein">
+                        <span>✓ Liechtenstein</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Lithuania">
+                        <span>✓ Lithuania</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Luxembourg">
+                        <span>✓ Luxembourg</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Madagascar">
+                        <span>✓ Madagascar</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Malaysia">
+                        <span>✓ Malaysia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Mexico">
+                        <span>✓ Mexico</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Monaco">
+                        <span>✓ Monaco</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Mongolia">
+                        <span>✓ Mongolia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Montenegro">
+                        <span>✓ Montenegro</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Morocco">
+                        <span>✓ Morocco</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="North Macedonia">
+                        <span>✓ North Macedonia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Pakistan">
+                        <span>✓ Pakistan</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Philippines">
+                        <span>✓ Philippines</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Portugal">
+                        <span>✓ Portugal</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Romania">
+                        <span>✓ Romania</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="San Marino">
+                        <span>✓ San Marino</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Saudi Arabia">
+                        <span>✓ Saudi Arabia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Serbia">
+                        <span>✓ Serbia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Singapore">
+                        <span>✓ Singapore</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="South Africa">
+                        <span>✓ South Africa</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Spain">
+                        <span>✓ Spain</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Thailand">
+                        <span>✓ Thailand</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Trinidad and Tobago">
+                        <span>✓ Trinidad and Tobago</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Turkey">
+                        <span>✓ Turkey</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="United Arab Emirates">
+                        <span>✓ United Arab Emirates</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="United States">
+                        <span>✓ United States</span>
+                        <span class="athlete-count">6</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Uruguay">
+                        <span>✓ Uruguay</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Uzbekistan">
+                        <span>✓ Uzbekistan</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                </div>
+            </div>
+            <div class="event-card" data-sport="Freestyle Skiing">
+                <div class="event-header">
+                    <div class="event-title">Freestyle Skiing - Women's Dual Moguls</div>
+                    <div class="event-time">⏰ 05:46 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill unconfirmed" data-nation="Australia">
+                        <span>? Australia</span>
+                        <span class="athlete-count">3</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="South Africa">
+                        <span>? South Africa</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                </div>
+            </div>
+            <div class="event-card" data-sport="Biathlon">
+                <div class="event-header">
+                    <div class="event-title">Biathlon - Women's 7.5km Sprint</div>
+                    <div class="event-time">⏰ 08:45 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill " data-nation="Australia">
+                        <span>✓ Australia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Denmark">
+                        <span>✓ Denmark</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Lithuania">
+                        <span>✓ Lithuania</span>
+                        <span class="athlete-count">4</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Moldova">
+                        <span>✓ Moldova</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Romania">
+                        <span>✓ Romania</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="day-section" data-date="2026-02-15">
+            <div class="day-header">
+                <div class="day-title">Sunday, February 15, 2026</div>
+                <div class="day-stats">
+                    5 events • 55 nation participations
+                </div>
+            </div>
+            <div class="event-card" data-sport="Bobsleigh">
+                <div class="event-header">
+                    <div class="event-title">Bobsleigh - Women's Monobob</div>
+                    <div class="event-time">⏰ 04:00 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill " data-nation="Australia">
+                        <span>✓ Australia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Chinese Taipei">
+                        <span>✓ Chinese Taipei</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Denmark">
+                        <span>✓ Denmark</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Jamaica">
+                        <span>✓ Jamaica</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                </div>
+            </div>
+            <div class="event-card" data-sport="Alpine Skiing">
+                <div class="event-header">
+                    <div class="event-title">Alpine Skiing - Women's Giant Slalom</div>
+                    <div class="event-time">⏰ 04:00 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill " data-nation="Albania">
+                        <span>✓ Albania</span>
+                        <span class="athlete-count">3</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Andorra">
+                        <span>✓ Andorra</span>
+                        <span class="athlete-count">3</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Argentina">
+                        <span>✓ Argentina</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Australia">
+                        <span>✓ Australia</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Azerbaijan">
+                        <span>✓ Azerbaijan</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Belgium">
+                        <span>✓ Belgium</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Bosnia and Herzegovina">
+                        <span>✓ Bosnia and Herzegovina</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Brazil">
+                        <span>✓ Brazil</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Bulgaria">
+                        <span>✓ Bulgaria</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Chile">
+                        <span>✓ Chile</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Chinese Taipei">
+                        <span>✓ Chinese Taipei</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Cyprus">
+                        <span>✓ Cyprus</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Denmark">
+                        <span>✓ Denmark</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Estonia">
+                        <span>✓ Estonia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Georgia">
+                        <span>✓ Georgia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Hong Kong">
+                        <span>✓ Hong Kong</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Hungary">
+                        <span>✓ Hungary</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Iceland">
+                        <span>✓ Iceland</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Iran">
+                        <span>✓ Iran</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Ireland">
+                        <span>✓ Ireland</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Israel">
+                        <span>✓ Israel</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Japan">
+                        <span>✓ Japan</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Kazakhstan">
+                        <span>✓ Kazakhstan</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Kenya">
+                        <span>✓ Kenya</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Kosovo">
+                        <span>✓ Kosovo</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Latvia">
+                        <span>✓ Latvia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Liechtenstein">
+                        <span>✓ Liechtenstein</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Lithuania">
+                        <span>✓ Lithuania</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Luxembourg">
+                        <span>✓ Luxembourg</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Madagascar">
+                        <span>✓ Madagascar</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Malaysia">
+                        <span>✓ Malaysia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Mexico">
+                        <span>✓ Mexico</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="New Zealand">
+                        <span>✓ New Zealand</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="North Macedonia">
+                        <span>✓ North Macedonia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Philippines">
+                        <span>✓ Philippines</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Poland">
+                        <span>✓ Poland</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Portugal">
+                        <span>✓ Portugal</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Romania">
+                        <span>✓ Romania</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="South Africa">
+                        <span>✓ South Africa</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="South Korea">
+                        <span>✓ South Korea</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Spain">
+                        <span>✓ Spain</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Trinidad and Tobago">
+                        <span>✓ Trinidad and Tobago</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Turkey">
+                        <span>✓ Turkey</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Ukraine">
+                        <span>✓ Ukraine</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="United Arab Emirates">
+                        <span>✓ United Arab Emirates</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                </div>
+            </div>
+            <div class="event-card" data-sport="Biathlon">
+                <div class="event-header">
+                    <div class="event-title">Biathlon - Men's 12.5km Pursuit</div>
+                    <div class="event-time">⏰ 05:15 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill unconfirmed" data-nation="Denmark">
+                        <span>? Denmark</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Lithuania">
+                        <span>? Lithuania</span>
+                        <span class="athlete-count">4</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Moldova">
+                        <span>? Moldova</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Romania">
+                        <span>? Romania</span>
+                        <span class="athlete-count">4</span>
+                    </div>
+                </div>
+            </div>
+            <div class="event-card" data-sport="Speed Skating">
+                <div class="event-header">
+                    <div class="event-title">Speed Skating - Women's 500m</div>
+                    <div class="event-time">⏰ 11:03 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill " data-nation="Chinese Taipei">
+                        <span>✓ Chinese Taipei</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                </div>
+            </div>
+            <div class="event-card" data-sport="Skeleton">
+                <div class="event-header">
+                    <div class="event-title">Skeleton - Mixed Team</div>
+                    <div class="event-time">⏰ 12:00 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill " data-nation="Denmark">
+                        <span>✓ Denmark</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="day-section" data-date="2026-02-16">
+            <div class="day-header">
+                <div class="day-title">Monday, February 16, 2026</div>
+                <div class="day-stats">
+                    2 events • 60 nation participations
+                </div>
+            </div>
+            <div class="event-card" data-sport="Alpine Skiing">
+                <div class="event-header">
+                    <div class="event-title">Alpine Skiing - Men's Slalom</div>
+                    <div class="event-time">⏰ 04:00 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill " data-nation="Albania">
+                        <span>✓ Albania</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Andorra">
+                        <span>✓ Andorra</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Argentina">
+                        <span>✓ Argentina</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Armenia">
+                        <span>✓ Armenia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Australia">
+                        <span>✓ Australia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Benin">
+                        <span>✓ Benin</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Bosnia and Herzegovina">
+                        <span>✓ Bosnia and Herzegovina</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Brazil">
+                        <span>✓ Brazil</span>
+                        <span class="athlete-count">3</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Chile">
+                        <span>✓ Chile</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Chinese Taipei">
+                        <span>✓ Chinese Taipei</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Cyprus">
+                        <span>✓ Cyprus</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Denmark">
+                        <span>✓ Denmark</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Eritrea">
+                        <span>✓ Eritrea</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Georgia">
+                        <span>✓ Georgia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Guinea-Bissau">
+                        <span>✓ Guinea-Bissau</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Haiti">
+                        <span>✓ Haiti</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Hong Kong">
+                        <span>✓ Hong Kong</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Iceland">
+                        <span>✓ Iceland</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="India">
+                        <span>✓ India</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Iran">
+                        <span>✓ Iran</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Ireland">
+                        <span>✓ Ireland</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Israel">
+                        <span>✓ Israel</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Jamaica">
+                        <span>✓ Jamaica</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Japan">
+                        <span>✓ Japan</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Kenya">
+                        <span>✓ Kenya</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Kosovo">
+                        <span>✓ Kosovo</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Kyrgyzstan">
+                        <span>✓ Kyrgyzstan</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Lebanon">
+                        <span>✓ Lebanon</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Liechtenstein">
+                        <span>✓ Liechtenstein</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Lithuania">
+                        <span>✓ Lithuania</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Luxembourg">
+                        <span>✓ Luxembourg</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Madagascar">
+                        <span>✓ Madagascar</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Malaysia">
+                        <span>✓ Malaysia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Mexico">
+                        <span>✓ Mexico</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Monaco">
+                        <span>✓ Monaco</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Mongolia">
+                        <span>✓ Mongolia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Montenegro">
+                        <span>✓ Montenegro</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Morocco">
+                        <span>✓ Morocco</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="North Macedonia">
+                        <span>✓ North Macedonia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Pakistan">
+                        <span>✓ Pakistan</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Philippines">
+                        <span>✓ Philippines</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Portugal">
+                        <span>✓ Portugal</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Romania">
+                        <span>✓ Romania</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="San Marino">
+                        <span>✓ San Marino</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Saudi Arabia">
+                        <span>✓ Saudi Arabia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Serbia">
+                        <span>✓ Serbia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Singapore">
+                        <span>✓ Singapore</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="South Africa">
+                        <span>✓ South Africa</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Spain">
+                        <span>✓ Spain</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Thailand">
+                        <span>✓ Thailand</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Trinidad and Tobago">
+                        <span>✓ Trinidad and Tobago</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Turkey">
+                        <span>✓ Turkey</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="United Arab Emirates">
+                        <span>✓ United Arab Emirates</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Uruguay">
+                        <span>✓ Uruguay</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Uzbekistan">
+                        <span>✓ Uzbekistan</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                </div>
+            </div>
+            <div class="event-card" data-sport="Bobsleigh">
+                <div class="event-header">
+                    <div class="event-title">Bobsleigh - Men's 2-Man</div>
+                    <div class="event-time">⏰ 04:00 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill unconfirmed" data-nation="Brazil">
+                        <span>? Brazil</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Israel">
+                        <span>? Israel</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Jamaica">
+                        <span>? Jamaica</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Liechtenstein">
+                        <span>? Liechtenstein</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Trinidad and Tobago">
+                        <span>? Trinidad and Tobago</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="day-section" data-date="2026-02-17">
+            <div class="day-header">
+                <div class="day-title">Tuesday, February 17, 2026</div>
+                <div class="day-stats">
+                    1 events • 2 nation participations
+                </div>
+            </div>
+            <div class="event-card" data-sport="Snowboarding">
+                <div class="event-header">
+                    <div class="event-title">Snowboarding - Women's Slopestyle/Big Air</div>
+                    <div class="event-time">⏰ 07:54 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill " data-nation="Australia">
+                        <span>✓ Australia</span>
+                        <span class="athlete-count">3</span>
+                    </div>
+                    <div class="nation-pill " data-nation="New Zealand">
+                        <span>✓ New Zealand</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="day-section" data-date="2026-02-18">
+            <div class="day-header">
+                <div class="day-title">Wednesday, February 18, 2026</div>
+                <div class="day-stats">
+                    3 events • 47 nation participations
+                </div>
+            </div>
+            <div class="event-card" data-sport="Alpine Skiing">
+                <div class="event-header">
+                    <div class="event-title">Alpine Skiing - Women's Slalom</div>
+                    <div class="event-time">⏰ 04:00 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill " data-nation="Albania">
+                        <span>✓ Albania</span>
+                        <span class="athlete-count">3</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Andorra">
+                        <span>✓ Andorra</span>
+                        <span class="athlete-count">3</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Argentina">
+                        <span>✓ Argentina</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Australia">
+                        <span>✓ Australia</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Azerbaijan">
+                        <span>✓ Azerbaijan</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Belgium">
+                        <span>✓ Belgium</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Bosnia and Herzegovina">
+                        <span>✓ Bosnia and Herzegovina</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Brazil">
+                        <span>✓ Brazil</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Bulgaria">
+                        <span>✓ Bulgaria</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Chile">
+                        <span>✓ Chile</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Chinese Taipei">
+                        <span>✓ Chinese Taipei</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Cyprus">
+                        <span>✓ Cyprus</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Denmark">
+                        <span>✓ Denmark</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Estonia">
+                        <span>✓ Estonia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Georgia">
+                        <span>✓ Georgia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Hong Kong">
+                        <span>✓ Hong Kong</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Hungary">
+                        <span>✓ Hungary</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Iceland">
+                        <span>✓ Iceland</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Iran">
+                        <span>✓ Iran</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Ireland">
+                        <span>✓ Ireland</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Israel">
+                        <span>✓ Israel</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Japan">
+                        <span>✓ Japan</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Kazakhstan">
+                        <span>✓ Kazakhstan</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Kenya">
+                        <span>✓ Kenya</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Kosovo">
+                        <span>✓ Kosovo</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Latvia">
+                        <span>✓ Latvia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Liechtenstein">
+                        <span>✓ Liechtenstein</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Lithuania">
+                        <span>✓ Lithuania</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Luxembourg">
+                        <span>✓ Luxembourg</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Madagascar">
+                        <span>✓ Madagascar</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Malaysia">
+                        <span>✓ Malaysia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Mexico">
+                        <span>✓ Mexico</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="New Zealand">
+                        <span>✓ New Zealand</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="North Macedonia">
+                        <span>✓ North Macedonia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Philippines">
+                        <span>✓ Philippines</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Poland">
+                        <span>✓ Poland</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Portugal">
+                        <span>✓ Portugal</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Romania">
+                        <span>✓ Romania</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="South Africa">
+                        <span>✓ South Africa</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="South Korea">
+                        <span>✓ South Korea</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Spain">
+                        <span>✓ Spain</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Trinidad and Tobago">
+                        <span>✓ Trinidad and Tobago</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Turkey">
+                        <span>✓ Turkey</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="Ukraine">
+                        <span>✓ Ukraine</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill " data-nation="United Arab Emirates">
+                        <span>✓ United Arab Emirates</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                </div>
+            </div>
+            <div class="event-card" data-sport="Freestyle Skiing">
+                <div class="event-header">
+                    <div class="event-title">Freestyle Skiing - Women's Aerials</div>
+                    <div class="event-time">⏰ 06:30 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill " data-nation="Australia">
+                        <span>✓ Australia</span>
+                        <span class="athlete-count">4</span>
+                    </div>
+                </div>
+            </div>
+            <div class="event-card" data-sport="Snowboarding">
+                <div class="event-header">
+                    <div class="event-title">Snowboarding - Men's Slopestyle</div>
+                    <div class="event-time">⏰ 07:28 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill unconfirmed" data-nation="New Zealand">
+                        <span>? New Zealand</span>
+                        <span class="athlete-count">3</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="day-section" data-date="2026-02-19">
+            <div class="day-header">
+                <div class="day-title">Thursday, February 19, 2026</div>
+                <div class="day-stats">
+                    3 events • 3 nation participations
+                </div>
+            </div>
+            <div class="event-card" data-sport="Freestyle Skiing">
+                <div class="event-header">
+                    <div class="event-title">Freestyle Skiing - Men's Aerials</div>
+                    <div class="event-time">⏰ 06:30 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill " data-nation="Australia">
+                        <span>✓ Australia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                </div>
+            </div>
+            <div class="event-card" data-sport="Ski Mountaineering">
+                <div class="event-header">
+                    <div class="event-title">Ski Mountaineering - Women's</div>
+                    <div class="event-time">⏰ 07:55 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill " data-nation="Australia">
+                        <span>✓ Australia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                </div>
+            </div>
+            <div class="event-card" data-sport="Ski Mountaineering">
+                <div class="event-header">
+                    <div class="event-title">Ski Mountaineering - Men's</div>
+                    <div class="event-time">⏰ 08:15 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill " data-nation="Australia">
+                        <span>✓ Australia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="day-section" data-date="2026-02-20">
+            <div class="day-header">
+                <div class="day-title">Friday, February 20, 2026</div>
+                <div class="day-stats">
+                    1 events • 4 nation participations
+                </div>
+            </div>
+            <div class="event-card" data-sport="Biathlon">
+                <div class="event-header">
+                    <div class="event-title">Biathlon - Men's 15km Mass Start</div>
+                    <div class="event-time">⏰ 08:15 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill unconfirmed" data-nation="Denmark">
+                        <span>? Denmark</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Lithuania">
+                        <span>? Lithuania</span>
+                        <span class="athlete-count">4</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Moldova">
+                        <span>? Moldova</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Romania">
+                        <span>? Romania</span>
+                        <span class="athlete-count">4</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="day-section" data-date="2026-02-21">
+            <div class="day-header">
+                <div class="day-title">Saturday, February 21, 2026</div>
+                <div class="day-stats">
+                    4 events • 47 nation participations
+                </div>
+            </div>
+            <div class="event-card" data-sport="Bobsleigh">
+                <div class="event-header">
+                    <div class="event-title">Bobsleigh - Men's 4-Man</div>
+                    <div class="event-time">⏰ 04:00 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill unconfirmed" data-nation="Brazil">
+                        <span>? Brazil</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Israel">
+                        <span>? Israel</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Jamaica">
+                        <span>? Jamaica</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Liechtenstein">
+                        <span>? Liechtenstein</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Trinidad and Tobago">
+                        <span>? Trinidad and Tobago</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                </div>
+            </div>
+            <div class="event-card" data-sport="Cross-Country Skiing">
+                <div class="event-header">
+                    <div class="event-title">Cross-Country Skiing - Men's 50km mass start</div>
+                    <div class="event-time">⏰ 05:00 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill unconfirmed" data-nation="Andorra">
+                        <span>? Andorra</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Argentina">
+                        <span>? Argentina</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Armenia">
+                        <span>? Armenia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Australia">
+                        <span>? Australia</span>
+                        <span class="athlete-count">3</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Bolivia">
+                        <span>? Bolivia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Bosnia and Herzegovina">
+                        <span>? Bosnia and Herzegovina</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Brazil">
+                        <span>? Brazil</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Chile">
+                        <span>? Chile</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Chinese Taipei">
+                        <span>? Chinese Taipei</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Colombia">
+                        <span>? Colombia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Ecuador">
+                        <span>? Ecuador</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Haiti">
+                        <span>? Haiti</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Iceland">
+                        <span>? Iceland</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="India">
+                        <span>? India</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Iran">
+                        <span>? Iran</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Ireland">
+                        <span>? Ireland</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Israel">
+                        <span>? Israel</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Kyrgyzstan">
+                        <span>? Kyrgyzstan</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Lebanon">
+                        <span>? Lebanon</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Liechtenstein">
+                        <span>? Liechtenstein</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Lithuania">
+                        <span>? Lithuania</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Mexico">
+                        <span>? Mexico</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Moldova">
+                        <span>? Moldova</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Mongolia">
+                        <span>? Mongolia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Montenegro">
+                        <span>? Montenegro</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Morocco">
+                        <span>? Morocco</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Nigeria">
+                        <span>? Nigeria</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="North Macedonia">
+                        <span>? North Macedonia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Portugal">
+                        <span>? Portugal</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Romania">
+                        <span>? Romania</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Saudi Arabia">
+                        <span>? Saudi Arabia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Serbia">
+                        <span>? Serbia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="South Africa">
+                        <span>? South Africa</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Thailand">
+                        <span>? Thailand</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Turkey">
+                        <span>? Turkey</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Venezuela">
+                        <span>? Venezuela</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                </div>
+            </div>
+            <div class="event-card" data-sport="Biathlon">
+                <div class="event-header">
+                    <div class="event-title">Biathlon - Women's 12.5km Mass Start</div>
+                    <div class="event-time">⏰ 08:15 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill unconfirmed" data-nation="Australia">
+                        <span>? Australia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Denmark">
+                        <span>? Denmark</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Lithuania">
+                        <span>? Lithuania</span>
+                        <span class="athlete-count">4</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Moldova">
+                        <span>? Moldova</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Romania">
+                        <span>? Romania</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                </div>
+            </div>
+            <div class="event-card" data-sport="Speed Skating">
+                <div class="event-header">
+                    <div class="event-title">Speed Skating - Men's Mass Start</div>
+                    <div class="event-time">⏰ 10:40 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill " data-nation="Denmark">
+                        <span>✓ Denmark</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="day-section" data-date="2026-02-22">
+            <div class="day-header">
+                <div class="day-title">Sunday, February 22, 2026</div>
+                <div class="day-stats">
+                    1 events • 17 nation participations
+                </div>
+            </div>
+            <div class="event-card" data-sport="Cross-Country Skiing">
+                <div class="event-header">
+                    <div class="event-title">Cross-Country Skiing - Women's 30km mass start</div>
+                    <div class="event-time">⏰ 04:00 EST</div>
+                </div>
+                <div class="nations-grid">
+                    <div class="nation-pill unconfirmed" data-nation="Andorra">
+                        <span>? Andorra</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Argentina">
+                        <span>? Argentina</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Armenia">
+                        <span>? Armenia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Australia">
+                        <span>? Australia</span>
+                        <span class="athlete-count">4</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Bosnia and Herzegovina">
+                        <span>? Bosnia and Herzegovina</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Brazil">
+                        <span>? Brazil</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Chinese Taipei">
+                        <span>? Chinese Taipei</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Iran">
+                        <span>? Iran</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Lithuania">
+                        <span>? Lithuania</span>
+                        <span class="athlete-count">2</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Malta">
+                        <span>? Malta</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Mexico">
+                        <span>? Mexico</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Moldova">
+                        <span>? Moldova</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Mongolia">
+                        <span>? Mongolia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="North Macedonia">
+                        <span>? North Macedonia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Romania">
+                        <span>? Romania</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Serbia">
+                        <span>? Serbia</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                    <div class="nation-pill unconfirmed" data-nation="Thailand">
+                        <span>? Thailand</span>
+                        <span class="athlete-count">1</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        function filterEvents() {
+            const dateFilter = document.getElementById('dateFilter').value;
+            const sportFilter = document.getElementById('sportFilter').value;
+            const nationSearch = document.getElementById('nationSearch').value.toLowerCase();
+            
+            const daySections = document.querySelectorAll('.day-section');
+            
+            daySections.forEach(section => {
+                const sectionDate = section.dataset.date;
+                let showSection = dateFilter === 'all' || dateFilter === sectionDate;
+                
+                if (showSection) {
+                    const eventCards = section.querySelectorAll('.event-card');
+                    let visibleEvents = 0;
+                    
+                    eventCards.forEach(card => {
+                        const cardSport = card.dataset.sport;
+                        const nations = card.querySelectorAll('.nation-pill');
+                        
+                        let showCard = sportFilter === 'all' || sportFilter === cardSport;
+                        
+                        if (showCard && nationSearch) {
+                            let hasMatchingNation = false;
+                            nations.forEach(nation => {
+                                const nationName = nation.dataset.nation.toLowerCase();
+                                if (nationName.includes(nationSearch)) {
+                                    hasMatchingNation = true;
+                                    nation.style.display = 'flex';
+                                } else {
+                                    nation.style.display = 'none';
+                                }
+                            });
+                            showCard = hasMatchingNation;
+                        } else {
+                            nations.forEach(nation => {
+                                nation.style.display = 'flex';
+                            });
+                        }
+                        
+                        card.style.display = showCard ? 'block' : 'none';
+                        if (showCard) visibleEvents++;
+                    });
+                    
+                    section.style.display = visibleEvents > 0 ? 'block' : 'none';
+                } else {
+                    section.style.display = 'none';
+                }
+            });
+        }
+        
+        // Add smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>

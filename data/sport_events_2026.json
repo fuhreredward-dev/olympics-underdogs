@@ -1,0 +1,104 @@
+{
+  "Skeleton": [
+    "Men's",
+    "Women's",
+    "Mixed Team"
+  ],
+  "Ski Jumping": [
+    "Men's Normal Hill",
+    "Men's Large Hill",
+    "Women's Normal Hill",
+    "Women's Large Hill"
+  ],
+  "Ski Mountaineering": [
+    "Men's",
+    "Women's",
+    "Mixed Team"
+  ],
+  "Snowboarding": [
+    "Men's Halfpipe",
+    "Men's Snowboard Cross",
+    "Men's Slopestyle",
+    "Men's Big Air",
+    "Women's Halfpipe",
+    "Women's Snowboard Cross",
+    "Women's Slopestyle/Big Air",
+    "Snowboard Cross Team"
+  ],
+  "Speed Skating": [
+    "Men's Mass Start",
+    "Women's 500m"
+  ],
+  "Bobsleigh": [
+    "Men's 4-Man",
+    "Men's 2-Man",
+    "Women's Monobob",
+    "Women's Two-Woman"
+  ],
+  "Figure Skating": [
+    "Men's singles",
+    "Women's singles",
+    "Pairs",
+    "Ice Dance",
+    "Team Events"
+  ],
+  "Freestyle Skiing": [
+    "Men's Aerials",
+    "Men's Halfpipe",
+    "Men's Moguls",
+    "Men's Moguls",
+    "Men's Slopestyle",
+    "Men's Big Air",
+    "Women's Aerials",
+    "Women's Halfpipe",
+    "Women's Moguls",
+    "Women's Dual Moguls",
+    "Women's Big Air",
+    "Women's Slopestyle",
+    "Aerials team"
+  ],
+  "Luge": [
+    "Men's",
+    "Men's Doubles",
+    "Women's",
+    "Women's Doubles",
+    "Relay"
+  ],
+  "Short Track Speed Skating": [
+    "Men's 500m",
+    "Men's 1000m",
+    "Men's 1500m",
+    "Women's 1000m",
+    "Women's 1500m"
+  ],
+  "Biathlon": [
+    "Men's 10km sprint",
+    "Women's 7.5km Sprint",
+    "Men's 20km",
+    "Women's 15km",
+    "Men's 12.5km Pursuit",
+    "Women's 15km",
+    "Men's 15km Mass Start",
+    "Women's 12.5km Mass Start"
+  ],
+  "Cross-Country Skiing": [
+    "Men's 15km classical",
+    "Women's 10km classical",
+    "Men's skiathlon",
+    "Women's skiathlon",
+    "Men's 50km mass start",
+    "Women's 30km mass start"
+  ],
+  "Alpine Skiing": [
+    "Men's Giant Slalom",
+    "Women's Giant Slalom",
+    "Men's Slalom",
+    "Women's Slalom",
+    "Men's Team Combined",
+    "Women's Team Combined",
+    "Men's Super-G",
+    "Women's Super-G",
+    "Men's Downhill",
+    "Women's Downhill"
+  ]
+}

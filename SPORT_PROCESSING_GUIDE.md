@@ -98,7 +98,7 @@ if nation in competing_nations:
 - `src/data_loader.py` - Loads and parses schedule data
 
 ## Next Sports to Process
-Remaining 13 sports following this process:
+Remaining 11 sports following this process:
 1. Alpine Skiing
 2. Biathlon
 3. Bobsleigh
@@ -110,10 +110,10 @@ Remaining 13 sports following this process:
 9. Luge
 10. Nordic Combined
 11. Short Track
-12. Speed Skating
-13. Snowboard
 
 ## Completed Sports
-✓ **Skeleton** (2 underdogs: 6 nations total competing in skeleton)
-✓ **Ski Jumping** (1 underdog: Turkey with 2 male athletes in individual events)
-✓ **Ski Mountaineering** (1 underdog: Australia with 1 male + 1 female in all events)
+✓ **Skeleton** (3 underdogs: Brazil, Denmark, Israel)
+✓ **Ski Jumping** (1 underdog: Turkey)
+✓ **Ski Mountaineering** (1 underdog: Australia)
+✓ **Speed Skating** (4 underdogs: Chinese Taipei, Denmark, Estonia, Portugal)
+✓ **Snowboard** (2 underdogs: Australia, Brazil)

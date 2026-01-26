@@ -1,0 +1,367 @@
+{
+  "2026_Winter_Olympics_Sports_Participation": {
+    "event": "2026 Winter Olympics",
+    "location": "Milan and Cortina d'Ampezzo, Italy",
+    "dates": "February 6-22, 2026",
+    "total_participating_nations": 92,
+    "nations_with_data": 57,
+    "notes": "Costa Rica, Guam, and Timor-Leste Wikipedia pages returned 404 errors",
+    "countries": {
+      "Albania": {
+        "total_sports": 1,
+        "sports": [
+          "Alpine skiing"
+        ]
+      },
+      "Andorra": {
+        "total_sports": 2,
+        "sports": [
+          "Alpine skiing",
+          "Cross-country skiing"
+        ]
+      },
+      "Argentina": {
+        "total_sports": 3,
+        "sports": [
+          "Alpine skiing",
+          "Cross-country skiing",
+          "Luge"
+        ]
+      },
+      "Armenia": {
+        "total_sports": 3,
+        "sports": [
+          "Alpine skiing",
+          "Cross-country skiing",
+          "Figure skating"
+        ]
+      },
+      "Australia": {
+        "total_sports": 11,
+        "sports": [
+          "Alpine skiing",
+          "Biathlon",
+          "Bobsleigh",
+          "Cross-country skiing",
+          "Figure skating",
+          "Freestyle skiing",
+          "Luge",
+          "Short-track speed skating",
+          "Skeleton",
+          "Ski mountaineering",
+          "Snowboarding"
+        ]
+      },
+      "Austria": {
+        "total_sports": 14,
+        "sports": [
+          "Alpine skiing",
+          "Biathlon",
+          "Bobsleigh",
+          "Cross-country skiing",
+          "Figure skating",
+          "Freestyle skiing",
+          "Luge",
+          "Nordic combined",
+          "Short-track speed skating",
+          "Skeleton",
+          "Ski jumping",
+          "Ski mountaineering",
+          "Snowboarding",
+          "Speed skating"
+        ]
+      },
+      "Azerbaijan": {
+        "total_sports": 2,
+        "sports": [
+          "Alpine skiing",
+          "Figure skating"
+        ]
+      },
+      "Belgium": {
+        "total_sports": 9,
+        "sports": [
+          "Alpine skiing",
+          "Biathlon",
+          "Bobsleigh",
+          "Figure skating",
+          "Short-track speed skating",
+          "Skeleton",
+          "Ski mountaineering",
+          "Snowboarding",
+          "Speed skating"
+        ]
+      },
+      "Benin": {
+        "total_sports": 1,
+        "sports": [
+          "Alpine skiing"
+        ]
+      },
+      "Bolivia": {
+        "total_sports": 1,
+        "sports": [
+          "Cross-country skiing"
+        ]
+      },
+      "Bosnia and Herzegovina": {
+        "total_sports": 2,
+        "sports": [
+          "Alpine skiing",
+          "Cross-country skiing"
+        ]
+      },
+      "Brazil": {
+        "total_sports": 5,
+        "sports": [
+          "Alpine skiing",
+          "Bobsleigh",
+          "Cross-country skiing",
+          "Skeleton",
+          "Snowboarding"
+        ]
+      },
+      "Bulgaria": {
+        "total_sports": 6,
+        "sports": [
+          "Alpine skiing",
+          "Biathlon",
+          "Cross-country skiing",
+          "Figure skating",
+          "Ski jumping",
+          "Snowboarding"
+        ]
+      },
+      "Canada": {
+        "total_sports": 14,
+        "sports": [
+          "Alpine skiing",
+          "Biathlon",
+          "Bobsleigh",
+          "Cross-country skiing",
+          "Curling",
+          "Figure skating",
+          "Freestyle skiing",
+          "Ice hockey",
+          "Luge",
+          "Short-track speed skating",
+          "Skeleton",
+          "Ski jumping",
+          "Snowboarding",
+          "Speed skating"
+        ]
+      },
+      "Chile": {
+        "total_sports": 3,
+        "sports": [
+          "Alpine skiing",
+          "Cross-country skiing",
+          "Freestyle skiing"
+        ]
+      },
+      "China": {
+        "total_sports": 14,
+        "sports": [
+          "Alpine skiing",
+          "Biathlon",
+          "Bobsleigh",
+          "Cross-country skiing",
+          "Curling",
+          "Figure skating",
+          "Freestyle skiing",
+          "Luge",
+          "Nordic combined",
+          "Short-track speed skating",
+          "Skeleton",
+          "Ski jumping",
+          "Ski mountaineering",
+          "Snowboarding",
+          "Speed skating"
+        ]
+      },
+      "Colombia": {
+        "total_sports": 1,
+        "sports": [
+          "Cross-country skiing"
+        ]
+      },
+      "Costa Rica": {
+        "total_sports": null,
+        "sports": [],
+        "note": "Wikipedia page not found (404 error)"
+      },
+      "Croatia": {
+        "total_sports": 4,
+        "sports": [
+          "Alpine skiing",
+          "Biathlon",
+          "Cross-country skiing",
+          "Short-track speed skating"
+        ]
+      },
+      "Cyprus": {
+        "total_sports": 1,
+        "sports": [
+          "Alpine skiing"
+        ]
+      },
+      "Czech Republic": {
+        "total_sports": 14,
+        "sports": [
+          "Alpine skiing",
+          "Biathlon",
+          "Cross-country skiing",
+          "Curling",
+          "Figure skating",
+          "Freestyle skiing",
+          "Ice hockey",
+          "Luge",
+          "Nordic combined",
+          "Short-track speed skating",
+          "Skeleton",
+          "Ski jumping",
+          "Snowboarding",
+          "Speed skating"
+        ]
+      },
+      "Denmark": {
+        "total_sports": 7,
+        "sports": [
+          "Alpine skiing",
+          "Biathlon",
+          "Bobsleigh",
+          "Curling",
+          "Ice hockey",
+          "Skeleton",
+          "Speed skating"
+        ]
+      },
+      "Ecuador": {
+        "total_sports": 1,
+        "sports": [
+          "Cross-country skiing"
+        ]
+      },
+      "Estonia": {
+        "total_sports": 11,
+        "sports": [
+          "Alpine skiing",
+          "Biathlon",
+          "Cross-country skiing",
+          "Curling",
+          "Figure skating",
+          "Freestyle skiing",
+          "Nordic combined",
+          "Skeleton",
+          "Ski jumping",
+          "Speed skating",
+          "Snowboarding"
+        ]
+      },
+      "Finland": {
+        "total_sports": 9,
+        "sports": [
+          "Alpine skiing",
+          "Biathlon",
+          "Cross-country skiing",
+          "Figure skating",
+          "Freestyle skiing",
+          "Ice hockey",
+          "Nordic combined",
+          "Ski jumping",
+          "Snowboarding"
+        ]
+      },
+      "France": {
+        "total_sports": 14,
+        "sports": [
+          "Alpine skiing",
+          "Biathlon",
+          "Bobsleigh",
+          "Cross-country skiing",
+          "Figure skating",
+          "Freestyle skiing",
+          "Ice hockey",
+          "Nordic combined",
+          "Short-track speed skating",
+          "Skeleton",
+          "Ski jumping",
+          "Ski mountaineering",
+          "Snowboarding",
+          "Speed skating"
+        ]
+      },
+      "Germany": {
+        "total_sports": 15,
+        "sports": [
+          "Alpine skiing",
+          "Biathlon",
+          "Bobsleigh",
+          "Cross-country skiing",
+          "Curling",
+          "Figure skating",
+          "Freestyle skiing",
+          "Ice hockey",
+          "Luge",
+          "Nordic combined",
+          "Skeleton",
+          "Ski jumping",
+          "Ski mountaineering",
+          "Snowboarding",
+          "Speed skating"
+        ]
+      },
+      "Great Britain": {
+        "total_sports": 11,
+        "sports": [
+          "Alpine skiing",
+          "Biathlon",
+          "Bobsleigh",
+          "Cross-country skiing",
+          "Curling",
+          "Figure skating",
+          "Freestyle skiing",
+          "Short-track speed skating",
+          "Skeleton",
+          "Snowboarding",
+          "Speed skating"
+        ]
+      },
+      "Greece": {
+        "total_sports": 2,
+        "sports": [
+          "Alpine skiing",
+          "Cross-country skiing"
+        ]
+      },
+      "Guam": {
+        "total_sports": null,
+        "sports": [],
+        "note": "Wikipedia page not found (404 error)"
+      },
+      "Timor-Leste": {
+        "total_sports": null,
+        "sports": [],
+        "note": "Wikipedia page not found (404 error)"
+      }
+    },
+    "sport_categories": {
+      "Alpine skiing": 1,
+      "Biathlon": 2,
+      "Bobsleigh": 3,
+      "Cross-country skiing": 4,
+      "Curling": 5,
+      "Figure skating": 6,
+      "Freestyle skiing": 7,
+      "Ice hockey": 8,
+      "Luge": 9,
+      "Nordic combined": 10,
+      "Short-track speed skating": 11,
+      "Skeleton": 12,
+      "Ski jumping": 13,
+      "Ski mountaineering": 14,
+      "Snowboarding": 15,
+      "Speed skating": 16
+    }
+  }
+}
