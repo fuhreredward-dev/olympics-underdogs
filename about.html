@@ -185,27 +185,96 @@
         }
 
         @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
             .header-content {
                 flex-direction: column;
                 text-align: center;
             }
 
             .site-nav {
-                margin-top: 20px;
+                margin-top: 15px;
                 flex-direction: column;
-                gap: 10px;
+                gap: 8px;
+                width: 100%;
+            }
+
+            .site-nav a {
+                font-size: 1em;
+                padding: 10px 15px;
             }
 
             .site-title {
-                font-size: 1.5em;
+                font-size: 1.4em;
+            }
+
+            .site-tagline {
+                font-size: 0.95em;
+            }
+
+            .container {
+                margin: 25px auto;
+                padding: 0 15px;
             }
 
             h1 {
                 font-size: 2em;
+                margin-bottom: 18px;
+            }
+
+            h2 {
+                font-size: 1.4em;
+                margin: 25px 0 12px 0;
+            }
+
+            h3 {
+                font-size: 1.15em;
+                margin: 18px 0 8px 0;
+            }
+
+            p {
+                margin-bottom: 12px;
+                font-size: 1em;
+                line-height: 1.5;
+            }
+
+            ul {
+                margin: 12px 0 12px 20px;
+            }
+
+            li {
+                margin-bottom: 8px;
+                font-size: 0.95em;
             }
 
             .about-section {
                 padding: 20px;
+                margin-bottom: 25px;
+                border-radius: 10px;
+            }
+
+            .tier-explanation {
+                padding: 15px;
+                margin: 18px 0;
+            }
+
+            .tier-item {
+                padding: 8px;
+                margin: 8px 0;
+            }
+
+            .tier-color {
+                width: 30px;
+                height: 30px;
+                margin-right: 10px;
+            }
+
+            .status-badge {
+                padding: 4px 10px;
+                margin: 3px 3px;
+                font-size: 0.95em;
             }
         }
     </style>

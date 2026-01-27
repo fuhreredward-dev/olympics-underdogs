@@ -359,23 +359,17 @@
         }
         
         @media (max-width: 768px) {
-            .header h1 {
-                font-size: 2em;
+            body {
+                padding: 10px;
             }
-            
-            .nation-pill.unconfirmed, .nation-pill.maybe {
-                font-size: 1.5em;
+
+            .site-title {
+                font-size: 1.4em;
+                margin-bottom: 8px;
             }
-            
-        
-            /* Tier color accents */
-            .nation-pill.tier-5 { border-left-color: #e74c3c; }
-            .nation-pill.tier-4 { border-left-color: #e67e22; }
-            .nation-pill.tier-3 { border-left-color: #f39c12; }
-            .nation-pill.tier-2 { border-left-color: #3498db; }
-            .nation-pill.tier-1 { border-left-color: #95a5a6; }
-            .nations-grid {
-                grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+
+            .site-tagline {
+                font-size: 0.95em;
             }
 
             .header-content {
@@ -384,14 +378,139 @@
             }
 
             .site-nav {
-                margin-top: 20px;
+                margin-top: 15px;
                 flex-direction: column;
-                gap: 10px;
+                gap: 8px;
                 width: 100%;
             }
 
-            .site-title {
-                font-size: 1.5em;
+            .site-nav a {
+                font-size: 1em;
+                padding: 10px 15px;
+            }
+
+            .header {
+                padding: 25px 15px;
+                margin-bottom: 20px;
+            }
+
+            .header h1 {
+                font-size: 2.2em;
+                margin-bottom: 12px;
+            }
+
+            .header p {
+                font-size: 1.1em;
+                margin-bottom: 12px;
+                line-height: 1.5;
+            }
+
+            .page-content {
+                padding: 15px;
+            }
+
+            .nav-links {
+                margin: 15px 0;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .nav-links a {
+                display: block;
+                padding: 12px 16px;
+                margin: 0;
+                font-size: 1em;
+            }
+
+            .filters {
+                padding: 15px;
+                margin-bottom: 20px;
+                gap: 10px;
+            }
+
+            .filter-group {
+                min-width: 100%;
+                flex: 0 0 100%;
+            }
+
+            .filter-group label {
+                margin-bottom: 6px;
+                font-size: 1em;
+            }
+
+            .filter-group input,
+            .filter-group select {
+                padding: 10px;
+                font-size: 1em;
+            }
+
+            .day-section {
+                padding: 18px;
+                margin-bottom: 20px;
+                border-radius: 12px;
+            }
+
+            .day-header {
+                flex-direction: column;
+                align-items: flex-start;
+                margin-bottom: 18px;
+                padding-bottom: 12px;
+            }
+
+            .day-title {
+                font-size: 1.6em;
+                margin-bottom: 10px;
+            }
+
+            .day-stats {
+                text-align: left;
+                font-size: 0.95em;
+            }
+
+            .event-card {
+                padding: 16px;
+                margin-bottom: 12px;
+                border-radius: 8px;
+            }
+
+            .event-header {
+                flex-direction: column;
+                gap: 10px;
+                margin-bottom: 12px;
+            }
+
+            .event-time {
+                font-size: 1em;
+                margin-bottom: 8px;
+            }
+
+            .event-name {
+                font-size: 1.1em;
+                font-weight: bold;
+            }
+
+            .nation-pill.unconfirmed, .nation-pill.maybe {
+                font-size: 0.95em;
+                padding: 8px 12px;
+                margin: 4px 4px 4px 0;
+            }
+
+            .nation-pill.confirmed {
+                font-size: 0.95em;
+                padding: 8px 12px;
+                margin: 4px 4px 4px 0;
+            }
+
+            /* Tier color accents */
+            .nation-pill.tier-5 { border-left-color: #e74c3c; }
+            .nation-pill.tier-4 { border-left-color: #e67e22; }
+            .nation-pill.tier-3 { border-left-color: #f39c12; }
+            .nation-pill.tier-2 { border-left-color: #3498db; }
+            .nation-pill.tier-1 { border-left-color: #95a5a6; }
+
+            .nations-grid {
+                grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
             }
         }
     </style>
