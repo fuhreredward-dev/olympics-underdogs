@@ -440,23 +440,35 @@
                 `${window.location.origin}/data/schedule-data.json`
             ];
 
+            console.log('Attempting to load schedule data...');
+            console.log('Current URL:', window.location.href);
+            console.log('Base path:', basePath);
+            console.log('Candidates:', candidates);
+
+            const errors = [];
             for (const dataUrl of candidates) {
                 try {
+                    console.log('Trying:', dataUrl);
                     const response = await fetch(dataUrl, { cache: 'no-store' });
+                    console.log('Response status:', response.status);
                     if (!response.ok) {
+                        errors.push(`${dataUrl}: HTTP ${response.status}`);
                         continue;
                     }
                     scheduleData = await response.json();
+                    console.log('Successfully loaded schedule data');
                     renderSchedule();
                     updateSummary();
                     return;
                 } catch (error) {
                     console.error('Error loading schedule from', dataUrl, error);
+                    errors.push(`${dataUrl}: ${error.message}`);
                 }
             }
 
+            console.error('All attempts failed:', errors);
             document.getElementById('schedule').innerHTML = 
-                '<p style="color: #ff6b6b;">Error loading schedule data. Please refresh or check deployment.</p>';
+                `<p style="color: #ff6b6b;">Error loading schedule data from all URLs tried:<br><br>${errors.map(e => `• ${e}`).join('<br>')}</p>`;
         }
 
         function renderSchedule() {
