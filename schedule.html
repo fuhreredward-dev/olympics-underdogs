@@ -472,12 +472,16 @@
         }
 
         function renderSchedule() {
-            const schedule = document.getElementById('schedule');
-            schedule.innerHTML = '';
+            try {
+                console.log('Starting renderSchedule...');
+                console.log('Schedule data:', scheduleData);
+                const schedule = document.getElementById('schedule');
+                schedule.innerHTML = '';
 
-            const dates = Object.keys(scheduleData).sort();
+                const dates = Object.keys(scheduleData).sort();
+                console.log('Found dates:', dates);
 
-            dates.forEach(date => {
+                dates.forEach(date => {
                 const day = scheduleData[date];
                 const dayDiv = document.createElement('div');
                 dayDiv.className = 'day-section';
@@ -533,7 +537,13 @@
 
                 schedule.appendChild(dayDiv);
             });
+            console.log('renderSchedule completed successfully');
+        } catch (error) {
+            console.error('Error in renderSchedule:', error);
+            document.getElementById('schedule').innerHTML = 
+                `<p style="color: #ff6b6b;">Error rendering schedule: ${error.message}</p>`;
         }
+    }
 
         function updateSummary() {
             let totalDays = 0;
