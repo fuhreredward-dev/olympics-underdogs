@@ -510,36 +510,40 @@
                 `;
 
                 if (day.events) {
-                    day.events.forEach(event => {
+                    day.events.forEach((event, eventIndex) => {
                         const eventDiv = document.createElement('div');
                         eventDiv.className = 'event-card';
+                        
+                        const gridId = `nations-${date}-${eventIndex}`;
 
                         eventDiv.innerHTML = `
                             <div class="event-header">
                                 <div class="event-title">${event.title}</div>
                                 <div class="event-time">${event.time}</div>
                             </div>
-                            <div class="nations-grid" id="nations-${date}-${event.sport}"></div>
+                            <div class="nations-grid" id="${gridId}"></div>
                         `;
 
                         dayDiv.appendChild(eventDiv);
 
                         // Add nations to the grid
-                        const nationsGrid = eventDiv.querySelector(`#nations-${date}-${event.sport}`);
-                        event.nations.forEach(nation => {
-                            const nationPill = document.createElement('div');
-                            const tierClass = `tier-${nation.tier}`;
-                            const statusClass = nation.confirmed ? 'confirmed' : 'unconfirmed';
-                            const prefix = nation.confirmed ? '✓' : '?';
+                        const nationsGrid = document.getElementById(gridId);
+                        if (nationsGrid) {
+                            event.nations.forEach(nation => {
+                                const nationPill = document.createElement('div');
+                                const tierClass = `tier-${nation.tier}`;
+                                const statusClass = nation.confirmed ? 'confirmed' : 'unconfirmed';
+                                const prefix = nation.confirmed ? '✓' : '?';
 
-                            nationPill.className = `nation-pill ${statusClass} ${tierClass}`;
-                            nationPill.innerHTML = `
-                                <span>${prefix} ${nation.name}</span>
-                                <span class="athlete-count">${nation.count}</span>
-                            `;
+                                nationPill.className = `nation-pill ${statusClass} ${tierClass}`;
+                                nationPill.innerHTML = `
+                                    <span>${prefix} ${nation.name}</span>
+                                    <span class="athlete-count">${nation.count}</span>
+                                `;
 
-                            nationsGrid.appendChild(nationPill);
-                        });
+                                nationsGrid.appendChild(nationPill);
+                            });
+                        }
                     });
                 }
 
