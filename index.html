@@ -119,6 +119,122 @@
             padding: 40px;
         }
 
+        .medal-count {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            border: 3px solid #FFD700;
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .medal-count h2 {
+            color: #FFD700;
+            border: none;
+            margin-bottom: 20px;
+        }
+
+        .medal-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .medal-item {
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .medal-gold {
+            background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
+            color: #0f0f23;
+        }
+
+        .medal-silver {
+            background: linear-gradient(135deg, #C0C0C0 0%, #A8A8A8 100%);
+            color: #0f0f23;
+        }
+
+        .medal-bronze {
+            background: linear-gradient(135deg, #CD7F32 0%, #8B4513 100%);
+            color: #fff;
+        }
+
+        .medal-item .medal-count-number {
+            font-size: 3em;
+            font-weight: bold;
+        }
+
+        .medal-item .medal-label {
+            font-size: 1.1em;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .todays-events {
+            background: linear-gradient(135deg, #16213e 0%, #0f3460 100%);
+            border: 2px solid #4ade80;
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+
+        .todays-events h2 {
+            color: #4ade80;
+            border: none;
+            margin-bottom: 20px;
+        }
+
+        .event-today {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            border-left: 4px solid #4ade80;
+        }
+
+        .event-today-title {
+            font-size: 1.2em;
+            color: #00d4ff;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .event-today-time {
+            color: #a8dadc;
+            margin-bottom: 10px;
+        }
+
+        .event-today-nations {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .nation-today {
+            background: rgba(74, 222, 128, 0.2);
+            border: 1px solid #4ade80;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+
+        .nation-today.tier-high {
+            background: rgba(251, 146, 60, 0.3);
+            border-color: #fb923c;
+            font-weight: bold;
+        }
+
+        .no-events-today {
+            text-align: center;
+            padding: 30px;
+            color: #a8dadc;
+            font-size: 1.1em;
+        }
+
         .notice-box {
             background: #1f2b3d;
             border: 1px solid #00d4ff;
@@ -805,6 +921,29 @@
         </header>
         
         <div class="content">
+            <div class="medal-count">
+                <h2>🏅 Underdog Nations Medal Count</h2>
+                <div class="medal-grid">
+                    <div class="medal-item medal-gold">
+                        <div class="medal-count-number" id="goldCount">0</div>
+                        <div class="medal-label">Gold</div>
+                    </div>
+                    <div class="medal-item medal-silver">
+                        <div class="medal-count-number" id="silverCount">0</div>
+                        <div class="medal-label">Silver</div>
+                    </div>
+                    <div class="medal-item medal-bronze">
+                        <div class="medal-count-number" id="bronzeCount">0</div>
+                        <div class="medal-label">Bronze</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="todays-events" id="todaysSection">
+                <h2>📅 Today's Underdog Events</h2>
+                <div id="todaysEvents">Loading...</div>
+            </div>
+
             <div class="notice-box">
                 <strong>Heads up:</strong> Entry lists are still being finalized. Alpine Skiing and Cross-Country Skiing are especially fluid, so expect more updates as qualification spots are confirmed.
             </div>
@@ -3235,6 +3374,60 @@
         if (document.querySelector('.day-tab')) {
             document.querySelector('.day-tab').click();
         }
+
+        // Load today's events
+        async function loadTodaysEvents() {
+            try {
+                const response = await fetch('data/schedule-data.json');
+                const scheduleData = await response.json();
+                
+                // Get today's date in YYYY-MM-DD format (user's local timezone)
+                const today = new Date();
+                const todayStr = today.toISOString().split('T')[0];
+                
+                const todaysData = scheduleData[todayStr];
+                const container = document.getElementById('todaysEvents');
+                
+                if (!todaysData || !todaysData.events || todaysData.events.length === 0) {
+                    container.innerHTML = '<div class="no-events-today">No underdog events scheduled for today. Check the <a href="schedule.html" style="color: #00d4ff;">full schedule</a> for upcoming events!</div>';
+                    return;
+                }
+                
+                let html = '';
+                todaysData.events.forEach(event => {
+                    if (!event.nations || event.nations.length === 0) return;
+                    
+                    html += `
+                        <div class="event-today">
+                            <div class="event-today-title">${event.title}</div>
+                            <div class="event-today-time">${event.time}</div>
+                            <div class="event-today-nations">
+                    `;
+                    
+                    // Sort nations: Tier 3+ first
+                    const sortedNations = [...event.nations].sort((a, b) => b.tier - a.tier);
+                    
+                    sortedNations.forEach(nation => {
+                        const tierClass = nation.tier >= 3 ? 'tier-high' : '';
+                        const prefix = nation.confirmed ? '✓' : '?';
+                        html += `<div class="nation-today ${tierClass}">${prefix} ${nation.name} (T${nation.tier})</div>`;
+                    });
+                    
+                    html += `
+                            </div>
+                        </div>
+                    `;
+                });
+                
+                container.innerHTML = html;
+            } catch (error) {
+                console.error('Error loading today\'s events:', error);
+                document.getElementById('todaysEvents').innerHTML = '<div class="no-events-today">Unable to load today\'s events.</div>';
+            }
+        }
+        
+        // Load when page loads
+        loadTodaysEvents();
     </script>
     </div>
 </body>
