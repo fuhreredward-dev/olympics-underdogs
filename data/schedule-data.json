@@ -247,6 +247,19 @@
             "confirmed": true
           }
         ]
+      },
+      {
+        "sport": "Ski Jumping",
+        "title": "Ski Jumping - Women's Normal Hill",
+        "time": "⏰ 11:45 EST",
+        "nations": [
+          {
+            "name": "Romania",
+            "count": 2,
+            "tier": 2,
+            "confirmed": true
+          }
+        ]
       }
     ],
     "title": "Saturday, February 07, 2026"
@@ -731,6 +744,19 @@
             "confirmed": true
           }
         ]
+      },
+      {
+        "sport": "Ski Jumping",
+        "title": "Ski Jumping - Men's Normal Hill",
+        "time": "⏰ 12:00 EST",
+        "nations": [
+          {
+            "name": "Romania",
+            "count": 2,
+            "tier": 2,
+            "confirmed": true
+          }
+        ]
       }
     ],
     "title": "Monday, February 09, 2026"
@@ -803,6 +829,19 @@
             "count": 4,
             "tier": 1,
             "confirmed": false
+          }
+        ]
+      },
+      {
+        "sport": "Ski Jumping",
+        "title": "Ski Jumping - Mixed Team",
+        "time": "⏰ 11:30 EST",
+        "nations": [
+          {
+            "name": "Romania",
+            "count": 1,
+            "tier": 2,
+            "confirmed": true
           }
         ]
       }
@@ -2384,6 +2423,19 @@
             "confirmed": true
           }
         ]
+      },
+      {
+        "sport": "Ski Jumping",
+        "title": "Ski Jumping - Men's Large Hill",
+        "time": "⏰ 11:30 EST",
+        "nations": [
+          {
+            "name": "Romania",
+            "count": 2,
+            "tier": 2,
+            "confirmed": true
+          }
+        ]
       }
     ],
     "title": "Saturday, February 14, 2026"
@@ -2712,6 +2764,19 @@
             "name": "Denmark",
             "count": 20,
             "tier": 1,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Ski Jumping",
+        "title": "Ski Jumping - Women's Large Hill",
+        "time": "⏰ 11:35 EST",
+        "nations": [
+          {
+            "name": "Romania",
+            "count": 2,
+            "tier": 2,
             "confirmed": true
           }
         ]
@@ -3093,6 +3158,19 @@
             "name": "Denmark",
             "count": 4,
             "tier": 1,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Ski Jumping",
+        "title": "Ski Jumping - Men's Super Team",
+        "time": "⏰ 12:00 EST",
+        "nations": [
+          {
+            "name": "Romania",
+            "count": 1,
+            "tier": 2,
             "confirmed": true
           }
         ]
@@ -4040,6 +4118,120 @@
             "name": "Romania",
             "count": 2,
             "tier": 1,
+            "confirmed": true
+          }
+        ]
+      }
+    ]
+  },
+  "2026-02-05": {
+    "date": "2026-02-05",
+    "title": "Thursday, February 05, 2026",
+    "events": [
+      {
+        "sport": "Alpine Skiing",
+        "title": "Alpine Skiing - Men's Downhill (Training 2)",
+        "time": "⏰ 05:30 EST",
+        "nations": [
+          {
+            "name": "Ireland",
+            "count": 1,
+            "tier": 3,
+            "confirmed": true
+          },
+          {
+            "name": "Israel",
+            "count": 1,
+            "tier": 2,
+            "confirmed": true
+          },
+          {
+            "name": "Liechtenstein",
+            "count": 1,
+            "tier": 2,
+            "confirmed": true
+          },
+          {
+            "name": "Monaco",
+            "count": 1,
+            "tier": 5,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Luge",
+        "title": "Luge - Men's (Training 2)",
+        "time": "⏰ 8:30 EST",
+        "nations": [
+          {
+            "name": "Australia",
+            "count": 1,
+            "tier": 1,
+            "confirmed": true
+          },
+          {
+            "name": "Romania",
+            "count": 2,
+            "tier": 1,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Luge",
+        "title": "Luge - Women's (Training)",
+        "time": "⏰ 11:00 EST",
+        "nations": [
+          {
+            "name": "Argentina",
+            "count": 1,
+            "tier": 3,
+            "confirmed": true
+          },
+          {
+            "name": "Romania",
+            "count": 1,
+            "tier": 1,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Snowboarding",
+        "title": "Snowboarding - Men's Big Air (Qualifying)",
+        "time": "⏰ 13:30 EST",
+        "nations": [
+          {
+            "name": "New Zealand",
+            "count": 3,
+            "tier": 2,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Ski Jumping",
+        "title": "Ski Jumping - Women's Normal Hill (Training)",
+        "time": "⏰ 11:00 EST",
+        "nations": [
+          {
+            "name": "Romania",
+            "count": 2,
+            "tier": 2,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Ski Jumping",
+        "title": "Ski Jumping - Men's Normal Hill (Training)",
+        "time": "⏰ 14:00 EST",
+        "nations": [
+          {
+            "name": "Romania",
+            "count": 2,
+            "tier": 2,
             "confirmed": true
           }
         ]
