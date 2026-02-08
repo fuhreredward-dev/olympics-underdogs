@@ -244,6 +244,45 @@
             margin-bottom: 30px;
             box-shadow: 0 4px 12px rgba(0,0,0,0.4);
         }
+
+        .medal-announcement {
+            background: linear-gradient(135deg, #cd7f32 0%, #8b4513 100%);
+            border: 3px solid #ffd700;
+            color: #ffffff;
+            padding: 25px 30px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 6px 20px rgba(205, 127, 50, 0.5);
+            text-align: center;
+            animation: glow 2s ease-in-out infinite;
+        }
+
+        @keyframes glow {
+            0%, 100% {
+                box-shadow: 0 6px 20px rgba(205, 127, 50, 0.5);
+            }
+            50% {
+                box-shadow: 0 6px 30px rgba(255, 215, 0, 0.8);
+            }
+        }
+
+        .medal-announcement h3 {
+            color: #ffd700;
+            font-size: 1.6em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .medal-announcement p {
+            font-size: 1.2em;
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+
+        .medal-announcement .medal-emoji {
+            font-size: 2em;
+            margin: 0 10px;
+        }
         
         .section {
             margin-bottom: 50px;
@@ -921,6 +960,14 @@
         </header>
         
         <div class="content">
+            <!-- Medal Announcement Banner -->
+            <div class="medal-announcement">
+                <h3><span class="medal-emoji">🥉</span> HISTORIC MEDAL ALERT! <span class="medal-emoji">🥉</span></h3>
+                <p><strong>Bulgaria</strong> has won their first Winter Olympic medal since 2006!</p>
+                <p>Congratulations on the <strong>BRONZE</strong> in <strong>Snowboarding Men's Parallel Giant Slalom</strong>!</p>
+                <p style="font-size: 1em; margin-top: 15px; color: #ffd700;">🎉 A 20-year wait ends with glory! 🎉</p>
+            </div>
+
             <div class="medal-count">
                 <h2>🏅 Underdog Nations Medal Count</h2>
                 <div class="medal-grid">
@@ -933,7 +980,7 @@
                         <div class="medal-label">Silver</div>
                     </div>
                     <div class="medal-item medal-bronze">
-                        <div class="medal-count-number" id="bronzeCount">0</div>
+                        <div class="medal-count-number" id="bronzeCount">1</div>
                         <div class="medal-label">Bronze</div>
                     </div>
                 </div>
