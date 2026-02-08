@@ -651,13 +651,13 @@
             "name": "Australia",
             "count": 3,
             "tier": 1,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "New Zealand",
             "count": 2,
             "tier": 2,
-            "confirmed": false
+            "confirmed": true
           }
         ]
       }
@@ -667,25 +667,6 @@
   "2026-02-09": {
     "date": "2026-02-09",
     "events": [
-      {
-        "sport": "Alpine Skiing",
-        "title": "Alpine Skiing - Men's Team Combined",
-        "time": "⏰ 04:30 EST",
-        "nations": [
-          {
-            "name": "Andorra",
-            "count": 1,
-            "tier": 4,
-            "confirmed": false
-          },
-          {
-            "name": "Brazil",
-            "count": 1,
-            "tier": 3,
-            "confirmed": false
-          }
-        ]
-      },
       {
         "sport": "Luge",
         "title": "Luge - Women's",
@@ -717,6 +698,139 @@
             "confirmed": true
           }
         ]
+      },
+      {
+        "sport": "Skeleton",
+        "title": "Skeleton - Women's (Training 1)",
+        "time": "⏰ 2:30 EST",
+        "nations": [
+          {
+            "name": "Brazil",
+            "count": 1,
+            "tier": 3,
+            "confirmed": true
+          },
+          {
+            "name": "Puerto Rico",
+            "count": 1,
+            "tier": 3,
+            "confirmed": true
+          },
+          {
+            "name": "South Africa",
+            "count": 1,
+            "tier": 4,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Skeleton",
+        "title": "Skeleton - Men's (Training 1)",
+        "time": "⏰ 4:30 EST",
+        "nations": [
+          {
+            "name": "Australia",
+            "count": 1,
+            "tier": 1,
+            "confirmed": true
+          },
+          {
+            "name": "Denmark",
+            "count": 1,
+            "tier": 1,
+            "confirmed": true
+          },
+          {
+            "name": "Israel",
+            "count": 1,
+            "tier": 2,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Alpine Skiing",
+        "title": "Alpine Skiing - Women's Team Combined (Training 1)",
+        "time": "⏰ 5:30 EST",
+        "nations": [
+          {
+            "name": "Andorra",
+            "count": 1,
+            "tier": 4,
+            "confirmed": true
+          },
+          {
+            "name": "Argentina",
+            "count": 1,
+            "tier": 3,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Luge",
+        "title": "Luge - Women's Doubles (Training 2)",
+        "time": "⏰ 7:00 EST",
+        "nations": [
+          {
+            "name": "Romania",
+            "count": 1,
+            "tier": 1,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Luge",
+        "title": "Luge - Men's Doubles (Training 2)",
+        "time": "⏰ 7:53 EST",
+        "nations": [
+          {
+            "name": "Romania",
+            "count": 1,
+            "tier": 1,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Figure Skating",
+        "title": " Figure Skating - Ice Dance (Rhythm Dance)",
+        "time": "⏰ 13:20 EST",
+        "nations": [
+          {
+            "name": "Spain",
+            "count": 2,
+            "tier": 3,
+            "confirmed": true
+          },
+          {
+            "name": "Georgia",
+            "count": 1,
+            "tier": 3,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Snowboard",
+        "title": "Snowboard - Women's Big Air",
+        "time": "⏰ 13:30 EST",
+        "nations": [
+          {
+            "name": "Australia",
+            "count": 2,
+            "tier": 2,
+            "confirmed": true
+          },
+          {
+            "name": "New Zealand",
+            "count": 1,
+            "tier": 3,
+            "confirmed": true
+          }
+        ]
       }
     ],
     "title": "Monday, February 09, 2026"
@@ -730,34 +844,16 @@
         "time": "⏰ 04:30 EST",
         "nations": [
           {
-            "name": "Albania",
-            "count": 1,
-            "tier": 4,
-            "confirmed": false
-          },
-          {
             "name": "Andorra",
             "count": 1,
             "tier": 4,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Argentina",
             "count": 1,
             "tier": 3,
-            "confirmed": false
-          },
-          {
-            "name": "Australia",
-            "count": 1,
-            "tier": 1,
-            "confirmed": false
-          },
-          {
-            "name": "Bosnia and Herzegovina",
-            "count": 1,
-            "tier": 4,
-            "confirmed": false
+            "confirmed": true
           }
         ]
       },
