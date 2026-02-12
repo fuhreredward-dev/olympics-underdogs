@@ -1467,208 +1467,34 @@
         "time": "⏰ 05:30 EST",
         "nations": [
           {
-            "name": "Albania",
-            "count": 3,
-            "tier": 4,
-            "confirmed": false
-          },
-          {
             "name": "Andorra",
             "count": 3,
             "tier": 4,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Argentina",
             "count": 2,
             "tier": 3,
-            "confirmed": false
-          },
-          {
-            "name": "Australia",
-            "count": 2,
-            "tier": 1,
-            "confirmed": false
-          },
-          {
-            "name": "Azerbaijan",
-            "count": 1,
-            "tier": 3,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Bosnia and Herzegovina",
             "count": 2,
             "tier": 4,
-            "confirmed": false
-          },
-          {
-            "name": "Brazil",
-            "count": 1,
-            "tier": 3,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Chile",
             "count": 1,
             "tier": 4,
-            "confirmed": false
-          },
-          {
-            "name": "Chinese Taipei",
-            "count": 1,
-            "tier": 2,
-            "confirmed": false
-          },
-          {
-            "name": "Cyprus",
-            "count": 1,
-            "tier": 4,
-            "confirmed": false
-          },
-          {
-            "name": "Denmark",
-            "count": 1,
-            "tier": 1,
-            "confirmed": false
-          },
-          {
-            "name": "Georgia",
-            "count": 1,
-            "tier": 2,
-            "confirmed": false
-          },
-          {
-            "name": "Hong Kong",
-            "count": 1,
-            "tier": 3,
-            "confirmed": false
-          },
-          {
-            "name": "Iceland",
-            "count": 1,
-            "tier": 4,
-            "confirmed": false
-          },
-          {
-            "name": "Iran",
-            "count": 1,
-            "tier": 3,
-            "confirmed": false
-          },
-          {
-            "name": "Ireland",
-            "count": 1,
-            "tier": 3,
-            "confirmed": false
-          },
-          {
-            "name": "Israel",
-            "count": 1,
-            "tier": 2,
-            "confirmed": false
-          },
-          {
-            "name": "Kenya",
-            "count": 1,
-            "tier": 3,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Kosovo",
             "count": 1,
             "tier": 3,
-            "confirmed": false
-          },
-          {
-            "name": "Liechtenstein",
-            "count": 1,
-            "tier": 2,
-            "confirmed": false
-          },
-          {
-            "name": "Lithuania",
-            "count": 1,
-            "tier": 2,
-            "confirmed": false
-          },
-          {
-            "name": "Luxembourg",
-            "count": 1,
-            "tier": 3,
-            "confirmed": false
-          },
-          {
-            "name": "Madagascar",
-            "count": 1,
-            "tier": 5,
-            "confirmed": false
-          },
-          {
-            "name": "Malaysia",
-            "count": 1,
-            "tier": 4,
-            "confirmed": false
-          },
-          {
-            "name": "Mexico",
-            "count": 1,
-            "tier": 2,
-            "confirmed": false
-          },
-          {
-            "name": "New Zealand",
-            "count": 1,
-            "tier": 2,
-            "confirmed": false
-          },
-          {
-            "name": "North Macedonia",
-            "count": 1,
-            "tier": 4,
-            "confirmed": false
-          },
-          {
-            "name": "Philippines",
-            "count": 1,
-            "tier": 3,
-            "confirmed": false
-          },
-          {
-            "name": "Portugal",
-            "count": 1,
-            "tier": 3,
-            "confirmed": false
-          },
-          {
-            "name": "Romania",
-            "count": 1,
-            "tier": 1,
-            "confirmed": false
-          },
-          {
-            "name": "South Africa",
-            "count": 1,
-            "tier": 4,
-            "confirmed": false
-          },
-          {
-            "name": "Trinidad and Tobago",
-            "count": 1,
-            "tier": 3,
-            "confirmed": false
-          },
-          {
-            "name": "Turkey",
-            "count": 1,
-            "tier": 2,
-            "confirmed": false
-          },
-          {
-            "name": "United Arab Emirates",
-            "count": 1,
-            "tier": 3,
-            "confirmed": false
+            "confirmed": true
           }
         ]
       },
@@ -1694,109 +1520,115 @@
             "name": "Andorra",
             "count": 1,
             "tier": 4,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Argentina",
             "count": 2,
             "tier": 3,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Armenia",
             "count": 1,
             "tier": 2,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Australia",
             "count": 4,
             "tier": 1,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Bosnia and Herzegovina",
             "count": 1,
             "tier": 4,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Brazil",
             "count": 2,
             "tier": 3,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Chinese Taipei",
             "count": 1,
             "tier": 2,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Iran",
             "count": 1,
             "tier": 3,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Lithuania",
             "count": 2,
             "tier": 2,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Malta",
             "count": 1,
             "tier": 5,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Mexico",
             "count": 1,
             "tier": 2,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Moldova",
             "count": 1,
             "tier": 4,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Mongolia",
             "count": 1,
             "tier": 3,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "North Macedonia",
             "count": 1,
             "tier": 4,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Romania",
             "count": 1,
             "tier": 1,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Serbia",
             "count": 1,
             "tier": 3,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Thailand",
             "count": 1,
             "tier": 3,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Turkey",
             "count": 1,
             "tier": 2,
-            "confirmed": false
+            "confirmed": true
+          },
+          {
+            "name": "Iceland",
+            "count": 1,
+            "tier": 5,
+            "confirmed": true
           }
         ]
       },
@@ -1809,6 +1641,12 @@
             "name": "Australia",
             "count": 3,
             "tier": 1,
+            "confirmed": true
+          },
+          {
+            "name": "Spain",
+            "count": 2,
+            "tier": 3,
             "confirmed": true
           }
         ]
@@ -1874,6 +1712,112 @@
             "name": "Denmark",
             "count": 20,
             "tier": 1,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Skeleton",
+        "title": "Skeleton - Men's (Day 1)",
+        "time": "⏰ 3:30 EST",
+        "nations": [
+          {
+            "name": "Australia",
+            "count": 1,
+            "tier": 1,
+            "confirmed": true
+          },
+          {
+            "name": "Denmark",
+            "count": 1,
+            "tier": 1,
+            "confirmed": true
+          },
+          {
+            "name": "Israel",
+            "count": 1,
+            "tier": 2,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Freestyle Skiing",
+        "title": "Freestyle Skiing - Men's Moguls (Qualification 2)",
+        "time": "⏰ 4:00 EST",
+        "nations": [
+          {
+            "name": "Australia",
+            "count": 4,
+            "tier": 1,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Bobsleigh",
+        "title": "Bobsleigh - Men's 2-Man (Training 1)",
+        "time": "⏰ 6:50 EST",
+        "nations": [
+          {
+            "name": "Brazil",
+            "count": 1,
+            "tier": 3,
+            "confirmed": true
+          },
+          {
+            "name": "Israel",
+            "count": 1,
+            "tier": 2,
+            "confirmed": true
+          },
+          {
+            "name": "Jamaica",
+            "count": 1,
+            "tier": 3,
+            "confirmed": true
+          },
+          {
+            "name": "Trinidad and Tobago",
+            "count": 1,
+            "tier": 3,
+            "confirmed": true
+          },
+          {
+            "name": "Romania",
+            "count": 1,
+            "tier": 3,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Bobsleigh",
+        "title": "Bobsleigh - Women's Monobob (Training 1)",
+        "time": "⏰ 9:30 EST",
+        "nations": [
+          {
+            "name": "Australia",
+            "count": 1,
+            "tier": 1,
+            "confirmed": true
+          },
+          {
+            "name": "Chinese Taipei",
+            "count": 1,
+            "tier": 2,
+            "confirmed": true
+          },
+          {
+            "name": "Denmark",
+            "count": 1,
+            "tier": 1,
+            "confirmed": true
+          },
+          {
+            "name": "Jamaica",
+            "count": 1,
+            "tier": 3,
             "confirmed": true
           }
         ]
