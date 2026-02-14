@@ -714,6 +714,64 @@
             margin-top: 40px;
             border-top: 2px solid #00d4ff;
         }
+
+        /* Medalists Table Styles */
+        .medalists-section {
+            background: linear-gradient(135deg, #16213e 0%, #0f3460 100%);
+            border: 2px solid #00d4ff;
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+
+        .medalists-section h2 {
+            color: #00d4ff;
+            border: none;
+            margin-bottom: 20px;
+        }
+
+        .medalists-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        .medalists-table thead {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+        }
+
+        .medalists-table th {
+            padding: 15px;
+            text-align: left;
+            color: #00d4ff;
+            font-weight: bold;
+            border-bottom: 2px solid #00d4ff;
+        }
+
+        .medalists-table td {
+            padding: 12px 15px;
+            border-bottom: 1px solid rgba(0, 212, 255, 0.2);
+            color: #e0e0e0;
+        }
+
+        .medalists-table tbody tr:hover {
+            background: rgba(0, 212, 255, 0.1);
+        }
+
+        .medal-gold-cell {
+            color: #ffd700;
+            font-weight: bold;
+        }
+
+        .medal-silver-cell {
+            color: #c0c0c0;
+            font-weight: bold;
+        }
+
+        .medal-bronze-cell {
+            color: #cd7f32;
+            font-weight: bold;
+        }
         
         /* Mobile Responsive Styles */
         @media (max-width: 768px) {
@@ -1022,6 +1080,28 @@
         body.valentines-mode .medal-announcement h3 {
             color: #ffff00 !important;
         }
+
+        body.valentines-mode .medalists-section {
+            background: linear-gradient(135deg, #3d1f2d 0%, #4a2533 100%);
+            border-color: #ff69b4 !important;
+        }
+
+        body.valentines-mode .medalists-section h2 {
+            color: #ffb6d9 !important;
+        }
+
+        body.valentines-mode .medalists-table th {
+            color: #ffb6d9 !important;
+            border-bottom-color: #ff69b4 !important;
+        }
+
+        body.valentines-mode .medalists-table thead {
+            background: linear-gradient(135deg, #c41e3a 0%, #e94c89 100%);
+        }
+
+        body.valentines-mode .medalists-table tbody tr:hover {
+            background: rgba(255, 105, 180, 0.1);
+        }
     </style>
     <script>
         // Check if today is Valentine's Day (2/13 or 2/14)
@@ -1082,18 +1162,76 @@
                 <h2>🏅 Underdog Nations Medal Count</h2>
                 <div class="medal-grid">
                     <div class="medal-item medal-gold">
-                        <div class="medal-count-number" id="goldCount">0</div>
+                        <div class="medal-count-number" id="goldCount">2</div>
                         <div class="medal-label">Gold</div>
                     </div>
                     <div class="medal-item medal-silver">
-                        <div class="medal-count-number" id="silverCount">1</div>
+                        <div class="medal-count-number" id="silverCount">2</div>
                         <div class="medal-label">Silver</div>
                     </div>
                     <div class="medal-item medal-bronze">
-                        <div class="medal-count-number" id="bronzeCount">1</div>
+                        <div class="medal-count-number" id="bronzeCount">3</div>
                         <div class="medal-label">Bronze</div>
                     </div>
                 </div>
+            </div>
+
+            <div class="medalists-section">
+                <h2>🥇 Underdog Medalists</h2>
+                <table class="medalists-table">
+                    <thead>
+                        <tr>
+                            <th>Athlete</th>
+                            <th>Country</th>
+                            <th>Sport & Event</th>
+                            <th>Medal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Cooper Woods-Topalovic</td>
+                            <td>Australia</td>
+                            <td>Freestyle Skiing - Men's Moguls</td>
+                            <td class="medal-gold-cell">🥇 Gold</td>
+                        </tr>
+                        <tr>
+                            <td>Josie Baff</td>
+                            <td>Australia</td>
+                            <td>Snowboarding - Women's Snowboard Cross</td>
+                            <td class="medal-gold-cell">🥇 Gold</td>
+                        </tr>
+                        <tr>
+                            <td>Scotty James</td>
+                            <td>Australia</td>
+                            <td>Snowboarding - Men's Halfpipe</td>
+                            <td class="medal-silver-cell">🥈 Silver</td>
+                        </tr>
+                        <tr>
+                            <td>Zoi Sadowski-Synnott</td>
+                            <td>New Zealand</td>
+                            <td>Snowboarding - Women's Big Air</td>
+                            <td class="medal-silver-cell">🥈 Silver</td>
+                        </tr>
+                        <tr>
+                            <td>Luca Harrington</td>
+                            <td>New Zealand</td>
+                            <td>Freestyle Skiing - Men's Slopestyle</td>
+                            <td class="medal-bronze-cell">🥉 Bronze</td>
+                        </tr>
+                        <tr>
+                            <td>Tervel Zamfirov</td>
+                            <td>Bulgaria</td>
+                            <td>Snowboarding - Men's Parallel Giant Slalom</td>
+                            <td class="medal-bronze-cell">🥉 Bronze</td>
+                        </tr>
+                        <tr>
+                            <td>Lora Hristova</td>
+                            <td>Bulgaria</td>
+                            <td>Biathlon - Women's Individual</td>
+                            <td class="medal-bronze-cell">🥉 Bronze</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
 
             <div class="todays-events" id="todaysSection">
