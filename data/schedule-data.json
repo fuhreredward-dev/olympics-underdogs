@@ -2291,319 +2291,235 @@
             "name": "Albania",
             "count": 1,
             "tier": 4,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Andorra",
             "count": 2,
             "tier": 4,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Argentina",
             "count": 1,
             "tier": 3,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Armenia",
             "count": 1,
             "tier": 2,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Australia",
             "count": 1,
             "tier": 1,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Benin",
             "count": 1,
             "tier": 4,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Bosnia and Herzegovina",
             "count": 1,
             "tier": 4,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Brazil",
             "count": 3,
             "tier": 3,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Chile",
             "count": 1,
             "tier": 4,
-            "confirmed": false
-          },
-          {
-            "name": "Chinese Taipei",
-            "count": 1,
-            "tier": 2,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Cyprus",
             "count": 1,
             "tier": 4,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Denmark",
             "count": 1,
             "tier": 1,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Eritrea",
             "count": 1,
             "tier": 4,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Georgia",
             "count": 1,
             "tier": 2,
-            "confirmed": false
-          },
-          {
-            "name": "Guinea-Bissau",
-            "count": 1,
-            "tier": 5,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Haiti",
             "count": 1,
             "tier": 4,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Hong Kong",
             "count": 1,
             "tier": 3,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Iceland",
             "count": 1,
             "tier": 4,
-            "confirmed": false
-          },
-          {
-            "name": "India",
-            "count": 1,
-            "tier": 3,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Iran",
             "count": 1,
             "tier": 3,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Ireland",
             "count": 1,
             "tier": 3,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Israel",
             "count": 1,
             "tier": 2,
-            "confirmed": false
-          },
-          {
-            "name": "Jamaica",
-            "count": 1,
-            "tier": 3,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Kenya",
             "count": 1,
             "tier": 3,
-            "confirmed": false
-          },
-          {
-            "name": "Kosovo",
-            "count": 1,
-            "tier": 3,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Kyrgyzstan",
             "count": 1,
             "tier": 4,
-            "confirmed": false
-          },
-          {
-            "name": "Lebanon",
-            "count": 1,
-            "tier": 4,
-            "confirmed": false
-          },
-          {
-            "name": "Liechtenstein",
-            "count": 1,
-            "tier": 2,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Lithuania",
             "count": 1,
             "tier": 2,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Luxembourg",
             "count": 1,
             "tier": 3,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Madagascar",
             "count": 1,
             "tier": 5,
-            "confirmed": false
-          },
-          {
-            "name": "Malaysia",
-            "count": 1,
-            "tier": 4,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Mexico",
             "count": 1,
             "tier": 2,
-            "confirmed": false
-          },
-          {
-            "name": "Monaco",
-            "count": 1,
-            "tier": 5,
-            "confirmed": false
-          },
-          {
-            "name": "Mongolia",
-            "count": 1,
-            "tier": 3,
-            "confirmed": false
-          },
-          {
-            "name": "Montenegro",
-            "count": 1,
-            "tier": 4,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Morocco",
             "count": 1,
             "tier": 3,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "North Macedonia",
             "count": 1,
             "tier": 4,
-            "confirmed": false
-          },
-          {
-            "name": "Pakistan",
-            "count": 1,
-            "tier": 3,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Philippines",
             "count": 1,
             "tier": 3,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Portugal",
             "count": 1,
             "tier": 3,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Romania",
             "count": 1,
             "tier": 1,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "San Marino",
             "count": 1,
             "tier": 4,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Saudi Arabia",
             "count": 1,
             "tier": 4,
-            "confirmed": false
-          },
-          {
-            "name": "Serbia",
-            "count": 1,
-            "tier": 3,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Singapore",
             "count": 1,
             "tier": 3,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "South Africa",
             "count": 1,
             "tier": 4,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Thailand",
             "count": 1,
             "tier": 3,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Trinidad and Tobago",
             "count": 1,
             "tier": 3,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Turkey",
             "count": 1,
             "tier": 2,
-            "confirmed": false
-          },
-          {
-            "name": "United Arab Emirates",
-            "count": 1,
-            "tier": 3,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Uruguay",
             "count": 1,
             "tier": 4,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Uzbekistan",
             "count": 1,
             "tier": 1,
-            "confirmed": false
+            "confirmed": true
           }
         ]
       },
@@ -2635,31 +2551,37 @@
             "name": "Australia",
             "count": 1,
             "tier": 1,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Denmark",
             "count": 2,
             "tier": 1,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Lithuania",
             "count": 4,
             "tier": 2,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Moldova",
             "count": 1,
             "tier": 4,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Romania",
             "count": 1,
             "tier": 1,
-            "confirmed": false
+            "confirmed": true
+          },
+          {
+            "name": "Bulgaria",
+            "count": 1,
+            "tier": 3,
+            "confirmed": true
           }
         ]
       },
@@ -2698,6 +2620,100 @@
             "name": "Romania",
             "count": 2,
             "tier": 2,
+            "confirmed": true
+          },
+          {
+            "name": "Turkey",
+            "count": 2,
+            "tier": 3,
+            "confirmed": true
+          },
+          {
+            "name": "Bulgaria",
+            "count": 1,
+            "tier": 3,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Ski Jumping",
+        "title": "Ski Jumping - Women's Large Hill (Training 2)",
+        "time": "⏰ 3:00 EST",
+        "nations": [
+          {
+            "name": "Romania",
+            "count": 2,
+            "tier": 2,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Bobsleigh",
+        "title": "Bobsleigh - Women's Monobob (Training 3)",
+        "time": "⏰ 4:00 EST",
+        "nations": [
+          {
+            "name": "Australia",
+            "count": 1,
+            "tier": 1,
+            "confirmed": true
+          },
+          {
+            "name": "Chinese Taipei",
+            "count": 1,
+            "tier": 2,
+            "confirmed": true
+          },
+          {
+            "name": "Denmark",
+            "count": 1,
+            "tier": 1,
+            "confirmed": true
+          },
+          {
+            "name": "Jamaica",
+            "count": 1,
+            "tier": 3,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Speed Skating",
+        "title": "Speed Skating - Men's 500m",
+        "time": "⏰ 11:00 EST",
+        "nations": [
+          {
+            "name": "Spain",
+            "count": 1,
+            "tier": 3,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Skeleton",
+        "title": "Skeleton - Women's (Day 2)",
+        "time": "⏰ 12:00 EST",
+        "nations": [
+          {
+            "name": "Brazil",
+            "count": 1,
+            "tier": 3,
+            "confirmed": true
+          },
+          {
+            "name": "Puerto Rico",
+            "count": 1,
+            "tier": 3,
+            "confirmed": true
+          },
+          {
+            "name": "South Africa",
+            "count": 1,
+            "tier": 4,
             "confirmed": true
           }
         ]
