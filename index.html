@@ -930,7 +930,117 @@
                 font-size: 1.5em;
             }
         }
+
+        /* ===== VALENTINE'S DAY THEME (2/13-2/14) ===== */
+        body.valentines-mode {
+            background: linear-gradient(135deg, #1a0e15 0%, #2d1520 100%);
+        }
+
+        body.valentines-mode .site-header {
+            background: linear-gradient(135deg, #c41e3a 0%, #e94c89 100%) !important;
+            border-bottom-color: #ff69b4 !important;
+        }
+
+        body.valentines-mode .site-title {
+            color: #ffb6d9 !important;
+        }
+
+        body.valentines-mode .site-tagline {
+            color: #ffd9e8 !important;
+        }
+
+        body.valentines-mode .site-nav a:hover {
+            background: rgba(255, 105, 180, 0.2);
+            color: #ffb6d9 !important;
+        }
+
+        body.valentines-mode .site-nav a.active {
+            background: rgba(255, 105, 180, 0.3);
+            color: #ffb6d9 !important;
+        }
+
+        body.valentines-mode .container {
+            background: linear-gradient(135deg, #2d1520 0%, #3d1f2d 100%);
+        }
+
+        body.valentines-mode header {
+            background: linear-gradient(135deg, #c41e3a 0%, #e94c89 100%) !important;
+            border-bottom-color: #ff69b4 !important;
+        }
+
+        body.valentines-mode h1 {
+            color: #ffb6d9 !important;
+        }
+
+        body.valentines-mode .subtitle {
+            color: #ffc0cb !important;
+        }
+
+        body.valentines-mode h2,
+        body.valentines-mode .stat-number {
+            color: #ffb6d9 !important;
+            border-bottom-color: #ff69b4 !important;
+        }
+
+        body.valentines-mode .stat-card {
+            border-color: #ff69b4 !important;
+            background: linear-gradient(135deg, #3d1f2d 0%, #4a2533 100%);
+        }
+
+        body.valentines-mode .todays-events {
+            background: linear-gradient(135deg, #3d1f2d 0%, #4a2533 100%);
+            border-color: #ff69b4 !important;
+        }
+
+        body.valentines-mode .todays-events h2 {
+            color: #ffb6d9 !important;
+        }
+
+        body.valentines-mode .event-today-title {
+            color: #ffb6d9 !important;
+        }
+
+        body.valentines-mode .event-today {
+            border-left-color: #ff69b4 !important;
+        }
+
+        body.valentines-mode .nation-today {
+            background: rgba(255, 105, 180, 0.2);
+            border-color: #ff69b4 !important;
+        }
+
+        body.valentines-mode .notice-box {
+            background: #3d1f2d;
+            border-color: #ff69b4 !important;
+        }
+
+        body.valentines-mode .medal-announcement {
+            background: linear-gradient(135deg, #c41e3a 0%, #e94c89 100%) !important;
+            border-color: #ffb6d9 !important;
+        }
+
+        body.valentines-mode .medal-announcement h3 {
+            color: #ffff00 !important;
+        }
     </style>
+    <script>
+        // Check if today is Valentine's Day (2/13 or 2/14)
+        function applyValentinesTheme() {
+            const now = new Date();
+            const month = now.getMonth() + 1; // 0-indexed, so add 1
+            const day = now.getDate();
+            
+            // Apply theme for Feb 13-14
+            if (month === 2 && (day === 13 || day === 14)) {
+                document.body.classList.add('valentines-mode');
+            }
+        }
+        
+        // Apply theme immediately when page loads
+        window.addEventListener('DOMContentLoaded', applyValentinesTheme);
+        // Also apply immediately in case script executes before DOM content loads
+        applyValentinesTheme();
+    </script>
 </head>
 <body>
     <!-- Site Header -->

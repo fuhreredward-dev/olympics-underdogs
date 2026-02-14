@@ -277,7 +277,79 @@
                 font-size: 0.95em;
             }
         }
+
+        /* ===== VALENTINE'S DAY THEME (2/13-2/14) ===== */
+        body.valentines-mode {
+            background: linear-gradient(135deg, #c41e3a 0%, #e94c89 100%) !important;
+        }
+
+        body.valentines-mode .site-header {
+            background: rgba(196, 30, 58, 0.5) !important;
+            border-bottom-color: #ff69b4 !important;
+        }
+
+        body.valentines-mode .site-title {
+            color: #ffb6d9 !important;
+        }
+
+        body.valentines-mode .site-tagline {
+            color: #ffc0cb !important;
+        }
+
+        body.valentines-mode .site-nav a:hover {
+            background: rgba(255, 105, 180, 0.2);
+            color: #ffb6d9 !important;
+        }
+
+        body.valentines-mode .site-nav a.active {
+            background: rgba(255, 105, 180, 0.3);
+            color: #ffb6d9 !important;
+        }
+
+        body.valentines-mode .about-section {
+            background: rgba(255, 255, 255, 0.08);
+            border: 2px solid #ff69b4;
+        }
+
+        body.valentines-mode h1, body.valentines-mode h2 {
+            color: #ffb6d9 !important;
+        }
+
+        body.valentines-mode a {
+            color: #ffb6d9 !important;
+        }
+
+        body.valentines-mode a:hover {
+            color: #fff !important;
+        }
+
+        body.valentines-mode .back-to-home {
+            background: #c41e3a !important;
+            border-color: #ff69b4 !important;
+        }
+
+        body.valentines-mode .back-to-home:hover {
+            background: #e94c89 !important;
+        }
     </style>
+    <script>
+        // Check if today is Valentine's Day (2/13 or 2/14)
+        function applyValentinesTheme() {
+            const now = new Date();
+            const month = now.getMonth() + 1; // 0-indexed, so add 1
+            const day = now.getDate();
+            
+            // Apply theme for Feb 13-14
+            if (month === 2 && (day === 13 || day === 14)) {
+                document.body.classList.add('valentines-mode');
+            }
+        }
+        
+        // Apply theme immediately when page loads
+        window.addEventListener('DOMContentLoaded', applyValentinesTheme);
+        // Also apply immediately in case script executes before DOM content loads
+        applyValentinesTheme();
+    </script>
 </head>
 <body>
     <!-- Site Header -->
